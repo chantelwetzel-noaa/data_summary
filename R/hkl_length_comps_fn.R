@@ -43,7 +43,8 @@ y <- as.numeric(colnames(dat))
 z <- c(unlist(dat),max(dat)) # Changed from max to min to better visualize subset data
 
 title = paste("NWFSC Hook & Line", name)
-pngfun(wd = paste0(comp.dir, "/plots"), file = paste0("HKL_", name, '_lengths.png'), h = 7, w = 12)
+file.name = tolower(gsub(" ", "_", name))
+pngfun(wd = paste0(comp.dir, "/plots"), file = paste0(file.name, '_lengths_hkl.png'), h = 7, w = 12)
 symbols(c(rep(x,length(y)),0),c(rep(y,each=length(x)),0),circles=z,inches=0.15, xlim = c(min(years), max(years)), ylab = "Length (cm)", 
 	ylim = c(0, max(len_bins) + bin_size), xlab = "Year", main = title)
 dev.off()
