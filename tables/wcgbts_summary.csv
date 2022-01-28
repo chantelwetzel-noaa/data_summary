@@ -1,0 +1,806 @@
+Common_name,Year,sexed_fish,unsexed_fish,lengthed,aged_fish,unread_otoliths
+arrowtooth flounder,2003,4502,0,4502,512,857
+arrowtooth flounder,2004,2713,0,2713,485,202
+arrowtooth flounder,2005,3932,3,3935,853,4
+arrowtooth flounder,2006,3030,6,3036,475,260
+arrowtooth flounder,2007,3520,32,3552,0,894
+arrowtooth flounder,2008,3221,6,3227,0,874
+arrowtooth flounder,2009,3448,21,3469,0,956
+arrowtooth flounder,2010,3697,6,3703,0,1134
+arrowtooth flounder,2011,3057,3,3060,0,1043
+arrowtooth flounder,2012,3027,18,3045,399,627
+arrowtooth flounder,2013,2519,15,2534,400,285
+arrowtooth flounder,2014,3537,124,3650,400,523
+arrowtooth flounder,2015,3863,5,3851,400,567
+arrowtooth flounder,2016,3257,0,3257,400,574
+arrowtooth flounder,2017,2200,5,2205,0,862
+arrowtooth flounder,2018,1761,0,1761,0,761
+arrowtooth flounder,2019,754,0,754,0,376
+aurora rockfish,2003,1105,15,1120,404,155
+aurora rockfish,2004,1087,0,1087,0,354
+aurora rockfish,2005,1669,16,1685,428,139
+aurora rockfish,2006,1713,3,1716,0,599
+aurora rockfish,2007,1679,15,1694,395,191
+aurora rockfish,2008,1702,6,1708,0,706
+aurora rockfish,2009,1889,8,1897,403,184
+aurora rockfish,2010,1605,29,1634,487,318
+aurora rockfish,2011,1481,41,1522,502,282
+aurora rockfish,2012,1659,25,1684,470,408
+aurora rockfish,2013,849,2,851,0,515
+aurora rockfish,2014,1500,8,1497,0,665
+aurora rockfish,2015,2050,9,2059,0,793
+aurora rockfish,2016,1947,26,1973,0,944
+aurora rockfish,2017,2062,8,2070,0,843
+aurora rockfish,2018,1756,3,1759,0,906
+aurora rockfish,2019,629,1,630,0,332
+bank rockfish,2003,6,0,6,0,4
+bank rockfish,2004,106,0,106,0,60
+bank rockfish,2005,70,26,96,0,50
+bank rockfish,2006,255,0,255,0,62
+bank rockfish,2007,59,16,75,0,55
+bank rockfish,2008,31,0,31,0,31
+bank rockfish,2009,82,2,84,0,74
+bank rockfish,2010,169,1,170,0,71
+bank rockfish,2011,134,4,138,0,52
+bank rockfish,2012,31,0,31,0,30
+bank rockfish,2013,32,0,32,0,32
+bank rockfish,2014,142,3,145,0,111
+bank rockfish,2015,60,0,60,0,60
+bank rockfish,2016,68,132,200,0,155
+bank rockfish,2017,39,0,39,0,39
+bank rockfish,2018,295,16,311,0,187
+bank rockfish,2019,243,2,245,0,222
+big skate,2003,195,2,197,0,0
+big skate,2004,259,3,262,0,0
+big skate,2005,328,0,328,0,0
+big skate,2006,152,3,0,0,0
+big skate,2007,191,1,95,0,0
+big skate,2008,159,0,159,0,0
+big skate,2009,302,3,305,230,0
+big skate,2010,466,0,466,333,3
+big skate,2011,360,0,360,0,0
+big skate,2012,395,0,395,0,0
+big skate,2013,316,0,316,0,0
+big skate,2014,552,0,552,0,0
+big skate,2015,549,0,546,0,0
+big skate,2016,422,0,422,138,2
+big skate,2017,496,0,496,164,23
+big skate,2018,331,0,331,169,2
+big skate,2019,180,0,180,0,82
+black rockfish,2004,1,0,1,0,1
+black rockfish,2009,2,0,2,0,2
+black rockfish,2010,1,0,1,0,1
+black rockfish,2015,1,0,1,0,1
+black rockfish,2016,1,0,1,0,1
+black rockfish,2017,3,0,3,0,3
+black rockfish,2019,1,0,1,0,1
+blackgill rockfish,2003,129,0,129,0,89
+blackgill rockfish,2004,449,0,449,0,175
+blackgill rockfish,2005,397,1,398,0,191
+blackgill rockfish,2006,750,2,752,0,200
+blackgill rockfish,2007,298,0,298,0,194
+blackgill rockfish,2008,339,0,339,0,243
+blackgill rockfish,2009,535,18,553,0,430
+blackgill rockfish,2010,514,8,522,0,461
+blackgill rockfish,2011,362,3,365,311,0
+blackgill rockfish,2012,503,5,508,419,0
+blackgill rockfish,2013,415,4,419,0,348
+blackgill rockfish,2014,847,7,854,638,0
+blackgill rockfish,2015,717,2,719,580,0
+blackgill rockfish,2016,379,0,379,0,361
+blackgill rockfish,2017,594,2,596,0,442
+blackgill rockfish,2018,968,2,970,0,693
+blackgill rockfish,2019,239,1,240,0,226
+blue/deacon rockfish,2003,19,0,19,0,0
+blue/deacon rockfish,2008,2,0,2,0,2
+blue/deacon rockfish,2013,3,0,3,0,3
+blue/deacon rockfish,2016,13,0,13,0,13
+blue/deacon rockfish,2019,12,0,12,0,9
+bocaccio,2003,102,5,107,105,2
+bocaccio,2004,480,0,480,209,0
+bocaccio,2005,270,0,270,146,1
+bocaccio,2006,262,0,262,127,8
+bocaccio,2007,157,0,157,94,4
+bocaccio,2008,109,1,110,85,0
+bocaccio,2009,100,0,100,95,5
+bocaccio,2010,162,110,272,188,1
+bocaccio,2011,105,0,105,105,0
+bocaccio,2012,816,1,817,513,3
+bocaccio,2013,539,199,738,493,2
+bocaccio,2014,995,25,1020,695,16
+bocaccio,2015,687,9,696,0,383
+bocaccio,2016,1338,109,1447,0,695
+bocaccio,2017,952,0,952,0,621
+bocaccio,2018,806,0,806,0,601
+bocaccio,2019,539,0,539,0,383
+brown rockfish,2003,46,2,48,0,0
+brown rockfish,2004,28,0,28,0,28
+brown rockfish,2005,42,1,43,0,20
+brown rockfish,2006,13,0,13,0,13
+brown rockfish,2007,1,0,1,0,1
+brown rockfish,2008,3,1,4,0,4
+brown rockfish,2009,9,0,9,0,9
+brown rockfish,2010,15,0,15,0,14
+brown rockfish,2011,13,2,15,0,15
+brown rockfish,2012,39,0,39,0,29
+brown rockfish,2013,39,0,39,0,30
+brown rockfish,2014,83,0,83,0,37
+brown rockfish,2015,51,0,51,0,50
+brown rockfish,2016,7,0,7,0,7
+brown rockfish,2017,35,0,35,0,35
+brown rockfish,2018,62,0,62,0,62
+brown rockfish,2019,32,0,32,0,32
+cabezon,2008,1,0,1,0,1
+cabezon,2016,0,1,1,0,0
+cabezon,2017,1,0,1,0,1
+cabezon,2018,1,0,1,0,1
+California scorpionfish,2003,69,5,74,0,0
+California scorpionfish,2004,115,41,156,0,0
+California scorpionfish,2005,169,0,169,75,0
+California scorpionfish,2006,46,1,47,45,1
+California scorpionfish,2007,191,0,191,68,0
+California scorpionfish,2008,50,0,50,49,1
+California scorpionfish,2009,346,1,347,130,0
+California scorpionfish,2010,58,0,58,42,0
+California scorpionfish,2011,239,0,239,116,1
+California scorpionfish,2012,94,0,94,66,0
+California scorpionfish,2013,259,0,259,67,0
+California scorpionfish,2014,91,2,93,73,0
+California scorpionfish,2015,160,3,163,57,1
+California scorpionfish,2016,127,12,139,95,2
+California scorpionfish,2017,275,34,309,0,140
+California scorpionfish,2018,287,2,289,0,128
+California scorpionfish,2019,215,0,215,0,88
+canary rockfish,2003,423,0,423,262,16
+canary rockfish,2004,482,0,482,254,1
+canary rockfish,2005,529,1,530,231,0
+canary rockfish,2006,622,1,623,247,0
+canary rockfish,2007,672,1,673,497,0
+canary rockfish,2008,701,91,792,452,0
+canary rockfish,2009,301,5,306,239,1
+canary rockfish,2010,432,63,495,397,0
+canary rockfish,2011,569,4,573,364,1
+canary rockfish,2012,799,53,852,596,1
+canary rockfish,2013,480,NA,512,376,1
+canary rockfish,2014,1457,10,1467,901,9
+canary rockfish,2015,1061,3,1064,0,738
+canary rockfish,2016,1046,9,1055,605,0
+canary rockfish,2017,955,15,970,0,528
+canary rockfish,2018,716,3,719,0,475
+canary rockfish,2019,544,0,544,0,360
+chilipepper,2003,2472,136,2608,677,17
+chilipepper,2004,3214,251,3465,758,5
+chilipepper,2005,3577,128,3704,833,1
+chilipepper,2006,2630,NA,2696,611,0
+chilipepper,2007,2472,23,2495,590,1
+chilipepper,2008,2193,17,2209,698,2
+chilipepper,2009,1757,358,2115,619,0
+chilipepper,2010,1666,425,2091,806,15
+chilipepper,2011,980,78,1058,647,2
+chilipepper,2012,1145,132,1277,847,0
+chilipepper,2013,891,193,1084,684,0
+chilipepper,2014,1619,121,1740,884,2
+chilipepper,2015,912,140,1052,0,619
+chilipepper,2016,1176,269,1445,0,720
+chilipepper,2017,867,38,905,0,540
+chilipepper,2018,980,7,987,0,530
+chilipepper,2019,658,1,659,0,350
+copper rockfish,2003,25,0,25,0,0
+copper rockfish,2004,71,0,71,20,51
+copper rockfish,2005,19,3,22,1,21
+copper rockfish,2006,10,0,10,2,8
+copper rockfish,2007,13,0,13,8,5
+copper rockfish,2008,44,0,44,14,30
+copper rockfish,2009,27,0,27,20,7
+copper rockfish,2010,17,1,18,1,17
+copper rockfish,2011,12,0,12,9,3
+copper rockfish,2012,234,7,241,42,61
+copper rockfish,2013,98,0,98,2,32
+copper rockfish,2014,40,0,40,4,29
+copper rockfish,2015,111,2,113,16,23
+copper rockfish,2016,53,43,96,28,49
+copper rockfish,2017,125,1,126,20,82
+copper rockfish,2018,62,0,62,0,53
+copper rockfish,2019,32,0,32,0,32
+cowcod,2003,13,0,13,13,0
+cowcod,2004,64,0,64,24,40
+cowcod,2005,27,3,30,25,5
+cowcod,2006,25,0,25,25,0
+cowcod,2007,25,0,25,21,4
+cowcod,2008,13,3,16,16,0
+cowcod,2009,20,3,23,22,1
+cowcod,2010,45,15,60,58,2
+cowcod,2011,26,3,29,29,0
+cowcod,2012,72,1,73,73,0
+cowcod,2013,15,11,26,23,1
+cowcod,2014,74,3,77,75,2
+cowcod,2015,30,0,30,30,0
+cowcod,2016,62,3,65,0,65
+cowcod,2017,31,3,34,34,0
+cowcod,2018,113,3,116,0,107
+cowcod,2019,89,0,89,0,89
+darkblotched rockfish,2003,2371,4,2375,748,24
+darkblotched rockfish,2004,1056,7,1062,595,0
+darkblotched rockfish,2005,1972,11,1983,804,0
+darkblotched rockfish,2006,1910,15,1925,940,4
+darkblotched rockfish,2007,2060,26,2086,987,0
+darkblotched rockfish,2008,1632,15,1647,762,0
+darkblotched rockfish,2009,2268,30,2298,1159,0
+darkblotched rockfish,2010,2224,15,2239,912,0
+darkblotched rockfish,2011,1824,4,1828,796,2
+darkblotched rockfish,2012,2166,39,2205,791,2
+darkblotched rockfish,2013,1543,5,1548,687,3
+darkblotched rockfish,2014,1420,97,1517,767,0
+darkblotched rockfish,2015,2391,67,2458,1066,2
+darkblotched rockfish,2016,2094,3,2097,713,1
+darkblotched rockfish,2017,1696,34,1730,0,669
+darkblotched rockfish,2018,1268,2,1269,0,585
+darkblotched rockfish,2019,822,0,822,0,329
+Dover sole,2003,22866,32,22898,957,2024
+Dover sole,2004,17312,40,17349,952,1546
+Dover sole,2005,17659,5,17664,989,1513
+Dover sole,2006,13496,23,13519,970,1011
+Dover sole,2007,11255,10,11265,984,1157
+Dover sole,2008,6230,4,6234,948,124
+Dover sole,2009,3566,7,3573,1034,20
+Dover sole,2010,3206,33,3239,996,176
+Dover sole,2011,8396,27,8423,1075,10
+Dover sole,2012,8761,15,8776,1088,6
+Dover sole,2013,7316,12,7328,809,9
+Dover sole,2014,10204,25,10177,1123,7
+Dover sole,2015,10029,60,10070,1088,9
+Dover sole,2016,10126,34,10160,1120,6
+Dover sole,2017,6210,13,6223,1141,15
+Dover sole,2018,6015,16,6031,1161,5
+Dover sole,2019,3033,1,3034,487,79
+English sole,2003,8124,0,8124,182,1584
+English sole,2004,8209,4,8210,360,563
+English sole,2005,8366,0,8366,356,873
+English sole,2006,5383,6,5389,0,980
+English sole,2007,3935,10,3945,0,926
+English sole,2008,3477,1,3478,0,834
+English sole,2009,3346,21,3367,0,893
+English sole,2010,2476,1,2477,0,1046
+English sole,2011,4448,6,4454,0,1062
+English sole,2012,4637,0,4637,0,1078
+English sole,2013,3542,3,3545,0,748
+English sole,2014,5263,1,5242,0,1138
+English sole,2015,5135,0,5105,0,1091
+English sole,2016,5223,0,5223,0,622
+English sole,2017,3542,7,3549,0,623
+English sole,2018,2914,1,2915,0,559
+English sole,2019,1413,0,1413,0,282
+flag rockfish,2003,77,0,77,0,0
+flag rockfish,2004,14,0,14,0,14
+flag rockfish,2005,6,1,7,0,7
+flag rockfish,2006,25,0,25,0,25
+flag rockfish,2007,54,1,55,0,49
+flag rockfish,2008,8,0,8,0,8
+flag rockfish,2009,29,1,30,3,27
+flag rockfish,2010,16,0,16,0,16
+flag rockfish,2011,5,0,5,0,5
+flag rockfish,2012,69,0,69,0,35
+flag rockfish,2013,11,0,11,0,11
+flag rockfish,2014,19,0,19,0,19
+flag rockfish,2015,18,0,18,0,17
+flag rockfish,2016,11,1,12,0,12
+flag rockfish,2017,36,0,36,0,29
+flag rockfish,2018,34,0,34,0,34
+flag rockfish,2019,19,0,19,0,19
+flathead sole,2003,1521,0,1521,0,0
+flathead sole,2004,507,0,507,0,0
+flathead sole,2005,593,0,593,0,0
+flathead sole,2006,421,0,421,0,0
+flathead sole,2007,137,0,137,0,0
+flathead sole,2008,156,1,157,0,0
+flathead sole,2009,191,0,191,0,0
+flathead sole,2010,393,13,406,0,0
+flathead sole,2011,549,5,554,0,203
+flathead sole,2012,253,3,256,0,136
+flathead sole,2013,289,2,291,0,160
+flathead sole,2014,945,35,980,0,519
+flathead sole,2015,1649,5,1654,0,659
+flathead sole,2016,1236,1,1237,0,517
+flathead sole,2017,653,0,653,0,256
+flathead sole,2018,515,1,516,0,229
+flathead sole,2019,202,0,202,0,85
+gopher rockfish,2005,1,0,1,0,1
+gopher rockfish,2006,2,0,2,0,2
+gopher rockfish,2009,1,0,1,0,1
+gopher rockfish,2010,3,0,3,0,3
+gopher rockfish,2011,0,1,1,0,1
+gopher rockfish,2012,3,2,5,0,3
+gopher rockfish,2013,1,1,2,0,2
+gopher rockfish,2017,0,1,1,0,1
+gopher rockfish,2018,1,0,1,0,1
+greenspotted rockfish,2003,420,0,420,0,0
+greenspotted rockfish,2004,553,9,562,0,278
+greenspotted rockfish,2005,216,9,225,85,42
+greenspotted rockfish,2006,459,4,463,0,261
+greenspotted rockfish,2007,622,31,653,265,42
+greenspotted rockfish,2008,512,45,557,0,244
+greenspotted rockfish,2009,650,28,678,351,26
+greenspotted rockfish,2010,670,41,711,0,395
+greenspotted rockfish,2011,259,9,268,0,225
+greenspotted rockfish,2012,393,8,401,0,235
+greenspotted rockfish,2013,245,1,246,0,218
+greenspotted rockfish,2014,290,6,296,0,221
+greenspotted rockfish,2015,243,6,249,0,209
+greenspotted rockfish,2016,883,16,899,0,464
+greenspotted rockfish,2017,333,1,334,0,213
+greenspotted rockfish,2018,377,21,398,0,322
+greenspotted rockfish,2019,207,1,208,0,164
+greenstriped rockfish,2003,3489,37,3526,577,33
+greenstriped rockfish,2004,2654,13,2667,522,7
+greenstriped rockfish,2005,3871,27,3898,568,131
+greenstriped rockfish,2006,3116,16,3132,524,155
+greenstriped rockfish,2007,2325,34,2359,657,5
+greenstriped rockfish,2008,1805,60,1865,565,3
+greenstriped rockfish,2009,1718,82,1800,0,614
+greenstriped rockfish,2010,2156,166,2322,0,747
+greenstriped rockfish,2011,1810,123,1933,0,646
+greenstriped rockfish,2012,2099,117,2216,0,753
+greenstriped rockfish,2013,1449,23,1472,0,494
+greenstriped rockfish,2014,2259,15,2274,0,682
+greenstriped rockfish,2015,1988,30,2018,0,693
+greenstriped rockfish,2016,2302,17,2319,0,736
+greenstriped rockfish,2017,1890,29,1919,0,646
+greenstriped rockfish,2018,2395,83,2477,0,786
+greenstriped rockfish,2019,1163,4,1167,0,382
+honeycomb rockfish,2003,1,0,1,0,0
+honeycomb rockfish,2005,14,0,14,0,14
+honeycomb rockfish,2006,14,0,14,0,14
+honeycomb rockfish,2007,68,0,68,0,31
+honeycomb rockfish,2008,1,0,1,0,1
+honeycomb rockfish,2009,90,0,90,0,15
+honeycomb rockfish,2010,22,0,22,0,22
+honeycomb rockfish,2012,6,0,6,0,6
+honeycomb rockfish,2013,36,0,36,0,36
+honeycomb rockfish,2014,1,0,1,0,1
+honeycomb rockfish,2016,2,2,4,0,4
+honeycomb rockfish,2017,4,0,4,0,4
+honeycomb rockfish,2018,14,0,14,0,14
+honeycomb rockfish,2019,14,0,14,0,14
+kelp greenling,2003,61,0,61,0,0
+kelp greenling,2004,97,0,97,0,0
+kelp greenling,2005,42,0,42,0,41
+kelp greenling,2006,23,0,23,0,23
+kelp greenling,2007,39,0,39,0,39
+kelp greenling,2008,19,0,19,0,19
+kelp greenling,2009,27,0,27,0,27
+kelp greenling,2010,46,0,46,0,46
+kelp greenling,2011,105,0,105,0,103
+kelp greenling,2012,28,0,28,0,27
+kelp greenling,2013,25,1,26,0,26
+kelp greenling,2014,42,0,42,0,39
+kelp greenling,2015,38,0,38,0,37
+kelp greenling,2016,80,0,80,0,72
+kelp greenling,2017,49,0,49,0,45
+kelp greenling,2018,72,0,72,0,68
+kelp greenling,2019,6,0,6,0,6
+kelp rockfish,2016,4,1,5,0,5
+lingcod,2003,1244,86,1330,875,17
+lingcod,2004,1343,24,1367,827,25
+lingcod,2005,1067,30,1097,840,24
+lingcod,2006,1011,1,1012,697,14
+lingcod,2007,631,14,645,483,69
+lingcod,2008,883,277,1160,838,19
+lingcod,2009,933,174,1107,484,483
+lingcod,2010,1623,307,1930,518,516
+lingcod,2011,1768,85,1853,519,526
+lingcod,2012,1940,247,2187,410,418
+lingcod,2013,1295,48,1343,365,262
+lingcod,2014,2914,69,2924,478,438
+lingcod,2015,1797,51,1838,437,323
+lingcod,2016,1716,37,1753,366,359
+lingcod,2017,1565,NA,1625,286,478
+lingcod,2018,1537,17,1554,399,319
+lingcod,2019,551,1,552,234,209
+longnose skate,2003,2657,2,2655,0,0
+longnose skate,2004,2598,1,2599,0,0
+longnose skate,2005,3259,2,3259,0,0
+longnose skate,2006,3304,3,0,0,0
+longnose skate,2007,3834,9,861,0,0
+longnose skate,2008,3383,0,3383,0,0
+longnose skate,2009,3113,3,3116,0,0
+longnose skate,2010,3462,0,3462,0,0
+longnose skate,2011,2987,4,2991,321,104
+longnose skate,2012,3647,3,3650,328,40
+longnose skate,2013,2491,1,2492,0,0
+longnose skate,2014,3722,0,3722,0,0
+longnose skate,2015,4053,14,4067,0,0
+longnose skate,2016,4003,1,4004,0,420
+longnose skate,2017,3679,0,3679,0,442
+longnose skate,2018,3610,0,3610,0,421
+longnose skate,2019,1669,NA,1655,0,220
+longspine thornyhead,2003,0,15475,15475,0,955
+longspine thornyhead,2004,2790,NA,11173,0,742
+longspine thornyhead,2005,9044,4486,13530,0,1103
+longspine thornyhead,2006,6407,2674,9081,0,930
+longspine thornyhead,2007,4567,1631,6198,0,958
+longspine thornyhead,2008,2775,NA,3635,0,989
+longspine thornyhead,2009,2333,777,3110,0,956
+longspine thornyhead,2010,2297,785,3082,0,1032
+longspine thornyhead,2011,4074,NA,5188,0,1002
+longspine thornyhead,2012,3572,1388,4960,0,980
+longspine thornyhead,2013,2643,642,3285,0,621
+longspine thornyhead,2014,3938,947,4885,0,922
+longspine thornyhead,2015,4051,771,4822,0,919
+longspine thornyhead,2016,3837,1026,4863,0,529
+longspine thornyhead,2017,3912,728,4640,0,478
+longspine thornyhead,2018,3841,1039,4880,0,495
+longspine thornyhead,2019,1664,298,1962,0,221
+olive rockfish,2004,1,0,1,0,1
+olive rockfish,2016,1,0,1,0,1
+Pacific cod,2003,783,0,783,0,0
+Pacific cod,2004,290,0,290,0,0
+Pacific cod,2005,199,0,199,0,0
+Pacific cod,2006,166,0,166,0,0
+Pacific cod,2007,177,0,177,0,0
+Pacific cod,2008,72,0,72,0,0
+Pacific cod,2009,123,0,123,0,0
+Pacific cod,2010,404,0,404,0,221
+Pacific cod,2011,294,7,301,0,150
+Pacific cod,2012,154,0,154,0,89
+Pacific cod,2013,173,2,175,0,33
+Pacific cod,2014,240,0,240,0,185
+Pacific cod,2015,328,0,328,0,270
+Pacific cod,2016,231,0,231,0,148
+Pacific cod,2017,93,0,93,0,92
+Pacific cod,2018,45,0,45,0,45
+Pacific cod,2019,69,0,69,0,33
+Pacific ocean perch,2003,1425,1,1426,432,2
+Pacific ocean perch,2004,565,0,565,219,0
+Pacific ocean perch,2005,525,1,526,257,0
+Pacific ocean perch,2006,659,0,659,254,1
+Pacific ocean perch,2007,627,1,628,439,0
+Pacific ocean perch,2008,505,34,539,328,0
+Pacific ocean perch,2009,435,36,471,331,2
+Pacific ocean perch,2010,903,4,907,579,0
+Pacific ocean perch,2011,849,72,921,674,3
+Pacific ocean perch,2012,1166,9,1175,0,699
+Pacific ocean perch,2013,730,2,732,199,354
+Pacific ocean perch,2014,902,89,991,626,0
+Pacific ocean perch,2015,1143,22,1165,840,5
+Pacific ocean perch,2016,1150,0,1150,703,67
+Pacific ocean perch,2017,968,8,976,0,778
+Pacific ocean perch,2018,642,6,648,0,537
+Pacific ocean perch,2019,345,0,345,0,291
+Pacific sanddab,2003,8853,74,8927,787,8
+Pacific sanddab,2004,10755,0,10755,1419,8
+Pacific sanddab,2005,10126,0,10126,993,14
+Pacific sanddab,2006,5902,2,5904,704,15
+Pacific sanddab,2007,4293,26,4319,725,10
+Pacific sanddab,2008,4527,9,4536,768,6
+Pacific sanddab,2009,2815,6,2821,0,813
+Pacific sanddab,2010,1501,11,1512,1018,133
+Pacific sanddab,2011,4486,90,4576,752,96
+Pacific sanddab,2012,4536,78,4614,820,106
+Pacific sanddab,2013,3275,52,3327,0,618
+Pacific sanddab,2014,4992,47,5039,0,929
+Pacific sanddab,2015,4997,34,5026,0,926
+Pacific sanddab,2016,4565,6,4571,0,463
+Pacific sanddab,2017,3057,6,3063,0,466
+Pacific sanddab,2018,2590,7,2597,0,436
+Pacific sanddab,2019,1230,5,1235,0,215
+Pacific spiny dogfish,2003,3789,2,3789,0,673
+Pacific spiny dogfish,2004,2482,1,2481,0,540
+Pacific spiny dogfish,2005,3565,1,3566,0,864
+Pacific spiny dogfish,2006,3882,18,3900,0,786
+Pacific spiny dogfish,2007,2419,2,2421,0,749
+Pacific spiny dogfish,2008,2847,27,2874,0,887
+Pacific spiny dogfish,2009,1658,3,1661,0,632
+Pacific spiny dogfish,2010,1723,4,1727,591,440
+Pacific spiny dogfish,2011,1635,2,1637,0,639
+Pacific spiny dogfish,2012,1507,2,1509,0,563
+Pacific spiny dogfish,2013,616,0,613,0,287
+Pacific spiny dogfish,2014,1496,2,1476,0,470
+Pacific spiny dogfish,2015,669,1,670,0,350
+Pacific spiny dogfish,2016,771,0,771,0,291
+Pacific spiny dogfish,2017,532,0,532,0,223
+Pacific spiny dogfish,2018,774,0,774,0,330
+Pacific spiny dogfish,2019,489,0,489,0,187
+petrale sole,2003,2833,4,2837,765,835
+petrale sole,2004,3345,1,3346,723,1133
+petrale sole,2005,4539,16,4555,752,1093
+petrale sole,2006,3664,4,3668,774,201
+petrale sole,2007,3403,6,3409,690,289
+petrale sole,2008,3042,5,3047,746,279
+petrale sole,2009,3385,2,3387,777,283
+petrale sole,2010,6049,3,6052,801,593
+petrale sole,2011,6172,4,6176,799,561
+petrale sole,2012,5366,6,5372,777,510
+petrale sole,2013,3440,5,3445,843,1
+petrale sole,2014,4805,17,4822,766,472
+petrale sole,2015,4253,4,4236,751,406
+petrale sole,2016,4383,2,4385,893,23
+petrale sole,2017,4260,1,4261,884,4
+petrale sole,2018,3782,1,3783,810,6
+petrale sole,2019,1795,2,1797,0,624
+quillback rockfish,2003,3,0,3,0,0
+quillback rockfish,2005,2,0,2,2,0
+quillback rockfish,2006,3,0,3,3,0
+quillback rockfish,2007,20,0,20,16,0
+quillback rockfish,2008,37,0,37,22,0
+quillback rockfish,2009,3,0,3,3,0
+quillback rockfish,2010,2,0,2,2,0
+quillback rockfish,2011,6,0,6,6,0
+quillback rockfish,2012,46,0,46,26,0
+quillback rockfish,2013,1,1,2,1,0
+quillback rockfish,2014,25,0,25,24,1
+quillback rockfish,2015,7,1,8,8,0
+quillback rockfish,2016,9,0,9,9,0
+quillback rockfish,2017,15,1,16,16,0
+quillback rockfish,2018,21,0,21,21,0
+quillback rockfish,2019,16,0,16,16,0
+redbanded rockfish,2003,272,0,272,0,179
+redbanded rockfish,2004,156,2,158,0,144
+redbanded rockfish,2005,168,3,171,0,171
+redbanded rockfish,2006,145,7,152,0,145
+redbanded rockfish,2007,166,12,178,0,178
+redbanded rockfish,2008,142,4,146,0,146
+redbanded rockfish,2009,135,7,142,0,142
+redbanded rockfish,2010,166,1,167,0,167
+redbanded rockfish,2011,208,3,211,0,203
+redbanded rockfish,2012,143,6,149,0,149
+redbanded rockfish,2013,180,9,189,0,189
+redbanded rockfish,2014,219,4,223,0,203
+redbanded rockfish,2015,187,2,189,0,189
+redbanded rockfish,2016,111,3,114,0,114
+redbanded rockfish,2017,262,8,270,0,268
+redbanded rockfish,2018,266,7,273,0,236
+redbanded rockfish,2019,114,2,116,0,109
+rex sole,2003,10843,0,10843,0,0
+rex sole,2004,13884,48,13932,0,0
+rex sole,2005,15980,27,16007,0,0
+rex sole,2006,11580,0,11580,0,0
+rex sole,2007,9608,13,9621,0,801
+rex sole,2008,7166,61,7227,0,763
+rex sole,2009,4088,26,4114,0,780
+rex sole,2010,2611,47,2658,0,885
+rex sole,2011,6921,67,6988,0,838
+rex sole,2012,7399,27,7426,0,850
+rex sole,2013,5720,9,5729,0,600
+rex sole,2014,8688,15,8682,0,852
+rex sole,2015,8535,17,8517,0,818
+rex sole,2016,8643,24,8667,0,841
+rex sole,2017,5203,28,5231,0,829
+rex sole,2018,4822,9,4831,0,850
+rex sole,2019,2423,1,2424,0,415
+rougheye and blackspotted rockfish,2003,112,0,112,56,0
+rougheye and blackspotted rockfish,2004,113,2,115,78,0
+rougheye and blackspotted rockfish,2005,259,0,259,139,1
+rougheye and blackspotted rockfish,2006,101,1,102,94,6
+rougheye and blackspotted rockfish,2007,107,1,108,107,0
+rougheye and blackspotted rockfish,2008,120,2,122,121,1
+rougheye and blackspotted rockfish,2009,126,0,126,91,5
+rougheye and blackspotted rockfish,2010,89,0,89,88,1
+rougheye and blackspotted rockfish,2011,115,0,115,109,6
+rougheye and blackspotted rockfish,2012,85,2,87,79,6
+rougheye and blackspotted rockfish,2013,67,1,68,0,68
+rougheye and blackspotted rockfish,2014,40,2,42,0,23
+rougheye and blackspotted rockfish,2015,182,3,185,0,174
+rougheye and blackspotted rockfish,2016,103,2,105,0,105
+rougheye and blackspotted rockfish,2017,165,3,168,0,124
+rougheye and blackspotted rockfish,2018,97,0,97,0,97
+rougheye and blackspotted rockfish,2019,57,1,58,0,58
+sablefish,2003,5779,20,5799,1389,992
+sablefish,2004,4536,4,4540,1086,1053
+sablefish,2005,5543,24,5567,1575,1295
+sablefish,2006,4831,2,4833,1363,1306
+sablefish,2007,4461,10,4470,1259,857
+sablefish,2008,3430,543,3973,1190,995
+sablefish,2009,3659,29,3688,1181,669
+sablefish,2010,3828,404,4232,1271,876
+sablefish,2011,4624,50,4674,1193,600
+sablefish,2012,4367,15,4381,1091,606
+sablefish,2013,3146,134,3280,992,212
+sablefish,2014,4337,7,4319,1200,600
+sablefish,2015,4923,21,4910,1197,528
+sablefish,2016,4425,119,4544,1213,256
+sablefish,2017,4866,17,4883,1219,354
+sablefish,2018,4780,5,4785,1482,11
+sablefish,2019,2223,3,2226,874,10
+sand sole,2003,79,0,79,0,0
+sand sole,2004,29,0,29,0,0
+sand sole,2005,31,0,31,0,0
+sand sole,2006,11,1,12,0,0
+sand sole,2007,37,0,37,0,0
+sand sole,2008,62,0,62,0,62
+sand sole,2009,48,0,48,0,38
+sand sole,2010,93,0,93,0,93
+sand sole,2011,123,0,123,0,122
+sand sole,2012,37,0,37,0,34
+sand sole,2013,47,0,47,0,43
+sand sole,2014,50,0,50,0,50
+sand sole,2015,74,0,74,0,0
+sand sole,2016,26,0,26,0,0
+sand sole,2017,83,0,83,0,0
+sand sole,2018,36,0,36,0,0
+sand sole,2019,42,0,42,0,42
+sharpchin rockfish,2003,2351,5,2355,0,553
+sharpchin rockfish,2004,1173,3,1176,0,199
+sharpchin rockfish,2005,864,7,871,0,153
+sharpchin rockfish,2006,1283,0,1283,0,239
+sharpchin rockfish,2007,975,0,975,0,204
+sharpchin rockfish,2008,919,4,923,0,365
+sharpchin rockfish,2009,934,4,938,0,593
+sharpchin rockfish,2010,568,6,574,0,381
+sharpchin rockfish,2011,1304,3,1307,0,781
+sharpchin rockfish,2012,954,43,997,0,478
+sharpchin rockfish,2013,874,0,874,0,375
+sharpchin rockfish,2014,1359,64,1421,0,606
+sharpchin rockfish,2015,1052,41,1093,0,620
+sharpchin rockfish,2016,844,10,854,0,501
+sharpchin rockfish,2017,830,16,846,0,535
+sharpchin rockfish,2018,720,3,723,0,437
+sharpchin rockfish,2019,443,0,443,0,289
+shortraker rockfish,2003,3,0,3,0,0
+shortraker rockfish,2004,8,0,8,0,8
+shortraker rockfish,2005,8,0,8,0,8
+shortraker rockfish,2013,1,0,1,0,1
+shortraker rockfish,2014,3,0,3,0,3
+shortraker rockfish,2015,18,0,18,0,17
+shortraker rockfish,2017,3,0,3,0,3
+shortraker rockfish,2018,2,0,2,0,2
+shortspine thornyhead,2003,59,7634,7693,0,1255
+shortspine thornyhead,2004,2187,4507,6694,0,1671
+shortspine thornyhead,2005,6736,1311,8047,0,1374
+shortspine thornyhead,2006,5280,918,6198,0,1244
+shortspine thornyhead,2007,4779,720,5499,0,1294
+shortspine thornyhead,2008,4040,657,4697,0,1301
+shortspine thornyhead,2009,3554,641,4195,0,1229
+shortspine thornyhead,2010,3200,659,3859,0,1272
+shortspine thornyhead,2011,3896,801,4697,0,1236
+shortspine thornyhead,2012,3670,1008,4678,0,1243
+shortspine thornyhead,2013,2465,654,3089,0,891
+shortspine thornyhead,2014,3847,770,4592,0,1256
+shortspine thornyhead,2015,3713,798,4496,0,1220
+shortspine thornyhead,2016,3991,613,4604,0,1000
+shortspine thornyhead,2017,4328,402,4730,0,1009
+shortspine thornyhead,2018,4489,507,4996,0,733
+shortspine thornyhead,2019,2263,138,2401,0,340
+speckled rockfish,2006,17,0,17,0,17
+speckled rockfish,2007,106,0,106,0,25
+speckled rockfish,2009,19,0,19,0,19
+speckled rockfish,2010,4,3,7,0,7
+speckled rockfish,2012,1,0,1,0,1
+speckled rockfish,2013,70,0,70,0,23
+speckled rockfish,2014,11,0,11,0,11
+speckled rockfish,2016,11,0,11,0,11
+speckled rockfish,2017,8,0,8,0,8
+speckled rockfish,2018,1,0,1,0,1
+speckled rockfish,2019,4,0,4,0,4
+splitnose rockfish,2003,6304,417,6633,513,555
+splitnose rockfish,2004,4821,314,5135,418,9
+splitnose rockfish,2005,4052,415,4467,498,45
+splitnose rockfish,2006,3181,380,3561,494,120
+splitnose rockfish,2007,2775,NA,3363,495,389
+splitnose rockfish,2008,2539,NA,2918,488,342
+splitnose rockfish,2009,2447,520,2967,0,895
+splitnose rockfish,2010,1525,496,2021,0,710
+splitnose rockfish,2011,1678,473,2151,0,725
+splitnose rockfish,2012,1658,257,1915,0,745
+splitnose rockfish,2013,1185,222,1407,0,555
+splitnose rockfish,2014,1614,345,1959,0,701
+splitnose rockfish,2015,1616,265,1881,0,697
+splitnose rockfish,2016,1758,165,1923,0,729
+splitnose rockfish,2017,1587,304,1891,0,520
+splitnose rockfish,2018,1579,212,1791,0,470
+splitnose rockfish,2019,969,101,1070,0,294
+squarespot rockfish,2003,30,0,30,0,0
+squarespot rockfish,2004,141,18,159,0,25
+squarespot rockfish,2005,219,26,245,41,26
+squarespot rockfish,2006,151,1,152,10,39
+squarespot rockfish,2007,333,91,424,33,60
+squarespot rockfish,2008,234,5,239,36,44
+squarespot rockfish,2009,487,3,490,34,74
+squarespot rockfish,2010,181,4,185,17,46
+squarespot rockfish,2011,64,13,77,11,24
+squarespot rockfish,2012,28,4,32,5,27
+squarespot rockfish,2013,517,7,524,21,73
+squarespot rockfish,2014,17,215,232,6,40
+squarespot rockfish,2015,223,24,247,34,52
+squarespot rockfish,2016,172,157,329,59,79
+squarespot rockfish,2017,277,45,322,62,66
+squarespot rockfish,2018,193,47,240,17,91
+squarespot rockfish,2019,187,19,206,22,43
+starry flounder,2004,36,0,36,0,30
+starry flounder,2005,41,1,42,0,31
+starry flounder,2006,7,0,7,0,7
+starry flounder,2007,15,0,15,0,15
+starry flounder,2008,22,0,22,0,22
+starry flounder,2009,21,0,21,0,21
+starry flounder,2010,27,0,27,0,27
+starry flounder,2011,62,0,62,0,62
+starry flounder,2012,15,0,15,0,15
+starry flounder,2013,26,0,26,0,0
+starry flounder,2014,36,0,36,0,36
+starry flounder,2015,42,0,42,0,33
+starry flounder,2016,43,0,43,0,43
+starry flounder,2017,29,0,29,0,29
+starry flounder,2018,23,0,23,0,23
+starry flounder,2019,13,0,13,0,13
+starry rockfish,2003,1,0,1,0,0
+starry rockfish,2004,3,0,3,0,3
+starry rockfish,2005,3,0,3,0,3
+starry rockfish,2006,1,0,1,0,1
+starry rockfish,2007,6,0,6,0,6
+starry rockfish,2008,2,0,2,0,2
+starry rockfish,2009,17,1,18,0,18
+starry rockfish,2010,2,0,2,0,2
+starry rockfish,2011,1,0,1,0,1
+starry rockfish,2012,3,0,3,0,3
+starry rockfish,2013,2,0,2,0,0
+starry rockfish,2016,2,0,2,0,2
+starry rockfish,2017,9,0,9,0,6
+starry rockfish,2018,9,1,10,0,10
+starry rockfish,2019,16,0,16,0,16
+vermilion and sunset rockfish,2003,61,1,62,0,0
+vermilion and sunset rockfish,2004,8,1,9,8,0
+vermilion and sunset rockfish,2005,48,1,49,11,17
+vermilion and sunset rockfish,2006,27,0,27,18,9
+vermilion and sunset rockfish,2007,120,0,120,56,0
+vermilion and sunset rockfish,2008,73,1,74,39,26
+vermilion and sunset rockfish,2009,223,0,223,114,15
+vermilion and sunset rockfish,2010,78,28,106,93,13
+vermilion and sunset rockfish,2011,28,0,28,4,24
+vermilion and sunset rockfish,2012,467,4,471,106,204
+vermilion and sunset rockfish,2013,396,9,405,70,165
+vermilion and sunset rockfish,2014,35,2,37,26,11
+vermilion and sunset rockfish,2015,226,0,226,9,138
+vermilion and sunset rockfish,2016,75,25,100,56,44
+vermilion and sunset rockfish,2017,199,44,243,75,132
+vermilion and sunset rockfish,2018,196,1,197,47,93
+vermilion and sunset rockfish,2019,172,0,172,44,89
+widow rockfish,2003,212,4,216,0,10
+widow rockfish,2004,84,0,84,43,0
+widow rockfish,2005,78,0,78,65,2
+widow rockfish,2006,172,0,172,89,0
+widow rockfish,2007,91,1,92,83,0
+widow rockfish,2008,26,0,26,20,6
+widow rockfish,2009,142,0,142,124,0
+widow rockfish,2010,240,0,240,116,2
+widow rockfish,2011,313,0,313,152,0
+widow rockfish,2012,181,0,181,91,2
+widow rockfish,2013,361,3,364,246,0
+widow rockfish,2014,349,0,349,264,0
+widow rockfish,2015,149,0,149,93,0
+widow rockfish,2016,888,0,888,556,0
+widow rockfish,2017,310,0,310,213,1
+widow rockfish,2018,410,0,410,353,0
+widow rockfish,2019,219,0,219,0,161
+yelloweye rockfish,2003,68,0,68,67,1
+yelloweye rockfish,2004,21,0,21,21,0
+yelloweye rockfish,2005,40,0,40,40,0
+yelloweye rockfish,2006,42,1,43,43,0
+yelloweye rockfish,2007,24,2,26,19,7
+yelloweye rockfish,2008,43,0,43,43,0
+yelloweye rockfish,2009,39,0,39,39,0
+yelloweye rockfish,2010,52,0,52,52,0
+yelloweye rockfish,2011,47,0,47,47,0
+yelloweye rockfish,2012,44,0,44,44,0
+yelloweye rockfish,2013,38,0,38,35,2
+yelloweye rockfish,2014,92,0,92,92,0
+yelloweye rockfish,2015,51,0,51,51,0
+yelloweye rockfish,2016,91,0,91,91,0
+yelloweye rockfish,2017,45,0,45,0,45
+yelloweye rockfish,2018,50,0,50,0,50
+yelloweye rockfish,2019,34,0,34,0,34
+yellowtail rockfish,2003,815,34,849,275,0
+yellowtail rockfish,2004,626,0,626,187,1
+yellowtail rockfish,2005,1047,0,1047,348,2
+yellowtail rockfish,2006,386,0,386,169,0
+yellowtail rockfish,2007,946,12,958,277,2
+yellowtail rockfish,2008,682,8,690,355,0
+yellowtail rockfish,2009,457,0,457,333,0
+yellowtail rockfish,2010,1130,1,1131,486,432
+yellowtail rockfish,2011,788,0,788,469,0
+yellowtail rockfish,2012,906,1,907,354,0
+yellowtail rockfish,2013,407,0,407,177,0
+yellowtail rockfish,2014,1527,1,1528,651,1
+yellowtail rockfish,2015,820,0,820,541,1
+yellowtail rockfish,2016,2261,0,2261,571,837
+yellowtail rockfish,2017,1702,0,1701,0,724
+yellowtail rockfish,2018,916,0,916,0,628
+yellowtail rockfish,2019,568,0,568,0,345

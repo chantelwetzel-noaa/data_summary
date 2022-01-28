@@ -1,0 +1,196 @@
+name,state,sexed_fish,unsexed_fish,lengthed,aged,otoliths
+Arrowtooth flounder,C,0,1,1,0,0
+Aurora rockfish,C,0,0,0,0,0
+Bank rockfish,C,0,32,32,0,0
+Big skate,C,0,1,1,0,0
+Black rockfish,C,1,6882,6883,0,24
+Blackgill rockfish,C,0,0,0,0,0
+Blue/Deacon rockfish,C,1,7685,7685,0,23
+Bocaccio,C,1,2310,2311,0,5
+Brown rockfish,C,1,3804,3804,0,1
+Cabezon,C,282,501,783,0,0
+California scorpionfish,C,0,2981,2981,0,0
+Canary rockfish,C,0,835,835,0,9
+Chilipepper rockfish,C,0,355,356,0,0
+China rockfish,C,0,848,848,0,1
+Copper rockfish,C,1,3127,3127,0,2
+Cowcod,C,0,9,10,0,0
+Curlfin sole,C,0,0,0,0,0
+Darkblotched rockfish,C,0,0,0,0,0
+Dover sole,C,0,0,0,0,0
+English sole,C,0,1,1,0,0
+Flag rockfish,C,1,579,580,0,0
+Flathead sole,C,0,0,0,0,0
+Gopher/Black and yellow rockfish,C,1,4773,4774,0,1
+Grass rockfish,C,0,267,267,0,0
+Greenspotted rockfish,C,1,927,928,0,0
+Greenstriped rockfish,C,0,113,113,0,0
+Honeycomb rockfish,C,3,736,739,0,0
+Kelp greenling,C,376,169,545,0,0
+Kelp rockfish,C,1,691,691,0,0
+Leopard shark,C,36,75,110,0,0
+Lingcod,C,3214,1606,4820,0,17
+Longnose skate,C,0,0,0,0,0
+Longspine thornyhead,C,0,0,0,0,0
+Olive rockfish,C,0,1956,1956,0,7
+Pacific cod,C,0,0,0,0,0
+Pacific ocean perch,C,0,0,0,0,0
+Pacific sanddab,C,371,1997,2368,0,0
+Pacific spiny dogfish,C,21,36,57,0,0
+Petrale sole,C,0,79,79,0,0
+Quillback rockfish,C,0,266,266,0,2
+Redbanded rockfish,C,0,0,0,0,0
+Redstripe rockfish,C,0,0,0,0,0
+Rex sole,C,0,0,0,0,0
+Rock sole,C,0,44,44,0,0
+Rosethorn rockfish,C,0,1,1,0,0
+Rosy rockfish,C,0,992,992,0,0
+Rougheye/Blackspotted rockfish,C,0,0,0,0,0
+Sablefish,C,0,3,3,0,0
+Sand sole,C,0,31,31,0,0
+Sharpchin rockfish,C,0,0,0,0,0
+Shortraker rockfsih,C,0,0,0,0,0
+Shortspine thornyhead,C,0,0,0,0,0
+Silvergray rockfish,C,0,0,0,0,0
+Speckled rockfish,C,0,511,511,0,0
+Splitnose rockfish,C,0,0,0,0,0
+Squarespot rockfish,C,1,826,827,0,0
+Starry flounder,C,0,34,34,0,0
+Starry rockfish,C,3,1621,1624,0,2
+Stripetail rockfish,C,0,0,0,0,0
+Treefish,C,0,545,546,0,0
+Vermilion/Sunset rockfish,C,4,6811,6815,0,6
+Widow rockfish,C,0,353,353,0,1
+Yelloweye rockfish,C,0,45,45,0,11
+Yellowmouth rockfish,C,0,0,0,0,0
+Yellowtail rockfish,C,0,3173,3173,0,11
+Arrowtooth flounder,O,0,6,6,0,0
+Aurora rockfish,O,0,0,0,0,0
+Bank rockfish,O,0,0,0,0,0
+Big skate,O,0,1,1,0,0
+Black rockfish,O,1435,8950,10384,909,532
+Blackgill rockfish,O,0,0,0,0,0
+Blue/Deacon rockfish,O,736,3405,4141,208,530
+Bocaccio,O,0,21,21,0,0
+Brown rockfish,O,2,14,16,1,1
+Cabezon,O,173,1110,1283,123,43
+California scorpionfish,O,0,0,0,0,0
+Canary rockfish,O,186,1054,1240,0,188
+Chilipepper rockfish,O,0,1,1,0,0
+China rockfish,O,113,517,630,55,65
+Copper rockfish,O,126,550,676,121,5
+Cowcod,O,0,0,0,0,0
+Curlfin sole,O,0,0,0,0,0
+Darkblotched rockfish,O,0,0,0,0,0
+Dover sole,O,0,1,1,0,0
+English sole,O,0,1,1,0,0
+Flag rockfish,O,0,0,0,0,0
+Flathead sole,O,0,0,0,0,0
+Gopher/Black and yellow rockfish,O,1,6,7,0,1
+Grass rockfish,O,0,6,6,0,0
+Greenspotted rockfish,O,0,1,1,0,0
+Greenstriped rockfish,O,0,18,18,0,0
+Honeycomb rockfish,O,0,0,0,0,0
+Kelp greenling,O,293,1340,1632,147,154
+Kelp rockfish,O,0,0,0,0,0
+Leopard shark,O,0,0,0,0,0
+Lingcod,O,1033,5189,6222,378,539
+Longnose skate,O,0,1,1,0,0
+Longspine thornyhead,O,0,0,0,0,0
+Olive rockfish,O,0,2,2,0,0
+Pacific cod,O,0,3,3,0,0
+Pacific ocean perch,O,0,0,0,0,0
+Pacific sanddab,O,0,79,79,0,0
+Pacific spiny dogfish,O,0,3,3,0,0
+Petrale sole,O,0,106,106,0,0
+Quillback rockfish,O,217,749,967,41,176
+Redbanded rockfish,O,0,2,2,0,0
+Redstripe rockfish,O,0,0,0,0,0
+Rex sole,O,0,0,0,0,0
+Rock sole,O,0,3,3,0,0
+Rosethorn rockfish,O,0,18,18,0,0
+Rosy rockfish,O,0,4,4,0,0
+Rougheye/Blackspotted rockfish,O,0,0,0,0,0
+Sablefish,O,0,97,97,0,0
+Sand sole,O,0,43,43,0,0
+Sharpchin rockfish,O,0,0,0,0,0
+Shortraker rockfsih,O,0,0,0,0,0
+Shortspine thornyhead,O,0,0,0,0,0
+Silvergray rockfish,O,0,17,17,0,0
+Speckled rockfish,O,0,0,0,0,0
+Splitnose rockfish,O,0,0,0,0,0
+Squarespot rockfish,O,0,0,0,0,0
+Starry flounder,O,0,13,13,0,0
+Starry rockfish,O,0,0,0,0,0
+Stripetail rockfish,O,0,0,0,0,0
+Treefish,O,0,0,0,0,0
+Vermilion/Sunset rockfish,O,119,550,669,76,50
+Widow rockfish,O,0,256,256,0,0
+Yelloweye rockfish,O,0,80,81,0,0
+Yellowmouth rockfish,O,0,0,0,0,0
+Yellowtail rockfish,O,0,1819,1819,0,0
+Arrowtooth flounder,W,1,1,1,0,1
+Aurora rockfish,W,0,0,0,0,0
+Bank rockfish,W,0,0,0,0,0
+Big skate,W,0,0,0,0,0
+Black rockfish,W,1823,764,2587,1580,193
+Blackgill rockfish,W,0,0,0,0,0
+Blue/Deacon rockfish,W,254,111,365,0,217
+Bocaccio,W,13,7,20,0,13
+Brown rockfish,W,2,1,3,0,2
+Cabezon,W,118,94,212,0,103
+California scorpionfish,W,0,0,0,0,0
+Canary rockfish,W,233,57,290,83,139
+Chilipepper rockfish,W,0,0,0,0,0
+China rockfish,W,140,82,221,63,69
+Copper rockfish,W,113,58,170,88,15
+Cowcod,W,0,0,0,0,0
+Curlfin sole,W,0,0,0,0,0
+Darkblotched rockfish,W,0,0,0,0,0
+Dover sole,W,0,0,0,0,0
+English sole,W,0,0,0,0,0
+Flag rockfish,W,0,0,0,0,0
+Flathead sole,W,0,0,0,0,0
+Gopher/Black and yellow rockfish,W,0,0,0,0,0
+Grass rockfish,W,1,0,1,0,0
+Greenspotted rockfish,W,0,0,0,0,0
+Greenstriped rockfish,W,4,2,6,0,4
+Honeycomb rockfish,W,0,0,0,0,0
+Kelp greenling,W,139,135,274,69,52
+Kelp rockfish,W,0,0,0,0,0
+Leopard shark,W,0,0,0,0,0
+Lingcod,W,1043,411,1454,779,127
+Longnose skate,W,0,0,0,0,0
+Longspine thornyhead,W,0,0,0,0,0
+Olive rockfish,W,0,0,0,0,0
+Pacific cod,W,14,3,17,0,4
+Pacific ocean perch,W,0,0,1,0,0
+Pacific sanddab,W,0,0,0,0,0
+Pacific spiny dogfish,W,0,0,0,0,0
+Petrale sole,W,1,1,2,1,0
+Quillback rockfish,W,189,52,241,111,18
+Redbanded rockfish,W,1,1,2,0,1
+Redstripe rockfish,W,0,0,0,0,0
+Rex sole,W,0,0,0,0,0
+Rock sole,W,1,0,1,0,1
+Rosethorn rockfish,W,0,0,0,0,0
+Rosy rockfish,W,0,0,0,0,0
+Rougheye/Blackspotted rockfish,W,0,0,0,0,0
+Sablefish,W,15,8,23,0,12
+Sand sole,W,0,0,0,0,0
+Sharpchin rockfish,W,0,0,0,0,0
+Shortraker rockfsih,W,0,0,0,0,0
+Shortspine thornyhead,W,0,0,0,0,0
+Silvergray rockfish,W,4,1,5,0,4
+Speckled rockfish,W,0,0,0,0,0
+Splitnose rockfish,W,0,0,0,0,0
+Squarespot rockfish,W,0,0,0,0,0
+Starry flounder,W,2,3,4,0,0
+Starry rockfish,W,0,0,0,0,0
+Stripetail rockfish,W,0,0,0,0,0
+Treefish,W,0,0,0,0,0
+Vermilion/Sunset rockfish,W,48,28,75,40,7
+Widow rockfish,W,173,21,194,123,36
+Yelloweye rockfish,W,9,1,10,3,6
+Yellowmouth rockfish,W,0,0,0,0,0
+Yellowtail rockfish,W,541,134,675,304,53

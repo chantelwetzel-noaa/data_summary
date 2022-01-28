@@ -1,0 +1,436 @@
+"species_name","sample_year","sexed_fish","unsexed_fish","lengthed","aged","otoliths"
+"Arrowtooth Flounder",2006,0,2,2,0,0
+"Arrowtooth Flounder",2008,0,4,4,0,0
+"Arrowtooth Flounder",2012,0,1,1,0,0
+"Arrowtooth Flounder",2015,0,2,2,0,0
+"Arrowtooth Flounder",2017,0,1,1,0,0
+"Arrowtooth Flounder",2018,2,1,3,0,2
+"Arrowtooth Flounder",2020,6,0,6,0,6
+"Arrowtooth Flounder",2021,4,0,4,0,4
+"Black Rockfish",2002,1850,779,2629,1894,5
+"Black Rockfish",2003,1853,470,2323,1841,12
+"Black Rockfish",2004,1657,343,2000,1645,12
+"Black Rockfish",2005,1664,563,2227,1653,11
+"Black Rockfish",2006,1608,1244,2852,1484,16
+"Black Rockfish",2007,2311,612,2923,2300,13
+"Black Rockfish",2008,1987,505,2492,1920,69
+"Black Rockfish",2009,1696,1034,2730,1671,16
+"Black Rockfish",2010,1598,982,2580,1586,12
+"Black Rockfish",2011,1181,1302,2483,1171,10
+"Black Rockfish",2012,1263,1122,2385,1038,52
+"Black Rockfish",2013,1767,1090,2857,1762,5
+"Black Rockfish",2014,1608,678,2286,1564,25
+"Black Rockfish",2015,2666,484,3150,2152,7
+"Black Rockfish",2016,1732,439,2171,1713,20
+"Black Rockfish",2017,2299,1047,3346,2254,9
+"Black Rockfish",2018,1827,966,2793,1761,59
+"Black Rockfish",2019,2552,1321,3873,2514,15
+"Black Rockfish",2020,1374,75,1449,0,1374
+"Black Rockfish",2021,1992,245,2237,0,1924
+"Blue Rockfish",2019,17,0,17,0,17
+"Blue Rockfish",2020,24,0,24,0,24
+"Blue Rockfish",2021,8,0,8,0,8
+"Bocaccio",2003,0,1,1,0,0
+"Bocaccio",2004,0,14,14,0,0
+"Bocaccio",2005,1,0,1,0,0
+"Bocaccio",2009,0,7,7,0,0
+"Bocaccio",2011,0,24,24,0,0
+"Bocaccio",2012,0,18,18,0,0
+"Bocaccio",2014,12,0,12,0,12
+"Bocaccio",2015,2,1,3,0,2
+"Bocaccio",2016,7,2,9,0,7
+"Bocaccio",2017,11,3,14,0,11
+"Bocaccio",2018,25,11,36,0,25
+"Bocaccio",2019,95,50,145,0,95
+"Bocaccio",2020,2,1,3,0,2
+"Bocaccio",2021,86,4,90,0,86
+"Brown Rockfish",2011,0,1,1,0,0
+"Brown Rockfish",2012,0,1,1,0,0
+"Brown Rockfish",2013,0,1,1,0,0
+"Brown Rockfish",2016,0,3,3,0,0
+"Brown Rockfish",2017,8,2,10,0,8
+"Brown Rockfish",2018,0,3,3,0,0
+"Brown Rockfish",2019,12,3,15,0,12
+"Brown Rockfish",2020,10,0,10,0,10
+"Brown Rockfish",2021,9,3,12,0,9
+"Cabezon",2002,48,36,84,0,24
+"Cabezon",2003,21,72,93,0,0
+"Cabezon",2004,30,73,103,0,0
+"Cabezon",2005,38,174,212,0,0
+"Cabezon",2006,44,86,130,0,0
+"Cabezon",2007,33,74,107,0,0
+"Cabezon",2008,8,41,49,0,0
+"Cabezon",2009,39,65,104,0,0
+"Cabezon",2010,37,85,122,0,2
+"Cabezon",2011,11,146,157,0,0
+"Cabezon",2012,13,75,88,0,0
+"Cabezon",2013,20,42,62,0,0
+"Cabezon",2014,139,68,207,0,153
+"Cabezon",2015,78,36,114,0,78
+"Cabezon",2016,259,23,282,0,259
+"Cabezon",2017,253,191,444,0,248
+"Cabezon",2018,310,197,507,0,300
+"Cabezon",2019,509,303,812,0,505
+"Cabezon",2020,180,9,189,0,180
+"Cabezon",2021,228,21,249,0,226
+"Canary Rockfish",2002,142,56,198,0,0
+"Canary Rockfish",2003,201,28,229,0,0
+"Canary Rockfish",2004,40,4,44,40,0
+"Canary Rockfish",2005,44,7,51,44,0
+"Canary Rockfish",2006,4,11,15,4,0
+"Canary Rockfish",2007,7,3,10,7,0
+"Canary Rockfish",2008,10,3,13,9,1
+"Canary Rockfish",2009,8,5,13,8,0
+"Canary Rockfish",2010,11,1,12,11,0
+"Canary Rockfish",2011,1,10,11,1,0
+"Canary Rockfish",2012,7,2,9,7,0
+"Canary Rockfish",2013,0,6,6,0,0
+"Canary Rockfish",2014,8,0,8,8,0
+"Canary Rockfish",2015,5,32,37,5,0
+"Canary Rockfish",2016,4,27,31,4,0
+"Canary Rockfish",2017,1194,109,1303,1193,1
+"Canary Rockfish",2018,436,267,703,228,204
+"Canary Rockfish",2019,935,520,1455,0,934
+"Canary Rockfish",2020,450,12,462,0,449
+"Canary Rockfish",2021,1066,28,1094,0,1059
+"Chilipepper",2019,0,1,1,0,0
+"China Rockfish",2002,35,34,69,11,0
+"China Rockfish",2003,18,42,60,0,0
+"China Rockfish",2004,181,42,223,171,4
+"China Rockfish",2005,211,152,363,206,3
+"China Rockfish",2006,103,174,277,89,0
+"China Rockfish",2007,151,69,220,119,0
+"China Rockfish",2008,78,65,143,73,0
+"China Rockfish",2009,38,80,118,22,0
+"China Rockfish",2010,36,42,78,22,0
+"China Rockfish",2011,53,129,182,50,0
+"China Rockfish",2012,14,63,77,24,1
+"China Rockfish",2013,22,150,172,11,0
+"China Rockfish",2014,439,2,441,414,2
+"China Rockfish",2015,260,10,270,0,260
+"China Rockfish",2016,236,2,238,0,236
+"China Rockfish",2017,114,163,277,0,112
+"China Rockfish",2018,191,151,342,0,189
+"China Rockfish",2019,304,201,505,0,302
+"China Rockfish",2020,85,1,86,0,85
+"China Rockfish",2021,124,11,135,0,124
+"Copper Rockfish",2002,61,22,83,19,0
+"Copper Rockfish",2003,18,28,46,0,0
+"Copper Rockfish",2004,203,41,244,188,0
+"Copper Rockfish",2005,265,178,443,225,1
+"Copper Rockfish",2006,96,73,169,65,0
+"Copper Rockfish",2007,110,42,152,86,0
+"Copper Rockfish",2008,71,20,91,65,0
+"Copper Rockfish",2009,52,19,71,35,0
+"Copper Rockfish",2010,38,19,57,24,0
+"Copper Rockfish",2011,28,99,127,27,0
+"Copper Rockfish",2012,38,43,81,35,0
+"Copper Rockfish",2013,14,57,71,8,2
+"Copper Rockfish",2014,132,4,136,123,9
+"Copper Rockfish",2015,83,1,84,74,4
+"Copper Rockfish",2016,158,21,179,169,5
+"Copper Rockfish",2017,110,102,212,101,7
+"Copper Rockfish",2018,190,125,315,176,3
+"Copper Rockfish",2019,275,188,463,274,1
+"Copper Rockfish",2020,76,1,77,0,76
+"Copper Rockfish",2021,184,33,217,0,184
+"Darkblotched Rockfish",2018,0,1,1,0,0
+"Dover Sole",2004,2,0,2,0,0
+"English Sole",2010,1,0,1,0,0
+"English Sole",2018,1,0,1,0,1
+"Grass Rockfish",2002,1,0,1,0,0
+"Grass Rockfish",2004,1,0,1,0,0
+"Grass Rockfish",2015,1,0,1,0,1
+"Grass Rockfish",2018,6,1,7,0,6
+"Grass Rockfish",2021,2,0,2,0,2
+"Greenstriped Rockfish",2003,4,0,4,0,0
+"Greenstriped Rockfish",2004,2,3,5,0,0
+"Greenstriped Rockfish",2005,0,1,1,0,0
+"Greenstriped Rockfish",2011,1,1,2,0,1
+"Greenstriped Rockfish",2012,0,1,1,0,0
+"Greenstriped Rockfish",2014,2,0,2,0,2
+"Greenstriped Rockfish",2016,4,0,4,0,4
+"Greenstriped Rockfish",2017,29,1,30,0,29
+"Greenstriped Rockfish",2018,5,4,9,0,5
+"Greenstriped Rockfish",2019,16,23,39,0,16
+"Greenstriped Rockfish",2020,1,0,1,0,1
+"Greenstriped Rockfish",2021,9,0,9,0,9
+"Kelp Greenling",2002,9,93,102,0,0
+"Kelp Greenling",2003,7,147,154,0,0
+"Kelp Greenling",2004,279,164,443,55,14
+"Kelp Greenling",2005,270,282,552,232,20
+"Kelp Greenling",2006,123,226,349,105,5
+"Kelp Greenling",2007,102,67,169,96,5
+"Kelp Greenling",2008,96,109,205,92,4
+"Kelp Greenling",2009,83,131,214,51,0
+"Kelp Greenling",2010,78,117,195,44,18
+"Kelp Greenling",2011,50,172,222,39,1
+"Kelp Greenling",2012,30,162,192,22,0
+"Kelp Greenling",2013,31,114,145,10,0
+"Kelp Greenling",2014,165,120,285,165,0
+"Kelp Greenling",2015,117,40,157,106,11
+"Kelp Greenling",2016,319,40,359,291,28
+"Kelp Greenling",2017,212,192,404,0,210
+"Kelp Greenling",2018,229,190,419,0,227
+"Kelp Greenling",2019,205,264,469,0,204
+"Kelp Greenling",2020,115,8,123,0,114
+"Kelp Greenling",2021,123,26,149,0,123
+"Lingcod",2002,1224,164,1388,922,2
+"Lingcod",2003,1641,397,2038,1167,10
+"Lingcod",2004,1369,215,1584,849,0
+"Lingcod",2005,1701,332,2033,911,70
+"Lingcod",2006,1215,254,1469,701,8
+"Lingcod",2007,1290,144,1434,811,25
+"Lingcod",2008,841,127,968,812,10
+"Lingcod",2009,1070,184,1254,698,59
+"Lingcod",2010,535,287,822,401,12
+"Lingcod",2011,418,652,1070,302,8
+"Lingcod",2012,431,621,1052,269,3
+"Lingcod",2013,362,291,653,352,0
+"Lingcod",2014,711,332,1043,701,10
+"Lingcod",2015,515,247,762,501,15
+"Lingcod",2016,870,214,1084,805,65
+"Lingcod",2017,1568,770,2338,1627,76
+"Lingcod",2018,919,802,1721,1002,47
+"Lingcod",2019,1702,1200,2902,1623,175
+"Lingcod",2020,1340,257,1597,1261,214
+"Lingcod",2021,1322,477,1799,0,1613
+"Pacific Cod",2002,0,3,3,0,0
+"Pacific Cod",2003,1,18,19,0,0
+"Pacific Cod",2004,159,5,164,0,0
+"Pacific Cod",2005,17,14,31,0,0
+"Pacific Cod",2006,11,7,18,0,0
+"Pacific Cod",2011,0,2,2,0,0
+"Pacific Cod",2013,0,1,1,0,0
+"Pacific Cod",2018,33,8,41,0,32
+"Pacific Cod",2019,6,1,7,0,6
+"Pacific Cod",2020,10,0,10,0,10
+"Pacific Cod",2021,34,0,34,0,34
+"Pacific Ocean Perch",2015,2,0,2,2,0
+"Pacific Ocean Perch",2017,0,3,3,0,0
+"Pacific Ocean Perch",2020,1,0,1,0,1
+"Pacific Ocean Perch",2021,0,4,4,0,0
+"Pacific Sanddab",2008,0,1,1,0,0
+"Pacific Sanddab",2019,0,1,1,0,0
+"Pacific Sanddab",2021,0,6,6,0,0
+"Petrale Sole",2015,0,1,1,0,0
+"Petrale Sole",2017,0,1,1,0,0
+"Petrale Sole",2018,17,12,29,14,0
+"Petrale Sole",2019,3,6,9,0,3
+"Petrale Sole",2020,2,0,2,0,2
+"Petrale Sole",2021,3,0,3,0,3
+"Quillback Rockfish",2002,235,29,264,9,0
+"Quillback Rockfish",2003,260,30,290,0,0
+"Quillback Rockfish",2004,287,35,322,157,1
+"Quillback Rockfish",2005,337,74,411,181,0
+"Quillback Rockfish",2006,235,91,326,52,0
+"Quillback Rockfish",2007,218,48,266,89,4
+"Quillback Rockfish",2008,131,45,176,59,0
+"Quillback Rockfish",2009,135,25,160,27,1
+"Quillback Rockfish",2010,70,3,73,6,7
+"Quillback Rockfish",2011,63,45,108,32,0
+"Quillback Rockfish",2012,55,29,84,14,0
+"Quillback Rockfish",2013,72,65,137,8,0
+"Quillback Rockfish",2014,240,76,316,288,2
+"Quillback Rockfish",2015,208,35,243,236,0
+"Quillback Rockfish",2016,325,14,339,273,52
+"Quillback Rockfish",2017,223,108,331,222,0
+"Quillback Rockfish",2018,200,88,288,199,0
+"Quillback Rockfish",2019,260,168,428,260,0
+"Quillback Rockfish",2020,161,1,162,0,161
+"Quillback Rockfish",2021,114,5,119,0,114
+"Redbanded Rockfish",2002,20,0,20,0,0
+"Redbanded Rockfish",2004,1,3,4,0,0
+"Redbanded Rockfish",2009,1,0,1,0,0
+"Redbanded Rockfish",2012,0,1,1,0,0
+"Redbanded Rockfish",2016,1,0,1,0,1
+"Redbanded Rockfish",2018,0,1,1,0,0
+"Redbanded Rockfish",2019,15,12,27,0,15
+"Redbanded Rockfish",2021,4,1,5,0,3
+"Redstripe Rockfish",2015,2,0,2,0,2
+"Redstripe Rockfish",2016,2,0,2,0,2
+"Redstripe Rockfish",2019,1,0,1,0,1
+"Rock Sole",2005,0,2,2,0,0
+"Rock Sole",2006,0,1,1,0,0
+"Rock Sole",2012,0,1,1,0,0
+"Rock Sole",2018,1,4,5,0,0
+"Rock Sole",2019,6,0,6,0,6
+"Rock Sole",2020,6,0,6,0,6
+"Rock Sole",2021,3,0,3,0,3
+"Rosethorn Rockfish",2005,1,0,1,0,0
+"Rosethorn Rockfish",2017,3,0,3,0,3
+"Rosethorn Rockfish",2018,1,0,1,0,1
+"Rosethorn Rockfish",2019,0,1,1,0,0
+"Rosethorn Rockfish",2021,1,0,1,0,1
+"Rougheye Rockfish",2008,0,1,1,0,0
+"Rougheye Rockfish",2019,0,1,1,0,0
+"Sablefish",2003,27,0,27,0,0
+"Sablefish",2004,25,11,36,0,0
+"Sablefish",2005,8,0,8,0,0
+"Sablefish",2006,0,5,5,0,0
+"Sablefish",2007,0,9,9,0,0
+"Sablefish",2008,0,3,3,0,0
+"Sablefish",2009,3,0,3,0,0
+"Sablefish",2010,0,6,6,0,0
+"Sablefish",2011,0,4,4,0,0
+"Sablefish",2012,0,5,5,0,0
+"Sablefish",2013,0,1,1,0,0
+"Sablefish",2014,0,3,3,0,0
+"Sablefish",2016,0,1,1,0,0
+"Sablefish",2017,0,3,3,0,0
+"Sablefish",2018,54,44,98,0,54
+"Sablefish",2019,137,36,173,0,137
+"Sablefish",2020,20,23,43,0,20
+"Sablefish",2021,8,0,8,0,8
+"Sand Sole",2009,0,1,1,0,0
+"Sand Sole",2019,0,1,1,0,0
+"Starry Flounder",2002,9,0,9,0,3
+"Starry Flounder",2003,8,0,8,0,0
+"Starry Flounder",2004,13,8,21,0,0
+"Starry Flounder",2005,1,0,1,0,0
+"Starry Flounder",2006,0,1,1,0,0
+"Starry Flounder",2007,2,5,7,0,0
+"Starry Flounder",2008,0,1,1,0,0
+"Starry Flounder",2009,0,7,7,0,0
+"Starry Flounder",2010,2,3,5,0,1
+"Starry Flounder",2011,0,2,2,0,0
+"Starry Flounder",2012,0,2,2,0,0
+"Starry Flounder",2013,0,2,2,0,0
+"Starry Flounder",2014,0,5,5,0,0
+"Starry Flounder",2015,1,3,4,0,0
+"Starry Flounder",2017,0,9,9,0,0
+"Starry Flounder",2018,2,1,3,0,2
+"Starry Flounder",2019,1,3,4,0,1
+"Vermilion Rockfish",2002,3,5,8,3,0
+"Vermilion Rockfish",2003,1,3,4,0,0
+"Vermilion Rockfish",2004,15,0,15,11,4
+"Vermilion Rockfish",2005,27,28,55,23,3
+"Vermilion Rockfish",2006,27,30,57,25,2
+"Vermilion Rockfish",2007,36,33,69,35,1
+"Vermilion Rockfish",2008,28,15,43,28,0
+"Vermilion Rockfish",2009,9,7,16,9,0
+"Vermilion Rockfish",2010,3,6,9,3,0
+"Vermilion Rockfish",2011,11,24,35,11,0
+"Vermilion Rockfish",2012,17,35,52,16,1
+"Vermilion Rockfish",2013,5,49,54,5,0
+"Vermilion Rockfish",2014,60,2,62,58,2
+"Vermilion Rockfish",2015,130,11,141,127,3
+"Vermilion Rockfish",2016,91,3,94,87,4
+"Vermilion Rockfish",2017,82,65,147,81,0
+"Vermilion Rockfish",2018,103,100,203,86,10
+"Vermilion Rockfish",2019,160,105,265,150,10
+"Vermilion Rockfish",2020,18,2,20,0,18
+"Vermilion Rockfish",2021,81,10,91,0,80
+"Widow Rockfish",2003,20,0,20,0,0
+"Widow Rockfish",2004,4,1,5,0,0
+"Widow Rockfish",2005,13,3,16,0,0
+"Widow Rockfish",2006,0,1,1,0,0
+"Widow Rockfish",2007,4,0,4,0,0
+"Widow Rockfish",2008,7,0,7,0,0
+"Widow Rockfish",2009,70,4,74,0,0
+"Widow Rockfish",2010,30,3,33,0,0
+"Widow Rockfish",2011,8,116,124,0,0
+"Widow Rockfish",2012,0,29,29,0,0
+"Widow Rockfish",2013,127,19,146,0,0
+"Widow Rockfish",2014,405,86,491,405,0
+"Widow Rockfish",2015,334,1,335,334,0
+"Widow Rockfish",2016,556,5,561,551,5
+"Widow Rockfish",2017,777,23,800,776,1
+"Widow Rockfish",2018,266,66,332,262,0
+"Widow Rockfish",2019,103,32,135,0,103
+"Widow Rockfish",2020,459,3,462,0,458
+"Widow Rockfish",2021,110,0,110,0,110
+"Yelloweye Rockfish",2003,0,2,2,0,0
+"Yelloweye Rockfish",2004,12,0,12,10,2
+"Yelloweye Rockfish",2005,4,0,4,4,0
+"Yelloweye Rockfish",2006,1,0,1,1,0
+"Yelloweye Rockfish",2008,6,3,9,6,0
+"Yelloweye Rockfish",2010,1,0,1,1,0
+"Yelloweye Rockfish",2011,2,0,2,2,0
+"Yelloweye Rockfish",2012,3,2,5,3,0
+"Yelloweye Rockfish",2014,0,1,1,0,0
+"Yelloweye Rockfish",2015,2,0,2,2,0
+"Yelloweye Rockfish",2017,5,3,8,5,0
+"Yelloweye Rockfish",2018,7,1,8,6,0
+"Yelloweye Rockfish",2019,13,13,26,12,1
+"Yelloweye Rockfish",2020,7,0,7,0,7
+"Yelloweye Rockfish",2021,102,0,102,0,102
+"Yellowmouth Rockfish",2004,2,0,2,0,0
+"Yellowtail Rockfish",2002,172,22,194,0,0
+"Yellowtail Rockfish",2003,745,55,800,0,0
+"Yellowtail Rockfish",2004,606,69,675,0,0
+"Yellowtail Rockfish",2005,719,150,869,0,0
+"Yellowtail Rockfish",2006,274,88,362,18,0
+"Yellowtail Rockfish",2007,235,78,313,0,0
+"Yellowtail Rockfish",2008,118,71,189,0,0
+"Yellowtail Rockfish",2009,329,135,464,6,1
+"Yellowtail Rockfish",2010,148,70,218,17,0
+"Yellowtail Rockfish",2011,55,336,391,15,0
+"Yellowtail Rockfish",2012,92,136,228,0,0
+"Yellowtail Rockfish",2013,234,122,356,0,4
+"Yellowtail Rockfish",2014,533,147,680,533,0
+"Yellowtail Rockfish",2015,624,59,683,624,0
+"Yellowtail Rockfish",2016,836,92,928,836,0
+"Yellowtail Rockfish",2017,1152,176,1328,1150,2
+"Yellowtail Rockfish",2018,652,256,908,641,4
+"Yellowtail Rockfish",2019,1311,489,1800,1306,5
+"Yellowtail Rockfish",2020,883,8,891,629,253
+"Yellowtail Rockfish",2021,738,10,748,0,738
+"Blue/Deacon Rockfish",2002,10,32,42,0,0
+"Blue/Deacon Rockfish",2003,4,25,29,0,0
+"Blue/Deacon Rockfish",2004,155,16,171,0,144
+"Blue/Deacon Rockfish",2005,297,186,483,0,202
+"Blue/Deacon Rockfish",2006,81,147,228,0,33
+"Blue/Deacon Rockfish",2007,138,27,165,0,89
+"Blue/Deacon Rockfish",2008,89,39,128,0,59
+"Blue/Deacon Rockfish",2009,88,35,123,0,39
+"Blue/Deacon Rockfish",2010,132,38,170,0,60
+"Blue/Deacon Rockfish",2011,42,99,141,0,36
+"Blue/Deacon Rockfish",2012,19,38,57,0,17
+"Blue/Deacon Rockfish",2013,13,60,73,0,23
+"Blue/Deacon Rockfish",2014,169,1,170,0,169
+"Blue/Deacon Rockfish",2015,236,8,244,0,236
+"Blue/Deacon Rockfish",2016,0,4,4,0,0
+"Blue/Deacon Rockfish",2017,51,110,161,0,51
+"Blue/Deacon Rockfish",2018,6,79,85,0,6
+"Blue/Deacon Rockfish",2019,74,134,208,0,74
+"Blue/Deacon Rockfish",2020,0,3,3,0,0
+"Blue/Deacon Rockfish",2021,0,7,7,0,0
+"Deacon Rockfish",2016,612,1,613,0,612
+"Deacon Rockfish",2017,334,-1,333,0,333
+"Deacon Rockfish",2018,105,0,105,0,105
+"Deacon Rockfish",2019,204,-2,202,0,203
+"Deacon Rockfish",2020,183,0,183,0,183
+"Deacon Rockfish",2021,153,0,153,0,153
+"Silvergrey Rockfish",2006,1,0,1,0,0
+"Silvergrey Rockfish",2009,0,1,1,0,0
+"Silvergrey Rockfish",2011,0,7,7,0,0
+"Silvergrey Rockfish",2012,0,13,13,0,0
+"Silvergrey Rockfish",2014,4,0,4,0,4
+"Silvergrey Rockfish",2015,11,-1,10,0,11
+"Silvergrey Rockfish",2016,9,1,10,0,9
+"Silvergrey Rockfish",2017,17,1,18,0,17
+"Silvergrey Rockfish",2018,7,2,9,0,7
+"Silvergrey Rockfish",2019,16,1,17,0,16
+"Silvergrey Rockfish",2020,2,0,2,0,2
+"Silvergrey Rockfish",2021,10,1,11,0,10
+"Blue/Deacon Rockfish",2002,10,32,42,0,0
+"Blue/Deacon Rockfish",2003,4,25,29,0,0
+"Blue/Deacon Rockfish",2004,155,16,171,0,144
+"Blue/Deacon Rockfish",2005,297,186,483,0,202
+"Blue/Deacon Rockfish",2006,81,147,228,0,33
+"Blue/Deacon Rockfish",2007,138,27,165,0,89
+"Blue/Deacon Rockfish",2008,89,39,128,0,59
+"Blue/Deacon Rockfish",2009,88,35,123,0,39
+"Blue/Deacon Rockfish",2010,132,38,170,0,60
+"Blue/Deacon Rockfish",2011,42,99,141,0,36
+"Blue/Deacon Rockfish",2012,19,38,57,0,17
+"Blue/Deacon Rockfish",2013,13,60,73,0,23
+"Blue/Deacon Rockfish",2014,169,1,170,0,169
+"Blue/Deacon Rockfish",2015,236,8,244,0,236
+"Blue/Deacon Rockfish",2016,0,4,4,0,0
+"Blue/Deacon Rockfish",2017,51,110,161,0,51
+"Blue/Deacon Rockfish",2018,6,79,85,0,6
+"Blue/Deacon Rockfish",2019,74,134,208,0,74
+"Blue/Deacon Rockfish",2020,0,3,3,0,0
+"Blue/Deacon Rockfish",2021,0,7,7,0,0
