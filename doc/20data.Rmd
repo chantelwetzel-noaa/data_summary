@@ -1,0 +1,41 @@
+
+```{r loop-output, results="asis"}
+load('C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/data/summarized_all_data.rdat')
+data <- all_data
+
+fix <- which(all_data$name == "Southern rock sole")
+data[fix, "name"] = "Rock sole"
+species_data <- get_species_data()
+
+# Fix NA in unsexed
+replace = which(is.na(data$unsexed_fish))
+data[replace, 'unsexed_fish'] = data[replace, 'lengthed'] - data[replace, 'sexed_fish']
+set_to_zero = which(data[, 'unsexed_fish'] < 0)
+data[set_to_zero, 'unsexed_fish'] = 0
+
+# Add data to use to the data matrix
+data$use_data <- NA
+for (a in 1:nrow(species_data)){
+	key <- grep(species_data[a, "species_name"], data$name, ignore.case = TRUE)
+	data[key, "use_data"] <- species_data[a, "data"]
+}
+
+# Filter down for only the species we are examining
+find = NULL
+for (a in 1:nrow(species_data)){
+	find <- c(find, grep(species_data[a, "species_name"], data$name, ignore.case = TRUE))
+}
+data <- data[find, ]
+
+data %>%
+	group_by(name) %>%
+	distinct(name) %>%
+	pull(name) %>%
+	as.character() %>%
+	walk(multiplot)
+ 
+```
+
+
+
+

@@ -1,0 +1,47 @@
+---
+geometry: margin=1in
+month: "`r format(Sys.Date(), '%B')`"
+year: "`r format(Sys.Date(), '%Y')`"
+preamble: |
+output:
+  sa4ss::techreport_pdf:
+    default
+  bookdown::pdf_document2:
+    keep_tex: true
+lang: en
+papersize: letter
+---
+
+```{r opts, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+knitr::knit_hooks$set(plot = function(x,options) {
+      base = knitr::opts_knit$get('base.url')
+      if (is.null(base)) base = ''
+      alt = ifelse (is.null(options$alt),"",options$alt)
+      cap = ifelse (is.null(options$caption),"",options$caption)
+      if (alt != ""){
+        sprintf('![%s](%s%s "%s")', cap, base, x, alt)
+      } else {
+        sprintf('![%s](%s%s)', cap, base, x)
+        }
+  })
+
+load("00opts.Rdata")
+source("multiplot.R")
+source("multiplot_hkl.R")
+
+# Need to make dynamic based on data file
+endyr = 2021
+
+library(tidyverse)
+library(table.glue)
+library(glue)
+
+dir <- "C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary"
+source(file.path(dir, "R", "get_species_data.R"))
+source(file.path(dir, "R", "get_source.R"))
+
+assess_data <- read.csv("C:/Users/Chantel.Wetzel/Documents/GitHub/assessment_prioritization/data/stock_year.csv")
+
+
+```

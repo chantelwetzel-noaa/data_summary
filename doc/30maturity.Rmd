@@ -1,0 +1,33 @@
+# Maturity data
+
+Maturity samples for a wide range of West Coast groundfish specie shave been across a range of sources: NWFSC WCGBT survey, NWFSC HKL survey, Pacific hake survey, at-sea sampling of the Pacific hake fishery, and port sampling in Oregon and Washington.  Samples have been collected between 2009 - 2019. A summary of maturity samples collected and read maturity samples by species is provided below.  
+
+The following summary does not include collection from the 2021 NWFSC WCGBT or HKL surveys.  Addtionally, the data summary has not been updated to reflect maturity reading efforts conducted in 2021 (e.g., Dover sole, copper rockfish). 
+
+```{r mat, results="asis"}
+
+firstup <- function(x) {
+  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+  x
+}
+
+mat <- read.csv('C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/data/maturity_reads.csv')
+mat$read_numeric = 0
+find = which(mat$read == "yes")
+mat[find, "read_numeric"] = mat[find, 'total']
+
+total <- aggregate(total ~ species, mat, sum)
+read  <- aggregate(read_numeric ~ species, mat, sum)
+total$species <- firstup(total$species)
+
+out = cbind(total, read[,2])
+col_names = c("Species", "Total Collected", "Total Read")
+
+table_format(x = out, 
+caption = "Summary of collected and read maturity samples by species.",
+label = 'maturity',
+col_names = col_names,
+align = 'l')
+
+
+```

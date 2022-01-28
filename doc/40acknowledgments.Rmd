@@ -1,0 +1,5 @@
+\newpage
+
+# Acknowledgement
+
+We would like to thank Theresa Tsou (WDFW), Alison Whitman (ODFW), and Traci Larinto (CDFW) for providing data that were essential in producing data summaries.  We are appreciative of Brad Stenberg (PSMFC) and Jason Edwards (PSMFC) being responsive to our questions regarding both commercial and recreational data. We appreciate Melissa Head providing maturity sample collections. Finally, we would like to thank the NWFSC Fisheries Resource Analysis and Monitoring survey team and their dedication to collecting high quality data. The data they collect is essential to the assessment of West Coast groundfish stocks.
