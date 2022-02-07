@@ -1,196 +1,187 @@
-name,state,sexed_fish,unsexed_fish,lengthed,aged,otoliths,,
-Arrowtooth flounder,C,344,32,375,0,34,,Arrowtooth flounder
-Aurora rockfish,C,748,536,1066,44,263,,Aurora rockfish
-Bank rockfish,C,216,262,471,0,163,,Bank rockfish
-Big skate,C,72,1,73,0,0,,Big skate
-Black rockfish,C,49,545,582,14,33,,Black rockfish
-Blackgill rockfish,C,277,711,968,65,188,,Blackgill rockfish
-Blue/Deacon rockfish,C,24,263,273,6,34,,Blue/Deacon rockfish
-Bocaccio,C,206,333,535,9,71,,Bocaccio
-Brown rockfish,C,7,305,205,0,24,,Brown rockfish
-Cabezon,C,29,273,252,0,1,,Cabezon
-California scorpionfish,C,0,38,38,0,0,,California scorpionfish
-Canary rockfish,C,142,180,316,17,59,,Canary rockfish
-Chilipepper rockfish,C,1192,692,1852,381,0,,Chilipepper rockfish 
-China rockfish,C,0,88,75,0,0,,China rockfish
-Copper rockfish,C,6,120,112,0,1,,Copper rockfish
-Cowcod,C,16,28,44,0,0,,Cowcod 
-Curlfin sole,C,44,37,68,0,0,,Curlfin sole
-Darkblotched rockfish,C,943,338,1202,354,316,,Darkblotched rockfish
-Dover sole,C,2051,127,2177,457,423,,Dover sole
-English sole,C,995,155,1142,0,82,,English sole
-Flag rockfish,C,1,13,14,0,1,,Flag rockfish
-Flathead sole,C,0,0,0,0,0,,Flathead Sole
-Gopher/Black and yellow rockfish,C,17,1090,946,2,3,,Gopher/B&Y rockfish
-Grass rockfish,C,0,221,187,0,0,,Grass rockfish
-Greenspotted rockfish,C,30,137,164,0,16,,Greenspotted rockfish
-Greenstriped rockfish,C,69,114,120,0,17,,Greenstriped rockfish
-Honeycomb rockfish,C,0,3,3,0,0,,Honeycomb rockfish
-Kelp greenling,C,77,25,88,0,0,,Kelp greenling
-Kelp rockfish,C,0,31,31,0,0,,Kelp rockfish
-Leopard shark,C,0,0,0,0,0,,Leopard shark
-Lingcod,C,466,61,507,34,6,,Lingcod 
-Longnose skate,C,472,11,480,0,0,,Longnose skate
-Longspine thornyhead,C,1363,2385,3654,0,3,,Longspine thornyhead
-Olive rockfish,C,3,14,15,0,3,,Olive rockfish
-Pacific cod,C,1,0,1,0,0,,Pacific cod
-Pacific ocean perch,C,36,6,39,0,22,,Pacific Ocean perch
-Pacific sanddab,C,998,167,1156,0,128,,Pacific sanddab
-Pacific spiny dogfish,C,15,2,16,0,0,,Pacific spiny dogfish
-Petrale sole,C,2328,406,2724,108,130,,Petrale sole
-Quillback rockfish,C,9,48,50,0,2,,Quillback rockfish
-Redbanded rockfish,C,164,85,238,0,78,,Redbanded rockfish
-Redstripe rockfish,C,0,0,0,0,0,,Redstripe rockfish
-Rex sole,C,1291,43,1334,0,58,,Rex Sole
-Rock sole,C,26,27,53,0,5,,Rock Sole
-Rosethorn rockfish,C,4,9,10,0,3,,Rosethorn rockfish
-Rosy rockfish,C,0,14,14,0,0,,Rosy rockfish
-Rougheye/Blackspotted rockfish,C,41,10,50,0,19,,Rougheye/Blksptd rockfish
-Sablefish,C,1202,3197,4393,355,0,,Sablefish 
-Sand sole,C,118,109,220,0,2,,Sand Sole
-Sharpchin rockfish,C,7,2,7,0,2,,Sharpchin rockfish
-Shortraker rockfish,C,2,1,3,0,1,,Shortraker rockfish
-Shortspine thornyhead,C,800,2329,3009,0,0,,Shortspine thornyhead 
-Silvergray rockfish,C,0,0,1,0,0,,Silvergray rockfish
-Speckled rockfish,C,0,17,18,0,0,,Speckled rockfish
-Splitnose rockfish,C,449,493,809,0,155,,Splitnose rockfish
-Squarespot rockfish,C,0,6,6,0,0,,Squarespot rockfish
-Starry flounder,C,61,139,196,0,4,,Starry flounder
-Starry rockfish,C,0,30,30,0,0,,Starry rockfish
-Stripetail rockfish,C,0,0,0,0,0,,Stripetail rockfish
-Treefish,C,0,46,37,0,0,,Treefish rockfish
-Vermilion/Sunset rockfish,C,21,329,330,0,25,,Vermilion/Sunset rockfish
-Widow rockfish,C,257,97,351,66,135,,Widow rockfish
-Yelloweye rockfish,C,3,7,10,0,1,,Yelloweye rockfish
-Yellowmouth rockfish,C,1,1,1,0,0,,Yellowmouth rockfish
-Yellowtail rockfish,C,115,85,197,38,69,,Yellowtail rockfish
-Arrowtooth flounder,O,965,1,966,0,828,,Arrowtooth flounder
-Aurora rockfish,O,620,0,620,24,582,,Aurora rockfish
-Bank rockfish,O,66,0,66,0,64,,Bank rockfish
-Big skate,O,283,0,283,33,48,,Big skate
-Black rockfish,O,3810,39,3848,522,935,,Black rockfish
-Blackgill rockfish,O,331,0,331,0,325,,Blackgill rockfish
-Blue/Deacon rockfish,O,247,4,251,107,80,,Blue/Deacon rockfish
-Bocaccio,O,167,0,167,0,162,,Bocaccio
-Brown rockfish,O,0,0,0,0,0,,Brown rockfish
-Cabezon,O,357,380,736,18,9,,Cabezon
-California scorpionfish,O,0,0,0,0,0,,California scorpionfish
-Canary rockfish,O,1011,1,1012,449,485,,Canary rockfish
-Chilipepper rockfish,O,139,0,139,0,134,,Chilipepper rockfish 
-China rockfish,O,697,2,698,70,50,,China rockfish
-Copper rockfish,O,65,0,65,18,3,,Copper rockfish
-Cowcod,O,2,0,2,0,2,,Cowcod 
-Curlfin sole,O,19,0,19,0,14,,Curlfin sole
-Darkblotched rockfish,O,2081,3,2084,1205,697,,Darkblotched rockfish
-Dover sole,O,2818,3,2822,424,1569,,Dover sole
-English sole,O,1401,0,1401,0,687,,English sole
-Flag rockfish,O,0,0,0,0,0,,Flag rockfish
-Flathead sole,O,49,0,49,0,43,,Flathead Sole
-Gopher/Black and yellow rockfish,O,7,0,7,0,1,,Gopher/B&Y rockfish
-Grass rockfish,O,32,0,33,0,0,,Grass rockfish
-Greenspotted rockfish,O,24,0,24,0,24,,Greenspotted rockfish
-Greenstriped rockfish,O,311,1,312,0,282,,Greenstriped rockfish
-Honeycomb rockfish,O,0,0,0,0,0,,Honeycomb rockfish
-Kelp greenling,O,1803,1,1804,14,28,,Kelp greenling
-Kelp rockfish,O,0,0,0,0,0,,Kelp rockfish
-Leopard shark,O,0,0,0,0,0,,Leopard shark
-Lingcod,O,1489,11,1500,259,75,,Lingcod 
-Longnose skate,O,774,0,774,0,257,,Longnose skate
-Longspine thornyhead,O,1277,74,1351,0,1045,,Longspine thornyhead
-Olive rockfish,O,0,0,0,0,0,,Olive rockfish
-Pacific cod,O,192,0,192,0,182,,Pacific cod
-Pacific ocean perch,O,1556,1,1556,577,832,,Pacific Ocean perch
-Pacific sanddab,O,635,6,640,0,590,,Pacific sanddab
-Pacific spiny dogfish,O,142,0,142,0,23,,Pacific spiny dogfish
-Petrale sole,O,1994,5,1999,367,1326,,Petrale sole
-Quillback rockfish,O,140,2,142,7,54,,Quillback rockfish
-Redbanded rockfish,O,566,1,568,14,535,,Redbanded rockfish
-Redstripe rockfish,O,0,0,0,0,0,,Redstripe rockfish
-Rex sole,O,1093,1,1094,0,898,,Rex Sole
-Rock sole,O,36,0,36,0,35,,Rock Sole
-Rosethorn rockfish,O,95,0,96,0,94,,Rosethorn rockfish
-Rosy rockfish,O,2,0,2,0,0,,Rosy rockfish
-Rougheye/Blackspotted rockfish,O,808,0,808,36,730,,Rougheye/Blksptd rockfish
-Sablefish,O,3526,20,3546,630,2780,,Sablefish 
-Sand sole,O,174,2,176,0,164,,Sand Sole
-Sharpchin rockfish,O,90,0,90,0,87,,Sharpchin rockfish
-Shortraker rockfish,O,142,0,142,1,140,,Shortraker rockfish
-Shortspine thornyhead,O,1585,24,1609,0,1240,,Shortspine thornyhead 
-Silvergray rockfish,O,106,0,106,0,103,,Silvergray rockfish
-Speckled rockfish,O,0,0,0,0,0,,Speckled rockfish
-Splitnose rockfish,O,550,0,550,0,538,,Splitnose rockfish
-Squarespot rockfish,O,0,0,0,0,0,,Squarespot rockfish
-Starry flounder,O,145,1,146,0,138,,Starry flounder
-Starry rockfish,O,0,0,0,0,0,,Starry rockfish
-Stripetail rockfish,O,0,0,0,0,0,,Stripetail rockfish
-Treefish,O,0,0,0,0,0,,Treefish rockfish
-Vermilion/Sunset rockfish,O,113,0,113,56,44,,Vermilion/Sunset rockfish
-Widow rockfish,O,1281,2,1283,460,700,,Widow rockfish
-Yelloweye rockfish,O,43,0,43,22,10,,Yelloweye rockfish
-Yellowmouth rockfish,O,109,0,109,0,108,,Yellowmouth rockfish
-Yellowtail rockfish,O,1796,6,1802,1159,302,,Yellowtail rockfish
-Arrowtooth flounder,W,601,2,602,38,0,,Arrowtooth flounder
-Aurora rockfish,W,57,2,58,0,0,,Aurora rockfish
-Bank rockfish,W,11,0,11,0,0,,Bank rockfish
-Big skate,W,69,0,69,0,6,,Big skate
-Black rockfish,W,4,0,4,1,0,,Black rockfish
-Blackgill rockfish,W,25,2,27,0,0,,Blackgill rockfish
-Blue/Deacon rockfish,W,0,0,0,0,0,,Blue/Deacon rockfish
-Bocaccio,W,82,0,83,0,0,,Bocaccio
-Brown rockfish,W,0,0,0,0,0,,Brown rockfish
-Cabezon,W,0,0,0,0,0,,Cabezon
-California scorpionfish,W,0,0,0,0,0,,California scorpionfish
-Canary rockfish,W,518,10,528,451,0,,Canary rockfish
-Chilipepper rockfish,W,2,0,2,0,0,,Chilipepper rockfish 
-China rockfish,W,0,0,0,0,0,,China rockfish
-Copper rockfish,W,0,0,0,0,0,,Copper rockfish
-Cowcod,W,0,0,0,0,0,,Cowcod 
-Curlfin sole,W,0,0,0,0,0,,Curlfin sole
-Darkblotched rockfish,W,542,23,565,226,8,,Darkblotched rockfish
-Dover sole,W,1177,23,1200,413,0,,Dover sole
-English sole,W,1182,15,1198,270,276,,English sole
-Flag rockfish,W,0,0,0,0,0,,Flag rockfish
-Flathead sole,W,0,0,0,0,0,,Flathead Sole
-Gopher/Black and yellow rockfish,W,0,0,0,0,0,,Gopher/B&Y rockfish
-Grass rockfish,W,0,0,0,0,0,,Grass rockfish
-Greenspotted rockfish,W,0,0,0,0,0,,Greenspotted rockfish
-Greenstriped rockfish,W,232,14,246,0,0,,Greenstriped rockfish
-Honeycomb rockfish,W,0,0,0,0,0,,Honeycomb rockfish
-Kelp greenling,W,0,0,0,0,0,,Kelp greenling
-Kelp rockfish,W,0,0,0,0,0,,Kelp rockfish
-Leopard shark,W,0,0,0,0,0,,Leopard shark
-Lingcod,W,468,12,480,19,0,,Lingcod 
-Longnose skate,W,356,4,360,0,0,,Longnose skate
-Longspine thornyhead,W,208,82,291,0,0,,Longspine thornyhead
-Olive rockfish,W,0,0,0,0,0,,Olive rockfish
-Pacific cod,W,754,19,772,47,0,,Pacific cod
-Pacific ocean perch,W,576,15,591,337,10,,Pacific Ocean perch
-Pacific sanddab,W,0,0,0,0,0,,Pacific sanddab
-Pacific spiny dogfish,W,602,8,610,148,0,,Pacific spiny dogfish
-Petrale sole,W,1296,5,1301,312,456,,Petrale sole
-Quillback rockfish,W,9,0,9,2,0,,Quillback rockfish
-Redbanded rockfish,W,602,23,625,0,0,,Redbanded rockfish
-Redstripe rockfish,W,0,0,0,0,0,,Redstripe rockfish
-Rex sole,W,62,5,66,0,0,,Rex Sole
-Rock sole,W,0,0,0,0,0,,Rock Sole
-Rosethorn rockfish,W,62,1,63,0,0,,Rosethorn rockfish
-Rosy rockfish,W,0,0,0,0,0,,Rosy rockfish
-Rougheye/Blackspotted rockfish,W,1266,72,1338,88,0,,Rougheye/Blksptd rockfish
-Sablefish,W,515,2309,2823,168,47,,Sablefish 
-Sand sole,W,0,0,0,0,0,,Sand Sole
-Sharpchin rockfish,W,92,4,96,0,0,,Sharpchin rockfish
-Shortraker rockfish,W,120,6,126,0,0,,Shortraker rockfish
-Shortspine thornyhead,W,560,321,881,0,0,,Shortspine thornyhead 
-Silvergray rockfish,W,54,1,55,0,0,,Silvergray rockfish
-Speckled rockfish,W,0,0,0,0,0,,Speckled rockfish
-Splitnose rockfish,W,131,6,137,0,0,,Splitnose rockfish
-Squarespot rockfish,W,0,0,0,0,0,,Squarespot rockfish
-Starry flounder,W,0,0,0,0,0,,Starry flounder
-Starry rockfish,W,0,0,0,0,0,,Starry rockfish
-Stripetail rockfish,W,0,0,0,0,0,,Stripetail rockfish
-Treefish,W,0,0,0,0,0,,Treefish rockfish
-Vermilion/Sunset rockfish,W,0,0,0,0,0,,Vermilion/Sunset rockfish
-Widow rockfish,W,684,123,806,414,79,,Widow rockfish
-Yelloweye rockfish,W,73,27,100,82,0,,Yelloweye rockfish
-Yellowmouth rockfish,W,21,0,21,0,0,,Yellowmouth rockfish
-Yellowtail rockfish,W,1460,255,1714,1268,0,,Yellowtail rockfish
+"name","state","sexed_fish","unsexed_fish","lengthed","aged","otoliths"
+"Arrowtooth flounder","C",344,32,375,0,34
+"Arrowtooth flounder","O",965,1,966,0,828
+"Arrowtooth flounder","W",601,2,602,38,0
+"Aurora rockfish","C",748,536,1066,44,263
+"Aurora rockfish","O",620,0,620,24,582
+"Aurora rockfish","W",57,2,58,0,0
+"Bank rockfish","C",216,262,471,0,163
+"Bank rockfish","O",66,0,66,0,64
+"Bank rockfish","W",11,0,11,0,0
+"Big skate","C",72,1,73,0,0
+"Big skate","O",283,0,283,33,48
+"Big skate","W",69,0,69,0,6
+"Black rockfish","C",49,545,582,14,33
+"Black rockfish","O",3810,39,3848,522,935
+"Black rockfish","W",4,0,4,1,0
+"Blackgill rockfish","C",277,711,968,65,188
+"Blackgill rockfish","O",331,0,331,0,325
+"Blackgill rockfish","W",25,2,27,0,0
+"Blue/Deacon rockfish","C",24,263,273,6,34
+"Blue/Deacon rockfish","O",247,4,251,107,80
+"Blue/Deacon rockfish","W",0,0,0,0,0
+"Bocaccio","C",206,333,535,9,71
+"Bocaccio","O",167,0,167,0,162
+"Bocaccio","W",82,0,83,0,0
+"Brown rockfish","C",7,305,205,0,24
+"Brown rockfish","O",0,0,0,0,0
+"Brown rockfish","W",0,0,0,0,0
+"Cabezon","C",29,273,252,0,1
+"Cabezon","O",357,380,736,18,9
+"Cabezon","W",0,0,0,0,0
+"California scorpionfish","C",0,38,38,0,0
+"California scorpionfish","O",0,0,0,0,0
+"California scorpionfish","W",0,0,0,0,0
+"Canary rockfish","C",142,180,316,17,59
+"Canary rockfish","O",1011,1,1012,449,485
+"Canary rockfish","W",518,10,528,451,0
+"Chilipepper rockfish","C",1192,692,1852,381,0
+"Chilipepper rockfish","O",139,0,139,0,134
+"Chilipepper rockfish","W",2,0,2,0,0
+"China rockfish","C",0,88,75,0,0
+"China rockfish","O",697,2,698,70,50
+"China rockfish","W",0,0,0,0,0
+"Copper rockfish","C",6,120,112,0,1
+"Copper rockfish","O",65,0,65,18,3
+"Copper rockfish","W",0,0,0,0,0
+"Cowcod","C",16,28,44,0,0
+"Cowcod","O",2,0,2,0,2
+"Cowcod","W",0,0,0,0,0
+"Curlfin sole","C",44,37,68,0,0
+"Curlfin sole","O",19,0,19,0,14
+"Curlfin sole","W",0,0,0,0,0
+"Darkblotched rockfish","C",943,338,1202,354,316
+"Darkblotched rockfish","O",2081,3,2084,1205,697
+"Darkblotched rockfish","W",542,23,565,226,8
+"Dover sole","C",2051,127,2177,457,423
+"Dover sole","O",2818,3,2822,424,1569
+"Dover sole","W",1177,23,1200,413,0
+"English sole","C",995,155,1142,0,82
+"English sole","O",1401,0,1401,0,687
+"English sole","W",1182,15,1198,270,276
+"Flag rockfish","C",1,13,14,0,1
+"Flag rockfish","O",0,0,0,0,0
+"Flag rockfish","W",0,0,0,0,0
+"Flathead sole","C",0,0,0,0,0
+"Flathead sole","O",49,0,49,0,43
+"Flathead sole","W",0,0,0,0,0
+"Gopher/Black and yellow rockfish","C",17,1090,946,2,3
+"Gopher/Black and yellow rockfish","O",7,0,7,0,1
+"Gopher/Black and yellow rockfish","W",0,0,0,0,0
+"Grass rockfish","C",0,221,187,0,0
+"Grass rockfish","O",32,0,33,0,0
+"Grass rockfish","W",0,0,0,0,0
+"Greenspotted rockfish","C",30,137,164,0,16
+"Greenspotted rockfish","O",24,0,24,0,24
+"Greenspotted rockfish","W",0,0,0,0,0
+"Greenstriped rockfish","C",69,114,120,0,17
+"Greenstriped rockfish","O",311,1,312,0,282
+"Greenstriped rockfish","W",232,14,246,0,0
+"Honeycomb rockfish","C",0,3,3,0,0
+"Honeycomb rockfish","O",0,0,0,0,0
+"Honeycomb rockfish","W",0,0,0,0,0
+"Kelp greenling","C",77,25,88,0,0
+"Kelp greenling","O",1803,1,1804,14,28
+"Kelp greenling","W",0,0,0,0,0
+"Kelp rockfish","C",0,31,31,0,0
+"Kelp rockfish","O",0,0,0,0,0
+"Kelp rockfish","W",0,0,0,0,0
+"Lingcod","C",466,61,507,34,6
+"Lingcod","O",1489,11,1500,259,75
+"Lingcod","W",468,12,480,19,0
+"Longnose skate","C",472,11,480,0,0
+"Longnose skate","O",774,0,774,0,257
+"Longnose skate","W",356,4,360,0,0
+"Longspine thornyhead","C",1363,2385,3654,0,3
+"Longspine thornyhead","O",1277,74,1351,0,1045
+"Longspine thornyhead","W",208,82,291,0,0
+"Olive rockfish","C",3,14,15,0,3
+"Olive rockfish","O",0,0,0,0,0
+"Olive rockfish","W",0,0,0,0,0
+"Pacific cod","C",1,0,1,0,0
+"Pacific cod","O",192,0,192,0,182
+"Pacific cod","W",754,19,772,47,0
+"Pacific ocean perch","C",36,6,39,0,22
+"Pacific ocean perch","O",1556,1,1556,577,832
+"Pacific ocean perch","W",576,15,591,337,10
+"Pacific sanddab","C",998,167,1156,0,128
+"Pacific sanddab","O",635,6,640,0,590
+"Pacific sanddab","W",0,0,0,0,0
+"Pacific spiny dogfish","C",15,2,16,0,0
+"Pacific spiny dogfish","O",142,0,142,0,23
+"Pacific spiny dogfish","W",602,8,610,148,0
+"Petrale sole","C",2328,406,2724,108,130
+"Petrale sole","O",1994,5,1999,367,1326
+"Petrale sole","W",1296,5,1301,312,456
+"Quillback rockfish","C",9,48,50,0,2
+"Quillback rockfish","O",140,2,142,7,54
+"Quillback rockfish","W",9,0,9,2,0
+"Redbanded rockfish","C",164,85,238,0,78
+"Redbanded rockfish","O",566,1,568,14,535
+"Redbanded rockfish","W",602,23,625,0,0
+"Rex sole","C",1291,43,1334,0,58
+"Rex sole","O",1093,1,1094,0,898
+"Rex sole","W",62,5,66,0,0
+"Rock sole","C",26,27,53,0,5
+"Rock sole","O",36,0,36,0,35
+"Rock sole","W",0,0,0,0,0
+"Rosethorn rockfish","C",4,9,10,0,3
+"Rosethorn rockfish","O",95,0,96,0,94
+"Rosethorn rockfish","W",62,1,63,0,0
+"Rosy rockfish","C",0,14,14,0,0
+"Rosy rockfish","O",2,0,2,0,0
+"Rosy rockfish","W",0,0,0,0,0
+"Rougheye/Blackspotted rockfish","C",41,10,50,0,19
+"Rougheye/Blackspotted rockfish","O",808,0,808,36,730
+"Rougheye/Blackspotted rockfish","W",1266,72,1338,88,0
+"Sablefish","C",1202,3197,4393,355,0
+"Sablefish","O",3526,20,3546,630,2780
+"Sablefish","W",515,2309,2823,168,47
+"Sand sole","C",118,109,220,0,2
+"Sand sole","O",174,2,176,0,164
+"Sand sole","W",0,0,0,0,0
+"Sharpchin rockfish","C",7,2,7,0,2
+"Sharpchin rockfish","O",90,0,90,0,87
+"Sharpchin rockfish","W",92,4,96,0,0
+"Shortraker rockfish","C",2,1,3,0,1
+"Shortraker rockfish","O",142,0,142,1,140
+"Shortraker rockfish","W",120,6,126,0,0
+"Shortspine thornyhead","C",800,2329,3009,0,0
+"Shortspine thornyhead","O",1585,24,1609,0,1240
+"Shortspine thornyhead","W",560,321,881,0,0
+"Silvergray rockfish","C",0,0,1,0,0
+"Silvergray rockfish","O",106,0,106,0,103
+"Silvergray rockfish","W",54,1,55,0,0
+"Speckled rockfish","C",0,17,18,0,0
+"Speckled rockfish","O",0,0,0,0,0
+"Speckled rockfish","W",0,0,0,0,0
+"Splitnose rockfish","C",449,493,809,0,155
+"Splitnose rockfish","O",550,0,550,0,538
+"Splitnose rockfish","W",131,6,137,0,0
+"Squarespot rockfish","C",0,6,6,0,0
+"Squarespot rockfish","O",0,0,0,0,0
+"Squarespot rockfish","W",0,0,0,0,0
+"Starry flounder","C",61,139,196,0,4
+"Starry flounder","O",145,1,146,0,138
+"Starry flounder","W",0,0,0,0,0
+"Starry rockfish","C",0,30,30,0,0
+"Starry rockfish","O",0,0,0,0,0
+"Starry rockfish","W",0,0,0,0,0
+"Treefish","C",0,46,37,0,0
+"Treefish","O",0,0,0,0,0
+"Treefish","W",0,0,0,0,0
+"Vermilion/Sunset rockfish","C",21,329,330,0,25
+"Vermilion/Sunset rockfish","O",113,0,113,56,44
+"Vermilion/Sunset rockfish","W",0,0,0,0,0
+"Widow rockfish","C",257,97,351,66,135
+"Widow rockfish","O",1281,2,1283,460,700
+"Widow rockfish","W",684,123,806,414,79
+"Yelloweye rockfish","C",3,7,10,0,1
+"Yelloweye rockfish","O",43,0,43,22,10
+"Yelloweye rockfish","W",73,27,100,82,0
+"Yellowmouth rockfish","C",1,1,1,0,0
+"Yellowmouth rockfish","O",109,0,109,0,108
+"Yellowmouth rockfish","W",21,0,21,0,0
+"Yellowtail rockfish","C",115,85,197,38,69
+"Yellowtail rockfish","O",1796,6,1802,1159,302
+"Yellowtail rockfish","W",1460,255,1714,1268,0

@@ -1,66 +1,33 @@
-name,positive_sites,sexed_fish,unsexed_fish,lengthed,aged,otoliths,,
-Arrowtooth flounder,0,0,0,0,0,0,,Arrowtooth flounder
-Aurora rockfish,0,0,0,0,0,0,,Aurora rockfish
-Bank rockfish,23,158,1,158,0,158,,Bank rockfish
-Big skate,0,0,0,0,0,0,,Big skate
-Black rockfish,0,0,0,0,0,0,,Black rockfish
-Blackgill rockfish,0,0,0,0,0,0,,Blackgill rockfish
-Blue/Deacon rockfish,10,42,1,42,0,41,,Blue/Deacon rockfish
-Bocaccio,108,1026,6,1027,0,749,,Bocaccio
-Brown rockfish,1,1,0,1,0,1,,Brown rockfish
-Cabezon,0,0,0,0,0,0,,Cabezon
-California scorpionfish,1,0,1,1,0,0,,California scorpionfish
-Canary rockfish,7,19,0,19,12,7,,Canary rockfish
-Chilipepper rockfish,23,130,3,132,0,119,,Chilipepper rockfish 
-China rockfish,0,0,0,0,0,0,,China rockfish
-Copper rockfish,24,69,1,69,0,67,,Copper rockfish
-Cowcod,19,41,0,41,28,12,,Cowcod 
-Curlfin sole,0,0,0,0,0,0,,Curlfin sole
-Darkblotched rockfish,0,0,0,0,0,0,,Darkblotched rockfish
-Dover sole,0,0,0,0,0,0,,Dover sole
-English sole,0,0,0,0,0,0,,English sole
-Flag rockfish,9,11,0,11,0,10,,Flag rockfish
-Flathead sole,0,0,0,0,0,0,,Flathead Sole
-Gopher/Black and yellow rockfish,0,0,0,0,0,0,,Gopher/B&Y rockfish
-Grass rockfish,0,0,0,0,0,0,,Grass rockfish
-Greenspotted rockfish,59,275,2,276,53,218,,Greenspotted rockfish
-Greenstriped rockfish,21,43,0,43,0,42,,Greenstriped rockfish
-Honeycomb rockfish,6,12,0,13,0,11,,Honeycomb rockfish
-Kelp greenline,0,0,0,0,0,0,,Kelp greenling
-Kelp rockfish,0,0,0,0,0,0,,Kelp rockfish
-Leopard shark,0,0,0,0,0,0,,Leopard shark
-Lingcod,28,42,13,52,0,3,,Lingcod 
-Longnose skate,0,0,0,0,0,0,,Longnose skate
-Longspine thornyhead,0,0,0,0,0,0,,Longspine thornyhead
-Olive rockfish,12,34,0,34,0,32,,Olive rockfish
-Pacific cod,0,0,0,0,0,0,,Pacific cod
-Pacific ocean perch,0,0,0,0,0,0,,Pacific Ocean perch
-Pacific sanddab,0,0,0,0,0,0,,Pacific sanddab
-Pacific spiny dogfish,0,0,0,0,0,0,,Pacific spiny dogfish
-Petrale sole,0,0,0,0,0,0,,Petrale sole
-Quillback rockfish,0,0,0,0,0,0,,Quillback rockfish
-Redbanded rockfish,0,0,0,0,0,0,,Redbanded rockfish
-Redstriped rockfish,0,0,0,0,0,0,,Redstripe rockfish
-Rex sole,0,0,0,0,0,0,,Rex Sole
-Rock sole,0,0,0,0,0,0,,Rock Sole
-Rosethorn rockfish,0,2,0,2,0,2,,Rosethorn rockfish
-Rosy rockfish,19,47,1,48,0,44,,Rosy rockfish
-Rougheye/Blackspotted rockfish,0,0,0,0,0,0,,Rougheye/Blksptd rockfish
-Sablefish,0,0,0,0,0,0,,Sablefish 
-Sand sole,0,0,0,0,0,0,,Sand Sole
-Sharpchin rockfish,0,1,0,1,0,1,,Sharpchin rockfish
-Shortraker rockfish,0,0,0,0,0,0,,Shortraker rockfish
-Shortspine thornyhead,0,0,0,0,0,0,,Shortspine thornyhead 
-Silvergray rockfish,0,0,0,0,0,0,,Silvergray rockfish
-Speckled rockfish,44,216,1,216,0,209,,Speckled rockfish
-Splitnose rockfish,0,0,0,0,0,0,,Splitnose rockfish
-Squarespot rockfish,25,92,1,92,22,67,,Squarespot rockfish
-Starry flounder,0,0,0,0,0,0,,Starry flounder
-Starry rockfish,42,112,1,113,0,108,,Starry rockfish
-Stripetail rockfish,0,0,0,0,0,0,,Stripetail rockfish
-Treefish,0,0,0,0,0,0,,Treefish rockfish
-Vermilion/Sunset rockfish,101,1431,13,1437,160,979,,Vermilion/Sunset rockfish
-Widow rockfish,16,48,1,49,0,48,,Widow rockfish
-Yelloweye rockfish,3,5,0,5,0,5,,Yelloweye rockfish
-Yellowmouth rockfish,0,0,0,0,0,0,,Yellowmouth rockfish
-Yellowtail rockfish,13,91,9,96,8,74,,Yellowtail rockfish
+"name","positive_sites","sexed_fish","unsexed_fish","lengthed","aged","otoliths"
+"Bank rockfish",23,158,1,158,0,158
+"Blackgill rockfish",0,0,0,0,0,0
+"Blue/Deacon rockfish",10,42,1,42,0,41
+"Bocaccio",108,1026,6,1027,0,749
+"Brown rockfish",1,1,0,1,0,1
+"California scorpionfish",1,0,1,1,0,0
+"Canary rockfish",7,19,0,19,12,7
+"Chilipepper rockfish",23,130,3,132,0,119
+"Copper rockfish",24,69,1,69,0,67
+"Cowcod",19,41,0,41,28,12
+"Flag rockfish",9,11,0,11,0,10
+"Gopher/Black and yellow rockfish",0,0,0,0,0,0
+"Greenspotted rockfish",59,275,2,276,53,218
+"Greenstriped rockfish",21,43,0,43,0,42
+"Honeycomb rockfish",6,12,0,13,0,11
+"Lingcod",28,42,13,52,0,3
+"Olive rockfish",12,34,0,34,0,32
+"Pacific spiny dogfish",0,0,0,0,0,0
+"Petrale sole",0,0,0,0,0,0
+"Rock sole",0,0,0,0,0,0
+"Rosethorn rockfish",0,2,0,2,0,2
+"Rosy rockfish",19,47,1,48,0,44
+"Sharpchin rockfish",0,1,0,1,0,1
+"Silvergray rockfish",0,0,0,0,0,0
+"Speckled rockfish",44,216,1,216,0,209
+"Squarespot rockfish",25,92,1,92,22,67
+"Starry rockfish",42,112,1,113,0,108
+"Treefish",0,0,0,0,0,0
+"Vermilion/Sunset rockfish",101,1431,13,1437,160,979
+"Widow rockfish",16,48,1,49,0,48
+"Yelloweye rockfish",3,5,0,5,0,5
+"Yellowtail rockfish",13,91,9,96,8,74
