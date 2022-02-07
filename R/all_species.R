@@ -63,10 +63,12 @@ species = list(
       "honeycomb rockfish",
       "curlfin sole",
       "leopard shark",
+      "redstripe rockfish",
       "rosethorn rockfish",
       "rosy rockfish",
       "silvergray rockfish",
-      "yellowmouth rockfish") 
+      "yellowmouth rockfish",
+      "stripetail rockfish") 
 
 #options(warn = default)
 

@@ -42,10 +42,10 @@ pull_wcgbts <- function(survey = 'NWFSC.Combo', save = FALSE, return = TRUE, ver
 				SaveFile = save, Dir = dir, verbose = verbose) 
 	
 	# deal with the naming of vermilion in select years
-	bio[bio$Common_name == "vermilion rockfish"] = 'vermilion and sunset rockfish'
+	bio[which(bio$Common_name == "vermilion rockfish"), "Common_name"] = 'vermilion and sunset rockfish'
 
 	# filter down to only the species considered in the prioritization process
-	keep <- which(bio$Common_name %in% unique(species_names))
+	keep <- which(bio$Common_name %in% unique(unlist(species_names)))
 	sub_bio <- bio[keep, ]
 
 	save(sub_catch, file = file.path(dir, "catch_wcgbt_filtered.Rda"))

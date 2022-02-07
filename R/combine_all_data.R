@@ -111,7 +111,7 @@ find = which(all_data$data_type	 == "recreational")
 all_data$data_type[find] = "recreational fisheries"
 find = which(all_data$data_type	== "nwfsc_hkl")
 all_data$data_type[find] = "NWFSC HKL"
-find = which(all_data$data_type	== "NWFSC WCGBT")
+find = which(all_data$data_type	== "nwfsc_wcgbt")
 all_data$data_type[find] = "NWFSC WCGBT"
 
 save(all_data, file = file.path(data_dir, "summarized_all_data.rdat"))

@@ -1,4 +1,5 @@
 
+setwd("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary")
 library(dplyr)
 library(tidyr)
 load(file.path('data', 'bio_wcgbt_filtered.Rda'))
@@ -55,9 +56,6 @@ get_wcgbt_samples <- function(data, species){
 	save(out,  file = paste0("data/summarized_wcgbt_data.rdat"))
 	#write.csv(wcgbts_positive_tows, file.path(dir, "wcgbts_positive_tows.csv"), row.names = FALSE)
 
-	wcgbts_processed <- list
-	wcgbts_processed$summary <- wcgbts_summary
-	#wcgbts_processed$positive_tows <- wcgbts_positive_tows 
-	return()
+	return(out)
 
 }

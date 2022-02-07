@@ -27,6 +27,10 @@ get_source <- function(data){
 		sources <- c("recreational fisheries", 
 					 "NWFSC HKL")		
 	}
+	if("rec_wcgbt" %in% use){
+		sources <- c("recreational fisheries", 
+					 "NWFSC WCGBT")		
+	}
 	if("com_rec_wcgbt" %in% use){
 		sources <- c("commercial fisheries", "recreational fisheries", 
 					 "NWFSC WCGBT")		
