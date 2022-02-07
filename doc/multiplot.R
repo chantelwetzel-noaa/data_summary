@@ -84,15 +84,15 @@ multiplot <- function(species_name){
  			yr <- ifelse(ss == "commercial fisheries", 2000, 2003)
  			tmp <- sub_data[find, ]
  			find <- which(tmp$sample_year >= yr)
-			glue::glue('Since {yr}, {ss} have collected ',
- 				 'a {length} length observations, ',
- 				 '{age} age readings, ',
- 				 'and {otolith} otoliths that are available to be aged. ',
- 				 name = ss,
- 				 length = prettyNum(sum(tmp$lengthed[find]), big.mark = ",", scientific = FALSE),
- 				 age = prettyNum(sum(tmp$aged[find]), big.mark = ",", scientific = FALSE),
- 				 otolith = prettyNum(sum(tmp$otoliths[find]), big.mark = ",", scientific = FALSE)
- 				) %>% cat() 
+			#glue::glue('Since {yr}, {ss} have collected ',
+ 			#	 'a {length} length observations, ',
+ 			#	 '{age} age readings, ',
+ 			#	 'and {otolith} otoliths. ',
+ 			#	 name = ss,
+ 			#	 length = prettyNum(sum(tmp$lengthed[find]), big.mark = ",", scientific = FALSE),
+ 			#	 age = prettyNum(sum(tmp$aged[find]), big.mark = ",", scientific = FALSE),
+ 			#	 otolith = prettyNum(sum(tmp$otoliths[find]), big.mark = ",", scientific = FALSE)
+ 			#	) %>% cat() 
 
 			tmp2 <- tmp[find,]
 			use_state <- as.matrix(unique(tmp2[tmp2$data_type == ss, "state"]))
@@ -106,7 +106,7 @@ multiplot <- function(species_name){
  				glue::glue('In {state}, since {yr}, ',
  				 'a total of {length} length observations, ',
  				 '{age} age readings, ',
- 				 'and {otolith} otoliths have been collected ',
+ 				 'and {otolith} otoliths have been collected. ',
  				 state = state,
  				 length = prettyNum(sum(tmp2[find, "lengthed"]), big.mark = ",", scientific = FALSE),
  				 age = prettyNum(sum(tmp2[find, "aged"]), big.mark = ",", scientific = FALSE),

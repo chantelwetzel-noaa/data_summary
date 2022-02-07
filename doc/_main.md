@@ -1,6 +1,6 @@
 ---
 geometry: margin=1in
-month: "January"
+month: "February"
 year: "2022"
 preamble: |
 output:
@@ -83,17 +83,17 @@ title: Detailed summary of avaible data to support West Coast groundfish stock a
 
 # Introduction
 
-This document provides a detailed summary of available data that may be used to support assessments in 2023. In previous assessment prioritizations, data summaries have been available in a sheet in main Excel workbook where average sample summaries available across select years and data sources were detailed by species.  This summary attempts to provide the same data but in more detail.  
+This document provides a detailed summary of available data that may be used to support assessments in 2023. In previous assessment prioritizations, data summaries have only been available in a tab (called "Data Availability" in the Assessment Prioritization Workbook in excel where summaries of average sample available across select years and data sources were detailed by species.  This summary attempts to provide the same data but in more detail. A detailed summary of data available by year and across sources call allow the Pacific Fishery Management Council (the Council) and advisory bodies to understand the coverage of data across time (e.g., are data available across many years or only recent years?) in a more comprehensive fashion than can be gleamed from summaries of average samples per year.  
 
-Data from Pacific Fisheries Information Network (PacFIN), Recreational Fisheries Information Network (RecFIN), and the Northwest Fisheries Science Center (NWFSC) West Coast Groundfish Bottom Trawl Survey (WCGBT) and Hook-and-Line (HKL) surveys are summarized.  Additional data, not summarized here, may be available to support stock assessments of specific species (e.g., California Collaborative Fisheries Research Program). 
+Data from Pacific Fisheries Information Network (PacFIN), Recreational Fisheries Information Network (RecFIN), and the Northwest Fisheries Science Center (NWFSC) West Coast Groundfish Bottom Trawl Survey (WCGBT) and Hook-and-Line (HKL) surveys are summarized.  There may be additional data, not summarized here, from additional data collection programs that could be used to support stock assessments of specific species (e.g., California Collaborative Fisheries Research Program). 
 
-Commercial data summaries were obtained and downloaded from PacFIN on November 22nd, 2021 via the BDS501 report. The number of sexed and unsexed fish, length samples, read ages, and otoliths samples by species, state, and year were summarized.  Otolith collection data was summarized using separately provided state sample summaries generally for more recent years and then combined with otolith sample records available in PacFIN (e.g, AGE_STRUCTURE_CODE) for earlier years. Otolith records were provide directly from the Washington Department of Fish and Wildlife (WDFW) for 2002-2021 and California Department of Fish and Wildlife (CDFW) for 1960 - 2021 (only samples from 1980 - 2021 are summarize). Oregon Department of Fish and Wildlife (ODFW) confirmed that otolith records in PacFIN were correct and recommended using these data directly. Summaries of otoliths from early data years (e.g., 1980 - 2001) for Oregon and Washington were based on PacFIN records. Summaries of otolith collections across all years were provided for completeness.  However, there are a number of reasons why otolith counts in early years (e.g., 1980) may not reflect actual otoliths that could be effectively aged (e.g., unable to locate, otolith degradation).
+Commercial data summaries were obtained and downloaded from PacFIN on November 22nd, 2021 via the BDS501 report. The number of sexed and unsexed fish, length samples, read ages, and otoliths samples by species, state, and year were summarized.  Otolith collection data was summarized using separately provided state sample summaries, generally for more recent years, and then combined with otolith sample records available in PacFIN (e.g., AGE_STRUCTURE_CODE) for earlier years. Otolith records were provide directly from the Washington Department of Fish and Wildlife (WDFW) for 2002-2021 and California Department of Fish and Wildlife (CDFW) for 1960 - 2021 (only samples from 1980 - 2021 are summarize). Oregon Department of Fish and Wildlife (ODFW) confirmed that otolith records in PacFIN were correct and recommended using these data directly. Summaries of otoliths from early data years (e.g., 1980 - 2001) for Oregon and Washington were based on PacFIN records. Summaries of otolith collections across all years were provided for completeness.  However, there are a number of reasons why otolith counts in early years (e.g., 1980) may not reflect actual otoliths that could be effectively aged (e.g., unable to locate, otolith degradation).
 
-Recreational data summaries were obtained and downloaded from RecFIN on December 2, 2021 via the BDS501 report which includes data for the following range or years by state: Oregon 1999-2021, and California 2003-2021. Recreational sample data for Washington was provided directly by WDFW with data ranging from 2002 - 2021. The number of sexed and unsexed fish, length samples, and read ages samples by species, state, and available years were summarized from  each data source. Otolith collection counts by species and year were provided separately by each state: WDFW 2002-2021, ODFW 2001-2021, and CDFW 2016-2021. 
+Recreational data summaries were obtained and downloaded from RecFIN on December 2, 2021 via the BDS501 report which includes data for the following range or years by state: Oregon 1999-2021, and California 2003-2021. Recreational sample data for Washington was provided directly by WDFW with data ranging from 2002 - 2021. The number of sexed and unsexed fish, length samples, and read ages samples by species, state, and available years were summarized from each data source. Otolith collection counts by species and year were provided separately by each state: WDFW 2002-2021, ODFW 2001-2021, and CDFW 2016-2021. 
 
-Finally, data collected by two surveys conducted by the NWFSC are summarized: the WCGBT and HKL survey.  Data collected during the 2021 sample season are not available yet but should be available for discussion during the next scheduled Assessment Prioritization agenda item at the June Pacific Fishery Management Council (the Council) meeting. Data collected between 2003-2019 by the NWFSC WCGBT survey and between 2004-2019 by the NWFSC HKL survey by species are summarized. Similar to the summaries provided for the commercial and recreational fisheries; sexed and unsexed fish, lengths, read ages, and otoliths collected are available by year.  Additionally, the number of tows (WCGBT survey) or the sites that observed each species by year are provided. 
+Finally, data collected by two surveys conducted by the NWFSC are summarized: the WCGBT and HKL survey.  Data collected during the 2021 sample season are not yet available but should be available for discussion during the next scheduled Assessment Prioritization agenda item at the June Council meeting. Data collected by the NWFSC WCGBT survey between 2003-2019 and between 2004-2019 by the NWFSC HKL survey by species are summarized. Similar to the summaries provided for the commercial and recreational fisheries; sexed and unsexed fish, lengths, read ages, and otoliths collected are available by year.  Additionally, the number of tows (NWFSC WCGBT survey) or the sites (NWFSC HKL survey) that observed each species by year are provided. 
 
-In the 2020 Assessment Prioritization a summary of length compositions and indices from the [NWFSC WCGBT data](https://www.pcouncil.org/documents/2020/05/f-2-attachment-1-summary-of-the-nwfsc-west-coast-groundfish-bottom-trawl-survey-data-for-select-species-from-2003-2019.pdf/) were provided.  Since data from the 2021 sample season is not yet available for summary, no new length compositions or indices were calculate with the summaries from 2020 representing all available data (i.e., no 2020 sampling season due to COVID-19).  Depending upon data availability, similar data summaries could be provided at the June Council meeting.
+In the 2020 Assessment Prioritization a summary of length compositions and indices from the [NWFSC WCGBT data](https://www.pcouncil.org/documents/2020/05/f-2-attachment-1-summary-of-the-nwfsc-west-coast-groundfish-bottom-trawl-survey-data-for-select-species-from-2003-2019.pdf/) were provided.  Since data from the 2021 sample season is not yet available for summary, no new length compositions or indices were calculate with the summaries from 2020 representing all available data (e.g., no 2020 sampling season due to COVID-19).  Depending upon data availability, similar data summaries could be provided at the June Council meeting.
 
 <!-- =====================================================================
 A brief summary of the NWFSC West Coast Groundfish Bottom Trawl (WCGBT) and NWFSC Hook & Line Surveys is presented here for data available from 2003 - `endyr`.  These analyses are meant to provide additional information and guidance for the 2022 assessment prioritization process.  The selection of the species from the WCGBTS was based on having an average of 20 or more positive tows by the survey per year.  
@@ -113,7 +113,7 @@ The length data also were expanded using a generalized stratification. The compo
 # Arrowtooth flounder 
  The most recent assessment of Arrowtooth flounder was a update assessment conducted in 2017. Across available data, Arrowtooth flounder have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 54,741 length observations, 913 age readings, and 23,472 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 39,919 length observations, 763 age readings, and 17,250 otoliths that are available to be aged. In California, since 2000, a total of 7,507 length observations, 0 age readings, and 689 otoliths have been collected In Oregon, since 2000, a total of 19,320 length observations, 0 age readings, and 16,561 otoliths have been collected In Washington, since 2000, a total of 13,092 length observations, 763 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 54,741 length observations, 913 age readings, and 23,472 otoliths that are available to be aged. In California, since 2000, a total of 7,507 length observations, 0 age readings, and 689 otoliths have been collected. In Oregon, since 2000, a total of 19,320 length observations, 0 age readings, and 16,561 otoliths have been collected. In Washington, since 2000, a total of 13,092 length observations, 763 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 52,254 length observations, 4,324 age readings, and 10,799 otoliths that are available to be aged. 
 
@@ -296,7 +296,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Aurora rockfish 
  The most recent assessment of Aurora rockfish was a full assessment conducted in 2013. Across available data, Aurora rockfish have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 42,495 length observations, 1,361 age readings, and 18,891 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 35,181 length observations, 1,361 age readings, and 16,925 otoliths that are available to be aged. In California, since 2000, a total of 21,606 length observations, 881 age readings, and 5,280 otoliths have been collected In Oregon, since 2000, a total of 12,395 length observations, 480 age readings, and 11,645 otoliths have been collected In Washington, since 2000, a total of 1,180 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 42,495 length observations, 1,361 age readings, and 18,891 otoliths that are available to be aged. In California, since 2000, a total of 21,606 length observations, 881 age readings, and 5,280 otoliths have been collected. In Oregon, since 2000, a total of 12,395 length observations, 480 age readings, and 11,645 otoliths have been collected. In Washington, since 2000, a total of 1,180 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 26,586 length observations, 3,089 age readings, and 8,334 otoliths that are available to be aged. 
 
@@ -493,9 +493,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Bank rockfish 
  The most recent assessment of Bank rockfish was a data-limited assessment conducted in 2010. Across available data, Bank rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 48,625 length observations, 5,064 age readings, and 24,837 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 11,598 length observations, 0 age readings, and 4,675 otoliths that are available to be aged. In California, since 2000, a total of 10,052 length observations, 0 age readings, and 3,394 otoliths have been collected In Oregon, since 2000, a total of 1,318 length observations, 0 age readings, and 1,281 otoliths have been collected In Washington, since 2000, a total of 228 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 48,625 length observations, 5,064 age readings, and 24,837 otoliths that are available to be aged. In California, since 2000, a total of 10,052 length observations, 0 age readings, and 3,394 otoliths have been collected. In Oregon, since 2000, a total of 1,318 length observations, 0 age readings, and 1,281 otoliths have been collected. In Washington, since 2000, a total of 228 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 601 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 601 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 601 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 601 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 601 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 2,024 length observations, 0 age readings, and 1,295 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 2,532 length observations, 0 age readings, and 2,520 otoliths that are available to be aged. 
 
@@ -751,7 +751,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Big skate 
  The most recent assessment of Big skate was a full assessment conducted in 2019. Across available data, Big skate have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 8,575 length observations, 654 age readings, and 1,086 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 8,488 length observations, 654 age readings, and 1,086 otoliths that are available to be aged. In California, since 2000, a total of 1,459 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 5,653 length observations, 654 age readings, and 960 otoliths have been collected In Washington, since 2000, a total of 1,376 length observations, 0 age readings, and 126 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 8,575 length observations, 654 age readings, and 1,086 otoliths that are available to be aged. In California, since 2000, a total of 1,459 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 5,653 length observations, 654 age readings, and 960 otoliths have been collected. In Washington, since 2000, a total of 1,376 length observations, 0 age readings, and 126 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 5,410 length observations, 1,034 age readings, and 112 otoliths that are available to be aged. 
 
@@ -918,9 +918,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Black rockfish 
  The most recent assessment of Black rockfish was a full assessment conducted in 2015. Across available data, Black rockfish have been observed and sampled generally by both commercial and recreational fisheries.  
  
- Across all years of available data, commercial fisheries have collected a total of 116,789 length observations, 20,281 age readings, and 20,602 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 89,906 length observations, 11,041 age readings, and 19,376 otoliths that are available to be aged. In California, since 2000, a total of 12,240 length observations, 287 age readings, and 668 otoliths have been collected In Oregon, since 2000, a total of 77,573 length observations, 10,735 age readings, and 18,708 otoliths have been collected In Washington, since 2000, a total of 93 length observations, 19 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 116,789 length observations, 20,281 age readings, and 20,602 otoliths that are available to be aged. In California, since 2000, a total of 12,240 length observations, 287 age readings, and 668 otoliths have been collected. In Oregon, since 2000, a total of 77,573 length observations, 10,735 age readings, and 18,708 otoliths have been collected. In Washington, since 2000, a total of 93 length observations, 19 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 404,735 length observations, 55,734 age readings, and 14,600 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 377,243 length observations, 47,291 age readings, and 14,230 otoliths that are available to be aged. In California, since 2003, a total of 130,782 length observations, 0 age readings, and 462 otoliths have been collected In Oregon, since 2003, a total of 197,304 length observations, 17,262 age readings, and 10,107 otoliths have been collected In Washington, since 2003, a total of 49,157 length observations, 30,029 age readings, and 3,661 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 404,735 length observations, 55,734 age readings, and 14,600 otoliths that are available to be aged. In California, since 2003, a total of 130,782 length observations, 0 age readings, and 462 otoliths have been collected. In Oregon, since 2003, a total of 197,304 length observations, 17,262 age readings, and 10,107 otoliths have been collected. In Washington, since 2003, a total of 49,157 length observations, 30,029 age readings, and 3,661 otoliths have been collected. 
 
 
 
@@ -1211,7 +1211,7 @@ W & 2021 & 1992 & 245 & 2237 & 0 & 1924\\*
 # Blackgill rockfish 
  The most recent assessment of Blackgill rockfish was a update assessment conducted in 2017. Across available data, Blackgill rockfish have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 58,511 length observations, 1,858 age readings, and 13,035 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 27,372 length observations, 1,309 age readings, and 10,256 otoliths that are available to be aged. In California, since 2000, a total of 20,058 length observations, 1,309 age readings, and 3,764 otoliths have been collected In Oregon, since 2000, a total of 6,622 length observations, 0 age readings, and 6,492 otoliths have been collected In Washington, since 2000, a total of 692 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 58,511 length observations, 1,858 age readings, and 13,035 otoliths that are available to be aged. In California, since 2000, a total of 20,058 length observations, 1,309 age readings, and 3,764 otoliths have been collected. In Oregon, since 2000, a total of 6,622 length observations, 0 age readings, and 6,492 otoliths have been collected. In Washington, since 2000, a total of 692 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 8,490 length observations, 1,948 age readings, and 4,053 otoliths that are available to be aged. 
 
@@ -1408,9 +1408,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Blue/Deacon rockfish 
  The most recent assessment of Blue/Deacon rockfish was a full assessment conducted in 2017. Across available data, Blue/Deacon rockfish have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC HKL survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 22,413 length observations, 2,297 age readings, and 2,453 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 10,853 length observations, 2,297 age readings, and 2,271 otoliths that are available to be aged. In California, since 2000, a total of 5,593 length observations, 119 age readings, and 673 otoliths have been collected In Oregon, since 2000, a total of 5,260 length observations, 2,178 age readings, and 1,598 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 22,413 length observations, 2,297 age readings, and 2,453 otoliths that are available to be aged. In California, since 2000, a total of 5,593 length observations, 119 age readings, and 673 otoliths have been collected. In Oregon, since 2000, a total of 5,260 length observations, 2,178 age readings, and 1,598 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 239,895 length observations, 3,959 age readings, and 16,757 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 231,630 length observations, 3,959 age readings, and 14,625 otoliths that are available to be aged. In California, since 2003, a total of 146,007 length observations, 0 age readings, and 445 otoliths have been collected In Oregon, since 2003, a total of 78,685 length observations, 3,959 age readings, and 10,066 otoliths have been collected In Washington, since 2003, a total of 6,938 length observations, 0 age readings, and 4,114 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 239,895 length observations, 3,959 age readings, and 16,757 otoliths that are available to be aged. In California, since 2003, a total of 146,007 length observations, 0 age readings, and 445 otoliths have been collected. In Oregon, since 2003, a total of 78,685 length observations, 3,959 age readings, and 10,066 otoliths have been collected. In Washington, since 2003, a total of 6,938 length observations, 0 age readings, and 4,114 otoliths have been collected. 
 
 Across all years of available data, the NWFSC HKL survey has collected a total of 675 length observations, 0 age readings, and 656 otoliths that are available to be aged. 
 
@@ -1761,9 +1761,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Bocaccio 
  The most recent assessment of Bocaccio was a update assessment conducted in 2017. Across available data, Bocaccio have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 76,324 length observations, 6,421 age readings, and 46,113 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 16,184 length observations, 181 age readings, and 4,805 otoliths that are available to be aged. In California, since 2000, a total of 10,975 length observations, 181 age readings, and 1,559 otoliths have been collected In Oregon, since 2000, a total of 3,356 length observations, 0 age readings, and 3,246 otoliths have been collected In Washington, since 2000, a total of 1,853 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 76,324 length observations, 6,421 age readings, and 46,113 otoliths that are available to be aged. In California, since 2000, a total of 10,975 length observations, 181 age readings, and 1,559 otoliths have been collected. In Oregon, since 2000, a total of 3,356 length observations, 0 age readings, and 3,246 otoliths have been collected. In Washington, since 2000, a total of 1,853 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 44,876 length observations, 0 age readings, and 343 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 44,672 length observations, 0 age readings, and 343 otoliths that are available to be aged. In California, since 2003, a total of 43,900 length observations, 0 age readings, and 103 otoliths have been collected In Oregon, since 2003, a total of 395 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 377 length observations, 0 age readings, and 240 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 44,876 length observations, 0 age readings, and 343 otoliths that are available to be aged. In California, since 2003, a total of 43,900 length observations, 0 age readings, and 103 otoliths have been collected. In Oregon, since 2003, a total of 395 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 377 length observations, 0 age readings, and 240 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 8,878 length observations, 2,855 age readings, and 2,725 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 16,429 length observations, 0 age readings, and 11,983 otoliths that are available to be aged. 
 
@@ -2118,9 +2118,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Brown rockfish 
  The most recent assessment of Brown rockfish was a data-moderate assessment conducted in 2013. Across available data, Brown rockfish have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 11,374 length observations, 0 age readings, and 543 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 4,711 length observations, 0 age readings, and 474 otoliths that are available to be aged. In California, since 2000, a total of 4,708 length observations, 0 age readings, and 472 otoliths have been collected In Oregon, since 2000, a total of 3 length observations, 0 age readings, and 2 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 11,374 length observations, 0 age readings, and 543 otoliths that are available to be aged. In California, since 2000, a total of 4,708 length observations, 0 age readings, and 472 otoliths have been collected. In Oregon, since 2000, a total of 3 length observations, 0 age readings, and 2 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 72,668 length observations, 13 age readings, and 89 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 72,650 length observations, 13 age readings, and 89 otoliths that are available to be aged. In California, since 2003, a total of 72,284 length observations, 0 age readings, and 25 otoliths have been collected In Oregon, since 2003, a total of 310 length observations, 13 age readings, and 25 otoliths have been collected In Washington, since 2003, a total of 56 length observations, 0 age readings, and 39 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 72,668 length observations, 13 age readings, and 89 otoliths that are available to be aged. In California, since 2003, a total of 72,284 length observations, 0 age readings, and 25 otoliths have been collected. In Oregon, since 2003, a total of 310 length observations, 13 age readings, and 25 otoliths have been collected. In Washington, since 2003, a total of 56 length observations, 0 age readings, and 39 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 524 length observations, 0 age readings, and 386 otoliths that are available to be aged. 
 
@@ -2364,9 +2364,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Cabezon 
  The most recent assessment of Cabezon was a full assessment conducted in 2019. Across available data, Cabezon have been observed and sampled generally by both commercial and recreational fisheries.  
  
- Across all years of available data, commercial fisheries have collected a total of 28,821 length observations, 366 age readings, and 205 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 23,055 length observations, 366 age readings, and 205 otoliths that are available to be aged. In California, since 2000, a total of 7,534 length observations, 0 age readings, and 25 otoliths have been collected In Oregon, since 2000, a total of 15,521 length observations, 366 age readings, and 180 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 28,821 length observations, 366 age readings, and 205 otoliths that are available to be aged. In California, since 2000, a total of 7,534 length observations, 0 age readings, and 25 otoliths have been collected. In Oregon, since 2000, a total of 15,521 length observations, 366 age readings, and 180 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 45,151 length observations, 2,328 age readings, and 2,795 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 43,287 length observations, 2,328 age readings, and 2,771 otoliths that are available to be aged. In California, since 2003, a total of 14,873 length observations, 0 age readings, and 8 otoliths have been collected In Oregon, since 2003, a total of 24,383 length observations, 2,328 age readings, and 812 otoliths have been collected In Washington, since 2003, a total of 4,031 length observations, 0 age readings, and 1,951 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 45,151 length observations, 2,328 age readings, and 2,795 otoliths that are available to be aged. In California, since 2003, a total of 14,873 length observations, 0 age readings, and 8 otoliths have been collected. In Oregon, since 2003, a total of 24,383 length observations, 2,328 age readings, and 812 otoliths have been collected. In Washington, since 2003, a total of 4,031 length observations, 0 age readings, and 1,951 otoliths have been collected. 
 
 
 
@@ -2591,9 +2591,9 @@ W & 2021 & 228 & 21 & 249 & 0 & 226\\*
 # California scorpionfish 
  The most recent assessment of California scorpionfish was a full assessment conducted in 2017. Across available data, California scorpionfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 847 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 768 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2000, a total of 768 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 847 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2000, a total of 768 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 56,642 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 56,642 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 56,642 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 56,642 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 56,642 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 2,892 length observations, 883 age readings, and 362 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 20 length observations, 0 age readings, and 4 otoliths that are available to be aged. 
 
@@ -2741,9 +2741,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Canary rockfish 
  The most recent assessment of Canary rockfish was a full assessment conducted in 2015. Across available data, Canary rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 112,492 length observations, 69,363 age readings, and 18,620 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 38,283 length observations, 19,074 age readings, and 10,885 otoliths that are available to be aged. In California, since 2000, a total of 6,561 length observations, 346 age readings, and 1,184 otoliths have been collected In Oregon, since 2000, a total of 20,910 length observations, 9,478 age readings, and 9,701 otoliths have been collected In Washington, since 2000, a total of 10,812 length observations, 9,250 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 112,492 length observations, 69,363 age readings, and 18,620 otoliths that are available to be aged. In California, since 2000, a total of 6,561 length observations, 346 age readings, and 1,184 otoliths have been collected. In Oregon, since 2000, a total of 20,910 length observations, 9,478 age readings, and 9,701 otoliths have been collected. In Washington, since 2000, a total of 10,812 length observations, 9,250 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 48,446 length observations, 1,569 age readings, and 6,394 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 44,925 length observations, 1,569 age readings, and 6,376 otoliths that are available to be aged. In California, since 2003, a total of 15,864 length observations, 0 age readings, and 163 otoliths have been collected In Oregon, since 2003, a total of 23,555 length observations, 0 age readings, and 3,565 otoliths have been collected In Washington, since 2003, a total of 5,506 length observations, 1,569 age readings, and 2,648 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 48,446 length observations, 1,569 age readings, and 6,394 otoliths that are available to be aged. In California, since 2003, a total of 15,864 length observations, 0 age readings, and 163 otoliths have been collected. In Oregon, since 2003, a total of 23,555 length observations, 0 age readings, and 3,565 otoliths have been collected. In Washington, since 2003, a total of 5,506 length observations, 1,569 age readings, and 2,648 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 12,080 length observations, 5,421 age readings, and 2,131 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 303 length observations, 192 age readings, and 110 otoliths that are available to be aged. 
 
@@ -3138,9 +3138,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Chilipepper rockfish 
  The most recent assessment of Chilipepper rockfish was a update assessment conducted in 2015. Across available data, Chilipepper rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 151,592 length observations, 53,454 age readings, and 2,689 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 41,931 length observations, 8,784 age readings, and 2,689 otoliths that are available to be aged. In California, since 2000, a total of 39,100 length observations, 8,784 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 2,785 length observations, 0 age readings, and 2,689 otoliths have been collected In Washington, since 2000, a total of 46 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 151,592 length observations, 53,454 age readings, and 2,689 otoliths that are available to be aged. In California, since 2000, a total of 39,100 length observations, 8,784 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 2,785 length observations, 0 age readings, and 2,689 otoliths have been collected. In Washington, since 2000, a total of 46 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 6,786 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 6,775 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 6,755 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 19 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 6,786 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 6,755 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 19 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 31,590 length observations, 8,654 age readings, and 2,804 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 2,110 length observations, 0 age readings, and 1,898 otoliths that are available to be aged. 
 
@@ -3446,9 +3446,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # China rockfish 
  The most recent assessment of China rockfish was a full assessment conducted in 2015. Across available data, China rockfish have been observed and sampled generally by both commercial and recreational fisheries.  
  
- Across all years of available data, commercial fisheries have collected a total of 19,055 length observations, 1,395 age readings, and 1,005 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 16,842 length observations, 1,395 age readings, and 1,005 otoliths that are available to be aged. In California, since 2000, a total of 1,643 length observations, 0 age readings, and 3 otoliths have been collected In Oregon, since 2000, a total of 15,199 length observations, 1,395 age readings, and 1,002 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 19,055 length observations, 1,395 age readings, and 1,005 otoliths that are available to be aged. In California, since 2000, a total of 1,643 length observations, 0 age readings, and 3 otoliths have been collected. In Oregon, since 2000, a total of 15,199 length observations, 1,395 age readings, and 1,002 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 33,361 length observations, 2,254 age readings, and 2,563 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 32,275 length observations, 2,243 age readings, and 2,563 otoliths that are available to be aged. In California, since 2003, a total of 16,105 length observations, 0 age readings, and 19 otoliths have been collected In Oregon, since 2003, a total of 11,963 length observations, 1,042 age readings, and 1,226 otoliths have been collected In Washington, since 2003, a total of 4,207 length observations, 1,201 age readings, and 1,318 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 33,361 length observations, 2,254 age readings, and 2,563 otoliths that are available to be aged. In California, since 2003, a total of 16,105 length observations, 0 age readings, and 19 otoliths have been collected. In Oregon, since 2003, a total of 11,963 length observations, 1,042 age readings, and 1,226 otoliths have been collected. In Washington, since 2003, a total of 4,207 length observations, 1,201 age readings, and 1,318 otoliths have been collected. 
 
 
 
@@ -3699,9 +3699,9 @@ W & 2021 & 124 & 11 & 135 & 0 & 124\\*
 # Copper rockfish 
  The most recent assessment of Copper rockfish was a data-moderate assessment conducted in 2021. Across available data, Copper rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 8,760 length observations, 354 age readings, and 157 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 3,739 length observations, 354 age readings, and 70 otoliths that are available to be aged. In California, since 2000, a total of 2,338 length observations, 0 age readings, and 14 otoliths have been collected In Oregon, since 2000, a total of 1,394 length observations, 352 age readings, and 56 otoliths have been collected In Washington, since 2000, a total of 7 length observations, 2 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 8,760 length observations, 354 age readings, and 157 otoliths that are available to be aged. In California, since 2000, a total of 2,338 length observations, 0 age readings, and 14 otoliths have been collected. In Oregon, since 2000, a total of 1,394 length observations, 352 age readings, and 56 otoliths have been collected. In Washington, since 2000, a total of 7 length observations, 2 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 76,409 length observations, 3,992 age readings, and 422 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 75,489 length observations, 3,973 age readings, and 422 otoliths that are available to be aged. In California, since 2003, a total of 59,418 length observations, 0 age readings, and 41 otoliths have been collected In Oregon, since 2003, a total of 12,836 length observations, 2,298 age readings, and 89 otoliths have been collected In Washington, since 2003, a total of 3,235 length observations, 1,675 age readings, and 292 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 76,409 length observations, 3,992 age readings, and 422 otoliths that are available to be aged. In California, since 2003, a total of 59,418 length observations, 0 age readings, and 41 otoliths have been collected. In Oregon, since 2003, a total of 12,836 length observations, 2,298 age readings, and 89 otoliths have been collected. In Washington, since 2003, a total of 3,235 length observations, 1,675 age readings, and 292 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 1,050 length observations, 187 age readings, and 503 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 1,107 length observations, 0 age readings, and 1,079 otoliths that are available to be aged. 
 
@@ -4042,9 +4042,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Cowcod 
  The most recent assessment of Cowcod was a full assessment conducted in 2019. Across available data, Cowcod have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 4,026 length observations, 108 age readings, and 33 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 918 length observations, 0 age readings, and 33 otoliths that are available to be aged. In California, since 2000, a total of 882 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 35 length observations, 0 age readings, and 33 otoliths have been collected In Washington, since 2000, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 4,026 length observations, 108 age readings, and 33 otoliths that are available to be aged. In California, since 2000, a total of 882 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 35 length observations, 0 age readings, and 33 otoliths have been collected. In Washington, since 2000, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 181 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 181 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 181 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 181 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 181 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 795 length observations, 468 age readings, and 316 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 662 length observations, 440 age readings, and 199 otoliths that are available to be aged. 
 
@@ -4274,11 +4274,11 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
   
   
 # Curlfin sole 
- To date, no assessment or analysis has been conducted on Curlfin sole. Across available data, Curlfin sole have been observed and sampled generally by  
+ To date, no assessment or analysis has been conducted on Curlfin sole. Across available data, Curlfin sole have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 1,725 length observations, 0 age readings, and 289 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 1,724 length observations, 0 age readings, and 289 otoliths that are available to be aged. In California, since 2000, a total of 1,350 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 374 length observations, 0 age readings, and 289 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 1,725 length observations, 0 age readings, and 289 otoliths that are available to be aged. In California, since 2000, a total of 1,350 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 374 length observations, 0 age readings, and 289 otoliths have been collected. 
 
-
+Across all years of available data, the NWFSC WCGBT survey has collected a total of 9,332 length observations, 0 age readings, and 1,366 otoliths that are available to be aged. 
 
 ## commercial fisheries 
  \begingroup\fontsize{10}{12}\selectfont
@@ -4353,12 +4353,51 @@ O & 2019 & 3 & 0 & 3 & 0 & 3\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
+## NWFSC WCGBT 
+ \begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey.}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey. \textit{(continued)}}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2003 & 55 & 556 & 1 & 557 & 0 & 0\\
+2004 & 49 & 546 & 1 & 547 & 0 & 0\\
+2005 & 69 & 439 & 0 & 439 & 0 & 0\\
+2006 & 42 & 288 & 1 & 289 & 0 & 0\\
+2007 & 47 & 180 & 0 & 180 & 0 & 0\\
+2008 & 60 & 294 & 2 & 296 & 0 & 262\\
+2009 & 76 & 302 & 0 & 302 & 0 & 297\\
+2010 & 64 & 317 & 0 & 317 & 0 & 0\\
+2011 & 86 & 505 & 1 & 506 & 0 & 0\\
+2012 & 108 & 1018 & 1 & 1019 & 0 & 0\\
+2013 & 73 & 777 & 0 & 777 & 0 & 0\\
+2014 & 96 & 1182 & 1 & 1183 & 0 & 0\\
+2015 & 97 & 835 & 2 & 837 & 0 & 359\\
+2016 & 99 & 806 & 14 & 820 & 0 & 344\\
+2017 & 89 & 597 & 5 & 602 & 0 & 0\\
+2018 & 86 & 482 & 0 & 482 & 0 & 0\\
+2019 & 33 & 179 & 0 & 179 & 0 & 104\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
   
   
 # Darkblotched rockfish 
  The most recent assessment of Darkblotched rockfish was a update assessment conducted in 2017. Across available data, Darkblotched rockfish have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 107,759 length observations, 48,775 age readings, and 42,573 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 78,815 length observations, 36,471 age readings, and 20,984 otoliths that are available to be aged. In California, since 2000, a total of 24,951 length observations, 7,662 age readings, and 6,897 otoliths have been collected In Oregon, since 2000, a total of 41,907 length observations, 24,288 age readings, and 13,937 otoliths have been collected In Washington, since 2000, a total of 11,957 length observations, 4,521 age readings, and 150 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 107,759 length observations, 48,775 age readings, and 42,573 otoliths that are available to be aged. In California, since 2000, a total of 24,951 length observations, 7,662 age readings, and 6,897 otoliths have been collected. In Oregon, since 2000, a total of 41,907 length observations, 24,288 age readings, and 13,937 otoliths have been collected. In Washington, since 2000, a total of 11,957 length observations, 4,521 age readings, and 150 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 31,089 length observations, 11,727 age readings, and 1,621 otoliths that are available to be aged. 
 
@@ -4568,7 +4607,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Dover sole 
  The most recent assessment of Dover sole was a full assessment conducted in 2021. Across available data, Dover sole have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 219,111 length observations, 87,738 age readings, and 53,248 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 130,130 length observations, 30,358 age readings, and 39,850 otoliths that are available to be aged. In California, since 2000, a total of 46,413 length observations, 11,604 age readings, and 8,454 otoliths have been collected In Oregon, since 2000, a total of 58,569 length observations, 10,194 age readings, and 31,396 otoliths have been collected In Washington, since 2000, a total of 25,148 length observations, 8,560 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 219,111 length observations, 87,738 age readings, and 53,248 otoliths that are available to be aged. In California, since 2000, a total of 46,413 length observations, 11,604 age readings, and 8,454 otoliths have been collected. In Oregon, since 2000, a total of 58,569 length observations, 10,194 age readings, and 31,396 otoliths have been collected. In Washington, since 2000, a total of 25,148 length observations, 8,560 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 165,963 length observations, 16,922 age readings, and 7,717 otoliths that are available to be aged. 
 
@@ -4782,7 +4821,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # English sole 
  The most recent assessment of English sole was a data-moderate assessment conducted in 2013. Across available data, English sole have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 129,492 length observations, 7,970 age readings, and 26,433 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 77,288 length observations, 5,404 age readings, and 20,897 otoliths that are available to be aged. In California, since 2000, a total of 22,846 length observations, 0 age readings, and 1,630 otoliths have been collected In Oregon, since 2000, a total of 29,492 length observations, 0 age readings, and 13,742 otoliths have been collected In Washington, since 2000, a total of 24,950 length observations, 5,404 age readings, and 5,525 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 129,492 length observations, 7,970 age readings, and 26,433 otoliths that are available to be aged. In California, since 2000, a total of 22,846 length observations, 0 age readings, and 1,630 otoliths have been collected. In Oregon, since 2000, a total of 29,492 length observations, 0 age readings, and 13,742 otoliths have been collected. In Washington, since 2000, a total of 24,950 length observations, 5,404 age readings, and 5,525 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 79,439 length observations, 898 age readings, and 14,902 otoliths that are available to be aged. 
 
@@ -4991,9 +5030,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Flag rockfish 
  The most recent assessment of Flag rockfish was a data-limited assessment conducted in 2010. Across available data, Flag rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 1,259 length observations, 0 age readings, and 44 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 289 length observations, 0 age readings, and 13 otoliths that are available to be aged. In California, since 2000, a total of 289 length observations, 0 age readings, and 13 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 1,259 length observations, 0 age readings, and 44 otoliths that are available to be aged. In California, since 2000, a total of 289 length observations, 0 age readings, and 13 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 11,029 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 11,029 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 11,021 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 8 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 11,029 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 11,021 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 8 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 455 length observations, 3 age readings, and 327 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 182 length observations, 0 age readings, and 160 otoliths that are available to be aged. 
 
@@ -5204,7 +5243,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Flathead sole 
  To date, no assessment or analysis has been conducted on Flathead sole. Across available data, Flathead sole have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 1,008 length observations, 0 age readings, and 859 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 980 length observations, 0 age readings, and 859 otoliths that are available to be aged. In California, since 2000, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 979 length observations, 0 age readings, and 859 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 1,008 length observations, 0 age readings, and 859 otoliths that are available to be aged. In California, since 2000, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 979 length observations, 0 age readings, and 859 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 10,276 length observations, 0 age readings, and 2,764 otoliths that are available to be aged. 
 
@@ -5329,9 +5368,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Gopher/Black and yellow rockfish 
  The most recent assessment of Gopher/Black and yellow rockfish was a full assessment conducted in 2019. Across available data, Gopher/Black and yellow rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 39,905 length observations, 45 age readings, and 76 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 23,995 length observations, 45 age readings, and 75 otoliths that are available to be aged. In California, since 2000, a total of 23,844 length observations, 45 age readings, and 60 otoliths have been collected In Oregon, since 2000, a total of 151 length observations, 0 age readings, and 15 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 39,905 length observations, 45 age readings, and 76 otoliths that are available to be aged. In California, since 2000, a total of 23,844 length observations, 45 age readings, and 60 otoliths have been collected. In Oregon, since 2000, a total of 151 length observations, 0 age readings, and 15 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 90,825 length observations, 0 age readings, and 41 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 90,824 length observations, 0 age readings, and 41 otoliths that are available to be aged. In California, since 2003, a total of 90,698 length observations, 0 age readings, and 26 otoliths have been collected In Oregon, since 2003, a total of 126 length observations, 0 age readings, and 15 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 90,825 length observations, 0 age readings, and 41 otoliths that are available to be aged. In California, since 2003, a total of 90,698 length observations, 0 age readings, and 26 otoliths have been collected. In Oregon, since 2003, a total of 126 length observations, 0 age readings, and 15 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 17 length observations, 0 age readings, and 15 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 8 length observations, 0 age readings, and 6 otoliths that are available to be aged. 
 
@@ -5643,9 +5682,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Grass rockfish 
  The most recent assessment of Grass rockfish was a data-limited assessment conducted in 2010. Across available data, Grass rockfish have been observed and sampled generally by both commercial and recreational fisheries.  
  
- Across all years of available data, commercial fisheries have collected a total of 7,776 length observations, 0 age readings, and 15 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 5,386 length observations, 0 age readings, and 15 otoliths that are available to be aged. In California, since 2000, a total of 4,560 length observations, 0 age readings, and 8 otoliths have been collected In Oregon, since 2000, a total of 826 length observations, 0 age readings, and 7 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 7,776 length observations, 0 age readings, and 15 otoliths that are available to be aged. In California, since 2000, a total of 4,560 length observations, 0 age readings, and 8 otoliths have been collected. In Oregon, since 2000, a total of 826 length observations, 0 age readings, and 7 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 5,218 length observations, 0 age readings, and 16 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 5,209 length observations, 0 age readings, and 16 otoliths that are available to be aged. In California, since 2003, a total of 5,080 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 118 length observations, 0 age readings, and 7 otoliths have been collected In Washington, since 2003, a total of 11 length observations, 0 age readings, and 9 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 5,218 length observations, 0 age readings, and 16 otoliths that are available to be aged. In California, since 2003, a total of 5,080 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 118 length observations, 0 age readings, and 7 otoliths have been collected. In Washington, since 2003, a total of 11 length observations, 0 age readings, and 9 otoliths have been collected. 
 
 
 
@@ -5856,9 +5895,9 @@ W & 2021 & 2 & 0 & 2 & 0 & 2\\*
 # Greenspotted rockfish 
  The most recent assessment of Greenspotted rockfish was a full assessment conducted in 2011. Across available data, Greenspotted rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 14,477 length observations, 0 age readings, and 1,749 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 3,904 length observations, 0 age readings, and 802 otoliths that are available to be aged. In California, since 2000, a total of 3,407 length observations, 0 age readings, and 323 otoliths have been collected In Oregon, since 2000, a total of 487 length observations, 0 age readings, and 479 otoliths have been collected In Washington, since 2000, a total of 10 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 14,477 length observations, 0 age readings, and 1,749 otoliths that are available to be aged. In California, since 2000, a total of 3,407 length observations, 0 age readings, and 323 otoliths have been collected. In Oregon, since 2000, a total of 487 length observations, 0 age readings, and 479 otoliths have been collected. In Washington, since 2000, a total of 10 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 17,660 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 17,660 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 17,640 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 20 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 17,660 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 17,640 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 20 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 7,568 length observations, 701 age readings, and 3,559 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 4,409 length observations, 843 age readings, and 3,483 otoliths that are available to be aged. 
 
@@ -6138,9 +6177,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Greenstriped rockfish 
  The most recent assessment of Greenstriped rockfish was a full assessment conducted in 2009. Across available data, Greenstriped rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 21,228 length observations, 0 age readings, and 7,024 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 14,219 length observations, 0 age readings, and 6,043 otoliths that are available to be aged. In California, since 2000, a total of 2,798 length observations, 0 age readings, and 335 otoliths have been collected In Oregon, since 2000, a total of 6,329 length observations, 0 age readings, and 5,708 otoliths have been collected In Washington, since 2000, a total of 5,092 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 21,228 length observations, 0 age readings, and 7,024 otoliths that are available to be aged. In California, since 2000, a total of 2,798 length observations, 0 age readings, and 335 otoliths have been collected. In Oregon, since 2000, a total of 6,329 length observations, 0 age readings, and 5,708 otoliths have been collected. In Washington, since 2000, a total of 5,092 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 2,777 length observations, 0 age readings, and 67 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 2,589 length observations, 0 age readings, and 67 otoliths that are available to be aged. In California, since 2003, a total of 2,148 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 334 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 107 length observations, 0 age readings, and 67 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 2,777 length observations, 0 age readings, and 67 otoliths that are available to be aged. In California, since 2003, a total of 2,148 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 334 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 107 length observations, 0 age readings, and 67 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 39,364 length observations, 3,413 age readings, and 7,513 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 686 length observations, 0 age readings, and 674 otoliths that are available to be aged. 
 
@@ -6492,7 +6531,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Honeycomb rockfish 
  The most recent assessment of Honeycomb rockfish was a data-limited assessment conducted in 2010. Across available data, Honeycomb rockfish have been observed and sampled generally by recreational fisheries and the both the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, recreational fisheries have collected a total of 14,042 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 14,042 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 14,042 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, recreational fisheries have collected a total of 14,042 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 14,042 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 289 length observations, 0 age readings, and 176 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 203 length observations, 0 age readings, and 176 otoliths that are available to be aged. 
 
@@ -6615,9 +6654,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Kelp greenling 
  The most recent assessment of Kelp greenling was a full assessment conducted in 2015. Across available data, Kelp greenling have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 42,794 length observations, 282 age readings, and 560 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 40,518 length observations, 282 age readings, and 560 otoliths that are available to be aged. In California, since 2000, a total of 2,986 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 37,531 length observations, 282 age readings, and 560 otoliths have been collected In Washington, since 2000, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 42,794 length observations, 282 age readings, and 560 otoliths that are available to be aged. In California, since 2000, a total of 2,986 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 37,531 length observations, 282 age readings, and 560 otoliths have been collected. In Washington, since 2000, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 48,473 length observations, 4,094 age readings, and 3,920 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 46,576 length observations, 4,094 age readings, and 3,920 otoliths that are available to be aged. In California, since 2003, a total of 10,357 length observations, 0 age readings, and 7 otoliths have been collected In Oregon, since 2003, a total of 31,014 length observations, 2,786 age readings, and 2,929 otoliths have been collected In Washington, since 2003, a total of 5,205 length observations, 1,308 age readings, and 984 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 48,473 length observations, 4,094 age readings, and 3,920 otoliths that are available to be aged. In California, since 2003, a total of 10,357 length observations, 0 age readings, and 7 otoliths have been collected. In Oregon, since 2003, a total of 31,014 length observations, 2,786 age readings, and 2,929 otoliths have been collected. In Washington, since 2003, a total of 5,205 length observations, 1,308 age readings, and 984 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 800 length observations, 0 age readings, and 618 otoliths that are available to be aged. 
 
@@ -6904,9 +6943,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Kelp rockfish 
  The most recent assessment of Kelp rockfish was a data-limited assessment conducted in 2010. Across available data, Kelp rockfish have been observed and sampled generally by both commercial and recreational fisheries.  
  
- Across all years of available data, commercial fisheries have collected a total of 1,537 length observations, 0 age readings, and 1 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 685 length observations, 0 age readings, and 1 otoliths that are available to be aged. In California, since 2000, a total of 685 length observations, 0 age readings, and 1 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 1,537 length observations, 0 age readings, and 1 otoliths that are available to be aged. In California, since 2000, a total of 685 length observations, 0 age readings, and 1 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 13,134 length observations, 0 age readings, and 1 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 13,134 length observations, 0 age readings, and 1 otoliths that are available to be aged. In California, since 2003, a total of 13,134 length observations, 0 age readings, and 1 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 13,134 length observations, 0 age readings, and 1 otoliths that are available to be aged. In California, since 2003, a total of 13,134 length observations, 0 age readings, and 1 otoliths have been collected. 
 
 
 
@@ -7007,7 +7046,7 @@ C & 2020 & 0 & 5 & 5 & 0 & 0\\*
 # Leopard shark 
  The most recent assessment of Leopard shark was a data-limited assessment conducted in 2010. Across available data, Leopard shark have been observed and sampled generally by  
  
- Across all years of available data, recreational fisheries have collected a total of 2,094 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 2,094 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 2,094 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, recreational fisheries have collected a total of 2,094 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 2,094 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 
 
@@ -7056,9 +7095,9 @@ C & 2020 & 1 & 0 & 1 & 0 & 0\\*
 # Lingcod 
  The most recent assessment of Lingcod was a full assessment conducted in 2021. Across available data, Lingcod have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 94,009 length observations, 14,008 age readings, and 3,838 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 51,013 length observations, 6,436 age readings, and 1,882 otoliths that are available to be aged. In California, since 2000, a total of 10,414 length observations, 681 age readings, and 113 otoliths have been collected In Oregon, since 2000, a total of 30,534 length observations, 5,302 age readings, and 1,769 otoliths have been collected In Washington, since 2000, a total of 10,065 length observations, 453 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 94,009 length observations, 14,008 age readings, and 3,838 otoliths that are available to be aged. In California, since 2000, a total of 10,414 length observations, 681 age readings, and 113 otoliths have been collected. In Oregon, since 2000, a total of 30,534 length observations, 5,302 age readings, and 1,769 otoliths have been collected. In Washington, since 2000, a total of 10,065 length observations, 453 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 249,990 length observations, 24,540 age readings, and 14,150 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 237,413 length observations, 21,969 age readings, and 12,982 otoliths that are available to be aged. In California, since 2003, a total of 91,576 length observations, 0 age readings, and 328 otoliths have been collected In Oregon, since 2003, a total of 118,214 length observations, 7,176 age readings, and 10,234 otoliths have been collected In Washington, since 2003, a total of 27,623 length observations, 14,793 age readings, and 2,420 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 249,990 length observations, 24,540 age readings, and 14,150 otoliths that are available to be aged. In California, since 2003, a total of 91,576 length observations, 0 age readings, and 328 otoliths have been collected. In Oregon, since 2003, a total of 118,214 length observations, 7,176 age readings, and 10,234 otoliths have been collected. In Washington, since 2003, a total of 27,623 length observations, 14,793 age readings, and 2,420 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 25,277 length observations, 9,056 age readings, and 4,499 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 825 length observations, 0 age readings, and 50 otoliths that are available to be aged. 
 
@@ -7442,7 +7481,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Longnose skate 
  The most recent assessment of Longnose skate was a full assessment conducted in 2019. Across available data, Longnose skate have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 33,762 length observations, 0 age readings, and 5,149 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 32,618 length observations, 0 age readings, and 5,149 otoliths that are available to be aged. In California, since 2000, a total of 9,598 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 15,826 length observations, 0 age readings, and 5,149 otoliths have been collected In Washington, since 2000, a total of 7,194 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 33,762 length observations, 0 age readings, and 5,149 otoliths that are available to be aged. In California, since 2000, a total of 9,598 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 15,826 length observations, 0 age readings, and 5,149 otoliths have been collected. In Washington, since 2000, a total of 7,194 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 49,205 length observations, 649 age readings, and 1,647 otoliths that are available to be aged. 
 
@@ -7609,7 +7648,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Longspine thornyhead 
  The most recent assessment of Longspine thornyhead was a full assessment conducted in 2013. Across available data, Longspine thornyhead have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 180,299 length observations, 30 age readings, and 37,194 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 110,054 length observations, 30 age readings, and 21,583 otoliths that are available to be aged. In California, since 2000, a total of 76,415 length observations, 0 age readings, and 54 otoliths have been collected In Oregon, since 2000, a total of 27,824 length observations, 30 age readings, and 21,529 otoliths have been collected In Washington, since 2000, a total of 5,815 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 180,299 length observations, 30 age readings, and 37,194 otoliths that are available to be aged. In California, since 2000, a total of 76,415 length observations, 0 age readings, and 54 otoliths have been collected. In Oregon, since 2000, a total of 27,824 length observations, 30 age readings, and 21,529 otoliths have been collected. In Washington, since 2000, a total of 5,815 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 104,769 length observations, 0 age readings, and 13,832 otoliths that are available to be aged. 
 
@@ -7811,9 +7850,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Olive rockfish 
  The most recent assessment of Olive rockfish was a data-limited assessment conducted in 2010. Across available data, Olive rockfish have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC HKL survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 1,976 length observations, 0 age readings, and 138 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 338 length observations, 0 age readings, and 65 otoliths that are available to be aged. In California, since 2000, a total of 332 length observations, 0 age readings, and 61 otoliths have been collected In Oregon, since 2000, a total of 6 length observations, 0 age readings, and 4 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 1,976 length observations, 0 age readings, and 138 otoliths that are available to be aged. In California, since 2000, a total of 332 length observations, 0 age readings, and 61 otoliths have been collected. In Oregon, since 2000, a total of 6 length observations, 0 age readings, and 4 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 37,205 length observations, 0 age readings, and 137 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 37,205 length observations, 0 age readings, and 137 otoliths that are available to be aged. In California, since 2003, a total of 37,168 length observations, 0 age readings, and 137 otoliths have been collected In Oregon, since 2003, a total of 37 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 37,205 length observations, 0 age readings, and 137 otoliths that are available to be aged. In California, since 2003, a total of 37,168 length observations, 0 age readings, and 137 otoliths have been collected. In Oregon, since 2003, a total of 37 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC HKL survey has collected a total of 537 length observations, 0 age readings, and 508 otoliths that are available to be aged. 
 
@@ -8017,9 +8056,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Pacific cod 
  To date, no assessment or analysis has been conducted on Pacific cod. Across available data, Pacific cod have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 65,416 length observations, 943 age readings, and 3,642 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 20,227 length observations, 943 age readings, and 3,642 otoliths that are available to be aged. In California, since 2000, a total of 28 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 3,850 length observations, 0 age readings, and 3,642 otoliths have been collected In Washington, since 2000, a total of 16,349 length observations, 943 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 65,416 length observations, 943 age readings, and 3,642 otoliths that are available to be aged. In California, since 2000, a total of 28 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 3,850 length observations, 0 age readings, and 3,642 otoliths have been collected. In Washington, since 2000, a total of 16,349 length observations, 943 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 386 length observations, 0 age readings, and 82 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 376 length observations, 0 age readings, and 82 otoliths that are available to be aged. In Oregon, since 2003, a total of 49 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 327 length observations, 0 age readings, and 82 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 386 length observations, 0 age readings, and 82 otoliths that are available to be aged. In Oregon, since 2003, a total of 49 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 327 length observations, 0 age readings, and 82 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 3,850 length observations, 0 age readings, and 1,266 otoliths that are available to be aged. 
 
@@ -8251,7 +8290,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Pacific ocean perch 
  The most recent assessment of Pacific ocean perch was a full assessment conducted in 2017. Across available data, Pacific ocean perch have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 93,923 length observations, 35,040 age readings, and 31,641 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 45,756 length observations, 18,977 age readings, and 17,267 otoliths that are available to be aged. In California, since 2000, a total of 789 length observations, 0 age readings, and 435 otoliths have been collected In Oregon, since 2000, a total of 32,414 length observations, 11,949 age readings, and 16,640 otoliths have been collected In Washington, since 2000, a total of 12,553 length observations, 7,028 age readings, and 192 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 93,923 length observations, 35,040 age readings, and 31,641 otoliths that are available to be aged. In California, since 2000, a total of 789 length observations, 0 age readings, and 435 otoliths have been collected. In Oregon, since 2000, a total of 32,414 length observations, 11,949 age readings, and 16,640 otoliths have been collected. In Washington, since 2000, a total of 12,553 length observations, 7,028 age readings, and 192 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 13,824 length observations, 5,881 age readings, and 2,739 otoliths that are available to be aged. 
 
@@ -8454,9 +8493,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Pacific sanddab 
  The most recent assessment of Pacific sanddab was a data-limited assessment conducted in 2010. Across available data, Pacific sanddab have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 38,299 length observations, 159 age readings, and 16,382 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 36,350 length observations, 0 age readings, and 14,759 otoliths that are available to be aged. In California, since 2000, a total of 23,128 length observations, 0 age readings, and 2,552 otoliths have been collected In Oregon, since 2000, a total of 13,222 length observations, 0 age readings, and 12,207 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 38,299 length observations, 159 age readings, and 16,382 otoliths that are available to be aged. In California, since 2000, a total of 23,128 length observations, 0 age readings, and 2,552 otoliths have been collected. In Oregon, since 2000, a total of 13,222 length observations, 0 age readings, and 12,207 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 46,530 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 46,494 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 44,994 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 1,492 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 8 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 46,530 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 44,994 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 1,492 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 8 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 82,948 length observations, 7,986 age readings, and 5,262 otoliths that are available to be aged. 
 
@@ -8720,9 +8759,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Pacific spiny dogfish 
  The most recent assessment of Pacific spiny dogfish was a full assessment conducted in 2021. Across available data, Pacific spiny dogfish have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 16,282 length observations, 2,956 age readings, and 459 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 15,369 length observations, 2,956 age readings, and 459 otoliths that are available to be aged. In California, since 2000, a total of 330 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 2,846 length observations, 0 age readings, and 459 otoliths have been collected In Washington, since 2000, a total of 12,193 length observations, 2,956 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 16,282 length observations, 2,956 age readings, and 459 otoliths that are available to be aged. In California, since 2000, a total of 330 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 2,846 length observations, 0 age readings, and 459 otoliths have been collected. In Washington, since 2000, a total of 12,193 length observations, 2,956 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 1,130 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 1,128 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 1,076 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 52 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 1,130 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 1,076 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 52 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 30,890 length observations, 591 age readings, and 8,911 otoliths that are available to be aged. 
 
@@ -8979,7 +9018,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Petrale sole 
  The most recent assessment of Petrale sole was a update assessment conducted in 2019. Across available data, Petrale sole have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 136,238 length observations, 18,591 age readings, and 49,662 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 122,133 length observations, 15,752 age readings, and 39,821 otoliths that are available to be aged. In California, since 2000, a total of 54,489 length observations, 2,163 age readings, and 2,593 otoliths have been collected In Oregon, since 2000, a total of 40,755 length observations, 7,345 age readings, and 27,269 otoliths have been collected In Washington, since 2000, a total of 26,889 length observations, 6,244 age readings, and 9,959 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 136,238 length observations, 18,591 age readings, and 49,662 otoliths that are available to be aged. In California, since 2000, a total of 54,489 length observations, 2,163 age readings, and 2,593 otoliths have been collected. In Oregon, since 2000, a total of 40,755 length observations, 7,345 age readings, and 27,269 otoliths have been collected. In Washington, since 2000, a total of 26,889 length observations, 6,244 age readings, and 9,959 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 68,578 length observations, 12,551 age readings, and 7,313 otoliths that are available to be aged. 
 
@@ -9174,9 +9213,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Quillback rockfish 
  The most recent assessment of Quillback rockfish was a data-moderate assessment conducted in 2021. Across available data, Quillback rockfish have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 6,579 length observations, 185 age readings, and 1,106 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 4,275 length observations, 185 age readings, and 1,106 otoliths that are available to be aged. In California, since 2000, a total of 1,046 length observations, 0 age readings, and 36 otoliths have been collected In Oregon, since 2000, a total of 3,041 length observations, 138 age readings, and 1,070 otoliths have been collected In Washington, since 2000, a total of 188 length observations, 47 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 6,579 length observations, 185 age readings, and 1,106 otoliths that are available to be aged. In California, since 2000, a total of 1,046 length observations, 0 age readings, and 36 otoliths have been collected. In Oregon, since 2000, a total of 3,041 length observations, 138 age readings, and 1,070 otoliths have been collected. In Washington, since 2000, a total of 188 length observations, 47 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 29,344 length observations, 2,895 age readings, and 3,715 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 28,002 length observations, 2,886 age readings, and 3,715 otoliths that are available to be aged. In California, since 2003, a total of 5,057 length observations, 0 age readings, and 29 otoliths have been collected In Oregon, since 2003, a total of 18,366 length observations, 783 age readings, and 3,344 otoliths have been collected In Washington, since 2003, a total of 4,579 length observations, 2,103 age readings, and 342 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 29,344 length observations, 2,895 age readings, and 3,715 otoliths that are available to be aged. In California, since 2003, a total of 5,057 length observations, 0 age readings, and 29 otoliths have been collected. In Oregon, since 2003, a total of 18,366 length observations, 783 age readings, and 3,344 otoliths have been collected. In Washington, since 2003, a total of 4,579 length observations, 2,103 age readings, and 342 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 219 length observations, 175 age readings, and 1 otoliths that are available to be aged. 
 
@@ -9477,7 +9516,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Redbanded rockfish 
  The most recent assessment of Redbanded rockfish was a data-limited assessment conducted in 2010. Across available data, Redbanded rockfish have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 32,088 length observations, 279 age readings, and 12,855 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 29,211 length observations, 279 age readings, and 12,283 otoliths that are available to be aged. In California, since 2000, a total of 4,824 length observations, 1 age readings, and 1,564 otoliths have been collected In Oregon, since 2000, a total of 11,364 length observations, 278 age readings, and 10,719 otoliths have been collected In Washington, since 2000, a total of 13,023 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 32,088 length observations, 279 age readings, and 12,855 otoliths that are available to be aged. In California, since 2000, a total of 4,824 length observations, 1 age readings, and 1,564 otoliths have been collected. In Oregon, since 2000, a total of 11,364 length observations, 278 age readings, and 10,719 otoliths have been collected. In Washington, since 2000, a total of 13,023 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 3,120 length observations, 0 age readings, and 2,932 otoliths that are available to be aged. 
 
@@ -9674,10 +9713,142 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 \endgroup{}
   
   
+# Redstripe rockfish 
+ The most recent assessment of Redstripe rockfish was a data-limited assessment conducted in 2010. Across available data, Redstripe rockfish have been observed and sampled generally by recreational fisheries and the NWFSC WCGBT survey.  
+ 
+ Across all years of available data, recreational fisheries have collected a total of 264 length observations, 0 age readings, and 5 otoliths that are available to be aged. In California, since 2003, a total of 4 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 166 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 5 length observations, 0 age readings, and 5 otoliths have been collected. 
+
+Across all years of available data, the NWFSC WCGBT survey has collected a total of 6,929 length observations, 0 age readings, and 3,145 otoliths that are available to be aged. 
+
+## recreational fisheries 
+ \begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the recreational fisheries in California.}\\
+\toprule
+State & Year & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the recreational fisheries in California. \textit{(continued)}}\\
+\toprule
+State & Year & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+C & 2012 & 0 & 3 & 3 & 0 & 0\\
+C & 2019 & 0 & 1 & 1 & 0 & 0\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the recreational fisheries in Oregon.}\\
+\toprule
+State & Year & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the recreational fisheries in Oregon. \textit{(continued)}}\\
+\toprule
+State & Year & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+O & 2001 & 0 & 57 & 57 & 0 & 0\\
+O & 2002 & 0 & 32 & 32 & 0 & 0\\
+O & 2003 & 0 & 51 & 51 & 0 & 0\\
+O & 2004 & 0 & 14 & 14 & 0 & 0\\
+O & 2005 & 0 & 32 & 32 & 0 & 0\\
+O & 2008 & 0 & 1 & 1 & 0 & 0\\
+O & 2011 & 0 & 6 & 6 & 0 & 0\\
+O & 2012 & 0 & 4 & 4 & 0 & 0\\
+O & 2013 & 0 & 2 & 2 & 0 & 0\\
+O & 2014 & 0 & 6 & 6 & 0 & 0\\
+O & 2015 & 0 & 14 & 14 & 0 & 0\\
+O & 2016 & 0 & 2 & 2 & 0 & 0\\
+O & 2017 & 0 & 13 & 13 & 0 & 0\\
+O & 2018 & 0 & 9 & 9 & 0 & 0\\
+O & 2019 & 0 & 12 & 12 & 0 & 0\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the recreational fisheries in Washington.}\\
+\toprule
+State & Year & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the recreational fisheries in Washington. \textit{(continued)}}\\
+\toprule
+State & Year & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+W & 2015 & 2 & 0 & 2 & 0 & 2\\
+W & 2016 & 2 & 0 & 2 & 0 & 2\\
+W & 2019 & 1 & 0 & 1 & 0 & 1\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+## NWFSC WCGBT 
+ \begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey.}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey. \textit{(continued)}}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2003 & 24 & 766 & 302 & 1068 & 0 & 246\\
+2004 & 15 & 521 & 6 & 527 & 0 & 179\\
+2005 & 17 & 238 & 2 & 240 & 0 & 113\\
+2006 & 16 & 507 & 0 & 507 & 0 & 131\\
+2007 & 9 & 352 & 4 & 356 & 0 & 102\\
+2008 & 13 & 326 & 7 & 333 & 0 & 131\\
+2009 & 14 & 394 & 13 & 407 & 0 & 265\\
+2010 & 11 & 61 & 0 & 61 & 0 & 61\\
+2011 & 14 & 597 & 0 & 597 & 0 & 295\\
+2012 & 9 & 224 & 0 & 224 & 0 & 113\\
+2013 & 10 & 408 & 0 & 408 & 0 & 210\\
+2014 & 14 & 505 & 0 & 505 & 0 & 314\\
+2015 & 15 & 242 & 63 & 305 & 0 & 147\\
+2016 & 17 & 569 & 78 & 647 & 0 & 324\\
+2017 & 16 & 317 & 0 & 317 & 0 & 201\\
+2018 & 10 & 259 & 0 & 259 & 0 & 190\\
+2019 & 5 & 168 & 0 & 168 & 0 & 123\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+  
+  
 # Rex sole 
  The most recent assessment of Rex sole was a data-moderate assessment conducted in 2013. Across available data, Rex sole have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 49,884 length observations, 0 age readings, and 19,130 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 49,883 length observations, 0 age readings, and 19,130 otoliths that are available to be aged. In California, since 2000, a total of 26,674 length observations, 0 age readings, and 1,162 otoliths have been collected In Oregon, since 2000, a total of 21,879 length observations, 0 age readings, and 17,968 otoliths have been collected In Washington, since 2000, a total of 1,330 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 49,884 length observations, 0 age readings, and 19,130 otoliths that are available to be aged. In California, since 2000, a total of 26,674 length observations, 0 age readings, and 1,162 otoliths have been collected. In Oregon, since 2000, a total of 21,879 length observations, 0 age readings, and 17,968 otoliths have been collected. In Washington, since 2000, a total of 1,330 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 134,477 length observations, 0 age readings, and 10,122 otoliths that are available to be aged. 
 
@@ -9823,9 +9994,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Rock sole 
  The most recent assessment of Rock sole was a data-limited assessment conducted in 2010. Across available data, Rock sole have been observed and sampled generally by both commercial and recreational fisheries.  
  
- Across all years of available data, commercial fisheries have collected a total of 2,236 length observations, 0 age readings, and 812 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 1,767 length observations, 0 age readings, and 812 otoliths that are available to be aged. In California, since 2000, a total of 1,054 length observations, 0 age readings, and 107 otoliths have been collected In Oregon, since 2000, a total of 713 length observations, 0 age readings, and 705 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 2,236 length observations, 0 age readings, and 812 otoliths that are available to be aged. In California, since 2000, a total of 1,054 length observations, 0 age readings, and 107 otoliths have been collected. In Oregon, since 2000, a total of 713 length observations, 0 age readings, and 705 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 926 length observations, 0 age readings, and 15 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 925 length observations, 0 age readings, and 15 otoliths that are available to be aged. In California, since 2003, a total of 836 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 65 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 24 length observations, 0 age readings, and 15 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 926 length observations, 0 age readings, and 15 otoliths that are available to be aged. In California, since 2003, a total of 836 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 65 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 24 length observations, 0 age readings, and 15 otoliths have been collected. 
 
 
 
@@ -10035,13 +10206,13 @@ W & 2021 & 3 & 0 & 3 & 0 & 3\\*
   
   
 # Rosethorn rockfish 
- The most recent assessment of Rosethorn rockfish was a data-limited assessment conducted in 2010. Across available data, Rosethorn rockfish have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC HKL survey.  
+ The most recent assessment of Rosethorn rockfish was a data-limited assessment conducted in 2010. Across available data, Rosethorn rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 4,614 length observations, 0 age readings, and 2,093 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 3,447 length observations, 0 age readings, and 1,947 otoliths that are available to be aged. In California, since 2000, a total of 201 length observations, 0 age readings, and 66 otoliths have been collected In Oregon, since 2000, a total of 1,962 length observations, 0 age readings, and 1,881 otoliths have been collected In Washington, since 2000, a total of 1,284 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 4,614 length observations, 0 age readings, and 2,093 otoliths that are available to be aged. In California, since 2000, a total of 201 length observations, 0 age readings, and 66 otoliths have been collected. In Oregon, since 2000, a total of 1,962 length observations, 0 age readings, and 1,881 otoliths have been collected. In Washington, since 2000, a total of 1,284 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 548 length observations, 0 age readings, and 5 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 364 length observations, 0 age readings, and 5 otoliths that are available to be aged. In California, since 2003, a total of 20 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 337 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 7 length observations, 0 age readings, and 5 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 548 length observations, 0 age readings, and 5 otoliths that are available to be aged. In California, since 2003, a total of 20 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 337 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 7 length observations, 0 age readings, and 5 otoliths have been collected. 
 
-Across all years of available data, the NWFSC HKL survey has collected a total of 36 length observations, 0 age readings, and 27 otoliths that are available to be aged. 
+Across all years of available data, the NWFSC WCGBT survey has collected a total of 17,509 length observations, 0 age readings, and 6,989 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 36 length observations, 0 age readings, and 27 otoliths that are available to be aged. 
 
 ## commercial fisheries 
  \begingroup\fontsize{10}{12}\selectfont
@@ -10283,6 +10454,45 @@ W & 2021 & 1 & 0 & 1 & 0 & 1\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
+## NWFSC WCGBT 
+ \begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey.}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey. \textit{(continued)}}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2003 & 62 & 1592 & 10 & 1602 & 0 & 382\\
+2004 & 40 & 990 & 13 & 1003 & 0 & 353\\
+2005 & 43 & 923 & 5 & 928 & 0 & 322\\
+2006 & 58 & 1577 & 1 & 1578 & 0 & 496\\
+2007 & 53 & 1277 & 43 & 1320 & 0 & 507\\
+2008 & 44 & 807 & 4 & 811 & 0 & 366\\
+2009 & 57 & 1114 & 30 & 1144 & 0 & 481\\
+2010 & 55 & 1204 & 36 & 1240 & 0 & 507\\
+2011 & 61 & 1265 & 13 & 1278 & 0 & 527\\
+2012 & 44 & 726 & 35 & 761 & 0 & 360\\
+2013 & 39 & 793 & 16 & 809 & 0 & 345\\
+2014 & 54 & 978 & 32 & 1010 & 0 & 508\\
+2015 & 39 & 723 & 2 & 725 & 0 & 333\\
+2016 & 65 & 1164 & 4 & 1168 & 0 & 538\\
+2017 & 47 & 1206 & 24 & 1230 & 0 & 423\\
+2018 & 48 & 663 & 12 & 675 & 0 & 410\\
+2019 & 18 & 227 & 0 & 227 & 0 & 131\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
 ## NWFSC HKL 
  \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont
@@ -10311,13 +10521,13 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
   
   
 # Rosy rockfish 
- The most recent assessment of Rosy rockfish was a data-limited assessment conducted in 2010. Across available data, Rosy rockfish have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC HKL survey.  
+ The most recent assessment of Rosy rockfish was a data-limited assessment conducted in 2010. Across available data, Rosy rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 2,414 length observations, 0 age readings, and 213 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 329 length observations, 0 age readings, and 12 otoliths that are available to be aged. In California, since 2000, a total of 290 length observations, 0 age readings, and 2 otoliths have been collected In Oregon, since 2000, a total of 39 length observations, 0 age readings, and 10 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 2,414 length observations, 0 age readings, and 213 otoliths that are available to be aged. In California, since 2000, a total of 290 length observations, 0 age readings, and 2 otoliths have been collected. In Oregon, since 2000, a total of 39 length observations, 0 age readings, and 10 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 19,061 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 18,924 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 18,843 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 81 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 19,061 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 18,843 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 81 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, the NWFSC HKL survey has collected a total of 763 length observations, 0 age readings, and 699 otoliths that are available to be aged. 
+Across all years of available data, the NWFSC WCGBT survey has collected a total of 340 length observations, 0 age readings, and 160 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 763 length observations, 0 age readings, and 699 otoliths that are available to be aged. 
 
 ## commercial fisheries 
  \begingroup\fontsize{10}{12}\selectfont
@@ -10482,6 +10692,41 @@ O & 2019 & 0 & 8 & 8 & 0 & 0\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
+## NWFSC WCGBT 
+ \begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey.}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey. \textit{(continued)}}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2004 & 1 & 3 & 0 & 3 & 0 & 3\\
+2005 & 5 & 8 & 3 & 11 & 0 & 11\\
+2007 & 2 & 41 & 0 & 41 & 0 & 16\\
+2008 & 7 & 199 & 23 & 222 & 0 & 70\\
+2009 & 2 & 1 & 1 & 2 & 0 & 2\\
+2010 & 2 & 5 & 0 & 5 & 0 & 5\\
+2011 & 1 & 1 & 0 & 1 & 0 & 1\\
+2013 & 1 & 3 & 0 & 3 & 0 & 0\\
+2014 & 1 & 1 & 0 & 1 & 0 & 1\\
+2016 & 3 & 9 & 0 & 9 & 0 & 9\\
+2017 & 4 & 14 & 0 & 14 & 0 & 14\\
+2018 & 2 & 4 & 0 & 4 & 0 & 4\\
+2019 & 4 & 23 & 1 & 24 & 0 & 24\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
 ## NWFSC HKL 
  \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont
@@ -10525,7 +10770,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Rougheye/Blackspotted rockfish 
  The most recent assessment of Rougheye/Blackspotted rockfish was a full assessment conducted in 2013. Across available data, Rougheye/Blackspotted rockfish have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 49,275 length observations, 2,487 age readings, and 15,062 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 45,399 length observations, 2,487 age readings, and 15,039 otoliths that are available to be aged. In California, since 2000, a total of 1,020 length observations, 0 age readings, and 386 otoliths have been collected In Oregon, since 2000, a total of 16,225 length observations, 724 age readings, and 14,653 otoliths have been collected In Washington, since 2000, a total of 28,154 length observations, 1,763 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 49,275 length observations, 2,487 age readings, and 15,062 otoliths that are available to be aged. In California, since 2000, a total of 1,020 length observations, 0 age readings, and 386 otoliths have been collected. In Oregon, since 2000, a total of 16,225 length observations, 724 age readings, and 14,653 otoliths have been collected. In Washington, since 2000, a total of 28,154 length observations, 1,763 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 1,958 length observations, 962 age readings, and 675 otoliths that are available to be aged. 
 
@@ -10722,7 +10967,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Sablefish 
  The most recent assessment of Sablefish was a update assessment conducted in 2021. Across available data, Sablefish have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 345,620 length observations, 42,665 age readings, and 85,845 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 224,210 length observations, 24,012 age readings, and 58,874 otoliths that are available to be aged. In California, since 2000, a total of 90,163 length observations, 7,833 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 73,411 length observations, 12,698 age readings, and 57,928 otoliths have been collected In Washington, since 2000, a total of 60,636 length observations, 3,481 age readings, and 946 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 345,620 length observations, 42,665 age readings, and 85,845 otoliths that are available to be aged. In California, since 2000, a total of 90,163 length observations, 7,833 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 73,411 length observations, 12,698 age readings, and 57,928 otoliths have been collected. In Washington, since 2000, a total of 60,636 length observations, 3,481 age readings, and 946 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 75,104 length observations, 20,775 age readings, and 11,220 otoliths that are available to be aged. 
 
@@ -10950,9 +11195,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Sand sole 
  The most recent assessment of Sand sole was a data-limited assessment conducted in 2010. Across available data, Sand sole have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 8,031 length observations, 0 age readings, and 3,340 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 7,916 length observations, 0 age readings, and 3,340 otoliths that are available to be aged. In California, since 2000, a total of 4,396 length observations, 0 age readings, and 50 otoliths have been collected In Oregon, since 2000, a total of 3,520 length observations, 0 age readings, and 3,290 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 8,031 length observations, 0 age readings, and 3,340 otoliths that are available to be aged. In California, since 2000, a total of 4,396 length observations, 0 age readings, and 50 otoliths have been collected. In Oregon, since 2000, a total of 3,520 length observations, 0 age readings, and 3,290 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 1,459 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 1,421 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 596 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 823 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 2 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 1,459 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 596 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 823 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 2 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 909 length observations, 0 age readings, and 484 otoliths that are available to be aged. 
 
@@ -11205,7 +11450,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Sharpchin rockfish 
  The most recent assessment of Sharpchin rockfish was a data-moderate assessment conducted in NA. Across available data, Sharpchin rockfish have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 11,098 length observations, 0 age readings, and 2,285 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 3,994 length observations, 0 age readings, and 1,792 otoliths that are available to be aged. In California, since 2000, a total of 180 length observations, 0 age readings, and 48 otoliths have been collected In Oregon, since 2000, a total of 1,792 length observations, 0 age readings, and 1,744 otoliths have been collected In Washington, since 2000, a total of 2,022 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 11,098 length observations, 0 age readings, and 2,285 otoliths that are available to be aged. In California, since 2000, a total of 180 length observations, 0 age readings, and 48 otoliths have been collected. In Oregon, since 2000, a total of 1,792 length observations, 0 age readings, and 1,744 otoliths have been collected. In Washington, since 2000, a total of 2,022 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 17,653 length observations, 0 age readings, and 7,309 otoliths that are available to be aged. 
 
@@ -11394,7 +11639,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Shortraker rockfish 
  The most recent assessment of Shortraker rockfish was a data-limited assessment conducted in 2010. Across available data, Shortraker rockfish have been observed and sampled generally by  
  
- Across all years of available data, commercial fisheries have collected a total of 6,269 length observations, 20 age readings, and 2,895 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 5,638 length observations, 20 age readings, and 2,815 otoliths that are available to be aged. In California, since 2000, a total of 56 length observations, 0 age readings, and 17 otoliths have been collected In Oregon, since 2000, a total of 2,843 length observations, 20 age readings, and 2,798 otoliths have been collected In Washington, since 2000, a total of 2,739 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 6,269 length observations, 20 age readings, and 2,895 otoliths that are available to be aged. In California, since 2000, a total of 56 length observations, 0 age readings, and 17 otoliths have been collected. In Oregon, since 2000, a total of 2,843 length observations, 20 age readings, and 2,798 otoliths have been collected. In Washington, since 2000, a total of 2,739 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 
 
@@ -11538,7 +11783,7 @@ W & 2020 & 34 & 1 & 35 & 0 & 0\\*
 # Shortspine thornyhead 
  The most recent assessment of Shortspine thornyhead was a full assessment conducted in 2013. Across available data, Shortspine thornyhead have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 145,968 length observations, 0 age readings, and 29,699 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 112,117 length observations, 0 age readings, and 25,310 otoliths that are available to be aged. In California, since 2000, a total of 61,653 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 32,838 length observations, 0 age readings, and 25,310 otoliths have been collected In Washington, since 2000, a total of 17,626 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 145,968 length observations, 0 age readings, and 29,699 otoliths that are available to be aged. In California, since 2000, a total of 61,653 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 32,838 length observations, 0 age readings, and 25,310 otoliths have been collected. In Washington, since 2000, a total of 17,626 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 85,165 length observations, 0 age readings, and 19,568 otoliths that are available to be aged. 
 
@@ -11746,13 +11991,13 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
   
   
 # Silvergray rockfish 
- The most recent assessment of Silvergray rockfish was a data-limited assessment conducted in 2010. Across available data, Silvergray rockfish have been observed and sampled generally by both commercial and recreational fisheries.  
+ The most recent assessment of Silvergray rockfish was a data-limited assessment conducted in 2010. Across available data, Silvergray rockfish have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 6,876 length observations, 0 age readings, and 2,284 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 3,256 length observations, 0 age readings, and 2,078 otoliths that are available to be aged. In California, since 2000, a total of 17 length observations, 0 age readings, and 6 otoliths have been collected In Oregon, since 2000, a total of 2,134 length observations, 0 age readings, and 2,072 otoliths have been collected In Washington, since 2000, a total of 1,105 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 6,876 length observations, 0 age readings, and 2,284 otoliths that are available to be aged. In California, since 2000, a total of 17 length observations, 0 age readings, and 6 otoliths have been collected. In Oregon, since 2000, a total of 2,134 length observations, 0 age readings, and 2,072 otoliths have been collected. In Washington, since 2000, a total of 1,105 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 465 length observations, 0 age readings, and 76 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 432 length observations, 0 age readings, and 76 otoliths that are available to be aged. In California, since 2003, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 328 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 103 length observations, 0 age readings, and 76 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 465 length observations, 0 age readings, and 76 otoliths that are available to be aged. In California, since 2003, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 328 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 103 length observations, 0 age readings, and 76 otoliths have been collected. 
 
-
+Across all years of available data, the NWFSC WCGBT survey has collected a total of 753 length observations, 0 age readings, and 638 otoliths that are available to be aged. 
 
 ## commercial fisheries 
  \begingroup\fontsize{10}{12}\selectfont
@@ -11986,14 +12231,53 @@ W & 2021 & 10 & 1 & 11 & 0 & 10\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
+## NWFSC WCGBT 
+ \begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey.}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey. \textit{(continued)}}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2003 & 9 & 34 & 0 & 34 & 0 & 34\\
+2004 & 3 & 19 & 0 & 19 & 0 & 19\\
+2005 & 6 & 51 & 0 & 51 & 0 & 46\\
+2006 & 3 & 7 & 0 & 7 & 0 & 7\\
+2007 & 8 & 22 & 0 & 22 & 0 & 22\\
+2008 & 6 & 20 & 0 & 20 & 0 & 20\\
+2009 & 5 & 36 & 0 & 36 & 0 & 36\\
+2010 & 8 & 47 & 0 & 47 & 0 & 47\\
+2011 & 14 & 116 & 0 & 116 & 0 & 81\\
+2012 & 8 & 46 & 0 & 46 & 0 & 46\\
+2013 & 6 & 44 & 0 & 44 & 0 & 26\\
+2014 & 5 & 16 & 0 & 16 & 0 & 16\\
+2015 & 4 & 80 & 0 & 80 & 0 & 23\\
+2016 & 3 & 5 & 0 & 5 & 0 & 5\\
+2017 & 8 & 75 & 0 & 75 & 0 & 75\\
+2018 & 8 & 30 & 0 & 30 & 0 & 30\\
+2019 & 7 & 105 & 0 & 105 & 0 & 105\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
   
   
 # Speckled rockfish 
  The most recent assessment of Speckled rockfish was a data-limited assessment conducted in 2010. Across available data, Speckled rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 3,003 length observations, 0 age readings, and 235 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 357 length observations, 0 age readings, and 3 otoliths that are available to be aged. In California, since 2000, a total of 357 length observations, 0 age readings, and 3 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 3,003 length observations, 0 age readings, and 235 otoliths that are available to be aged. In California, since 2000, a total of 357 length observations, 0 age readings, and 3 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 9,704 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 9,704 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 9,703 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 9,704 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 9,703 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 1 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 255 length observations, 0 age readings, and 127 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 3,455 length observations, 0 age readings, and 3,343 otoliths that are available to be aged. 
 
@@ -12192,7 +12476,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Splitnose rockfish 
  The most recent assessment of Splitnose rockfish was a full assessment conducted in 2009. Across available data, Splitnose rockfish have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 64,855 length observations, 1,647 age readings, and 24,144 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 30,920 length observations, 3 age readings, and 13,902 otoliths that are available to be aged. In California, since 2000, a total of 17,073 length observations, 0 age readings, and 3,147 otoliths have been collected In Oregon, since 2000, a total of 10,996 length observations, 0 age readings, and 10,755 otoliths have been collected In Washington, since 2000, a total of 2,851 length observations, 3 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 64,855 length observations, 1,647 age readings, and 24,144 otoliths that are available to be aged. In California, since 2000, a total of 17,073 length observations, 0 age readings, and 3,147 otoliths have been collected. In Oregon, since 2000, a total of 10,996 length observations, 0 age readings, and 10,755 otoliths have been collected. In Washington, since 2000, a total of 2,851 length observations, 3 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 47,053 length observations, 2,906 age readings, and 8,501 otoliths that are available to be aged. 
 
@@ -12394,9 +12678,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Squarespot rockfish 
  The most recent assessment of Squarespot rockfish was a data-moderate assessment conducted in 2021. Across available data, Squarespot rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 155 length observations, 0 age readings, and 6 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 116 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2000, a total of 116 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 155 length observations, 0 age readings, and 6 otoliths that are available to be aged. In California, since 2000, a total of 116 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 15,716 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 15,716 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 15,716 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 15,716 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 15,716 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 4,133 length observations, 408 age readings, and 809 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 1,478 length observations, 344 age readings, and 1,065 otoliths that are available to be aged. 
 
@@ -12562,9 +12846,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Starry flounder 
  The most recent assessment of Starry flounder was a data-limited assessment conducted in 2010. Across available data, Starry flounder have been observed and sampled generally by both the commercial and recreational fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 8,729 length observations, 0 age readings, and 3,027 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 6,838 length observations, 0 age readings, and 2,836 otoliths that are available to be aged. In California, since 2000, a total of 3,927 length observations, 0 age readings, and 70 otoliths have been collected In Oregon, since 2000, a total of 2,911 length observations, 0 age readings, and 2,766 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 8,729 length observations, 0 age readings, and 3,027 otoliths that are available to be aged. In California, since 2000, a total of 3,927 length observations, 0 age readings, and 70 otoliths have been collected. In Oregon, since 2000, a total of 2,911 length observations, 0 age readings, and 2,766 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 1,011 length observations, 0 age readings, and 7 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 982 length observations, 0 age readings, and 4 otoliths that are available to be aged. In California, since 2003, a total of 655 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2003, a total of 245 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 82 length observations, 0 age readings, and 4 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 1,011 length observations, 0 age readings, and 7 otoliths that are available to be aged. In California, since 2003, a total of 655 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2003, a total of 245 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 82 length observations, 0 age readings, and 4 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 459 length observations, 0 age readings, and 407 otoliths that are available to be aged. 
 
@@ -12839,9 +13123,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Starry rockfish 
  The most recent assessment of Starry rockfish was a data-limited assessment conducted in 2010. Across available data, Starry rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 4,939 length observations, 0 age readings, and 83 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 615 length observations, 0 age readings, and 5 otoliths that are available to be aged. In California, since 2000, a total of 615 length observations, 0 age readings, and 5 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 4,939 length observations, 0 age readings, and 83 otoliths that are available to be aged. In California, since 2000, a total of 615 length observations, 0 age readings, and 5 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 30,862 length observations, 0 age readings, and 36 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 30,862 length observations, 0 age readings, and 36 otoliths that are available to be aged. In California, since 2003, a total of 30,862 length observations, 0 age readings, and 36 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 30,862 length observations, 0 age readings, and 36 otoliths that are available to be aged. In California, since 2003, a total of 30,862 length observations, 0 age readings, and 36 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 79 length observations, 0 age readings, and 73 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 1,805 length observations, 0 age readings, and 1,726 otoliths that are available to be aged. 
 
@@ -13022,12 +13306,93 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 \endgroup{}
   
   
+# Stripetail rockfish 
+ The most recent assessment of Stripetail rockfish was a data-limited assessment conducted in 2010. Across available data, Stripetail rockfish have been observed and sampled generally by recreational fisheries and the NWFSC WCGBT survey.  
+ 
+ Across all years of available data, recreational fisheries have collected a total of 74 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 74 length observations, 0 age readings, and 0 otoliths have been collected. 
+
+Across all years of available data, the NWFSC WCGBT survey has collected a total of 44,666 length observations, 0 age readings, and 9,501 otoliths that are available to be aged. 
+
+## recreational fisheries 
+ \begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the recreational fisheries in California.}\\
+\toprule
+State & Year & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the recreational fisheries in California. \textit{(continued)}}\\
+\toprule
+State & Year & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+C & 2004 & 0 & 21 & 21 & 0 & 0\\
+C & 2005 & 0 & 4 & 4 & 0 & 0\\
+C & 2006 & 0 & 5 & 5 & 0 & 0\\
+C & 2007 & 0 & 8 & 8 & 0 & 0\\
+C & 2009 & 0 & 1 & 1 & 0 & 0\\
+C & 2010 & 0 & 7 & 7 & 0 & 0\\
+C & 2011 & 0 & 5 & 5 & 0 & 0\\
+C & 2012 & 0 & 10 & 10 & 0 & 0\\
+C & 2013 & 0 & 6 & 6 & 0 & 0\\
+C & 2014 & 0 & 1 & 1 & 0 & 0\\
+C & 2016 & 0 & 6 & 6 & 0 & 0\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+## NWFSC WCGBT 
+ \begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey.}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey. \textit{(continued)}}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2003 & 112 & 5303 & 610 & 5913 & 0 & 0\\
+2004 & 113 & 4267 & 390 & 4657 & 0 & 488\\
+2005 & 136 & 3903 & 399 & 4302 & 0 & 540\\
+2006 & 136 & 3204 & 66 & 3270 & 0 & 526\\
+2007 & 138 & 2182 & 52 & 2234 & 0 & 545\\
+2008 & 120 & 1655 & 154 & 1809 & 0 & 434\\
+2009 & 148 & 1886 & 171 & 2057 & 0 & 731\\
+2010 & 166 & 1668 & 437 & 2105 & 0 & 894\\
+2011 & 156 & 1826 & 790 & 2616 & 0 & 834\\
+2012 & 149 & 1685 & 454 & 2139 & 0 & 603\\
+2013 & 93 & 1139 & 61 & 1200 & 0 & 375\\
+2014 & 146 & 1696 & 496 & 2192 & 0 & 601\\
+2015 & 163 & 1829 & 294 & 2117 & 0 & 641\\
+2016 & 147 & 1804 & 261 & 2065 & 0 & 589\\
+2017 & 178 & 1966 & 457 & 2423 & 0 & 695\\
+2018 & 163 & 1984 & 219 & 2203 & 0 & 656\\
+2019 & 82 & 1286 & 78 & 1364 & 0 & 349\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+  
+  
 # Treefish 
  The most recent assessment of Treefish was a data-limited assessment conducted in 2010. Across available data, Treefish have been observed and sampled generally by both commercial and recreational fisheries.  
  
- Across all years of available data, commercial fisheries have collected a total of 1,075 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 855 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2000, a total of 855 length observations, 0 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 1,075 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2000, a total of 855 length observations, 0 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 10,368 length observations, 0 age readings, and 0 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 10,368 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 10,368 length observations, 0 age readings, and 0 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 10,368 length observations, 0 age readings, and 0 otoliths that are available to be aged. In California, since 2003, a total of 10,368 length observations, 0 age readings, and 0 otoliths have been collected. 
 
 
 
@@ -13130,9 +13495,9 @@ C & 2020 & 0 & 54 & 54 & 0 & 0\\*
 # Vermilion/Sunset rockfish 
  The most recent assessment of Vermilion/Sunset rockfish was a full assessment conducted in 2021. Across available data, Vermilion/Sunset rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 22,483 length observations, 1,233 age readings, and 1,804 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 9,130 length observations, 1,122 age readings, and 1,390 otoliths that are available to be aged. In California, since 2000, a total of 6,795 length observations, 0 age readings, and 509 otoliths have been collected In Oregon, since 2000, a total of 2,335 length observations, 1,122 age readings, and 881 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 22,483 length observations, 1,233 age readings, and 1,804 otoliths that are available to be aged. In California, since 2000, a total of 6,795 length observations, 0 age readings, and 509 otoliths have been collected. In Oregon, since 2000, a total of 2,335 length observations, 1,122 age readings, and 881 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 144,311 length observations, 2,208 age readings, and 1,198 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 143,629 length observations, 2,205 age readings, and 1,198 otoliths that are available to be aged. In California, since 2003, a total of 129,489 length observations, 0 age readings, and 117 otoliths have been collected In Oregon, since 2003, a total of 12,708 length observations, 1,450 age readings, and 943 otoliths have been collected In Washington, since 2003, a total of 1,432 length observations, 755 age readings, and 138 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 144,311 length observations, 2,208 age readings, and 1,198 otoliths that are available to be aged. In California, since 2003, a total of 129,489 length observations, 0 age readings, and 117 otoliths have been collected. In Oregon, since 2003, a total of 12,708 length observations, 1,450 age readings, and 943 otoliths have been collected. In Washington, since 2003, a total of 1,432 length observations, 755 age readings, and 138 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 2,549 length observations, 776 age readings, and 980 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 22,986 length observations, 2,564 age readings, and 15,670 otoliths that are available to be aged. 
 
@@ -13383,6 +13748,13 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 \endfoot
 \bottomrule
 \endlastfoot
+2003 & 6 & 61 & 1 & 62 & 0 & 0\\
+2004 & 3 & 8 & 1 & 9 & 8 & 0\\
+2005 & 6 & 48 & 1 & 49 & 11 & 17\\
+2006 & 5 & 27 & 0 & 27 & 18 & 9\\
+2007 & 8 & 120 & 0 & 120 & 56 & 0\\
+2008 & 12 & 73 & 1 & 74 & 39 & 26\\
+2009 & 13 & 223 & 0 & 223 & 114 & 15\\
 2010 & 15 & 78 & 28 & 106 & 93 & 13\\
 2011 & 4 & 28 & 0 & 28 & 4 & 24\\
 2012 & 15 & 467 & 4 & 471 & 106 & 204\\
@@ -13392,14 +13764,7 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 2016 & 20 & 75 & 25 & 100 & 56 & 44\\
 2017 & 16 & 199 & 44 & 243 & 75 & 132\\
 2018 & 12 & 196 & 1 & 197 & 47 & 93\\
-2019 & 7 & 172 & 0 & 172 & 44 & 89\\
-2003 & 6 & 61 & 1 & 62 & 0 & 0\\
-2004 & 3 & 8 & 1 & 9 & 8 & 0\\
-2005 & 6 & 48 & 1 & 49 & 11 & 17\\
-2006 & 5 & 27 & 0 & 27 & 18 & 9\\
-2007 & 8 & 120 & 0 & 120 & 56 & 0\\
-2008 & 12 & 73 & 1 & 74 & 39 & 26\\
-2009 & 13 & 223 & 0 & 223 & 114 & 15\\*
+2019 & 7 & 172 & 0 & 172 & 44 & 89\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
@@ -13446,9 +13811,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Widow rockfish 
  The most recent assessment of Widow rockfish was a update assessment conducted in 2019. Across available data, Widow rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 202,098 length observations, 89,194 age readings, and 124,286 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 52,978 length observations, 21,059 age readings, and 20,305 otoliths that are available to be aged. In California, since 2000, a total of 8,073 length observations, 1,884 age readings, and 3,278 otoliths have been collected In Oregon, since 2000, a total of 27,734 length observations, 9,848 age readings, and 15,444 otoliths have been collected In Washington, since 2000, a total of 17,171 length observations, 9,327 age readings, and 1,583 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 202,098 length observations, 89,194 age readings, and 124,286 otoliths that are available to be aged. In California, since 2000, a total of 8,073 length observations, 1,884 age readings, and 3,278 otoliths have been collected. In Oregon, since 2000, a total of 27,734 length observations, 9,848 age readings, and 15,444 otoliths have been collected. In Washington, since 2000, a total of 17,171 length observations, 9,327 age readings, and 1,583 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 15,760 length observations, 2,328 age readings, and 704 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 15,263 length observations, 2,328 age readings, and 704 otoliths that are available to be aged. In California, since 2003, a total of 6,705 length observations, 0 age readings, and 27 otoliths have been collected In Oregon, since 2003, a total of 4,873 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 3,685 length observations, 2,328 age readings, and 677 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 15,760 length observations, 2,328 age readings, and 704 otoliths that are available to be aged. In California, since 2003, a total of 6,705 length observations, 0 age readings, and 27 otoliths have been collected. In Oregon, since 2003, a total of 4,873 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 3,685 length observations, 2,328 age readings, and 677 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 4,233 length observations, 2,508 age readings, and 184 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 777 length observations, 0 age readings, and 764 otoliths that are available to be aged. 
 
@@ -13839,9 +14204,9 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
 # Yelloweye rockfish 
  The most recent assessment of Yelloweye rockfish was a full assessment conducted in 2017. Across available data, Yelloweye rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 9,182 length observations, 2,116 age readings, and 330 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 3,568 length observations, 2,097 age readings, and 207 otoliths that are available to be aged. In California, since 2000, a total of 218 length observations, 0 age readings, and 17 otoliths have been collected In Oregon, since 2000, a total of 994 length observations, 449 age readings, and 190 otoliths have been collected In Washington, since 2000, a total of 2,356 length observations, 1,648 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 9,182 length observations, 2,116 age readings, and 330 otoliths that are available to be aged. In California, since 2000, a total of 218 length observations, 0 age readings, and 17 otoliths have been collected. In Oregon, since 2000, a total of 994 length observations, 449 age readings, and 190 otoliths have been collected. In Washington, since 2000, a total of 2,356 length observations, 1,648 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 3,399 length observations, 52 age readings, and 323 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 2,583 length observations, 52 age readings, and 323 otoliths that are available to be aged. In California, since 2003, a total of 863 length observations, 0 age readings, and 211 otoliths have been collected In Oregon, since 2003, a total of 1,530 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 190 length observations, 52 age readings, and 112 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 3,399 length observations, 52 age readings, and 323 otoliths that are available to be aged. In California, since 2003, a total of 863 length observations, 0 age readings, and 211 otoliths have been collected. In Oregon, since 2003, a total of 1,530 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 190 length observations, 52 age readings, and 112 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 824 length observations, 684 age readings, and 139 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 86 length observations, 0 age readings, and 80 otoliths that are available to be aged. 
 
@@ -14186,11 +14551,11 @@ Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otolit
   
   
 # Yellowmouth rockfish 
- The most recent assessment of Yellowmouth rockfish was a data-limited assessment conducted in 2010. Across available data, Yellowmouth rockfish have been observed and sampled generally by  
+ The most recent assessment of Yellowmouth rockfish was a data-limited assessment conducted in 2010. Across available data, Yellowmouth rockfish have been observed and sampled generally by commercial fisheries and the NWFSC WCGBT survey.  
  
- Across all years of available data, commercial fisheries have collected a total of 4,091 length observations, 1 age readings, and 2,360 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 2,631 length observations, 1 age readings, and 2,169 otoliths that are available to be aged. In California, since 2000, a total of 23 length observations, 0 age readings, and 0 otoliths have been collected In Oregon, since 2000, a total of 2,183 length observations, 0 age readings, and 2,169 otoliths have been collected In Washington, since 2000, a total of 425 length observations, 1 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 4,091 length observations, 1 age readings, and 2,360 otoliths that are available to be aged. In California, since 2000, a total of 23 length observations, 0 age readings, and 0 otoliths have been collected. In Oregon, since 2000, a total of 2,183 length observations, 0 age readings, and 2,169 otoliths have been collected. In Washington, since 2000, a total of 425 length observations, 1 age readings, and 0 otoliths have been collected. 
 
-
+Across all years of available data, the NWFSC WCGBT survey has collected a total of 509 length observations, 0 age readings, and 279 otoliths that are available to be aged. 
 
 ## commercial fisheries 
  \begingroup\fontsize{10}{12}\selectfont
@@ -14321,14 +14686,47 @@ W & 2019 & 218 & 0 & 218 & 0 & 0\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
+## NWFSC WCGBT 
+ \begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}>{\raggedright\arraybackslash}p{1.57cm}}
+\caption{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey.}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endfirsthead
+\caption[]{(\#tab:tab-label)Data collected annually from the NWFSC WCGBT survey. \textit{(continued)}}\\
+\toprule
+Year & Positive Sites/Tows & Sexed Fish & Unsexed Fish & Lengths & Ages & Otoliths\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2003 & 5 & 141 & 0 & 141 & 0 & 34\\
+2005 & 2 & 23 & 0 & 23 & 0 & 23\\
+2010 & 1 & 1 & 0 & 1 & 0 & 1\\
+2011 & 5 & 54 & 0 & 54 & 0 & 54\\
+2012 & 3 & 3 & 0 & 3 & 0 & 3\\
+2013 & 4 & 10 & 0 & 10 & 0 & 10\\
+2014 & 1 & 1 & 0 & 1 & 0 & 1\\
+2015 & 2 & 13 & 0 & 13 & 0 & 13\\
+2016 & 6 & 85 & 0 & 85 & 0 & 57\\
+2017 & 5 & 29 & 0 & 29 & 0 & 29\\
+2018 & 4 & 149 & 0 & 149 & 0 & 54\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
   
   
 # Yellowtail rockfish 
  The most recent assessment of Yellowtail rockfish was a full assessment conducted in 2017. Across available data, Yellowtail rockfish have been observed and sampled generally by both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys.  
  
- Across all years of available data, commercial fisheries have collected a total of 199,193 length observations, 139,121 age readings, and 30,622 otoliths that are available to be aged. Since 2000, commercial fisheries have collected a 80,311 length observations, 54,916 age readings, and 7,464 otoliths that are available to be aged. In California, since 2000, a total of 4,241 length observations, 802 age readings, and 1,404 otoliths have been collected In Oregon, since 2000, a total of 39,043 length observations, 26,044 age readings, and 6,060 otoliths have been collected In Washington, since 2000, a total of 37,027 length observations, 28,070 age readings, and 0 otoliths have been collected 
+ Across all years of available data, commercial fisheries have collected a total of 199,193 length observations, 139,121 age readings, and 30,622 otoliths that are available to be aged. In California, since 2000, a total of 4,241 length observations, 802 age readings, and 1,404 otoliths have been collected. In Oregon, since 2000, a total of 39,043 length observations, 26,044 age readings, and 6,060 otoliths have been collected. In Washington, since 2000, a total of 37,027 length observations, 28,070 age readings, and 0 otoliths have been collected. 
 
-Across all years of available data, recreational fisheries have collected a total of 110,549 length observations, 5,775 age readings, and 1,236 otoliths that are available to be aged. Since 2003, recreational fisheries have collected a 107,676 length observations, 5,775 age readings, and 1,224 otoliths that are available to be aged. In California, since 2003, a total of 60,278 length observations, 0 age readings, and 217 otoliths have been collected In Oregon, since 2003, a total of 34,567 length observations, 0 age readings, and 0 otoliths have been collected In Washington, since 2003, a total of 12,831 length observations, 5,775 age readings, and 1,007 otoliths have been collected 
+Across all years of available data, recreational fisheries have collected a total of 110,549 length observations, 5,775 age readings, and 1,236 otoliths that are available to be aged. In California, since 2003, a total of 60,278 length observations, 0 age readings, and 217 otoliths have been collected. In Oregon, since 2003, a total of 34,567 length observations, 0 age readings, and 0 otoliths have been collected. In Washington, since 2003, a total of 12,831 length observations, 5,775 age readings, and 1,007 otoliths have been collected. 
 
 Across all years of available data, the NWFSC WCGBT survey has collected a total of 16,040 length observations, 5,193 age readings, and 2,973 otoliths that are available to be aged. Across all years of available data, the NWFSC HKL survey has collected a total of 1,531 length observations, 124 age readings, and 1,192 otoliths that are available to be aged. 
 
