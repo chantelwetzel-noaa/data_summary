@@ -18,7 +18,7 @@
 #'
 cut_commercial_bds <- function(data_name, add_cols = NULL) {
 
-	data <- read.csv(paste0("data/", data_name))
+	data <- read.csv(paste0("data-raw/", data_name))
 
 	cols <- c("AGENCY_CODE", "SAMPLE_YEAR", "PACFIN_SPECIES_CODE", "PACFIN_SPECIES_COMMON_NAME",
 		"SAMPLE_TYPE", "SAMPLE_TYPE_DESC",
@@ -48,5 +48,11 @@ cut_commercial_bds <- function(data_name, add_cols = NULL) {
 	bds_data <- cut_data[keep_species, ]
 
 	new_name <- gsub('.{4}$', '', data_name)
-	save(bds_data, file = paste0("data/", new_name, ".rdat"))
+	save(bds_data, file = paste0("data-raw/", new_name, ".rdat"))
 }
+
+#data_names <- c("Confidential-BDS501-1980---2021_california.rdat",
+#				"Confidential-BDS501-1980---2021_oregon.rdat",
+#				"Confidential-BDS501-1980---2021_washington.rdat")
+#
+#summarize_commercial_bds(data_names)

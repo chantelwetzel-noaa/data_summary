@@ -1,21 +1,37 @@
 
 setwd("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary")
+source(file.path(getwd(), "R", "all_species.R"))
+library(dplyr)
+library(tidyr)
 
-data_dir <- file.path("data")
+data_dir <- file.path(getwd(), "data")
 
 # Load all of the summarized data sets =====================================
-load(file.path('data', 'summarized_wcgbt_data.rdat'))
+load(file.path(data_dir, 'summarized_wcgbt_data.rdat'))
 wcgbt = out
-load(file.path('data', 'summarized_hkl_data.rdat'))
+# blue rockfish
+# deacon rockfish
+# rougheye and blackspotted
+# vermilion and sunset
+load(file.path(data_dir, 'summarized_hkl_data.rdat'))
 hkl = out
-load(file.path('data', 'summarized_commercial_data.rdat'))
+# blue rockfish
+# vermilion rockfish
+load(file.path(data_dir, 'summarized_commercial_data.rdat'))
 com = combine
-load(file.path('data', 'summarized_recreational_data.rdat'))
+# blue rockfish
+# rougheye rockfish
+# blackspotted rockfish
+# vermilion rockfish
+load(file.path(data_dir, 'summarized_recreational_data.rdat'))
 rec = out
-
+# blue rockfish
+# blue/deacon rockfish
+# rougheye rockfish
+# vermilion rockfish
 # Species list =============================================================
 species <- unlist(all_species())
-pacfin_species <- read.csv(file.path('data', 'pacfin_species_names.csv'))
+pacfin_species <- read.csv(file.path(data_dir, 'pacfin_species_names.csv'))
 
 # Filter function ==========================================================
 filter_species <- function(data, species_list){
@@ -28,14 +44,25 @@ filter_species <- function(data, species_list){
 
 
 # Read in state specific otolith data and join that with the commercial data =======
-ca_oto <- read.csv(file.path('data', 'ca_commerical_samples_otoliths_2022.csv'))
+ca_oto <- read.csv(file.path(data_dir, 'ca_commerical_samples_otoliths_2022.csv'))
 ca_oto$common_name <- NA
 ca_oto$sample_year <- ca_oto$year
+# filter out unneeded species
+ca_oto = ca_oto[ca_oto$species %in% pacfin_species$pacfin.code, ]
 all <- sort(unique(ca_oto$species))
 for(a in 1:length(all)){
 	find = which(all[a] == pacfin_species$pacfin.code)
 	ca_oto$common_name[ca_oto$species == all[a]] <- pacfin_species[find,"species"]
 }
+
+find = which(ca_oto$common_name %in% c("blue rockfish", "deacon rockfish"))
+ca_oto[find, "common_name"] = "blue and deacon rockfish"
+find = which(ca_oto$common_name %in% c("black and yellow rockfish", "gopher rockfish"))
+ca_oto[find, "common_name"] = "gopher and black and yellow rockfish"
+find = which(ca_oto$common_name %in% c("vermilion rockfish", "sunset rockfish"))
+ca_oto[find, "common_name"] = "vermilion and sunset rockfish"
+find = which(ca_oto$common_name %in% c("rougheye rockfish", "blackspotted rockfish"))
+ca_oto[find, "common_name"] = "rougheye and blackspotted rockfish"
 
 key <- filter_species(data = ca_oto$common_name, species_list = species)
 ca_oto_summarized <- ca_oto[key,] %>%
@@ -50,6 +77,8 @@ com_int[find, "otoliths.x"] = com_int[find, "otoliths.y"]
 wa_oto <- read.csv(file.path('data', 'wa_commercial_samples_otoliths.csv'))
 wa_oto$unaged <- wa_oto$CountOfage_structure - wa_oto$CountOfbest_age
 wa_oto$common_name = tolower(wa_oto$species_name)
+find = which(wa_oto$common_name %in% c("rougheye rockfish", "blackspotted rockfish"))
+wa_oto[find, "common_name"] = "rougheye and blackspotted rockfish"
 key <- filter_species(data = wa_oto$species_name, species_list = species)
 wa_oto_summarized <- wa_oto[key,] %>%
 		group_by(common_name, sample_year) %>%
@@ -77,20 +106,23 @@ firstup <- function(x) {
 
 all_data$name = firstup(all_data$common_name)	
 
-find = which(all_data$common_name == "blue rockfish" | all_data$common_name	 == "deacon rockfish" |
-		all_data$common_name == "blue/deacon rockfish" | all_data$common_name == "deacon/blue rockfish unknown")
-all_data[find, "name"] = "Blue/Deacon rockfish"
+# fix gopher for hkl and wcgbt
+find = which(all_data$common_name == "gopher rockfish" & all_data$data_type %in% c("nwfsc_hkl", "nwfsc_wcgbt"))
+all_data$common_name[find] = "gopher and black and yellow rockfish"
 
-find = which(all_data$common_name == "vermilion rockfish" | all_data$common_name == "sunset rockfish" |
-		all_data$common_name == "vermilion and sunset rockfish")
-all_data[find, "name"] = "Vermilion/Sunset rockfish"
+#find = which(all_data$common_name == "blue and deacon rockfish")
+#all_data[find, "name"] = "Blue/Deacon rockfish"
 
-find = which(all_data$common_name == "gopher rockfish" | all_data$common_name == "black and yellow rockfish")
-all_data[find, 'name'] = "Gopher/Black and yellow rockfish"
+#find = which(all_data$common_name == "vermilion rockfish" | all_data$common_name == "sunset rockfish" |
+#		all_data$common_name == "vermilion and sunset rockfish")
+#all_data[find, "name"] = "Vermilion/Sunset rockfish"
 
-find = which(all_data$common_name == "blackspotted rockfish" | all_data$common_name == "rougheye rockfish" |
-		all_data$common_name == "rougheye and blackspotted rockfish")
-all_data[find, 'name'] = "Rougheye/Blackspotted rockfish"
+#find = which(all_data$common_name == "gopher rockfish" | all_data$common_name == "black and yellow rockfish")
+#all_data[find, 'name'] = "Gopher/Black and yellow rockfish"
+#
+#find = which(all_data$common_name == "blackspotted rockfish" | all_data$common_name == "rougheye rockfish" |
+#		all_data$common_name == "rougheye and blackspotted rockfish")
+#all_data[find, 'name'] = "Rougheye/Blackspotted rockfish"
 
 find = which(all_data$common_name == "spiny dogfish" | all_data$common_name == 'spiny dogfish shark')
 all_data[find, 'name'] = 'Pacific spiny dogfish'
@@ -113,6 +145,11 @@ find = which(all_data$data_type	== "nwfsc_hkl")
 all_data$data_type[find] = "NWFSC HKL"
 find = which(all_data$data_type	== "nwfsc_wcgbt")
 all_data$data_type[find] = "NWFSC WCGBT"
+
+fix <- which(all_data$name == "Southern rock sole")
+all_data[fix, "name"] = "Rock sole"
+
+all_data = data.frame(all_data)
 
 save(all_data, file = file.path(data_dir, "summarized_all_data.rdat"))
 
