@@ -25,11 +25,11 @@
 #' @import nwfscSurvey
 #' @import here
 #'
-pull_wcgbts <- function(survey = 'NWFSC.Combo', save = FALSE, return = TRUE, verbose = FALSE){
+pull_wcgbts <- function(dir, survey = 'NWFSC.Combo', save = FALSE, return = TRUE, verbose = FALSE){
 
 	species_names <- all_species()
 
-	dir <- here::here("data")
+	dir <- here::here("data-raw")
 	catch <- nwfscSurvey::PullCatch.fn(SurveyName = survey, 
 				SaveFile = save, Dir = dir, verbose = verbose) 
 
@@ -43,6 +43,13 @@ pull_wcgbts <- function(survey = 'NWFSC.Combo', save = FALSE, return = TRUE, ver
 	
 	# deal with the naming of vermilion in select years
 	bio[which(bio$Common_name == "vermilion rockfish"), "Common_name"] = 'vermilion and sunset rockfish'
+
+	# Combine cryptic species that may be recorded with different common names
+	find = which(bio$Common_name %in% c("rougheye rockfish", "blackspotted rockfish"))
+	bio[find, "Common_name"] = "rougheye and blackspotted rockfish"
+
+	find = which(bio$Common_name %in% c("blue rockfish", "deacon rockfish"))
+	bio[find, "Common_name"] = "blue and deacon rockfish"
 
 	# filter down to only the species considered in the prioritization process
 	keep <- which(bio$Common_name %in% unique(unlist(species_names)))
