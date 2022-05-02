@@ -1,7 +1,8 @@
 
+setwd("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary")
 library(dplyr)
 library(tidyr)
-load(file.path(getwd(), "data", "hkl_filtered.Rda"))
+load(file.path(getwd(), "data", "hkl_filtered.Rdata"))
 data <- sub_hkl
 
 get_hkl_samples <- function(data){
@@ -12,13 +13,16 @@ get_hkl_samples <- function(data){
 	use <- which(!is.na(data$otolith_number) & is.na(data$age_years))
 	data$unaged_fish[use] <- 1 
 
+	data[data$common_name == "Vermilion Rockfish", "common_name"] = "Vermilion and Sunset Rockfish"
+	data[data$common_name == "Blue Rockfish", "common_name"] = "Blue and Deacon Rockfish"
+
 	hkl_summary <-  
 		data %>%
 		group_by(common_name, year) %>%
 		summarise(
 			positive_sites = length(unique(set_id)),
-			sexed_fish = sum(sex %in% c("M", "F")),
-			unsexed_fish = sum(sex == "U"),
+			sexed_fish = sum(sex %in% c("M", "F") & !is.na(length_cm)),
+			unsexed_fish = sum(sex == "U" & !is.na(length_cm)),
 			lengthed = sum(!is.na(length_cm)),
 			aged = sum(!is.na(age_years)),
 			otoliths = sum(unaged_fish)
@@ -34,7 +38,7 @@ get_hkl_samples <- function(data){
 		  'lengthed', 'aged', 'otoliths', 'data_type')] 
 
 	write.csv(out, file.path(dir, "hkl_summary.csv"), row.names = FALSE)
-	save(out,  file = paste0("data/summarized_hkl_data.rdat"))
+	save(out,  file = file.path(getwd(), "data", "summarized_hkl_data.rdat"))
 	return(out)
 
 }
