@@ -149,7 +149,7 @@ multiplot <- function(species_name){
 				tab = data.frame(sub_data[find, ])
 				state <- ifelse(tmp_state == "C", "California", 
  					     ifelse(tmp_state == "O", "Oregon", "Washington"))
-				col_names = c("State", "Year", "Sexed Fish", "Unsexed Fish", "Lengths", "Ages", "Otoliths")
+				col_names = c("State", "Year", "Sexed Fish", "Unsexed Fish", "Lengths", "Ages", "Unread Otoliths")
 				caption = paste0("Data collected annually from the ", sources[tt], " in ", state,".")
 				rownames(tab) = NULL
 				t = table_format(x = tab[,c(2,3,5:9)], 
@@ -163,7 +163,10 @@ multiplot <- function(species_name){
 
 		if(sources[tt] %in% c("NWFSC WCGBT", "NWFSC HKL")){
 			tab = as.data.frame(sub_data[sub_data$data_type == sources[tt], ])
-			col_names = c("Year", "Positive Sites/Tows", "Sexed Fish", "Unsexed Fish", "Lengths", "Ages", "Otoliths")
+			col_names = c("Year", "Positive Tows", "Sexed Fish", "Unsexed Fish", "Lengths", "Ages", "Unread Otoliths")
+			if (sources[tt] == "NWFSC HKL"){
+				col_names = c("Year", "Positive Sites", "Sexed Fish", "Unsexed Fish", "Lengths", "Ages", "Unread Otoliths")
+			}
 			caption = paste0("Data collected annually from the ", sources[tt], " survey.")
 			rownames(tab) = NULL
 			t = table_format(x = tab[,3:9], 
