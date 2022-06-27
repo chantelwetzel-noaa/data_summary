@@ -48,9 +48,9 @@ for (s in species){
    			Year = index[, "Year"],
    			Unit = 'mt',
    			Fleet = index[, "Fleet"],
-   			Estimate_metric_tons = index[, "Estimate_metric_tons"], # / 1000,
-   			SD_mt = index[, "SD_log"], # / 1000,
-   			SD_log = index[, "SD_mt"]
+   			Estimate_metric_tons = index[, "Estimate_metric_tons"] / 1000,
+   			SD_mt = index[, "SD_mt"] / 1000,
+   			SD_log = index[, "SD_log"]
    		)
 	} else {
 		index = read.csv(file.path(dir, "Index.csv"))
