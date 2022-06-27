@@ -8,22 +8,17 @@ data <- all_data
 data$use_data <- NA
 species_data <- get_species_data()
 for (a in 1:nrow(species_data)){
-	key <- grep(species_data[a, "species_name"], data$name, ignore.case = TRUE)
+	key <- grep(species_data[a, "species_name"], data$common_name, ignore.case = TRUE)
 	data[key, "use_data"] <- species_data[a, "data"]
 }
-
-fix = which(data$name == "Gopher rockfish")
-data[fix, "name"] = "Gopher and black and yellow rockfish"
-
-fix = which(data$name == "Tree rockfish")
-data[fix, "name"] = "Treefish"
 
 # Filter down for only the species we are examining
 find = NULL
 for (a in 1:nrow(species_data)){
-	find <- c(find, grep(species_data[a, "species_name"], data$name, ignore.case = TRUE))
+	find <- c(find, grep(species_data[a, "species_name"], data$common_name, ignore.case = TRUE))
 }
 data <- data[find, ]
+data$name = firstup(data$common_name)
 ```
 
 ```{r loop-output, results="asis"}
