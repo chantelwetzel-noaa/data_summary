@@ -40,8 +40,12 @@ cut_commercial_bds <- function(data_name, add_cols = NULL) {
 	cut_data <- cut_data[good_samples, ] 
 
 	# Summarize only break and burn reads
+	cut_data$age <- cut_data$AGE_IN_YEARS
 	not_bb_read <- which(!cut_data$AGE_METHOD_CODE %in% c(1, 4, "B", "BB", "", "TS"))
-	cut_data[not_bb_read, c("AGE_IN_YEARS")] <- NA
+	cut_data[not_bb_read, c("age")] <- NA
+
+	cut_data$otolith_structure <- cut_data$AGE_STRUCTURE_CODE
+	cut_data$otolith_structure[not_bb_read] <- NA 
 
 	pacfin_names <- read.csv("data/pacfin_species_names.csv")
 	keep_species <- which(cut_data$PACFIN_SPECIES_CODE %in% pacfin_names[,1])
