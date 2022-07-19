@@ -24,7 +24,8 @@ cut_commercial_bds <- function(data_name, add_cols = NULL) {
 		"SAMPLE_TYPE", "SAMPLE_TYPE_DESC",
 		"SAMPLE_METHOD_CODE", "SAMPLE_METHOD_DESC", "DATA_TYPE", "CLUSTER_ID",
 		"FISH_LENGTH_TYPE_CODE", "FISH_LENGTH_TYPE_DESC", "FISH_LENGTH", "FORK_LENGTH", "FORK_LENGTH_IS_ESTIMATED",
-		"SEX_CODE", "AGE_METHOD_CODE", "AGE_IN_YEARS", "AGE_STRUCTURE_CODE", "AGENCY_AGE_STRUCTURE_CODE", "AGE_STRUCTURE_DESC"
+		"SEX_CODE", "AGE_METHOD_CODE", "FINAL_FISH_AGE_IN_YEARS", "AGE_SEQUENCE_NUMBER", 
+		"AGE_STRUCTURE_CODE", "AGENCY_AGE_STRUCTURE_CODE", "AGE_STRUCTURE_DESC"
 	)
 
 	if(!is.null(add_cols)) {
@@ -39,8 +40,12 @@ cut_commercial_bds <- function(data_name, add_cols = NULL) {
 	}
 	cut_data <- cut_data[good_samples, ] 
 
+	# Eliminate any multiple age reads in the data
+	first_read <- which(cut_data$AGE_SEQUENCE_NUMBER == 1)
+	cut_data <- cut_data[first_read, ]
+
 	# Summarize only break and burn reads
-	cut_data$age <- cut_data$AGE_IN_YEARS
+	cut_data$age <- cut_data$FINAL_FISH_AGE_IN_YEARS
 	not_bb_read <- which(!cut_data$AGE_METHOD_CODE %in% c(1, 4, "B", "BB", "", "TS"))
 	cut_data[not_bb_read, c("age")] <- NA
 
