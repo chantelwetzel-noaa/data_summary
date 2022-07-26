@@ -77,6 +77,11 @@ ca_oto_summarized <- ca_oto[key,] %>%
 com_int = left_join(com, ca_oto_summarized, by = c("sample_year", "common_name", "state"))
 find = which(!is.na(com_int$otoliths.y))
 com_int[find, "otoliths.x"] = com_int[find, "otoliths.y"] 
+# Deal with CDFW otolith counts which do not appaer to account for read otoliths
+com_int = as.data.frame(com_int)
+find = which(com_int$state == "C")
+com_int[find, "otoliths.x"] = com_int[find, "otoliths.x"] - com_int[find, "aged"]
+com_int[com_int$otoliths.x < 0, "otoliths.x"] <- 0
 colnames(com_int)[which(colnames(com_int) == "otoliths.x")] = "otoliths"
 com_int <- com_int[ ,colnames(com_int) != "otoliths.y"]
 
