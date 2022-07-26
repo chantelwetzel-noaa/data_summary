@@ -44,7 +44,7 @@ summarize_commercial_bds <- function(data_names) {
 
 	combine <-  
 		data_matrix %>%
-		group_by(AGENCY_CODE, SAMPLE_YEAR) %>%
+		group_by(common_name, AGENCY_CODE, SAMPLE_YEAR) %>%
 		summarise(
 			positive_sites = 0, 
 			sexed_fish = sum(SEX_CODE %in% c("M", "F", 1, 2) & !is.na(FISH_LENGTH)),

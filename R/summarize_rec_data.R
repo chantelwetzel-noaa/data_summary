@@ -3,6 +3,11 @@ library(tidyr)
 # Otolith summary
 setwd("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary")
 
+# Note: WDFW and ODFW each sent separate spreadsheets reflecting the number of
+# recreational aged and otoliths collected. According to RecFIN, there are no
+# recreational samples with ages for California. Need to reach out to CDFW in 
+# the 2024 data summary process to see if this is still correct. 
+
 # Species list =============================================================
 species <- unlist(all_species())
 
@@ -124,7 +129,9 @@ or_all$state = "O"
 rename = c("SPECIES_NAME", "RECFIN_YEAR")
 colnames(or_all)[colnames(or_all) %in% rename] = c("species_name", "sample_year")
 
-ca_all = dplyr::left_join(ca_rec_summ, ca_oto)
+ca_rec_summ$SPECIES_NAME = tolower(ca_rec_summ$SPECIES_NAME)
+ca_oto_sum$SPECIES_NAME	= tolower(ca_oto_sum$SPECIES_NAME)
+ca_all = dplyr::left_join(ca_rec_summ, ca_oto_sum)
 ca_all = ca_all[, colnames(ca_all) %in% keep]
 ca_all[is.na(ca_all)] = 0
 ca_all$state = "C"
