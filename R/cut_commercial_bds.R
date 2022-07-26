@@ -41,7 +41,7 @@ cut_commercial_bds <- function(data_name, add_cols = NULL) {
 	cut_data <- cut_data[good_samples, ] 
 
 	# Eliminate any multiple age reads in the data
-	first_read <- which(cut_data$AGE_SEQUENCE_NUMBER == 1)
+	first_read <- which(cut_data$AGE_SEQUENCE_NUMBER %in% c(1, NA))
 	cut_data <- cut_data[first_read, ]
 
 	# Summarize only break and burn reads
