@@ -1,156 +1,162 @@
-
-setwd("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary")
-source(file.path(getwd(), "R", "all_species.R"))
-library(dplyr)
-library(tidyr)
-
-data_dir <- file.path(getwd(), "data")
-
-# Load all of the summarized data sets =====================================
-load(file.path(data_dir, 'summarized_wcgbt_data.rdat'))
-wcgbt = out
-# blue rockfish
-# deacon rockfish
-# rougheye and blackspotted
-# vermilion and sunset
-load(file.path(data_dir, 'summarized_hkl_data.rdat'))
-hkl = out
-# blue rockfish
-# vermilion rockfish
-load(file.path(data_dir, 'summarized_commercial_data.rdat'))
-com = combine
-# blue rockfish
-# rougheye rockfish
-# blackspotted rockfish
-# vermilion rockfish
-load(file.path(data_dir, 'summarized_recreational_data.rdat'))
-rec = out
-# blue rockfish
-# blue/deacon rockfish
-# rougheye rockfish
-# vermilion rockfish
-# Species list =============================================================
-species <- unlist(all_species())
-pacfin_species <- read.csv(file.path(data_dir, 'pacfin_species_names.csv'))
-remove <- c("gopher/black and yellow rockfish", "black and yellow rockfish",
-	"gopher rockfish", "spiny dogfish", "dogfish shark",
-	"rougheye rockfish", "blackspotted rockfish", "rougheye/blackspotted rockfish",
-  "blue rockfish", "deacon rockfish", "blue/deacon rockfish",
-  "vermilion rockfish", "sunset rockfish", "vermilion/sunset rockfish")
-
-# Filter function ==========================================================
-filter_species <- function(data, species_list){
-	key <- NULL
-	for(a in 1:length(species_list)){
-		key <- c(key, grep(species_list[a], data, ignore.case = TRUE))
-	}
-	return(key)
+#' 
+#' 
+#' 
+#' @param dir Directory location to save the compbiend data frame
+#' @param wcgbt
+#' @param nwfsc_hkl
+#' @param pacfin
+#' @param recfin_lengths
+#' @param recfin_age
+#' @param rec_ca_oto
+#' @param com_ca_oto
+#' @param coop_rec
+#' @param ccfrp
+#'
+#' @author Chantel Wetzel
+#' @export
+#' @md
+#'
+combine_all_data <- function(
+  dir = here::here("data-processed"),
+  wcgbt,
+  nwfsc_hkl,
+  pacfin,
+  recfin_lengths,
+  recfin_ages,
+  ca_rec_oto = NULL,
+  ca_com_oto = NULL,
+  coop_rec,
+  ccfrp = NULL)
+{
+  
+  #Combine data sets into a single data frame
+  cols_to_keep <- c("Year", "State", "Source", "Common_name", "Fleet", "Lengthed", "Otolith", "Sex", "set_tow_id", "Length_cm", "Age")
+  data <- rbind(
+    wcgbt[, cols_to_keep],
+    nwfsc_hkl[, cols_to_keep],
+    pacfin[, cols_to_keep],
+    recfin_lengths[, cols_to_keep],
+    recfin_ages[, cols_to_keep],
+    coop_rec[, cols_to_keep]
+  )
+  
+  if(!is.null(ccfrp)){
+    data <- rbind(data, ccfrp)
+  }
+  
+  group_vars = c("Common_name", "State", "Source")
+  data_total <-  
+    data |>
+    dplyr::group_by_at(group_vars) |>
+    dplyr::summarise(
+      set_tows = dplyr::n_distinct(set_tow_id),
+      total_lengths = sum(Lengthed),
+      total_ages = sum(!is.na(Age)),
+      total_otoliths = sum(Otolith),
+      n_years = dplyr::n_distinct(Year),
+      ave_set_tows = floor(dplyr::n_distinct(set_tow_id) / dplyr::n_distinct(Year)),
+      ave_lengths = floor(sum(Lengthed) / dplyr::n_distinct(Year)),
+      ave_ages = floor(sum(!is.na(Age)) / dplyr::n_distinct(Year)),
+      ave_otoliths = floor(sum(Otolith) / dplyr::n_distinct(Year))
+    )
+  
+  
+  data_total <- as.data.frame(data_total)
+  
+  group_vars = c("Common_name", "State", "Source", "Year")
+  data_total_by_year <-  
+    data |>
+    dplyr::group_by_at(group_vars) |>
+    dplyr::summarise(
+      set_tows = dplyr::n_distinct(set_tow_id),
+      total_lengths = sum(Lengthed),
+      total_ages = sum(!is.na(Age)),
+      total_otoliths = sum(Otolith)
+    )
+  
+  data_total_by_year <- as.data.frame(data_total_by_year)
+  
+  if(!is.null(ca_rec_oto)){
+    group_vars = c("Common_name", "State", "Source")
+    oto_rec_total <-  
+      ca_rec_oto |>
+      dplyr::group_by_at(group_vars) |>
+      dplyr::summarise(
+        total_otoliths = sum(Count),
+        n_years = dplyr::n_distinct(Year)
+      )
+    
+    oto_rec_total <- as.data.frame(oto_rec_total)
+    
+    group_vars = c("Common_name", "State", "Source", "Year")
+    oto_rec_total_by_year <-  
+      ca_rec_oto |>
+      dplyr::group_by_at(group_vars) |>
+      dplyr::summarise(
+        total_otoliths = sum(Count)
+      )
+    
+    oto_rec_total_by_year <- as.data.frame(oto_rec_total_by_year)
+    
+    for(a in 1:dim(oto_rec_total_by_year)[1]){
+      find <- which(data_total_by_year[, "Common_name"] == oto_rec_total_by_year[a, "Common_name"] &
+                    data_total_by_year[, "Year"] == oto_rec_total_by_year[a, "Year"] &
+                    data_total_by_year[, "Source"] == oto_rec_total_by_year[a, "Source"])
+      data_total_by_year[find, "total_otoliths"] <- oto_rec_total_by_year[a, "total_otoliths"]
+    }
+    
+    for(a in 1:dim(oto_rec_total)[1]){
+      find <- which(data_total[, "Common_name"] == oto_rec_total[a, "Common_name"] &
+                      data_total[, "Source"] == oto_rec_total[a, "Source"])
+      data_total[find, "total_otoliths"] <- oto_rec_total[a, "total_otoliths"]
+    }
+  }
+  
+  if(!is.null(ca_com_oto)){
+    group_vars = c("Common_name", "State", "Source")
+    oto_com_total <-  
+      ca_com_oto |>
+      dplyr::group_by_at(group_vars) |>
+      dplyr::summarise(
+        total_otoliths = sum(Count),
+        n_years = dplyr::n_distinct(Year)
+      )
+    oto_com_total <- as.data.frame(oto_com_total)
+    
+    group_vars = c("Common_name", "State", "Source", "Year")
+    oto_com_total_by_year <-  
+      ca_com_oto |>
+      dplyr::group_by_at(group_vars) |>
+      dplyr::summarise(
+        total_otoliths = sum(Count)
+      )
+    oto_com_total_by_year <- as.data.frame(oto_com_total_by_year)
+    
+    for(a in 1:dim(oto_com_total_by_year)[1]){
+      find <- which(data_total_by_year[, "Common_name"] == oto_com_total_by_year[a, "Common_name"] &
+                      data_total_by_year[, "Year"] == oto_com_total_by_year[a, "Year"] &
+                      data_total_by_year[, "Source"] == oto_com_total_by_year[a, "Source"])
+      data_total_by_year[find, "total_otoliths"] <- oto_com_total_by_year[a, "total_otoliths"]
+    }
+    
+    for(a in 1:dim(oto_com_total)[1]){
+      find <- which(data_total[, "Common_name"] == oto_com_total[a, "Common_name"] &
+                    data_total[, "Source"] == oto_com_total[a, "Source"])
+      data_total[find, "total_otoliths"] <- oto_com_total[a, "total_otoliths"]
+    }
+  }
+  
+  data_total[, c("total_lengths", "total_ages", "total_otoliths")][is.na(data_total[, c("total_lengths", "total_ages", "total_otoliths")])] <- 0
+  data_total_by_year[, c("total_lengths", "total_ages", "total_otoliths")][is.na(data_total_by_year[, c("total_lengths", "total_ages", "total_otoliths")])] <- 0
+  
+  write.csv(data_total, file.path(dir, "data_summaries.csv"), row.names = FALSE)
+  write.csv(data_total_by_year, file.path(dir, "data_summaries_by_year.csv"), row.names = FALSE)
+  write.csv(data_total_by_year[data_total_by_year$State == "Washington" & data_total_by_year$Source == "PacFIN", ],
+            file.path(dir, "data_summaries_by_year_washington.csv"), row.names = FALSE)
+  write.csv(data_total_by_year[data_total_by_year$State == "California" & data_total_by_year$Source == "PacFIN", ],
+            file.path(dir, "data_summaries_by_year_california.csv"), row.names = FALSE)
+  write.csv(data_total_by_year[data_total_by_year$State == "Oregon" & data_total_by_year$Source == "PacFIN", ],
+            file.path(dir, "data_summaries_by_year_oregon.csv"), row.names = FALSE)
+  
+  return(data_total_by_year)
 }
-
-
-# Read in state specific otolith data and join that with the commercial data =======
-ca_oto <- read.csv(file.path(data_dir, 'ca_commerical_samples_otoliths_2022.csv'))
-ca_oto$common_name <- NA
-ca_oto$sample_year <- ca_oto$year
-# filter out unneeded species
-ca_oto = ca_oto[ca_oto$species %in% pacfin_species$pacfin.code, ]
-all <- sort(unique(ca_oto$species))
-for(a in 1:length(all)){
-	find = which(all[a] == pacfin_species$pacfin.code)
-	ca_oto$common_name[ca_oto$species == all[a]] <- pacfin_species[find,"species"]
-}
-
-find = which(ca_oto$common_name %in% c("blue rockfish", "deacon rockfish"))
-ca_oto[find, "common_name"] = "blue and deacon rockfish"
-find = which(ca_oto$common_name %in% c("black and yellow rockfish", "gopher rockfish"))
-ca_oto[find, "common_name"] = "gopher and black and yellow rockfish"
-find = which(ca_oto$common_name %in% c("vermilion rockfish", "sunset rockfish"))
-ca_oto[find, "common_name"] = "vermilion and sunset rockfish"
-find = which(ca_oto$common_name %in% c("rougheye rockfish", "blackspotted rockfish"))
-ca_oto[find, "common_name"] = "rougheye and blackspotted rockfish"
-
-key <- filter_species(data = ca_oto$common_name, species_list = species[!species %in% remove])
-ca_oto_summarized <- ca_oto[key,] %>%
-		group_by(common_name, sample_year) %>%
-		summarise(state = "C",
-				  otoliths = sum(SumOftotal) )
-com_int = left_join(com, ca_oto_summarized, by = c("sample_year", "common_name", "state"))
-find = which(!is.na(com_int$otoliths.y))
-com_int[find, "otoliths.x"] = com_int[find, "otoliths.y"] 
-# Deal with CDFW otolith counts which do not appaer to account for read otoliths
-com_int = as.data.frame(com_int)
-find = which(com_int$state == "C")
-com_int[find, "otoliths.x"] = com_int[find, "otoliths.x"] - com_int[find, "aged"]
-com_int[com_int$otoliths.x < 0, "otoliths.x"] <- 0
-colnames(com_int)[which(colnames(com_int) == "otoliths.x")] = "otoliths"
-com_int <- com_int[ ,colnames(com_int) != "otoliths.y"]
-
-
-# Need to check the WA otoliths against the info in PacFIN
-wa_oto <- read.csv(file.path('data', 'wa_commercial_samples_otoliths.csv'))
-wa_oto$unaged <- wa_oto$CountOfage_structure - wa_oto$CountOfbest_age
-wa_oto$common_name = tolower(wa_oto$species_name)
-find = which(wa_oto$common_name %in% c("rougheye rockfish", "blackspotted rockfish"))
-wa_oto[find, "common_name"] = "rougheye and blackspotted rockfish"
-key <- filter_species(data = wa_oto$common_name, species_list = species[!species %in% remove])
-wa_oto_summarized <- wa_oto[key,] %>%
-		group_by(common_name, sample_year) %>%
-		summarise(state = "W",
-				  otoliths = sum(unaged) )
-com_final = left_join(com_int, wa_oto_summarized, by = c("sample_year", "common_name", "state"))
-find = which(!is.na(com_final$otoliths.y))
-com_final[find, "otoliths.x"] = com_final[find, "otoliths.y"] 
-
-colnames(com_final)[which(colnames(com_final) == "otoliths.x")]  = "otoliths"
-com_final = com_final[, colnames(com_final) != "otoliths.y"]
-
-
-# Bring it all together ============================================================
-
-all_data <- rbind(com_final, rec, wcgbt, hkl)
-#com_final[find,] %>% tbl_df %>% print(n=200)
-
-
-# Combine names for cryptic species and decide on capitalization structure =========
-
-firstup <- function(x) {
-  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
-  x
-}
-
-all_data$name = firstup(all_data$common_name)	
-
-# fix gopher for hkl and wcgbt
-find = which(all_data$common_name == "gopher rockfish" & all_data$data_type %in% c("nwfsc_hkl", "nwfsc_wcgbt"))
-all_data$common_name[find] = "gopher and black and yellow rockfish"
-
-find = which(all_data$common_name == "spiny dogfish" | all_data$common_name == 'spiny dogfish shark')
-all_data[find, 'common_name'] = 'pacific spiny dogfish'
-
-find = which(all_data$common_name == "cowcod rockfish")
-all_data[find, 'common_name'] = "cowcod"
-
-find = which(all_data$common_name == "chilipepper")
-all_data[find, 'common_name'] = "chilipepper rockfish"
-
-find = which(all_data$common_name == "silvergrey rockfish")
-all_data[find, 'common_name'] = "ailvergray rockfish"
-
-fix <- which(all_data$common_name == "southern rock sole")
-all_data[fix, "common_name"] = "rock sole"
-
-#Change data type names
-find = which(all_data$data_type == "commercial")
-all_data$data_type[find] = "commercial fisheries"
-find = which(all_data$data_type	 == "recreational")
-all_data$data_type[find] = "recreational fisheries"
-find = which(all_data$data_type	== "nwfsc_hkl")
-all_data$data_type[find] = "NWFSC HKL"
-find = which(all_data$data_type	== "nwfsc_wcgbt")
-all_data$data_type[find] = "NWFSC WCGBT"
-
-
-all_data = data.frame(all_data)
-
-save(all_data, file = file.path(data_dir, "summarized_all_data.rdat"))
-
