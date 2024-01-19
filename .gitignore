@@ -4,8 +4,10 @@
 === 
 .Rhistory
 === 
-data/
+data-processed/
 data-raw/
 hook_and_line/
 vast/
+plots/
+tables/
 
