@@ -10,10 +10,10 @@ clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key){
   data <- PacFIN.Utilities::cleanPacFIN(
     Pdata = Pdata,
     CLEAN = TRUE,
-    keep_age_method = c("B", "S"),
+    keep_age_method = c("B", "S", "T"),
     verbose = FALSE)
-  
-  #clean_data <- data
+  cleaned_pacfin_bds <- data
+  save(cleaned_pacfin_bds, file = here::here("data-raw", "cleaned_pacfin_bds.Rdata"))
   
   data$spid_name <- NA
   #spid_key <- read.csv(file.path(dir, "pacfin_species_codes.csv"))
@@ -42,11 +42,9 @@ clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key){
   data$Fleet = "Non-trawl"
   data$Fleet[which(data$geargroup %in% c("TWL", "TWS"))] <- "Trawl"
   
-  data$Sex <- data$SEX
-  
-  data$Length_cm <- data$lengthcm
-  
   data$Year <- data$year
+  
+  data$Sex <- data$SEX
   
   data$Length_cm <- data$lengthcm
 
@@ -54,11 +52,11 @@ clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key){
   
   data$Otolith <- 0
   # AGE_STRUCTURE_DESC1
-  find <- which(!is.na(data$AGE_STRUCTURE_CODE1) & is.na(data$Age))
+  find <- which(!is.na(data$AGE_STRUCTURE_CODE1) & data$AGE_STRUCTURE_CODE1 != "L" & is.na(data$Age))
   data[find, "Otolith"] <- 1
-  find <- which(!is.na(data$AGE_STRUCTURE_CODE2) & is.na(data$Age) & data$Otolith == 1)
+  find <- which(!is.na(data$AGE_STRUCTURE_CODE2) & data$AGE_STRUCTURE_CODE1 != "L" & is.na(data$Age))
   data[find, "Otolith"] <- 1
-  find <- which(!is.na(data$AGE_STRUCTURE_CODE3) & is.na(data$Age) & data$Otolith == 1)
+  find <- which(!is.na(data$AGE_STRUCTURE_CODE3) & data$AGE_STRUCTURE_CODE1 != "L" & is.na(data$Age))
   data[find, "Otolith"] <- 1
   
   data$set_tow_id <- NA
