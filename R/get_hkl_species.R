@@ -2,21 +2,21 @@
 get_hkl_species <- function(){
 
     species_list = c(
-                 "bank rockfish", # 3143
-                 "blue and deacon rockfish", #  714
-                      "bocaccio", #18899
-                   "chilipepper", # 2389
-               "copper rockfish", # 1213
-                        "cowcod", #  856
-         "greenspotted rockfish", # 5347
-         "greenstriped rockfish", #  942
-                       "lingcod", #  938
-                 "rosy rockfish", # 1076
-             "speckled rockfish", # 4020
-           "squarespot rockfish", # 1934
-               "starry rockfish", # 2721
-            "vermilion and sunset rockfish", #27812
-           "yellowtail rockfish") # 1794
+                 "Bank Rockfish", # 3143
+                 "Blue Rockfish", #  714
+                      "Bocaccio", #18899
+                   "Chilipepper", # 2389
+               "Copper Rockfish", # 1213
+                        "Cowcod", #  856
+         "Greenspotted Rockfish", # 5347
+         "Greenstriped Rockfish", #  942
+                       "Lingcod", #  938
+                 "Rosy Rockfish", # 1076
+             "Speckled Rockfish", # 4020
+           "Squarespot Rockfish", # 1934
+               "Starry Rockfish", # 2721
+            "Vermilion Rockfish", #27812
+           "Yellowtail Rockfish") # 1794
 
     return(species_list)
 }

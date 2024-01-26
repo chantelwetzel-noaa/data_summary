@@ -71,7 +71,7 @@ species <- rbind(
 	c("longspine thornyhead", "longspine thornyhead"),                                                                                                 
 	c("blue rockfish", "blue and deacon rockfish"),
 	c("deacon rockfish", "blue and deacon rockfish"),
-	c("blue/ eacon rockfish", "blue and deacon rockfish"),
+	c("blue / deacon rockfish", "blue and deacon rockfish"),
 	c("blue and deacon rockfish", "blue and deacon rockfish"), 
 	c("arrowtooth flounder",   "arrowtooth flounder"),                                                                                               
 	c("kelp greenling",   "kelp greenling"),                                                                                               
