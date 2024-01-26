@@ -1,20 +1,22 @@
 #' 
 #' @param data
 #' @param source 
+#' @param state
 #'
 #' @author Chantel Wetzel
 #' @export
 #' @md
 #'
 #'
-format_cdfw_otolith_files <- function(data, source = NA){
+format_cdfw_otolith_files <- function(data, source = NA, state = NA){
   
+  data[is.na(data)] <- 0
   find <- grep("species", colnames(data),  ignore.case = TRUE)
   
   all_cols <- 1:dim(data)[2]
   cols_to_rotate <- all_cols[-find]
   
-  col_names <- gsub("X", "", colnames(data[cols_to_rotate]))
+  col_names <- gsub("X", "", colnames(data))
   
   data_out <- NULL
   for(a in cols_to_rotate){
@@ -37,7 +39,7 @@ format_cdfw_otolith_files <- function(data, source = NA){
   
   out <- out[which(out$Common_name %in% species_names), ]
   
-  out$State <- "California"
+  out$State <- state
   out$Source <- source
   out$State_Source <- paste0(source, "-", out$State)
   
