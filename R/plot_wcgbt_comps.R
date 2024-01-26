@@ -45,10 +45,10 @@ plot_wcgbt_comps <- function(
                              lats.north     = c(49.0, 46.0, 42.0, 49.0, 46.0, 42.0, 49.0, 46.0, 42.0))
 	  }
   
-	  biomass <- nwfscSurvey::Biomass.fn(
-	  	dat = catch,  
-	  	strat.df = strata, 
-	  	outputMedian = TRUE) 
+	  #biomass <- nwfscSurvey::Biomass.fn(
+	  #	dat = catch,  
+	  #	strat.df = strata, 
+	  #	outputMedian = TRUE) 
   
 	  ## Calculate the observations by length and age
 	  if(length(bio$Length_cm) > 0) {
@@ -59,6 +59,13 @@ plot_wcgbt_comps <- function(
 	  	bin_size <- ifelse(max_len - min_len > 60, 4, 2)
 	  	len.bins <- seq(min_len , max_len - 2*bin_size, bin_size)
   
+	  	bio$Sex = "U"
+	  	if(sp %in% c("blue and deacon rockfish", "rougheye and blackspotted rockfish")){
+	  	  catch <- catch |>
+	  	    dplyr::distinct(Trawl_id, .keep_all = TRUE)
+	  	  catch <- as.data.frame(catch)
+	  	}
+	  	
 	  	# Calculate and plot the length-frequencies based on the default strata
 	  	lfs <- nwfscSurvey::SurveyLFs.fn(
 	  		datL = bio, 
@@ -93,7 +100,7 @@ plot_wcgbt_comps <- function(
 	  	  min_len <- ifelse(floor(min(sub_bio$Length_cm[ind])) > 10, floor(min(sub_bio$Length_cm[ind])) , 10)
 	  	  max_len <- floor(max(sub_bio$Length_cm[ind]))
 	  	  bin_size <- ifelse(max_len - min_len > 60, 4, 2)
-	  	  len.bins <- seq(min_len , max_len + 4, bin_size)
+	  	  len.bins <- seq(min_len , max_len + 2, bin_size)
 	  	  
 	  	  # Calculate and plot the length-frequencies based on the default strata
 	  	  lfs <- nwfscSurvey::SurveyLFs.fn(

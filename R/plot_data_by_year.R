@@ -1,7 +1,7 @@
 #' 
 #' 
 #' 
-#' @param dir Directory location to save the compbiend data frame
+#' @param dir Directory location to save the compbined data frame
 #' @param data
 #' @param year
 #'
