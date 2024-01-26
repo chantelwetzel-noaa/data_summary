@@ -15,7 +15,6 @@ clean_wcgbt_bio <- function(dir = here::here("data-processed"), species, data){
   bio <- data$bio
   bio$set_tow_id <- bio$Trawl_id
 
-  
   bio <- bio[bio$Common_name != "southern rock sole", ]
   
   find <- which(bio$Common_name %in% c("tree rockfish"))
@@ -27,47 +26,47 @@ clean_wcgbt_bio <- function(dir = here::here("data-processed"), species, data){
   find <- which(bio$Common_name %in% c("blue / deacon rockfish", "blue rockfish", "deacon rockfish"))
   bio[find, "Common_name"] <- "blue and deacon rockfish"
   
-  find <- which(bio$Common_name %in% c("vermilion rockfish"))
+  find <- which(bio$Common_name %in% c("vermilion rockfish", "Sunset rockfish"))
   bio[find, "Common_name"] <- "vermilion and sunset rockfish"
   
   find <- which(bio$Common_name %in% c("gopher rockfish"))
   bio[find, "Common_name"] <- "gopher and black and yellow rockfish"
   
   # filter down to only the species considered in the prioritization process
-  keep <- which(bio$Common_name %in% species[,"name"])
-  bio <- bio[keep, ]
+  keep <- which(bio$Common_name %in% unique(species[,"use_name"]))
+  bio_sub <- bio[keep, ]
   
-  bio$Source <- "NWFSC WCGBT"
+  bio_sub$Source <- "NWFSC WCGBT"
   
-  bio$State_area <- ifelse(
-    bio$Latitude_dd > 46, "WA", ifelse(
-      bio$Latitude_dd > 42 & bio$Latitude_dd < 46, "OR", ifelse(
-        bio$Latitude_dd < 42 & bio$Latitude_dd < 40.17, "NCA", ifelse(
-          bio$Latitude_dd < 40.17 & bio$Latitude_dd > 34.47, "CCA", "SCA"
+  bio_sub$State_area <- ifelse(
+    bio_sub$Latitude_dd > 46, "WA", ifelse(
+      bio_sub$Latitude_dd > 42 & bio_sub$Latitude_dd < 46, "OR", ifelse(
+        bio_sub$Latitude_dd < 42 & bio_sub$Latitude_dd < 40.17, "NCA", ifelse(
+          bio_sub$Latitude_dd < 40.17 & bio_sub$Latitude_dd > 34.47, "CCA", "SCA"
         )
       )
     )
   )
   
-  bio$State <- ifelse(
-    bio$Latitude_dd > 46, "Washington", ifelse(
-      bio$Latitude_dd > 42 & bio$Latitude_dd < 46, "Oregon", "California"
+  bio_sub$State <- ifelse(
+    bio_sub$Latitude_dd > 46, "Washington", ifelse(
+      bio_sub$Latitude_dd > 42 & bio_sub$Latitude_dd < 46, "Oregon", "California"
     )
   )
   
-  bio <- bio[!is.na(bio$Length_cm), ]
-  bio$Lengthed <- 1
+  bio_sub <- bio_sub[!is.na(bio_sub$Length_cm), ]
+  bio_sub$Lengthed <- 1
   
-  bio$Sex[is.na(bio$Sex)] <- "U"
+  bio_sub$Sex[is.na(bio_sub$Sex)] <- "U"
   
-  bio$Otolith <- 0
-  bio[which(!is.na(bio$Otosag_id) & is.na(bio$Age)), "Otolith"] <- 1
+  bio_sub$Otolith <- 0
+  bio_sub[which(!is.na(bio_sub$Otosag_id) & is.na(bio_sub$Age)), "Otolith"] <- 1
   
-  bio$Fleet <- NA
+  bio_sub$Fleet <- NA
   
   
-  save(bio, file = file.path(dir, "wcgbt_bio_filtered.Rdata"))	
+  save(bio_sub, file = file.path(dir, "wcgbt_bio_filtered.Rdata"))	
   
-  return(bio)
+  return(bio_sub)
 }
 

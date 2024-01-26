@@ -1,14 +1,14 @@
 #' 
 #' @param dir Directory location to save the cleaned data frame
 #' @param species 
+#' @param year
 #'
 #' @author Chantel Wetzel
 #' @export
 #' @md
 #'
-#' @import nwfscSurvey
 #'
-clean_recfin_ages <- function(dir, species, data){
+clean_recfin_ages <- function(dir, species, data, year){
   
   data$species_name <- tolower(data$RECFIN_SPECIES_NAME)
   data$Common_name <- NA
@@ -18,7 +18,6 @@ clean_recfin_ages <- function(dir, species, data){
     find <- grep(species[a, "name"], data[, "species_name"])
     data[find, "Common_name"] <- species[a, "use_name"]
   }
-  
 
   data$State <- ifelse(data$SAMPLING_AGENCY_NAME == "WDFW", "Washington", 
                        ifelse(data$SAMPLING_AGENCY_NAME == "ODFW", "Oregon", NA))
@@ -54,3 +53,4 @@ clean_recfin_ages <- function(dir, species, data){
   return(data)
   
 }
+

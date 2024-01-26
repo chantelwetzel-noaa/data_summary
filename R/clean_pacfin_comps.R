@@ -1,35 +1,39 @@
-
-#' Data pulled from pacfin apex report rather than using code from PacFIN.Utilities
-#' I originally pulled using the PacFIN.Utlities function and encountered two issues:
-#' 1) The majority of records did not have a length
-#' 2) When using the cleanPacFIN function the common names were removed and only SPID remained.
-
-clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key){
+#' 
+#' @param dir Directory location to save the cleaned data frame
+#' @param bds_pacfin
+#' @param species
+#' @param year
+#'
+#' @author Chantel Wetzel
+#' @export
+#' @md
+#'
+#'
+clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key, year = 1980){
   
-  Pdata <- bds_pacfin[which(bds_pacfin$FISH_LENGTH_UNITS != "UNK"), ]
+  Pdata <- bds_pacfin[which(bds_pacfin$FISH_LENGTH_UNITS != "UNK" & bds_pacfin$SAMPLE_YEAR >= year), ]
+  
   data <- PacFIN.Utilities::cleanPacFIN(
     Pdata = Pdata,
     CLEAN = TRUE,
     keep_age_method = c("B", "S", "T"),
-    verbose = FALSE)
+    verbose = TRUE)
   cleaned_pacfin_bds <- data
   save(cleaned_pacfin_bds, file = here::here("data-raw", "cleaned_pacfin_bds.Rdata"))
   
   data$spid_name <- NA
-  #spid_key <- read.csv(file.path(dir, "pacfin_species_codes.csv"))
+  spid_key <- read.csv(file.path(dir, "pacfin_species_codes.csv"))
   for (a in 1:dim(spid_key)[1]){
     find <- grep(spid_key[a, "pacfin.code"], data[, "SPID"])
     data[find, "spid_name"] <- spid_key[a, "species"]
   }
-  
   data <- data[!is.na(data$spid_name), ]
   
   data$Common_name <- NA
   for (a in 1:dim(species)[1]){
-    find <- grep(species[a, "name"], data[, "spid_name"])
+    find <- grep(species[a, "name"], data[, "spid_name"], ignore.case = TRUE)
     data[find, "Common_name"] <- species[a, "use_name"]
   }
-  
   data <- data[!is.na(data$Common_name), ]
   
   data$State <- NA
@@ -53,11 +57,18 @@ clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key){
   data$Otolith <- 0
   # AGE_STRUCTURE_DESC1
   find <- which(!is.na(data$AGE_STRUCTURE_CODE1) & data$AGE_STRUCTURE_CODE1 != "L" & is.na(data$Age))
-  data[find, "Otolith"] <- 1
-  find <- which(!is.na(data$AGE_STRUCTURE_CODE2) & data$AGE_STRUCTURE_CODE1 != "L" & is.na(data$Age))
-  data[find, "Otolith"] <- 1
-  find <- which(!is.na(data$AGE_STRUCTURE_CODE3) & data$AGE_STRUCTURE_CODE1 != "L" & is.na(data$Age))
-  data[find, "Otolith"] <- 1
+  if(length(find)> 0 ){
+    data[find, "Otolith"] <- 1
+  }
+  
+  find <- which(!is.na(data$AGE_STRUCTURE_CODE2) & data$AGE_STRUCTURE_CODE2 != "L" & is.na(data$Age))
+  if(length(find)> 0 ){
+    data[find, "Otolith"] <- 1
+  }
+  find <- which(!is.na(data$AGE_STRUCTURE_CODE3) & data$AGE_STRUCTURE_CODE3 != "L" & is.na(data$Age))
+  if(length(find)> 0 ){
+    data[find, "Otolith"] <- 1
+  }
   
   data$set_tow_id <- NA
                   

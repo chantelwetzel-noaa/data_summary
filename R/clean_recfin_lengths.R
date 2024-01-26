@@ -2,15 +2,18 @@
 #' 
 #' 
 #' @param dir Directory location to save the cleaned data frame
-#' @param species 
+#' @param or_data
+#' @param wa_data
+#' @param ca_data
+#' @param species
+#' @param year 
 #'
 #' @author Chantel Wetzel
 #' @export
 #' @md
 #'
-#' @import nwfscSurvey
 #'
-clean_recfin_lengths <- function(dir, or_data = NULL, wa_data= NULL, ca_data= NULL, species){
+clean_recfin_lengths <- function(dir, or_data = NULL, wa_data= NULL, ca_data= NULL, species, year){
   
   all_data <- rbind(wa_data, or_data, ca_data)
   all_data$species_name <- tolower(all_data$SPECIES_NAME)
@@ -22,6 +25,8 @@ clean_recfin_lengths <- function(dir, or_data = NULL, wa_data= NULL, ca_data= NU
     find <- grep(species[a, "name"], data[, "species_name"])
     data[find, "Common_name"] <- species[a, "use_name"]
   }
+  
+  data <- data[which(data$RECFIN_YEAR >= year), ]
   
   data$State <- tolower(data$STATE_NAME)
   substr(data$State, 1, 1) <- toupper(substr(data$State, 1, 1))
