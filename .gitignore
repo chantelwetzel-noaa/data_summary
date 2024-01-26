@@ -3,12 +3,24 @@
 .Rproj.user
 === 
 .Rhistory
+
 === 
 data-processed/
 data-raw/
 hook_and_line/
 vast/
 plots/
+plots-index/
 tables/
 archive/
+_targets/
 
+_main.utf8.md
+_main.knit.md
+_main.md
+*.upb
+*.aux
+*.upa
+*.log
+*.csv
+*.Rdata
