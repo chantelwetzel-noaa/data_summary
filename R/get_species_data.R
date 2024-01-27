@@ -14,7 +14,7 @@ data_species = t(data.frame(
 	 c("com_rec" ,"cabezon"),                             
 	 c("all","California scorpionfish"),             
 	 c("all","canary rockfish"),                                          
-	 c("all","chilipepper rockfish"),                
+	 c("all","chilipepper"),                
 	 c("com_rec","China rockfish"),                      
 	 c("all","copper rockfish"),                     
 	 c("all","cowcod"),                              
@@ -68,8 +68,9 @@ data_species = t(data.frame(
 	 c("com_wcgbt","yellowmouth rockfish"),                
 	 c("all","yellowtail rockfish") 
 	)) 
-
-	colnames(data_species) <- c('data', 'species_name')
+  
+  data_species <- as.data.frame(data_species)
+	colnames(data_species) <- c('sources_to_use', 'Common_name')
 	rownames(data_species) <- NULL
 	return(data_species)
 }

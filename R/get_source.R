@@ -1,7 +1,8 @@
 
 get_source <- function(data){
 
-	use <- unique(data$use_data)
+	use <- unique(data$sources_to_use)
+	
 	if("all" %in% use){
 		sources <- c("commercial fisheries", "recreational fisheries", 
 					 "NWFSC WCGBT", "NWFSC HKL")
