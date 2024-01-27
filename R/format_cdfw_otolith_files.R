@@ -26,9 +26,9 @@ format_cdfw_otolith_files <- function(data, source = NA, state = NA){
   data_out[is.na(data_out[, 4]), 4] <- 0
   
   out <- as.data.frame(data_out)
-  colnames(out) <- c("Common_name", "Species", "Year", "Count")
+  colnames(out) <- c("Common_name", "Species", "Year", "Otolith")
   out$Year <- as.numeric(out$Year)
-  out$Count <- as.numeric(out$Count)
+  out$Otolith <- as.numeric(out$Otolith)
   
   species_names <- get_species_list()
   
@@ -42,6 +42,11 @@ format_cdfw_otolith_files <- function(data, source = NA, state = NA){
   out$State <- state
   out$Source <- source
   out$State_Source <- paste0(source, "-", out$State)
+  
+  out$set_tow_id <- 0
+  out$Lengthed <- 0
+  out$Age <- NA
+  out$Fleet <- NA
   
   return(out)
   
