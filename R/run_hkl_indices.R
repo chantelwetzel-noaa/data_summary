@@ -4,7 +4,7 @@ run_hkl_index <- function(dir = here::here("plots-index"), data){
   species_name <- tolower(unique(data$common_name))
   
   subdata <- data %>%
-    group_by(year, site_number, drop) %>% 
+    group_by(year, site_number, drop, cca) %>% 
     reframe(n = sum(number_caught),
             depth = median(drop_depth_meters),
             lat = mean(drop_latitude_degrees),
@@ -31,6 +31,7 @@ run_hkl_index <- function(dir = here::here("plots-index"), data){
     dplyr::summarise(
       lat = lat[1],
       lon = lon[1],
+      cca = cca[1],
       drop = drop[1])
   
   grid <- dplyr::left_join(year_site, locs) %>%
@@ -38,11 +39,11 @@ run_hkl_index <- function(dir = here::here("plots-index"), data){
   
   # Negative binomial model=============================================
   fit <- sdmTMB(
-    n ~ 0 + year + site_number + drop,
+    n ~ 0 + year + site_number + drop, # + cca,
     data = subdata,
     offset = log(subdata$effort),
     time = "year",
-    spatial="off",
+    spatial = "off",
     spatiotemporal = "off",
     family = nbinom2(link = "log")
   )
@@ -62,35 +63,36 @@ run_hkl_index <- function(dir = here::here("plots-index"), data){
 
   
   # Delta model ================================================================
-  fit_delta <- sdmTMB(
-    n  ~ 0 + year + site_number + drop,
-    data = subdata,
-    offset = log(subdata$effort),
-    time = "year",
-    spatial="off",
-    spatiotemporal = "off",
-    family = delta_gamma()
-  )
-  
-  if(fit_delta$pos_def_hessian == TRUE){
-    index <- calc_index(
-      dir = dir, 
-      fit = fit_delta,
-      add_name = paste0(species_name, "_delta_gamma"),
-      grid = grid)
-    
-    qq_indexwc(
-      fit = fit_delta,
-      file_name = file.path(dir, paste0(species_name, "_delta_gamma_qq.png"))
-    )
-  }
+  # fit_delta <- sdmTMB(
+  #   n  ~ 0 + year + site_number + drop,
+  #   data = subdata,
+  #   offset = log(subdata$effort),
+  #   time = "year",
+  #   spatial="off",
+  #   spatiotemporal = "off",
+  #   family = delta_gamma()
+  # )
+  # 
+  # if(fit_delta$pos_def_hessian == TRUE){
+  #   index <- calc_index(
+  #     dir = dir, 
+  #     fit = fit_delta,
+  #     add_name = paste0(species_name, "_delta_gamma"),
+  #     grid = grid)
+  #   
+  #   qq_indexwc(
+  #     fit = fit_delta,
+  #     file_name = file.path(dir, paste0(species_name, "_delta_gamma_qq.png"))
+  #   )
+  # }
   
 }
 
 
 library(dplyr)
 library(sdmTMB)
-library(indexwc)
+#library(indexwc)
+#remotes::install_github("pfmc-assessments/indexwc@sap-indices")
 library(ggplot2)
 
 source(here::here("R", "get_hkl_species.R"))
