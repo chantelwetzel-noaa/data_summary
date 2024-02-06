@@ -9,7 +9,7 @@
 #' @import nwfscSurvey
 #' @import here
 #'
-clean_wcgbt_catch <- function(dir = here::here("data-processed"), species, data){
+clean_wcgbt_catch <- function(dir = here::here("data-raw"), species, data){
   
 
   # Catch data
