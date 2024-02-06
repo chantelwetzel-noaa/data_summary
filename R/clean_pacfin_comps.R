@@ -40,8 +40,8 @@ clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key, year = 1980){
   data$State[which(data$state == "CA")] <- "California"
   data$State[which(data$state == "OR")] <- "Oregon"
   data$State[which(data$state == "WA")] <- "Washington"
-  data$Source <- "PacFIN"
-  data$State_Source <- paste0("PacFIN-", data$State)
+  data$Source <- "Commercial"
+  data$State_Source <- paste0(data$Source, "-", data$State)
   
   data$Fleet = "Non-trawl"
   data$Fleet[which(data$geargroup %in% c("TWL", "TWS"))] <- "Trawl"
@@ -53,6 +53,9 @@ clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key, year = 1980){
   data$Length_cm <- data$lengthcm
 
   data$Lengthed <- 1
+  
+  data$Aged <- 0
+  data$Aged[!is.na(data$Age)] <- 1
   
   data$Otolith <- 0
   # AGE_STRUCTURE_DESC1
@@ -70,7 +73,7 @@ clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key, year = 1980){
     data[find, "Otolith"] <- 1
   }
   
-  data$set_tow_id <- NA
+  data$set_tow_id <- 0
                   
   save(data, file = file.path(dir, "pacfin_filtered.Rdata"))
   return(data)

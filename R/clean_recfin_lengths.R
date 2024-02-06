@@ -30,8 +30,8 @@ clean_recfin_lengths <- function(dir, or_data = NULL, wa_data= NULL, ca_data= NU
   
   data$State <- tolower(data$STATE_NAME)
   substr(data$State, 1, 1) <- toupper(substr(data$State, 1, 1))
-  data$Source <- "RecFIN"
-  data$State_Source <- paste0("RecFIN-", data$State)
+  data$Source <- "Recreational"
+  data$State_Source <- paste0(data$Source, "-", data$State)
   
   data$Year <- data$RECFIN_YEAR
   
@@ -63,17 +63,15 @@ clean_recfin_lengths <- function(dir, or_data = NULL, wa_data= NULL, ca_data= NU
   data$Sex <- data$RECFIN_SEX_CODE
   data$Sex[which(!data$Sex %in% c("F", "M"))] <- "U"
   
-  data$set_tow_id <- NA
-  
+  data$set_tow_id <- 0
+  data$Aged <- 0
   data$Age <- NA
-  data$Otolith <- NA
+  data$Otolith <- 0
   
   data$Fleet <- data$RECFIN_MODE_NAME
-  
-  #cols_to_keep <- c("Year", "State", "Source", "Common_name", "Fleet", "Lengthed", "Otolith", "Sex", "set_tow_id", "Length_cm", "Age")
-  #data <- data[, cols_to_keep]
   
   save(data, file = file.path(dir, "recfin_lengths_filtered.Rdata"))
   return(data)
   
 }
+

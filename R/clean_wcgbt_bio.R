@@ -64,6 +64,9 @@ clean_wcgbt_bio <- function(dir = here::here("data-processed"), species, data){
   
   bio_sub$Fleet <- NA
   
+  bio_sub$Aged <- 0
+  bio_sub$Aged[!is.na(bio_sub$Age)] <- 1
+  
   
   save(bio_sub, file = file.path(dir, "wcgbt_bio_filtered.Rdata"))	
   

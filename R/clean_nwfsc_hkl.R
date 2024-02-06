@@ -41,6 +41,11 @@ clean_nwfsc_hkl <- function(
     data$Lengthed <- 1
     data$Length_cm <- data$length_cm
     data$Age <- data$age_years
+    data$Aged <- 0
+    data$Aged[!is.na(data$Age)] <- 1
+    find <- which(data$Common_name == "copper rockfish")
+    data$Aged[find] <- 1
+    data$Otolith[find] <- 0
     
     data$Sex <- data$sex
     data$Source <- "NWFSC HKL"

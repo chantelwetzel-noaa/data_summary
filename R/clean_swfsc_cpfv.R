@@ -7,7 +7,7 @@
 #' @md
 #'
 #'
-clean_coop_ages <- function(data, species){
+clean_coop_samples <- function(data, species){
   
   data$SPECIES_NAME <- tolower(data$SPECIES_NAME)
   
@@ -27,7 +27,7 @@ clean_coop_ages <- function(data, species){
   data$Lengthed <- data[, "Lengths"]
   data$Otolith <- data[, "Unread_Otoliths"]
   data$Fleet <- "CPFV"
-  data$set_tow_id <- NA 
+  data$set_tow_id <- 0
   data$Length_cm <- NA 
   data$Age <- NA
   
