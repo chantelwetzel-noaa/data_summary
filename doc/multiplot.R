@@ -1,229 +1,197 @@
 
 multiplot <- function(species_name){
+  
+  section_name <- firstup(species_name)
 	
-	glue::glue(" \n# {species_name} \n \n") %>% cat()
+	glue::glue(" \n# {section_name} {{-}}\n \n") |> cat( )
 
-	sub_data <- data %>%
-		filter(name == species_name)
+	sub_data <- data |>
+		dplyr::filter(Common_name == species_name)
+	
 	sources <- get_source(data = sub_data)
-	data_to_show <- unique(sub_data$use_data)
+	data_to_show <- unique(sub_data$sources_to_use)
 
-	wcgbt_filename = GetSppDefault.fn()
-	#remove = which(wcgbt_filename %in% c("bank_rockfish", "brown_rockfish", "copper_rockfish", "quillback_rockfish", "squarespot_rockfish"))
-	#wcgbt_filename = wcgbt_filename[-remove]
-	wcgbt_name = gsub("_", " ", firstup(wcgbt_filename))
-	wcgbt_name[wcgbt_name == "Chilipepper"] = "Chilipepper rockfish"
-	wcgbt_name[wcgbt_name == "Rougheye rockfish"] = "Rougheye and blackspotted rockfish"
-
-	hkl_filename = gsub(" ", "_", tolower(get_hkl_species()))
-	hkl_name = gsub("_", " ", firstup(hkl_filename))
-	hkl_name[hkl_name == "Chilipepper"] = "Chilipepper rockfish"
-	hkl_name[hkl_name == "Vermilion rockfish"] = "Vermilion and sunset rockfish"
-
-	assess <- assess_data %>% filter(species == species_name)
+	assess <- assess_data |> 
+	  dplyr::filter(species == species_name)
+	
 	ass_yr <- ifelse(is.na(assess$year) & assess$type == "data-limited", 2010, assess$year)
 
-	if(assess$type %in% c("full", "update", "data-moderate", "data-limited")) {
+	if(assess$type %in% c("benchmark", "update", "data-moderate", "data-limited")) {
+	  a_an <- ifelse(assess$type == "update", "an", "a")
 		glue::glue('The most recent assessment of {species_name} ',
-			'was a {assess$type} assessment conducted in {ass_yr}. '
- 			) %>% cat()	
+			'was {a_an} {assess$type} assessment conducted in {ass_yr}. '
+ 			) |> cat()	
  	} else { 
 		glue::glue('To date, no assessment or analysis has been conducted on {species_name}. '
- 			) %>% cat()	
+ 			) |> cat()	
  	}
 
  	glue::glue("Across available data, {species_name} ",
- 		"have been observed and sampled generally by ")	%>% cat()	
+ 		"have been observed and sampled generally by ") |> cat()	
 
 	if(data_to_show == "all"){
-		glue::glue("both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys. ") %>% cat()
+		glue::glue("both commercial and recreational fisheries and the NWFSC WCGBT and HKL surveys. ") |> cat()
 	}
 
 	if(data_to_show == "com_wcgbt_hkl") {
-		glue::glue("commercial fisheries and the NWFSC WCGBT and HKL surveys. ") %>% cat()
+		glue::glue("commercial fisheries and the NWFSC WCGBT and HKL surveys. ") |> cat()
 	}
 		
 	if(data_to_show == "rec_wcgbt_hkl"){
-		glue::glue("recreational fisheries and the both the NWFSC WCGBT and HKL surveys. ") %>% cat()
+		glue::glue("recreational fisheries and the both the NWFSC WCGBT and HKL surveys. ") |> cat()
 	}
 	
 	if(data_to_show == "com_rec_wcgbt"){
-		glue::glue("both the commercial and recreational fisheries and the NWFSC WCGBT survey. ") %>% cat()
+		glue::glue("both the commercial and recreational fisheries and the NWFSC WCGBT survey. ") |> cat()
 	}
 
 	if(data_to_show == "com_rec_hkl"){
-		glue::glue("both the commercial and recreational fisheries and the NWFSC HKL survey. ") %>% cat()
+		glue::glue("both the commercial and recreational fisheries and the NWFSC HKL survey. ") |> cat()
 	}
 
 	if(data_to_show == "com_wcgbt") {
-		glue::glue("commercial fisheries and the NWFSC WCGBT survey. ") %>% cat()
+		glue::glue("commercial fisheries and the NWFSC WCGBT survey. ") |> cat()
 	}
 
 	if(data_to_show == "com_hkl") {
-	    glue::glue("commercial fisheries and the NWFSC HKL survey. ") %>% cat()
+	    glue::glue("commercial fisheries and the NWFSC HKL survey. ") |> cat()
 	}
 	if(data_to_show == "com_rec") {
-		glue::glue("both commercial and recreational fisheries. ") %>% cat()
+		glue::glue("both commercial and recreational fisheries. ") |> cat()
 	}
 	if(data_to_show == "rec_hkl") {
-		glue::glue("recreational fisheries and the NWFSC HKL survey. ") %>% cat()
+		glue::glue("recreational fisheries and the NWFSC HKL survey. ") |> cat()
 	}	
 	if(data_to_show == "rec_wcgbt") {
-		glue::glue("recreational fisheries and the NWFSC WCGBT survey. ") %>% cat()
+		glue::glue("recreational fisheries and the NWFSC WCGBT survey. ") |> cat()
 	}
 
 	if(data_to_show == "com") {
-		glue::glue("only commercial fisheries. ") %>% cat()
+		glue::glue("only commercial fisheries. ") |> cat()
 	}
 	if(data_to_show == "rec") {
-		glue::glue("only recreational fisheries. ") %>% cat()
+		glue::glue("only recreational fisheries. ") |> cat()
 	}	
+ 	
+ 	tows_per_year <- sets_per_year <- 0
+ 	if("NWFSC WCGBT" %in% sub_data$Source){
+ 	  tows_per_year <- round(
+ 	    sum(sub_data[sub_data$Source == "NWFSC WCGBT", "set_tows"]) / length(c(2003:2019, 2021:2023)), 0)
+ 	}
+ 	if("NWFSC HKL" %in% sub_data$Source){
+ 	  sets_per_year <- round(
+ 	    sum(sub_data[sub_data$Source == "NWFSC HKL", "set_tows"]) / length(c(2004:2019, 2021:2023)), 0)
+ 	}
+ 	average_sets <- data.frame(
+ 	  Source = c("NWFSC WCGBT", "NWFSC HKL"),
+ 	  sets = c(tows_per_year, sets_per_year)
+ 	)
+ 	
+ 	if(sum(average_sets$sets != 0) == 1){
+ 	  if(average_sets$sets[1] != 0) {
+ 	    number <- average_sets[average_sets$Source == "NWFSC WCGBT", "sets"]
+ 	    glue::glue("The NWFSC WCGBT survey has an average of 
+ 	               {number} positive tows per year.") |> cat()
+ 	  }
+ 	  if(average_sets$sets[2] != 0) {
+ 	      number <- average_sets[average_sets$Source == "NWFSC HKL", "sets"]
+ 	      glue::glue("The NWFSC HKL survey has an average of 
+ 	                 {number} positive sets per year.") |> cat()
+ 	  }
+ 	}
+ 	
+ 	if(sum(average_sets$sets != 0) == 2){
+ 	    number <- average_sets[, "sets"]
+ 	    glue::glue("The NWFSC WCGBT has a coastwide average of {number[1]} positive tows per
+ 	    year and the NWFSC HKL survey has an average of {number[2]} positive sets per year the 
+ 	               area south of Point Conception in California.") |> cat()    
+ 	}
 
 	#glue::glue(" \n \n \n \n") %>% cat()
-	glue::glue(" \n \n") %>% cat()
-	glue::glue(" \n \n") %>% cat()	
+	glue::glue(" \n \n") |> cat()
+	glue::glue(" \n \n") |> cat()	
 	cat("\n")
  	cat("\n")
+ 	
 
-	for(ss in sources){	
+ 	total <- sub_data |>
+ 	  dplyr::group_by(State, Source) |>
+ 	  dplyr::summarise(
+ 	    lengths = sum(total_lengths),
+ 	    ages = sum(total_ages),
+ 	    otoliths = sum(total_otoliths)
+ 	  )
+ 	total <- as.data.frame(total)
+ 	col_names <- c("State", "Source", "Available Lengths", "Available Ages", "Available Age Structures")
+ 	caption <- glue::glue('Total number of available lengths and ages, and available age structures by data source and
+ 	state between 2000-2023 for {species_name}.')
+ 	t <- table_format(x = total, 
+ 	                  caption = caption,
+ 	                  label = 'tab-label',
+ 	                  col_names = col_names,
+ 	                  custom_width = TRUE,
+ 	                  col_to_adjust = 1:5,
+ 	                  width = c('2cm', '3.5cm', '2cm', '2cm', '2cm'),
+ 	                  align = 'l')
+ 	print(t)
+ 	
+ 	
+ 	# This should be the data figures by state
+ 	add_figure(
+ 	   filein = file.path('C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots', paste0(species_name, "_state_compositions.png")), 
+ 	   caption = glue::glue("Total number of available lengths, ages, and age structures by data source by year for {species_name}."),
+ 	   label = paste0('sample-table-', species_name),
+ 	   width = 100,
+ 	   height = 100)
+ 	 
+ 	cat("\n\n\\pagebreak\n")
 
-		find = which(sub_data$data_type == ss)
-		plural <- ifelse(ss %in% c("commercial fisheries", "recreational fisheries"), "have", "has")
-		survey <- ifelse(ss %in% c("NWFSC WCGBT", "NWFSC HKL"), "survey ","")
-		the <- ifelse(ss %in% c("NWFSC WCGBT", "NWFSC HKL"), "the ","")
+	if(species_name %in% wcgbt_species){ # & species_name %in% hkl_species){
+		#add_figure(
+		#	filein = file.path(vast_dir, wcgbt_filename[ind], "VASTWestCoast_Index_2021.png"), 
+		#	caption = "Index of abundance from the NWFSC WCGBT survey from 2003-2021 (excluding 2020) for the full area (black line with circles) with area-specific estimates (shown in either red, purple, or blue). A loess smoother line was fit to full area estimate and is denoted by the grey dashed line.",
+		#	label = paste0('index-', ind),
+		#	width = 57,
+		#	height = 57)
 
-		glue::glue('Across all years of available data, ', 
-			 '{the}{ss} {survey}{plural} collected ',
- 			 'a total of {length} length observations, ',
- 			 '{age} age readings, ',
- 			 'and {otolith} otoliths that are available to be aged. ',
- 			 name = ss,
- 			 length = prettyNum(sum(sub_data$lengthed[find]), big.mark = ",", scientific = FALSE),
- 			 age = prettyNum(sum(sub_data$aged[find]), big.mark = ",", scientific = FALSE),
- 			 otolith = prettyNum(sum(sub_data$otoliths[find]), big.mark = ",", scientific = FALSE)
- 			) %>% cat()	
+		add_figure(
+			filein = file.path("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots", paste0(species_name, "_length_frequency_sex_0.png")), 
+			caption = glue::glue("Length (cm) compostion data from the NWFSC West Coast Groundfish Bottom Trawl survey for {species_name}. 
+			Size of the circles within a year indicate higher (larger circles) and lower (smaller circles) 
+			proportion observed by length bin."),
+			label = paste0('wcgbt-lengths-', species_name),
+			width = 100,
+			height = 100)
 
- 		if(ss %in% c("commercial fisheries", "recreational fisheries")){
- 			yr <- ifelse(ss == "commercial fisheries", 2000, 2003)
- 			tmp <- sub_data[find, ]
- 			find <- which(tmp$sample_year >= yr)
-
-			tmp2 <- tmp[find,]
-			use_state <- as.matrix(unique(tmp2[tmp2$data_type == ss, "state"]))
-
- 			for (aa in 1:length(use_state)) {
- 				tmp_state <- use_state[aa]
- 				find <- which(tmp2$state == tmp_state)
- 				state <- ifelse(tmp_state == "C", "California", 
- 					     ifelse(tmp_state == "O", "Oregon", "Washington"))
- 				
- 				glue::glue('In {state}, since {yr}, ',
- 				 'a total of {length} length observations, ',
- 				 '{age} age readings, ',
- 				 'and {otolith} otoliths have been collected. ',
- 				 state = state,
- 				 length = prettyNum(sum(tmp2[find, "lengthed"]), big.mark = ",", scientific = FALSE),
- 				 age = prettyNum(sum(tmp2[find, "aged"]), big.mark = ",", scientific = FALSE),
- 				 otolith = prettyNum(sum(tmp2$otoliths[find]), big.mark = ",", scientific = FALSE)
- 				) %>% cat() 
-
- 			} # state loop	
- 			cat("\n")
- 			cat("\n")
-			#glue::glue(" \n \n") %>% cat()
-			#glue::glue(" \n \n") %>% cat()	
- 		} # fishery loop		
-	} # data source loop        
-	
-
-	for(tt in 1:length(sources)) {
-		cat("\n")
-		cat("\n")
-		glue::glue(" \n## {sources[tt]} \n \n") %>% cat()
-
-		if(sources[tt] %in% c("commercial fisheries", "recreational fisheries")){			
-			use_state <- as.matrix(unique(sub_data[sub_data$data_type == sources[tt], "state"]))
-			for (aa in 1:length(use_state)) {
-				tmp_state <- use_state[aa]
-				find <- which(sub_data$data_type == sources[tt] & sub_data$state == tmp_state)
-				tab = data.frame(sub_data[find, ])
-				state <- ifelse(tmp_state == "C", "California", 
- 					     ifelse(tmp_state == "O", "Oregon", "Washington"))
-				col_names = c("State", "Year", "Sexed Fish", "Unsexed Fish", "Lengths", "Ages", "Unread Otoliths")
-				caption = paste0("Data collected annually from the ", sources[tt], " in ", state,".")
-				rownames(tab) = NULL
-				t = table_format(x = tab[,c(2,3,5:9)], 
-					caption = caption,
-					label = 'tab-label',
-					col_names = col_names,
-					align = 'l')
-				print(t)
-			}
-		}
-
-		if(sources[tt] %in% c("NWFSC WCGBT", "NWFSC HKL")){
-			tab = as.data.frame(sub_data[sub_data$data_type == sources[tt], ])
-			col_names = c("Year", "Positive Tows", "Sexed Fish", "Unsexed Fish", "Lengths", "Ages", "Unread Otoliths")
-			if (sources[tt] == "NWFSC HKL"){
-				col_names = c("Year", "Positive Sites", "Sexed Fish", "Unsexed Fish", "Lengths", "Ages", "Unread Otoliths")
-			}
-			caption = paste0("Data collected annually from the ", sources[tt], " survey.")
-			rownames(tab) = NULL
-			t = table_format(x = tab[,3:9], 
-				caption = caption,
-				label = 'tab-label',
-				col_names = col_names,
-				align = 'l')
-			print(t)
-			#cat("\n")
- 			#cat("\n")
-			#print("<P style='page-break-before: always'>")
-			cat("\n\n\\pagebreak\n")
-		}
-
-		if(sources[tt] %in% "NWFSC WCGBT" & species_name %in% wcgbt_name){
-			ind = which(wcgbt_name == species_name)
-			add_figure(
-				filein = file.path(vast_dir, wcgbt_filename[ind], "VASTWestCoast_Index_2021.png"), 
-				caption = "Index of abundance from the NWFSC WCGBT survey from 2003-2021 (excluding 2020) for the full area (black line with circles) with area-specific estimates (shown in either red, purple, or blue). A loess smoother line was fit to full area estimate and is denoted by the grey dashed line.",
-				label = paste0('index-', ind),
-				width = 57,
-				height = 57)
-
-			add_figure(
-				filein = file.path(vast_dir, wcgbt_filename[ind], "plots", paste0(wcgbt_filename[ind], "_Length_Frequency.png")), 
-				caption = "Length (cm) compostion data from the NWFSC WCGBT survey. Size of the circles within a year indicate higher (larger circles) and lower (smaller circles) proportion observed by length bin",
-				label = paste0('lengths-', ind),
-				width = 55,
-				height = 55)
-
-			#print("<P style='page-break-before: always'>") #pagebreak())
-			cat("\n\n\\pagebreak\n")
-			#cat("\n")
- 			#cat("\n")
-		}
-
-		if(sources[tt] %in% "NWFSC HKL" & species_name %in% hkl_name){
-			ind = which(hkl_name == species_name)
-			add_figure(
-				filein = file.path(hkl_dir, hkl_filename[ind], paste0("HKL_GLM_", hkl_filename[ind], ".png")), 
-				caption = "Index of abundance from the NWFSC HKL survey from 2003-2021 (excluding 2020). A loess smoother line was fit to full area estimate and is denoted by the grey dashed line.",
-				label = paste0('index-hkl-', ind),
-				width = 55,
-				height = 55)
-
-			add_figure(
-				filein = file.path(hkl_dir, hkl_filename[ind], "plots", paste0(hkl_filename[ind], "_Length_Frequency.png")), 
-				caption = "Length (cm) compostion data from the NWFSC HKL survey. Size of the circles within a year indicate higher (larger circles) and lower (smaller circles) proportion observed by length bin",
-				label = paste0('lengths-hkl-', ind),
-				width = 55,
-				height = 55)
-
-			#print("<P style='page-break-before: always'>") #pagebreak())
-			cat("\n\n\\pagebreak\n")
-		}	
-
+		cat("\n\n\\pagebreak\n")
 	}
+ 	
+ 	if(file.exists(here::here("plots", paste0(species_name, "_nwfsc_hkl_length_frequency_sex_0.png")))){ 
+ 	  
+ 	  add_figure(
+ 	    filein = file.path("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots", paste0(species_name, "_nwfsc_hkl_length_frequency_sex_0.png")), 
+ 	    caption = glue::glue("Length (cm) compostion data from the NWFSC Hook and Line survey for {species_name}. 
+			Size of the circles within a year indicate higher (larger circles) and lower (smaller circles) 
+			proportion observed by length bin."),
+ 	    label = paste0('hkl-lengths-', species_name),
+ 	    width = 100,
+ 	    height = 100)
+ 	  
+ 	  cat("\n\n\\pagebreak\n")
+ 	}
+
+	if(file.exists(here::here("plots-index", paste0(species_name, "_negbinom index.png")))){
+		add_figure(
+			filein = file.path("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots-index", paste0(species_name, "_negbinom index.png")),
+			caption = glue::glue("Index of abundance from the NWFSC Hook and Line survey from 2003-2023 (excluding 2020) for {species_name}."),
+			label = paste0('index-hkl-', species_name),
+			width = 100,
+			height = 100)
+
+
+		#print("<P style='page-break-before: always'>") #pagebreak())
+		cat("\n\n\\pagebreak\n")
+	}	
   
   	cat("  \n  \n")
 }
