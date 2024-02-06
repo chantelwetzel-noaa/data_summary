@@ -19,6 +19,7 @@ source("R/clean_wcgbt_catch.R")
 source("R/clean_pacfin_comps.R")
 source("R/clean_recfin_lengths.R")
 source("R/clean_recfin_ages.R")
+source("R/clean_ccfrp.R")
 source("R/clean_swfsc_cpfv.R")
 source("R/combine_species.R")
 source("R/clean_nwfsc_hkl.R")
@@ -29,6 +30,8 @@ source("R/combine_all_data.R")
 source("R/format_cdfw_otolith_files.R")
 source("R/plot_data_by_year.R")
 source("R/plot_wcgbt_comps.R")
+source("R/plot_hkl_comps.R")
+source("R/process_unexpanded_comps.R")
 
 # End this file with a list of target objects.
 list(
@@ -49,6 +52,10 @@ list(
   tar_target(nwfsc_hkl, read.csv(
     here::here("data-raw", "H&LSurveyDataThru2022_DWarehouse version_03042023.csv")
   )),
+  # CCFRP lengths
+  tar_target(ccfrp_data, read.csv(
+    here::here("data-raw", "CCFRP_derived_length_table.csv")
+  )),
   # RecFIN data
   tar_target(recfin_wa_len, read.csv(
     here::here("data-raw", "SD501-WASHINGTON-1983---2023.csv"))),
@@ -56,8 +63,10 @@ list(
     here::here("data-raw", "SD501-OREGON-1983---2023.csv"))),
   tar_target(recfin_ca_len, read.csv(
     here::here("data-raw", "SD501-CALIFORNIA-1983---2023.csv"))),
+  #tar_target(recfin_ages, read.csv(
+  #  here::here("data-raw", "SD506--1984---2023.csv"))),
   tar_target(recfin_ages, read.csv(
-    here::here("data-raw", "SD506--1984---2023.csv"))),
+    here::here("data-raw", "RecFIN_Ageing.csv"))),
   # Pull PacFIN data
   tar_target(bds_pacfin, load_pacfin_data(
     dir = here::here("data-raw"),
@@ -69,7 +78,7 @@ list(
   )),
   tar_target(wa_com_oto, format_cdfw_otolith_files(
     data = wa_oto_raw,
-    source = "PacFIN",
+    source = "Commercial",
     state = "Washington"
   )),
   # CA otoliths
@@ -81,7 +90,7 @@ list(
   )),
   tar_target(ca_com_oto, format_cdfw_otolith_files(
     data = ca_com_oto_raw,
-    source = "PacFIN",
+    source = "Commercial",
     state = "California"
   )),
   tar_target(ca_rec_oto_raw, read.csv(
@@ -89,7 +98,7 @@ list(
   )),
   tar_target(ca_rec_oto, format_cdfw_otolith_files(
     data = ca_rec_oto_raw,
-    source = "RecFIN",
+    source = "Recreational",
     state = "California"
   )),
   # Clean RecFIN data
@@ -107,9 +116,14 @@ list(
     data = recfin_ages, 
     year = year
   )),
-  tar_target(coop_ages_filtered, clean_coop_ages(
+  tar_target(coop_filtered, clean_coop_samples(
     data = coop_rec, 
     species = species
+  )),
+  # Clean CCFRP
+  tar_target(ccfrp_filtered, clean_ccfrp(
+    species = species, 
+    data = ccfrp_data
   )),
   # Clean the PacFIN data
   tar_target(pacfin_bio_filtered, clean_pacfin_comps(
@@ -121,7 +135,7 @@ list(
   )),
   # Clean NWFSC WCGBT data
   tar_target(wcgbt_catch, clean_wcgbt_catch(
-    dir = here::here("data-processed"), 
+    dir = here::here("data-raw"), 
     species = species, 
     data = wcgbt_data
   )),
@@ -154,12 +168,11 @@ list(
     ca_rec_oto = ca_rec_oto,
     ca_com_oto = ca_com_oto,
     wa_com_oto = wa_com_oto,
-    coop_rec = coop_ages_filtered,
-    ccfrp = NULL
+    coop_rec = coop_filtered,
+    ccfrp = ccfrp_filtered
   )),
   ##Plot the data
   tar_target(plots, plot_data_by_year(
-    dir = here::here("plots"), 
     data = combined_data, 
     year = 2000
   )),
@@ -167,8 +180,10 @@ list(
     dir = here::here(), 
     wcgbt_catch = wcgbt_catch,
     wcgbt_bio = wcgbt_filtered
-  ))
-  
+  ))#,
+  #tar_target(hkl_plots, plot_hkl_comps(
+  #  data = nwfsc_hkl_filtered
+  #))
 )
 
 # NWFSC HKL NWFSC WCGBT
