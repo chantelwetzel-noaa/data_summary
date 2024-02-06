@@ -47,6 +47,7 @@ format_cdfw_otolith_files <- function(data, source = NA, state = NA){
   out$Lengthed <- 0
   out$Age <- NA
   out$Fleet <- NA
+  out$Aged <- 0
   
   return(out)
   
