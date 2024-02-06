@@ -1,33 +1,13 @@
 
-```{r, results="asis"}
-
-load('C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/data/summarized_all_data.rdat')
-data <- all_data
-
-# Add data to use to the data matrix
-data$use_data <- NA
-species_data <- get_species_data()
-for (a in 1:nrow(species_data)){
-	key <- grep(species_data[a, "species_name"], data$common_name, ignore.case = TRUE)
-	data[key, "use_data"] <- species_data[a, "data"]
-}
-
-# Filter down for only the species we are examining
-find = NULL
-for (a in 1:nrow(species_data)){
-	find <- c(find, grep(species_data[a, "species_name"], data$common_name, ignore.case = TRUE))
-}
-data <- data[find, ]
-data$name = firstup(data$common_name)
-```
 
 ```{r loop-output, results="asis"}
 
-data %>%
-	group_by(name) %>%
-	distinct(name) %>%
-	pull(name) %>%
-	as.character() %>%
+data |>
+  arrange(Common_name, .locale = "en") |>
+	group_by(Common_name) |>
+	distinct(Common_name) |>
+	pull(Common_name) |>
+	as.character() |>
 	walk(multiplot)
  
 ```

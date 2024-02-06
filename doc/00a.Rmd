@@ -31,19 +31,31 @@ source("multiplot.R")
 source("multiplot_hkl.R")
 
 # Need to make dynamic based on data file
-endyr = 2021
+endyr = 2023
 
 library(tidyverse)
 library(table.glue)
 library(glue)
+library(nwfscSurvey)
 
-dir <- "C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary"
-vast_dir <- "C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/vast"
-hkl_dir <- file.path(dir, "hook_and_line")
-source(file.path(dir, "R", "get_species_data.R"))
-source(file.path(dir, "R", "get_source.R"))
-source("C:/Users/Chantel.Wetzel/Documents/GitHub/nwfscSurvey/R/GetSppDefault.fn.R")
-source(file.path(dir, "R", "get_hkl_species.R"))
+outer_dir <- "C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary"
+#vast_dir <- "C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/vast"
+#hkl_dir <- file.path(dir, "hook_and_line")
+source(file.path(outer_dir, "R", "get_species_data.R"))
+source(file.path(outer_dir, "R", "get_source.R"))
+source(file.path(outer_dir, "R", "get_hkl_species.R"))
+
+hkl_species <- get_hkl_species()
+wcgbt_species <- nwfscSurvey::GetSpp.fn(species = nwfscSurvey::GetSppDefault.fn())
+wcgbt_species[which(wcgbt_species$common == "rougheye rockfish"), "common"] <- "rougheye and blackspotted rockfish"
+wcgbt_species <- wcgbt_species$common
+
+load('C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/data-processed/data_total_by_year.Rdata')
+data <- data_total_by_year
+species_data <- get_species_data()
+data <- dplyr::left_join(data, species_data, by = "Common_name")
+
+n_species <- length(unique(data$Common_name))
 
 firstup <- function(x) {
   substr(x, 1, 1) <- toupper(substr(x, 1, 1))
@@ -57,10 +69,7 @@ pagebreak <- function() {
     return('<div style="page-break-before: always;" />')
 }
 
-assess_data <- read.csv("C:/Users/Chantel.Wetzel/Documents/GitHub/assessment_prioritization/data/stock_year.csv")
-assess_data[assess_data$species == "Blue/Deacon rockfish", "species"] = "Blue and deacon rockfish"
-assess_data[assess_data$species == "Gopher/Black and yellow rockfish", "species"] = "Gopher and black and yellow rockfish"
-assess_data[assess_data$species == "Vermilion/Sunset rockfish", "species"] = "Vermilion and sunset rockfish"
-assess_data[assess_data$species == "Rougheye/Blackspotted rockfish", "species"] = "Rougheye and blackspotted rockfish"
+assess_data <- read.csv("C:/Users/Chantel.Wetzel/Documents/GitHub/assessment_prioritization/data-raw/stock_year.csv")
 
 ```
+
