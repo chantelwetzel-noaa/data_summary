@@ -5,12 +5,7 @@ author:
     first: C
     middle: R
     family: Wetzel
-  - name: Jim Hastie
-    code: 1
-    first: J
-    middle: ''
-    family: Hastie
-author_list: Wetzel, C.R., J. Hastie
+author_list: Wetzel, C.R.
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
