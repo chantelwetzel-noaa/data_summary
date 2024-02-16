@@ -1,16 +1,15 @@
 library(targets)
-#remotes::install_github("pfmc-assessments/PacFIN.Utilities", ref = "keep-age-structure")
 
 # Set target-specific options such as packages:
-# tar_option_set(packages = "utils") # nolint
+# tar_option_set(packages = "utils") 
 tar_option_set(packages = c(
+  "here",
   "dplyr",
   "ggplot2",
   "cowplot",
   "nwfscSurvey",
-  "PacFIN.Utilities"
+  "PacFIN.Utilities" # This is the keep-age-structure branch
 ))
-
 
 source("R/get_species_list.R")
 source("R/pull_wcgbts.R")
@@ -173,8 +172,7 @@ list(
   )),
   ##Plot the data
   tar_target(plots, plot_data_by_year(
-    data = combined_data, 
-    year = 2000
+    data = combined_data
   )),
   tar_target(com_plots, plot_wcgbt_comps(
     dir = here::here(), 
