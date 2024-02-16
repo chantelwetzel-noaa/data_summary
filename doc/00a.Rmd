@@ -13,7 +13,7 @@ papersize: letter
 ---
 
 ```{r opts, include = FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dev = 'png')
 knitr::knit_hooks$set(plot = function(x,options) {
       base = knitr::opts_knit$get('base.url')
       if (is.null(base)) base = ''
@@ -31,16 +31,19 @@ source("multiplot.R")
 source("multiplot_hkl.R")
 
 # Need to make dynamic based on data file
-endyr = 2023
+startyr <- 2000
+endyr <- 2023
+assess_year <- endyr + 2
 
 library(tidyverse)
 library(table.glue)
 library(glue)
 library(nwfscSurvey)
+#library(gt)
+#library(gtsummary)
 
 outer_dir <- "C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary"
-#vast_dir <- "C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/vast"
-#hkl_dir <- file.path(dir, "hook_and_line")
+
 source(file.path(outer_dir, "R", "get_species_data.R"))
 source(file.path(outer_dir, "R", "get_source.R"))
 source(file.path(outer_dir, "R", "get_hkl_species.R"))
@@ -55,7 +58,32 @@ data <- data_total_by_year
 species_data <- get_species_data()
 data <- dplyr::left_join(data, species_data, by = "Common_name")
 
+load('C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/data-raw/wcgbt_bio_filtered.Rdata')
+wcgbt_bio <- bio_sub
+age_species <- bio_sub |>
+	  dplyr::filter(!is.na(Age)) |>
+	  dplyr::group_by(Common_name) |>
+	  dplyr::summarize(
+	    age_10 = quantile(Age, 0.10, na.rm = TRUE),
+	    age_20 = quantile(Age, 0.20, na.rm = TRUE),
+	    n10 = sum(Age <= age_10),
+	    n20 = sum(Age <= age_20)
+	  ) |>
+	  dplyr::filter(age_20 <= 5) |>
+	  dplyr::filter(n20 >= 500 )
+
+tmp <- age_species |> 
+  dplyr::arrange(Common_name, .locale = "en") |>
+  dplyr::reframe(
+    Common_name = Common_name
+  )
+
+young_fish <- knitr::combine_words(tmp$Common_name)
+rec_text <- read.csv("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/doc/model_rec_estimates.csv")
+
+
 n_species <- length(unique(data$Common_name))
+
 
 firstup <- function(x) {
   substr(x, 1, 1) <- toupper(substr(x, 1, 1))

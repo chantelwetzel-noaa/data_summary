@@ -1,10 +1,1 @@
-# Preface {-}
-
-This document includes several updates from the version included in the March 2022 Pacific Fishery Management Council Briefing Book. The changes are as follows:
-
-1. Data collected in 2021 from commercial and recreational fisheries along with data collected by the Northwest Fisheries Science Center (NWFSC) West Coast Groundfish Bottom Trawl (WCGBT) survey and the NWFSC Hook-and-Line (HKL) survey have been added to the species-specific data tables.
-
-2. Species-specific indices of abundance and length composition figures from the NWFSC WCGBT and NWFSC HKL surveys have been added for species commonly observed by these surveys.
-
-3. The numbers of aged fish and available otoliths that could be read for the NWFSC HKL survey do not reflect fish that were aged in 2020 and 2021 for copper rockfish, squarespot rockfish, and vermilion/sunset rockfish.
 

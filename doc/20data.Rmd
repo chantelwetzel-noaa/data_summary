@@ -1,8 +1,9 @@
 
 
-```{r loop-output, results="asis"}
+```{r loop-output, results="asis", dpi = 36}
 
 data |>
+  #filter(Common_name %in% c("Dover sole", "copper rockfish")) |>
   arrange(Common_name, .locale = "en") |>
 	group_by(Common_name) |>
 	distinct(Common_name) |>
