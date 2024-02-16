@@ -15,13 +15,23 @@ plot_wcgbt_comps <- function(
 	wcgbt_bio )
 {
 	
-  
-  species <- nwfscSurvey::GetSpp.fn(species = nwfscSurvey::GetSppDefault.fn())
+	species <- nwfscSurvey::GetSpp.fn(species = nwfscSurvey::GetSppDefault.fn())
   species[which(species$common == "rougheye rockfish"), "common"] <- "rougheye and blackspotted rockfish"
   
-  species_to_plot <- unique(species[which(species[, "common"] %in% wcgbt_bio$Common_name), "common"])
+	species_to_plot <- unique(species[which(species[, "common"] %in% wcgbt_bio$Common_name), "common"])  
   
-
+	age_species <- wcgbt_bio |>
+	  dplyr::filter(!is.na(Age)) |>
+	  dplyr::group_by(Common_name) |>
+	  dplyr::summarize(
+	    age_10 = quantile(Age, 0.10, na.rm = TRUE),
+	    age_20 = quantile(Age, 0.20, na.rm = TRUE),
+	    n10 = sum(Age <= age_10),
+	    n20 = sum(Age <= age_20)
+	  ) |>
+	  dplyr::filter(age_20 <= 5) |>
+	  dplyr::filter(n20 >= 500 )
+	
   for(sp in species_to_plot){
   
     catch <- wcgbt_catch[wcgbt_catch$Common_name == sp, ]
@@ -49,7 +59,13 @@ plot_wcgbt_comps <- function(
 	  #	dat = catch,  
 	  #	strat.df = strata, 
 	  #	outputMedian = TRUE) 
-  
+  	
+  	#nwfscSurvey::PlotBio.fn(
+  	#	dir = file.path(dir, "plots"),
+  	#	dat = biomass,
+  	#	main = sp
+  	#)
+
 	  ## Calculate the observations by length and age
 	  if(length(bio$Length_cm) > 0) {
 	  	
@@ -75,48 +91,36 @@ plot_wcgbt_comps <- function(
 	  		sex = 0, 
 	  		verbose = FALSE)
   
-	  	nwfscSurvey::plot_comps(
-	  	  dir = dir,
-	  	  add_0_ylim = FALSE,
-	  	  add_save_name = sp,
-	  	  data = lfs,
-	  	  plot = 1
-	  	)
+	    plot_comps(
+	      dir = dir,
+	      add_0_ylim = FALSE,
+	      add_save_name = sp,
+	      data = lfs,
+	      plot = 1
+	    )
 	  	
-	  	if(sum(0:4 %in% bio$Age) >  3 ){
+	  	#if(sum(0:4 %in% bio$Age) >  3 ){
+	  	if(sp %in% age_species$Common_name) {
 
-	  	  if(sum(bio$Age == 2, na.rm = TRUE) > 0){
-	  	    max_age_len <- quantile(bio[which(bio$Age == 4), "Length_cm"], 0.99)
-	  	  }	  	  
-	  	  if(sum(bio$Age == 1, na.rm = TRUE) > 0){
-	  	    max_age_len <- quantile(bio[which(bio$Age == 3), "Length_cm"], 0.99)
-	  	  }
-	  	  if(sum(bio$Age == 0, na.rm = TRUE) > 0){
-	  	    max_age_len <- quantile(bio[which(bio$Age == 2), "Length_cm"], 0.99)
-	  	  }
+
+	  	  age <- as.numeric(age_species[age_species$Common_name == sp, "age_20"])
+	  	  max_age_len <- quantile(bio[which(bio$Age == age), "Length_cm"], 0.75)
 	  	  
-	  	  sub_bio <- bio[bio$Length_cm <= max_age_len, ]
-	  	  ind <- !is.na(sub_bio$Length_cm)
-	  	  min_len <- ifelse(floor(min(sub_bio$Length_cm[ind])) > 10, floor(min(sub_bio$Length_cm[ind])) , 10)
-	  	  max_len <- floor(max(sub_bio$Length_cm[ind]))
-	  	  bin_size <- ifelse(max_len - min_len > 60, 4, 2)
-	  	  len.bins <- seq(min_len , max_len + 2, bin_size)
+	  	  find <- ifelse(max_age_len %in% len.bins,
+	  	                 which(len.bins == max_age_len),
+	  	                 max(which(len.bins < max_age_len)) + 1)
 	  	  
-	  	  # Calculate and plot the length-frequencies based on the default strata
-	  	  lfs <- nwfscSurvey::SurveyLFs.fn(
-	  	    datL = sub_bio, 
-	  	    datTows = catch,  
-	  	    strat.df = strata, 
-	  	    lgthBins = len.bins, 
-	  	    sex = 0, 
-	  	    verbose = FALSE)
-	  	  
-	  	  nwfscSurvey::plot_comps(
+	  	  cols_to_keep <- 
+	  	    c(1:which(colnames(lfs) == paste0("U", len.bins[find])),
+	  	      which(colnames(lfs) == paste0("U", len.bins[1], ".1")):
+	  	      which(colnames(lfs) == paste0("U", len.bins[find], ".1")))       
+	  	    
+	  	  plot_comps(
 	  	    dir = dir,
 	  	    add_0_ylim = FALSE,
-	  	    add_save_name = paste0(sp, "_young_fish_"),
-	  	    data = lfs,
-	  	    plot = 1
+	  	    add_save_name = paste0(sp, "_young_fish_age_", age),
+	  	    data = lfs[, cols_to_keep],
+	  	    plot = 2
 	  	  )
 	  	  
 	  	}
