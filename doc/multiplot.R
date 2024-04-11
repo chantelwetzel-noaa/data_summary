@@ -90,21 +90,24 @@ multiplot <- function(species_name){
  	if(sum(average_sets$sets != 0) == 1){
  	  if(average_sets$sets[1] != 0) {
  	    number <- average_sets[average_sets$Source == "NWFSC WCGBT", "sets"]
- 	    glue::glue("The NWFSC WCGBT survey has an average of 
- 	               {number} positive tows per year.") |> cat()
+ 	    wcgbt_samples <- glue::glue("The NWFSC WCGBT survey has an average of 
+ 	               {number} positive tows per year.")
+ 	    wcgbt_samples |> cat()
  	  }
  	  if(average_sets$sets[2] != 0) {
  	      number <- average_sets[average_sets$Source == "NWFSC HKL", "sets"]
- 	      glue::glue("The NWFSC HKL survey has an average of 
- 	                 {number} positive sets per year.") |> cat()
+ 	      nwfsc_hkl_samples <- glue::glue("The NWFSC HKL survey has an average of 
+ 	                 {number} positive sets per year.")
+ 	      nwfsc_hkl_samples |> cat()
  	  }
  	}
  	
  	if(sum(average_sets$sets != 0) == 2){
  	    number <- average_sets[, "sets"]
- 	    glue::glue("The NWFSC WCGBT has a coastwide average of {number[1]} positive tows per
- 	    year and the NWFSC HKL survey has an average of {number[2]} positive sets per year the 
- 	               area south of Point Conception in California.") |> cat()    
+ 	    wcgbt_samples <- glue::glue("The NWFSC WCGBT has a coastwide average of {number[1]} positive tows per year.")
+ 	    nwfsc_hkl_samples <- glue::glue("The NWFSC HKL survey has an average of {number[2]} positive sets per year the 
+ 	                                    area south of Point Conception in California.")
+ 	    paste(wcgbt_samples, nwfsc_hkl_samples) |> cat()    
  	}
 
 	#glue::glue(" \n \n \n \n") %>% cat()
@@ -134,8 +137,6 @@ multiplot <- function(species_name){
  	  )
  	total <- as.data.frame(total)
  	
- 	
- 	
  	caption <- glue::glue('Total number of available lengths, read ages, and unread age structures by data source and
  	state between 2000-2023 for {species_name}.')
  	t <- table_format(x = total, 
@@ -159,14 +160,20 @@ multiplot <- function(species_name){
  	   height = 100)
  	 
  	cat("\n\n\\pagebreak\n")
+ 	
+ 	if(file.exists(here::here("plots-index", paste0(species_name, "_wcgbt_index_coastwide.png")))){ 
+ 	  add_figure(
+ 	    filein = file.path("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots-index", paste0(species_name, "_wcgbt_index_coastwide.png")), 
+ 	    caption = glue::glue("Estimated relative index of abundance from the NWFSC West Coast Groundfish Bottom Trawl 
+ 	                         survey for {species_name}. {wcgbt_samples}"),
+ 	    label = paste0('wcgbt-index-', species_name),
+ 	    width = 100,
+ 	    height = 100)
+ 	  
+ 	  cat("\n\n\\pagebreak\n") 	  
+ 	}
 
 	if(file.exists(here::here("plots", paste0(species_name, "_length_frequency_sex_0.png")))){ 
-		#add_figure(
-		#	filein = file.path(vast_dir, wcgbt_filename[ind], "VASTWestCoast_Index_2021.png"), 
-		#	caption = "Index of abundance from the NWFSC WCGBT survey from 2003-2021 (excluding 2020) for the full area (black line with circles) with area-specific estimates (shown in either red, purple, or blue). A loess smoother line was fit to full area estimate and is denoted by the grey dashed line.",
-		#	label = paste0('index-', ind),
-		#	width = 57,
-		#	height = 57)
 
 		add_figure(
 			filein = file.path("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots", paste0(species_name, "_length_frequency_sex_0.png")), 
@@ -180,40 +187,55 @@ multiplot <- function(species_name){
 		cat("\n\n\\pagebreak\n")
 	}
  	
- 	if(species_name %in% age_species$Common_name){
+ 	file <- paste0("One-pane-", species_name, "-index.png")
+ 	if(file.exists(file.path("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots", file))){
  	  
- 	  plot_files <- list.files(here::here("plots"), pattern = "_r4ss_frequency_sex_0.png")
- 	  file <- plot_files[grep(species_name, plot_files)]
+ 	  print_text <- rec_text[rec_text$Common_name == species_name, "text"]
  	  age <- as.numeric(age_species[age_species$Common_name == species_name, "age_20"])
  	  age_text <- ifelse(age == 0, "", " or younger")
  	  
- 	  print_text <- rec_text[rec_text$Common_name == species_name, "text"]
- 	  
  	  add_figure(
  	    filein = file.path("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots", file), 
- 	    caption = glue::glue("Length (cm) compostion data from the NWFSC West Coast Groundfish Bottom Trawl survey with 
- 	                         fish associated associated with age {age}{age_text} for {species_name}. {print_text}"),
+ 	    caption = glue::glue("Juvenile index of abundance estiamted from the NWFSC West Coast Groundfish 
+ 	                         Bottom Trawl survey for {species_name}. {print_text}"),
  	    label = paste0('wcgbt-young-lengths-', species_name),
  	    width = 100,
  	    height = 100)
  	  
- 	  age_length <- aggregate(Length_cm ~ Age, 
- 	                          wcgbt_bio[which(wcgbt_bio$Common_name == species_name & wcgbt_bio$Age <= age), ], 
- 	                          function(x) quantile(x, 0.50, na.rm = TRUE))
+ 	  if(!species_name %in% c("shortspine thornyhead", "longspine thornyhead")){
  	  
+ 	    age_length <- aggregate(Length_cm ~ Age, 
+ 	                            wcgbt_bio[which(wcgbt_bio$Common_name == species_name & wcgbt_bio$Age <= age), ], 
+ 	                            function(x) quantile(x, 0.50, na.rm = TRUE))
+ 	    
  	  
- 	  caption <- glue::glue("The median length (cm) associated with fish age {age}{age_text} for {species_name} based on aged fish from the NWFSC West Coast Groundfish Bottom Trawl survey.")
- 	  t <- table_format(x = age_length, 
- 	                    col_names = c("Age", "Length (cm)"),
- 	                    caption = caption,
- 	                    align = 'r')
- 	  print(t)
+ 	    caption <- glue::glue("The median length (cm) associated with fish age {age}{age_text} for {species_name} based on aged fish from the NWFSC West Coast Groundfish Bottom Trawl survey.")
+ 	    t <- table_format(x = age_length, 
+ 	                      col_names = c("Age", "Length (cm)"),
+ 	                      caption = caption,
+ 	                      labe = paste0("age-length-", species_name),
+ 	                      align = 'r')
+ 	    print(t)
+ 	  }
  	  
  	  cat("\n\n\\pagebreak\n")
  	  
  	}
  	
- 
+ 	
+ 	if(file.exists(here::here("plots-index", paste0(species_name, "_negbinom index.png")))){
+ 	  
+ 	  add_figure(
+ 	    filein = file.path("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots-index", paste0(species_name, "_negbinom index.png")),
+ 	    caption = glue::glue("Index of abundance from the NWFSC Hook and Line survey from 2004-2023 (excluding 2020) 
+ 	                         for {species_name}. {nwfsc_hkl_samples}"),
+ 	    label = paste0('index-hkl-', species_name),
+ 	    width = 100,
+ 	    height = 100)
+ 	  
+ 	  cat("\n\n\\pagebreak\n")
+ 	}
+ 	
  	
  	if(file.exists(here::here("plots", paste0(species_name, "_nwfsc_hkl_length_frequency_sex_0.png")))){ 
  	  
@@ -228,18 +250,7 @@ multiplot <- function(species_name){
  	  
  	  cat("\n\n\\pagebreak\n")
  	}
-
-	#if(file.exists(here::here("plots-index", paste0(species_name, "_negbinom index.png")))){
-	#	add_figure(
-	#		filein = file.path("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/plots-index", paste0(species_name, "_negbinom index.png")),
-	#		caption = glue::glue("Index of abundance from the NWFSC Hook and Line survey from 2003-2023 (excluding 2020) for {species_name}."),
-	#		label = paste0('index-hkl-', species_name),
-	#		width = 100,
-	#		height = 100)
-
-	#	#print("<P style='page-break-before: always'>") #pagebreak())
-	#	cat("\n\n\\pagebreak\n")
-	#}	
+ 	
   
-  	cat("  \n  \n")
+  cat("  \n  \n")
 }

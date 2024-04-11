@@ -28,7 +28,7 @@ knitr::knit_hooks$set(plot = function(x,options) {
 
 load("00opts.Rdata")
 source("multiplot.R")
-source("multiplot_hkl.R")
+source("multiplot_brief.R")
 
 # Need to make dynamic based on data file
 startyr <- 2000
@@ -68,9 +68,9 @@ age_species <- bio_sub |>
 	    age_20 = quantile(Age, 0.20, na.rm = TRUE),
 	    n10 = sum(Age <= age_10),
 	    n20 = sum(Age <= age_20)
-	  ) |>
-	  dplyr::filter(age_20 <= 5) |>
-	  dplyr::filter(n20 >= 500 )
+	  ) #|>
+	  #dplyr::filter(age_20 <= 5) |>
+	  #dplyr::filter(n20 >= 500 )
 
 tmp <- age_species |> 
   dplyr::arrange(Common_name, .locale = "en") |>
