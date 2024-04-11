@@ -43,6 +43,24 @@ clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key, year = 1980){
   data$Source <- "Commercial"
   data$State_Source <- paste0(data$Source, "-", data$State)
   
+  # Split yellowtail north and south
+  yt_north_ca <- data[which(
+    data$Common_name == "yellowtail rockfish" &
+    data$PACFIN_PORT_NAME %in% c("CRESCENT", "FIELDS LDG", "EUREKA")), ]
+  yt_north <- rbind(
+    data[which(data$Common_name == "yellowtail rockfish" &
+               data$State %in% c("Oregon", "Washington")), ],
+    yt_north_ca
+  )
+  yt_north$Common_name <- "yellowtail rockfish north"
+  yt_south <- data[which(
+    data$Common_name == "yellowtail rockfish" &
+    data$State == "California" &
+    !data$PACFIN_PORT_NAME %in% c("CRESCENT", "FIELDS LDG", "EUREKA")), ]
+  yt_south$Common_name <- "yellowtail rockfish south"
+  
+  data <- rbind(data, yt_south, yt_north)
+  
   data$Fleet = "Non-trawl"
   data$Fleet[which(data$geargroup %in% c("TWL", "TWS"))] <- "Trawl"
   
@@ -72,6 +90,8 @@ clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key, year = 1980){
   if(length(find)> 0 ){
     data[find, "Otolith"] <- 1
   }
+  
+  data$Weight_kg <- data$weightkg
   
   data$set_tow_id <- 0
                   

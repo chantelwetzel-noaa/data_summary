@@ -21,6 +21,18 @@ clean_ccfrp <- function(dir, species, data){
   # Remove Farralon samples due to only being sampled a couple of years
   data <- data[which(!data$Area %in% c("Farallon Islands", "Point Conception", "Trinidad", "Laguna Beach")), ]
   
+  yt_south <- data[
+    which(data$Common_name == "yellowtail rockfish" &
+            data$Area != "Cape Mendocino"), ]
+  yt_south$Common_name <- "yellowtail rockfish south"
+  
+  yt_north <- data[
+    which(data$Common_name == "yellowtail rockfish" &
+            data$Area == "Cape Mendocino"), ]
+  yt_north$Common_name <- "yellowtail rockfish north"
+  
+  data <- rbind(data, yt_south, yt_north)
+  
   data$Lengthed <- 1
   data$State <- "California"
   data$Source <- "CCFRP"
@@ -30,6 +42,7 @@ clean_ccfrp <- function(dir, species, data){
   data$Aged <- 0
   data$Age <- NA
   data$Sex <- "U"
+  data$Weight_kg <- NA
 
   return(data)
 }

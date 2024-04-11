@@ -32,9 +32,14 @@ clean_nwfsc_hkl <- function(
     
     data <- data[data$Common_name != "southern rock sole", ]
     
+    # Deal with yellowtail rockfish south
+    yt_south <- data[data$Common_name == "yellowtail rockfish", ]
+    yt_south$Common_name <- "yellowtail rockfish south"
+    data <- rbind(data, yt_south)
+    
     data$State <- "California"
     
-    find = which(!is.na(data$otolith_number) & is.na(data$age_years))
+    find <- which(data$otolith_num != "" & is.na(data$age_years))
     data$Otolith <- 0
     data$Otolith[find] <- 1
     
@@ -43,9 +48,10 @@ clean_nwfsc_hkl <- function(
     data$Age <- data$age_years
     data$Aged <- 0
     data$Aged[!is.na(data$Age)] <- 1
-    find <- which(data$Common_name == "copper rockfish")
+    find <- which(data$Common_name == "copper rockfish" & data$year != 2023)
     data$Aged[find] <- 1
     data$Otolith[find] <- 0
+    data$Weight_kg <- data$weight_kg
     
     data$Sex <- data$sex
     data$Source <- "NWFSC HKL"

@@ -66,7 +66,9 @@ data_species = t(data.frame(
 	 c("all","widow rockfish"),                      
 	 c("all","yelloweye rockfish"),                  
 	 c("com_wcgbt","yellowmouth rockfish"),                
-	 c("all","yellowtail rockfish") 
+	 c("all","yellowtail rockfish"),
+	 c("com_rec_wcgbt","yellowtail rockfish north"),
+	 c("com_rec_hkl","yellowtail rockfish south") 
 	)) 
   
   data_species <- as.data.frame(data_species)
