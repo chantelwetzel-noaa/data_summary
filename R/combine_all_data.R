@@ -8,6 +8,8 @@
 #' @param recfin_lengths
 #' @param recfin_age
 #' @param ca_rec_oto
+#' @param ca_rec_carcass_oto
+#' @param ca_rec_pilot_oto
 #' @param ca_com_oto
 #' @param wa_com_oto
 #' @param coop_rec
@@ -27,7 +29,9 @@ combine_all_data <- function(
   ca_rec_oto = NULL,
   ca_com_oto = NULL,
   wa_com_oto = NULL,
-  coop_rec,
+  ca_rec_carcass_oto = NULL,
+  ca_com_pilot_oto = NULL,
+  coop_rec = NULL,
   ccfrp = NULL)
 {
   
@@ -37,7 +41,7 @@ combine_all_data <- function(
   }
   
   #Combine data sets into a single data frame
-  cols_to_keep <- c("Year", "State", "Source", "Common_name", "Fleet", "set_tow_id", "Lengthed", "Otolith", "Age", "Aged")
+  cols_to_keep <- c("Year", "State", "Source", "Common_name", "Fleet", "set_tow_id", "Lengthed", "Otolith", "Age", "Aged", "Length_cm", "Weight_kg", "Sex")
   data <- rbind(
     wcgbt[, cols_to_keep],
     nwfsc_hkl[, cols_to_keep],
@@ -47,7 +51,9 @@ combine_all_data <- function(
     coop_rec[, cols_to_keep],
     wa_com_oto[, cols_to_keep],
     ca_com_oto[, cols_to_keep],
-    ca_rec_oto[, cols_to_keep]
+    ca_rec_oto[, cols_to_keep], 
+    ca_rec_carcass_oto[, cols_to_keep],
+    ca_com_pilot_oto[, cols_to_keep]
   )
   
   if(!is.null(ccfrp)){
