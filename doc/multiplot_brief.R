@@ -115,6 +115,18 @@ multiplot_brief <- function(species_name){
   cat("\n")
   cat("\n")
   
+  if(species_name %in% maturity_text$species){
+    collected_n <- maturity_text[maturity_text$species == species_name, "collected"]
+    read_n <- maturity_text[maturity_text$species == species_name, "read"]
+    add_text <- maturity_text[maturity_text$species == species_name, "text_to_add"]
+    glue::glue("Coastwide a total of {collected_n} maturity samples have been collected and {read_n}
+ 	             read by researchers at the NWFSC. {add_text}") |> cat()   
+  }
+  research_list(species_name = species_name) 
+  
+  glue::glue(" \n \n") |> cat()
+  glue::glue(" \n \n") |> cat()	
+  
   total <- sub_data |>
     dplyr::group_by(State, Source) |>
     dplyr::summarise(
@@ -123,6 +135,10 @@ multiplot_brief <- function(species_name){
       `Age Structures` = sum(total_otoliths)
     )
   total <- as.data.frame(total)
+  total <- as.data.frame(total)
+  if("CCFRP" %in% total$Source){
+    total[total$Source == "CCFRP", c("Ages", "Age Structures")] <- NA
+  }
   
   caption <- glue::glue('Total number of available lengths, read ages, and unread age structures by data source and
  	state between 2000-2023 for {species_name}.')

@@ -110,11 +110,38 @@ multiplot <- function(species_name){
  	    paste(wcgbt_samples, nwfsc_hkl_samples) |> cat()    
  	}
 
-	#glue::glue(" \n \n \n \n") %>% cat()
+	glue::glue(" \n \n \n \n") %>% cat()
 	glue::glue(" \n \n") |> cat()
 	glue::glue(" \n \n") |> cat()	
 	cat("\n")
  	cat("\n")
+ 	
+ 	
+ 	if(species_name %in% maturity_text$species){
+
+ 	  collected_n <- maturity_text[maturity_text$species == species_name, "collected"]
+ 	  read_n <- maturity_text[maturity_text$species == species_name, "read"]
+ 	  add_text <- maturity_text[maturity_text$species == species_name, "text_to_add"]
+ 	  
+ 	  glue::glue("Coastwide a total of {collected_n} maturity samples have been collected and {read_n}
+ 	             read by researchers at the NWFSC. {add_text}") |> cat()   
+ 	}
+ 	research_list(species_name = species_name) 
+ 	
+ 	glue::glue(" \n \n") |> cat()
+ 	glue::glue(" \n \n") |> cat()	
+ 	cat("\n")
+ 	cat("\n")
+ 	
+  if(species_name == "quillback rockfish"){
+    glue::glue("There are various sources of age structure for {species_name} in California that are not
+               reflected in the data totals below. As of April 11, 2024 the Cooperative Ageing Program (CAP)
+               in Newport Oregon had the following age structures that are not included in summaries in this 
+               document: 138 from the CCFRP survey (currently being read), 
+               120 from a research program conducted by Jeff Abrams (already read), 
+               and 23 from various SWFSC data collection
+               efforts (currently being read).") |> cat()
+  }
  	
  	#total <- sub_data |>
  	#  dplyr::group_by(State, Source) |>
@@ -136,6 +163,9 @@ multiplot <- function(species_name){
  	    `Age Structures` = sum(total_otoliths)
  	  )
  	total <- as.data.frame(total)
+ 	if("CCFRP" %in% total$Source){
+ 	  total[total$Source == "CCFRP", c("Ages", "Age Structures")] <- NA
+ 	}
  	
  	caption <- glue::glue('Total number of available lengths, read ages, and unread age structures by data source and
  	state between 2000-2023 for {species_name}.')
