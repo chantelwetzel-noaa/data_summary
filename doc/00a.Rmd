@@ -47,6 +47,9 @@ outer_dir <- "C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary"
 source(file.path(outer_dir, "R", "get_species_data.R"))
 source(file.path(outer_dir, "R", "get_source.R"))
 source(file.path(outer_dir, "R", "get_hkl_species.R"))
+source(file.path(getwd(), "maturity_text_by_species.R"))
+source(file.path(getwd(), "ongoing_research.R"))
+
 
 hkl_species <- get_hkl_species()
 wcgbt_species <- nwfscSurvey::GetSpp.fn(species = nwfscSurvey::GetSppDefault.fn())
@@ -84,11 +87,11 @@ rec_text <- read.csv("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/doc/
 
 n_species <- length(unique(data$Common_name))
 
-
 firstup <- function(x) {
   substr(x, 1, 1) <- toupper(substr(x, 1, 1))
   x
 }
+
 
 pagebreak <- function() {
   if(knitr::is_latex_output())
