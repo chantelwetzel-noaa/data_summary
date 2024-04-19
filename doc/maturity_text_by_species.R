@@ -10,7 +10,7 @@ maturity_text <- data.frame(
 maturity_text$text_to_add[maturity_text$species == "quillback rockfish"] <-
   "There are ongoing additional data collections led by SWFSC staff being conducted this year 
   to inform maturity and fecundity of quillback rockfish in California waters. Any samples
-  collected by these effort will be available to inform a potential 2025 assessment."
+  collected by these efforts will be available to inform a potential 2025 assessment."
 
 
 maturity_text$text_to_add[maturity_text$species == "rougheye and blackspotted rockfish"] <-

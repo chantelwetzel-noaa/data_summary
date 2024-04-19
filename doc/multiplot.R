@@ -138,7 +138,7 @@ multiplot <- function(species_name){
                reflected in the data totals below. As of April 11, 2024 the Cooperative Ageing Program (CAP)
                in Newport Oregon had the following age structures that are not included in summaries in this 
                document: 138 from the CCFRP survey (currently being read), 
-               120 from a research program conducted by Jeff Abrams (already read), 
+               119 from a research program conducted by Jeff Abrams (already read), 
                and 23 from various SWFSC data collection
                efforts (currently being read).") |> cat()
   }
