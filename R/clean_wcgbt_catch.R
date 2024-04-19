@@ -84,18 +84,18 @@ clean_wcgbt_catch <- function(dir = here::here("data-raw"), species, data){
   
   catch$Source <- "NWFSC WCGBT" 
   catch$State_area <- ifelse(
-    catch$Latitude_dd > 46, "WA", ifelse(
-      catch$Latitude_dd > 42 & catch$Latitude_dd < 46, "OR", ifelse(
-        catch$Latitude_dd < 42 & catch$Latitude_dd < 40.167, "NCA", ifelse(
-          catch$Latitude_dd < 40.167 & catch$Latitude_dd > 34.47, "CCA", "SCA"
+    catch$Latitude_dd >= 46, "WA", ifelse(
+      catch$Latitude_dd >= 42 & catch$Latitude_dd < 46, "OR", ifelse(
+        catch$Latitude_dd <= 42 & catch$Latitude_dd > 40.167, "NCA", ifelse(
+          catch$Latitude_dd <= 40.167 & catch$Latitude_dd > 34.47, "CCA", "SCA"
         )
       )
     )
   )
   
   catch$State <- ifelse(
-    catch$Latitude_dd > 46, "Washington", ifelse(
-      catch$Latitude_dd > 42 & catch$Latitude_dd < 46, "Oregon", "California"
+    catch$Latitude_dd >= 46, "Washington", ifelse(
+      catch$Latitude_dd >= 42 & catch$Latitude_dd < 46, "Oregon", "California"
     )
   )
   
