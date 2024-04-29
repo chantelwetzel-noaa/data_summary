@@ -28,9 +28,15 @@ clean_recfin_ages <- function(dir, species, data, year){
                        ifelse(data$SAMPLING_AGENCY_NAME == "O", "Oregon", NA))
   data$Source <- "Recreational"
   data$State_Source <- paste0(data$Source,"-", data$State)
+  data$State_area <- ifelse(data$State == "Washington", "WA", "OR")
   
   data$Year <- data$SAMPLE_YEAR
   data <- data[data$Year >= year, ]
+  
+  # Add yellowtail north
+  yt <- data[data$Common_name == "yellowtail rockfish", ]
+  yt$Common_name <- "yellowtail rockfish north"
+  data <- rbind(data, yt)
   
   data$Length_cm <- NA
   data$Length_cm[which(data$LENGTH_UNITS %in% c("C", ""))] <- 
@@ -39,6 +45,7 @@ clean_recfin_ages <- function(dir, species, data, year){
     data[which(data$LENGTH_UNITS %in% c("M", "MM")), "MEASURED_LENGTH"] / 10
   
   data$Lengthed <- 0
+  data$Weight_kg <- NA
   
   data$Sex <- data$RECFIN_SEX_CODE
   data$Sex[which(!data$Sex %in% c("F", "M"))] <- "U"

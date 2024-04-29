@@ -16,7 +16,8 @@ get_hkl_species <- function(){
            "Squarespot Rockfish", # 1934
                "Starry Rockfish", # 2721
             "Vermilion Rockfish", #27812
-           "Yellowtail Rockfish") # 1794
+           "Yellowtail Rockfish", # 1794
+           "Yellowtail Rockfish South")
 
     return(species_list)
 }

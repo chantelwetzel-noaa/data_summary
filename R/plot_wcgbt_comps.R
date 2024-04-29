@@ -18,7 +18,8 @@ plot_wcgbt_comps <- function(
 	species <- nwfscSurvey::GetSpp.fn(species = nwfscSurvey::GetSppDefault.fn())
   species[which(species$common == "rougheye rockfish"), "common"] <- "rougheye and blackspotted rockfish"
   
-	species_to_plot <- unique(species[which(species[, "common"] %in% wcgbt_bio$Common_name), "common"])  
+	species_to_plot <- c(unique(species[which(species[, "common"] %in% wcgbt_bio$Common_name), "common"]),
+	                     "yellowtail rockfish south", "yellowtail rockfish north")
   
 	age_species <- wcgbt_bio |>
 	  dplyr::filter(!is.na(Age)) |>
@@ -101,7 +102,6 @@ plot_wcgbt_comps <- function(
 	  	
 	  	#if(sum(0:4 %in% bio$Age) >  3 ){
 	  	if(sp %in% age_species$Common_name) {
-
 
 	  	  age <- as.numeric(age_species[age_species$Common_name == sp, "age_20"])
 	  	  max_age_len <- quantile(bio[which(bio$Age == age), "Length_cm"], 0.75)

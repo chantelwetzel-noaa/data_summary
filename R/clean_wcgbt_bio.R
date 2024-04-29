@@ -36,13 +36,25 @@ clean_wcgbt_bio <- function(dir = here::here("data-processed"), species, data){
   keep <- which(bio$Common_name %in% unique(species[,"use_name"]))
   bio_sub <- bio[keep, ]
   
+  # Split the yellowtail north and south of 40.167 while retaining the coastwide data
+  yt_south <- bio_sub[
+    which(bio_sub$Common_name == "yellowtail rockfish" &
+          bio_sub$Latitude_dd < 40.167), ]
+  yt_south$Common_name <- "yellowtail rockfish south"
+  yt_north <- bio_sub[
+    which(bio_sub$Common_name == "yellowtail rockfish" &
+            bio_sub$Latitude_dd >= 40.167), ]
+  yt_north$Common_name <- "yellowtail rockfish north"
+  
+  bio_sub <- rbind(bio_sub, yt_south, yt_north)
+  
   bio_sub$Source <- "NWFSC WCGBT"
   
   bio_sub$State_area <- ifelse(
     bio_sub$Latitude_dd > 46, "WA", ifelse(
       bio_sub$Latitude_dd > 42 & bio_sub$Latitude_dd < 46, "OR", ifelse(
-        bio_sub$Latitude_dd < 42 & bio_sub$Latitude_dd < 40.17, "NCA", ifelse(
-          bio_sub$Latitude_dd < 40.17 & bio_sub$Latitude_dd > 34.47, "CCA", "SCA"
+        bio_sub$Latitude_dd < 42 & bio_sub$Latitude_dd < 40.167, "NCA", ifelse(
+          bio_sub$Latitude_dd < 40.167 & bio_sub$Latitude_dd > 34.47, "CCA", "SCA"
         )
       )
     )
@@ -54,6 +66,7 @@ clean_wcgbt_bio <- function(dir = here::here("data-processed"), species, data){
     )
   )
   
+  bio_sub$Weight_kg <- bio_sub$Weight
   bio_sub <- bio_sub[!is.na(bio_sub$Length_cm), ]
   bio_sub$Lengthed <- 1
   

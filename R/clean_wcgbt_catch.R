@@ -68,18 +68,34 @@ clean_wcgbt_catch <- function(dir = here::here("data-raw"), species, data){
   catch[which(catch$Common_name == "vermilion rockfish"), "Common_name"] <- "vermilion and sunset rockfish"
   #catch <- catch[which(catch$Common_name %in% unique(species[, "use_name"])), ]
   
+  # Add yellowtail split north and south of 40.167
+  yt_south <- catch[
+    which(catch$Common_name == "yellowtail rockfish" &
+          catch$Latitude_dd < 40.167), ]
+  yt_south$Common_name <- "yellowtail rockfish south"
+  yt_north <- catch[
+    which(catch$Common_name == "yellowtail rockfish" &
+            catch$Latitude_dd >= 40.167), ]
+  yt_north$Common_name <- "yellowtail rockfish north"
+  
   catch$positive_tow <- 0
   catch[catch$total_catch_wt_kg > 0, "positive_tow"] <- 1 
   catch$set_tow_id <- catch$Trawl_id
   
   catch$Source <- "NWFSC WCGBT" 
-  catch$State <- ifelse(
-    catch$Latitude_dd > 46, "WA", ifelse(
-      catch$Latitude_dd > 42 & catch$Latitude_dd < 46, "OR", ifelse(
-        catch$Latitude_dd < 42 & catch$Latitude_dd < 40.17, "NCA", ifelse(
-          catch$Latitude_dd < 40.17 & catch$Latitude_dd > 34.47, "CCA", "SCA"
+  catch$State_area <- ifelse(
+    catch$Latitude_dd >= 46, "WA", ifelse(
+      catch$Latitude_dd >= 42 & catch$Latitude_dd < 46, "OR", ifelse(
+        catch$Latitude_dd <= 42 & catch$Latitude_dd > 40.167, "NCA", ifelse(
+          catch$Latitude_dd <= 40.167 & catch$Latitude_dd > 34.47, "CCA", "SCA"
         )
       )
+    )
+  )
+  
+  catch$State <- ifelse(
+    catch$Latitude_dd >= 46, "Washington", ifelse(
+      catch$Latitude_dd >= 42 & catch$Latitude_dd < 46, "Oregon", "California"
     )
   )
   
