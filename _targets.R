@@ -193,7 +193,7 @@ list(
   #Plot the data
   tar_target(plots, plot_data_by_year(
     data = combined_data
-  ))#,
+  )),
   #tar_target(com_plots, plot_wcgbt_comps(
   #  dir = here::here(), 
   #  wcgbt_catch = wcgbt_catch,
@@ -202,6 +202,9 @@ list(
   #tar_target(hkl_plots, plot_hkl_comps(
   #  data = nwfsc_hkl_filtered
   #))
+  # quillback ages
+  tar_target(qb_ca, read.csv(here::here("data-raw", "quillback_aged_04112024.csv")
+  ))
 )
 
 # NWFSC HKL NWFSC WCGBT
