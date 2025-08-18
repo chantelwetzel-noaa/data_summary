@@ -34,13 +34,14 @@ source("R/process_unexpanded_comps.R")
 
 # End this file with a list of target objects.
 list(
-  # Load in data and species lists
+  # Load in raw data and species lists
   tar_target(year, 2000),
   tar_target(species, get_species_list()),
   tar_target(spid_key, read.csv(
     here::here("data-raw", "pacfin_species_codes.csv")
   )),
   tar_target(stock_year, read.csv(here::here("data-raw", "stock_year.csv"))),
+  # Survey data
   # Pull the WCGBT survey data
   tar_target(wcgbt_data, pull_wcgbts(
     dir = here::here("data-raw"), 
@@ -49,12 +50,13 @@ list(
   )),
   # NWFSC HKL Survey Data
   tar_target(nwfsc_hkl, read.csv(
-    here::here("data-raw", "H&LSurveyDataThru2022_DWarehouse version_03042023.csv")
+    here::here("data-raw", "qryDataSummaryForChantel2004-2023.csv")
   )),
   # CCFRP lengths
   tar_target(ccfrp_data, read.csv(
     here::here("data-raw", "CCFRP_derived_length_table.csv")
   )),
+  # Fishery Data
   # RecFIN data
   tar_target(recfin_wa_len, read.csv(
     here::here("data-raw", "SD501-WASHINGTON-1983---2023.csv"))),
@@ -92,12 +94,28 @@ list(
     source = "Commercial",
     state = "California"
   )),
+  tar_target(ca_com_pilot_oto_raw, read.csv(
+    here::here("data-raw","cdfw-com-pilot-otoliths.csv")
+  )),
   tar_target(ca_rec_oto_raw, read.csv(
     here::here("data-raw","cdfw-rec-otoliths.csv")
   )),
+  tar_target(ca_rec_carcass_oto_raw, read.csv(
+    here::here("data-raw","cdfw-rec-carcass-otoliths.csv")
+  )),
   tar_target(ca_rec_oto, format_cdfw_otolith_files(
     data = ca_rec_oto_raw,
-    source = "Recreational",
+    source = "CDFW-Ad hoc",
+    state = "California"
+  )),
+  tar_target(ca_rec_carcass_oto, format_cdfw_otolith_files(
+    data = ca_rec_carcass_oto_raw,
+    source = "CDFW-Ad hoc",
+    state = "California"
+  )),
+  tar_target(ca_com_pilot_oto, format_cdfw_otolith_files(
+    data = ca_com_pilot_oto_raw,
+    source = "CDFW-Ad hoc",
     state = "California"
   )),
   # Clean RecFIN data
@@ -165,23 +183,28 @@ list(
     recfin_lengths = recfin_len_filtered,
     recfin_ages = recfin_ages_filtered,
     ca_rec_oto = ca_rec_oto,
+    ca_rec_carcass_oto = ca_rec_carcass_oto,
+    ca_com_pilot_oto = ca_com_pilot_oto,
     ca_com_oto = ca_com_oto,
     wa_com_oto = wa_com_oto,
     coop_rec = coop_filtered,
     ccfrp = ccfrp_filtered
   )),
-  ##Plot the data
+  #Plot the data
   tar_target(plots, plot_data_by_year(
     data = combined_data
   )),
-  tar_target(com_plots, plot_wcgbt_comps(
-    dir = here::here(), 
-    wcgbt_catch = wcgbt_catch,
-    wcgbt_bio = wcgbt_filtered
-  ))#,
+  #tar_target(com_plots, plot_wcgbt_comps(
+  #  dir = here::here(), 
+  #  wcgbt_catch = wcgbt_catch,
+  #  wcgbt_bio = wcgbt_filtered[which(wcgbt_filtered$Common_name %in% c("yellowtail rockfish north", "yellowtail rockfish south")),]
+  #)),
   #tar_target(hkl_plots, plot_hkl_comps(
   #  data = nwfsc_hkl_filtered
   #))
+  # quillback ages
+  tar_target(qb_ca, read.csv(here::here("data-raw", "quillback_aged_04112024.csv")
+  ))
 )
 
 # NWFSC HKL NWFSC WCGBT

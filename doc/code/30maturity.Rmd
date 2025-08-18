@@ -1,16 +1,9 @@
-# Maturity data {-}
+# Maturity data 
 
 Maturity samples for a wide range of West Coast groundfish species have been collected across a range of sources: NWFSC WCGBT survey, NWFSC HKL survey, Pacific hake survey, at-sea sampling of the Pacific hake fishery, and port sampling by ODFW and WDFW. Samples have been collected between 2009 - 2022. The following summary does not include collection from the 2023 NWFSC WCGBT and HKL surveys.   
 
 
 ```{r mat, results="asis"}
-
-firstup <- function(x) {
-  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
-  x
-}
-
-mat <- read.csv('C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/data-raw/maturity_totals.csv')
 
 col_names <- c("Species", "Collected", "Read")
 

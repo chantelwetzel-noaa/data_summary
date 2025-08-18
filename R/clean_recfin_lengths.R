@@ -30,6 +30,35 @@ clean_recfin_lengths <- function(dir, or_data = NULL, wa_data= NULL, ca_data= NU
   
   data$State <- tolower(data$STATE_NAME)
   substr(data$State, 1, 1) <- toupper(substr(data$State, 1, 1))
+  
+  # Split yellowtail north and south of 40.167
+  yt_north_ca <- data[
+    which(data$Common_name == "yellowtail rockfish" &
+          data$RECFIN_PORT_NAME == "WINE (MENDOCINO COUNTY AND SHELTER COVE AREA IN HUMBOLDT COUNTY)"), ]
+  yt_north <- rbind(
+    yt_north_ca,
+    data[
+      which(data$Common_name == "yellowtail rockfish" &
+            data$State %in% c("Oregon", "Washington")), ]
+  )
+  yt_north$Common_name <- "yellowtail rockfish north"
+  
+  yt_south_ca <- data[
+    which(data$Common_name == "yellowtail rockfish" &
+          data$State == "California" &
+          data$RECFIN_PORT_NAME != "WINE (MENDOCINO COUNTY AND SHELTER COVE AREA IN HUMBOLDT COUNTY)"), ]
+  yt_south_ca$Common_name <- "yellowtail rockfish south"
+  
+  data <- rbind(data, yt_north, yt_south_ca)
+  data$State_area <- ifelse(
+    data$State == "Washington", "WA",
+      ifelse(data$State == "Oregon", "OR",
+        ifelse(data$State == "California" & data$RECFIN_PORT_NAME == "WINE (MENDOCINO COUNTY AND SHELTER COVE AREA IN HUMBOLDT COUNTY)",
+          "NCA", "SCA"
+        )
+      )
+    )
+  
   data$Source <- "Recreational"
   data$State_Source <- paste0(data$Source, "-", data$State)
   
@@ -58,7 +87,13 @@ clean_recfin_lengths <- function(dir, or_data = NULL, wa_data= NULL, ca_data= NU
   }
   
   data$Length_cm <- data$RECFIN_LENGTH_MM / 10
+  find <- which(data$AGENCY_LENGTH_UNITS == "C")
+  data$Length_cm[find] <- data$AGENCY_LENGTH[find] 
   data$Lengthed <- 1
+  
+  data$Weight_kg <- data$AGENCY_WEIGHT 
+  find <- which(data$AGENCY_WEIGHT_UNITS %in% c("G "))
+  data$Weight_kg[find] <- data$AGENCY_WEIGHT[find] / 1000
   
   data$Sex <- data$RECFIN_SEX_CODE
   data$Sex[which(!data$Sex %in% c("F", "M"))] <- "U"

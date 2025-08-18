@@ -48,6 +48,9 @@ format_cdfw_otolith_files <- function(data, source = NA, state = NA){
   out$Age <- NA
   out$Fleet <- NA
   out$Aged <- 0
+  out$Weight_kg <- NA
+  out$Length_cm <- NA
+  out$Sex <- "U"
   
   return(out)
   

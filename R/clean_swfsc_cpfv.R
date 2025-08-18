@@ -20,16 +20,22 @@ clean_coop_samples <- function(data, species){
     data[find, "Common_name"] <- species[a, "use_name"]
   }
   
+  yt_south <- data[data$Common_name == "yellowtail rockfish", ]
+  yt_south$Common_name <- "yellowtail rockfish south"
+  
+  data <- rbind(data, yt_south)
+  
   data$State <- "California"
   data$Source <- "SWFSC-CPFV Coop."
   data$State_Source <- paste0("SWFSC-CPFV Coop-", data$State)
-  data$Sex <- "B"
+  data$Sex <- "U"
   data$Lengthed <- data[, "Lengths"]
   data$Otolith <- data[, "Unread_Otoliths"]
   data$Fleet <- "CPFV"
   data$set_tow_id <- 0
   data$Length_cm <- NA 
   data$Age <- NA
+  data$Weight_kg <- NA
   
   return(data)
 }

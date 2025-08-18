@@ -28,7 +28,7 @@ knitr::knit_hooks$set(plot = function(x,options) {
 
 load("00opts.Rdata")
 source("multiplot.R")
-source("multiplot_hkl.R")
+source("multiplot_brief.R")
 
 # Need to make dynamic based on data file
 startyr <- 2000
@@ -47,6 +47,9 @@ outer_dir <- "C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary"
 source(file.path(outer_dir, "R", "get_species_data.R"))
 source(file.path(outer_dir, "R", "get_source.R"))
 source(file.path(outer_dir, "R", "get_hkl_species.R"))
+source(file.path(getwd(), "maturity_text_by_species.R"))
+source(file.path(getwd(), "ongoing_research.R"))
+
 
 hkl_species <- get_hkl_species()
 wcgbt_species <- nwfscSurvey::GetSpp.fn(species = nwfscSurvey::GetSppDefault.fn())
@@ -68,9 +71,9 @@ age_species <- bio_sub |>
 	    age_20 = quantile(Age, 0.20, na.rm = TRUE),
 	    n10 = sum(Age <= age_10),
 	    n20 = sum(Age <= age_20)
-	  ) |>
-	  dplyr::filter(age_20 <= 5) |>
-	  dplyr::filter(n20 >= 500 )
+	  ) #|>
+	  #dplyr::filter(age_20 <= 5) |>
+	  #dplyr::filter(n20 >= 500 )
 
 tmp <- age_species |> 
   dplyr::arrange(Common_name, .locale = "en") |>
@@ -84,11 +87,11 @@ rec_text <- read.csv("C:/Users/Chantel.Wetzel/Documents/GitHub/data_summary/doc/
 
 n_species <- length(unique(data$Common_name))
 
-
 firstup <- function(x) {
   substr(x, 1, 1) <- toupper(substr(x, 1, 1))
   x
 }
+
 
 pagebreak <- function() {
   if(knitr::is_latex_output())
