@@ -1,0 +1,1877 @@
+data_source_agency_code,sample_year,species_name,data_type_name,statistical_area_code,pfmc_area_code,mfbds_v_sample.punch_card_area_code,mfbds_v_fish.punch_card_area_code,stock_region,CountOffish_length,CountOffish_weight,CountOfsex_code,CountOfbest_age,CountOfage_structure_code,age_structure_name
+WDFW,2002,Black Rockfish,Sport,,,1,,"Coastal, WA ",176,175,0,0,0,No age structure taken
+WDFW,2002,Black Rockfish,Sport,,,2,,"Coastal, WA ",899,0,850,895,899,Otolith
+WDFW,2002,Black Rockfish,Sport,,,3,,"Coastal, WA ",25,25,0,0,0,No age structure taken
+WDFW,2002,Black Rockfish,Sport,,,3,,"Coastal, WA ",200,0,200,199,200,Otolith
+WDFW,2002,Black Rockfish,Sport,,,4,,"Coastal, WA ",529,529,0,0,0,No age structure taken
+WDFW,2002,Black Rockfish,Sport,,,4,,"Coastal, WA ",800,0,800,800,800,Otolith
+WDFW,2002,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",4,4,0,0,0,No age structure taken
+WDFW,2002,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",10,0,10,0,0,No age structure taken
+WDFW,2002,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",28,28,0,0,0,No age structure taken
+WDFW,2002,Cabezon,Sport,,,2,,"Coastal, WA ",24,0,24,0,24,Fin
+WDFW,2002,Cabezon,Sport,,,2,,"Coastal, WA ",30,0,24,0,0,No age structure taken
+WDFW,2002,Cabezon,Sport,,,4,,"Coastal, WA ",30,30,0,0,0,No age structure taken
+WDFW,2002,Canary Rockfish,Sport,,,1,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2002,Canary Rockfish,Sport,,,2,,"Coastal, WA ",147,0,142,0,0,No age structure taken
+WDFW,2002,Canary Rockfish,Sport,,,3,,"Coastal, WA ",2,1,0,0,0,No age structure taken
+WDFW,2002,Canary Rockfish,Sport,,,4,,"Coastal, WA ",46,46,0,0,0,No age structure taken
+WDFW,2002,China Rockfish,Sport,,,1,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2002,China Rockfish,Sport,,,2,,"Coastal, WA ",24,0,24,0,0,No age structure taken
+WDFW,2002,China Rockfish,Sport,,,4,,"Coastal, WA ",27,27,0,0,0,No age structure taken
+WDFW,2002,China Rockfish,Sport,,,4,,"Coastal, WA ",11,0,11,11,11,Otolith
+WDFW,2002,China Rockfish,Sport,,,,,No Area Data,5,5,0,0,0,No age structure taken
+WDFW,2002,Chub Mackerel,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2002,Copper Rockfish,Sport,,,2,,"Coastal, WA ",42,0,42,0,0,No age structure taken
+WDFW,2002,Copper Rockfish,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2002,Copper Rockfish,Sport,,,4,,"Coastal, WA ",19,19,0,0,0,No age structure taken
+WDFW,2002,Copper Rockfish,Sport,,,4,,"Coastal, WA ",19,0,19,19,19,Otolith
+WDFW,2002,Grass Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2002,Kelp Greenling,Sport,,,1,,"Coastal, WA ",4,3,0,0,0,No age structure taken
+WDFW,2002,Kelp Greenling,Sport,,,2,,"Coastal, WA ",9,0,9,0,0,No age structure taken
+WDFW,2002,Kelp Greenling,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2002,Kelp Greenling,Sport,,,4,,"Coastal, WA ",86,86,0,0,0,No age structure taken
+WDFW,2002,Lingcod,Sport,,,1,,"Coastal, WA ",8,8,0,0,0,No age structure taken
+WDFW,2002,Lingcod,Sport,,,2,,"Coastal, WA ",313,0,313,312,313,Fin
+WDFW,2002,Lingcod,Sport,,,2,,"Coastal, WA ",110,0,0,0,0,No age structure taken
+WDFW,2002,Lingcod,Sport,,,4,,"Coastal, WA ",342,0,342,342,342,Fin
+WDFW,2002,Lingcod,Sport,,,4,,"Coastal, WA ",346,46,300,0,0,No age structure taken
+WDFW,2002,Lingcod,Sport,,,5,,"Puget Sound, WA",1,0,1,1,1,Fin
+WDFW,2002,Lingcod,Sport,,,6,,"Puget Sound, WA",15,0,15,15,15,Fin
+WDFW,2002,Lingcod,Sport,,,7,,"Puget Sound, WA",87,0,87,86,87,Fin
+WDFW,2002,Lingcod,Sport,,,8,,"Puget Sound, WA",164,1,164,164,164,Fin
+WDFW,2002,Lingcod,Sport,,,9,,"Puget Sound, WA",2,0,2,2,2,Fin
+WDFW,2002,Pacific Cod,Sport,,,4,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2002,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2002,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",237,0,226,0,0,No age structure taken
+WDFW,2002,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",16,16,0,0,0,No age structure taken
+WDFW,2002,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",9,0,9,9,9,Otolith
+WDFW,2002,Redbanded Rockfish,Sport,,,2,,"Coastal, WA ",20,0,20,0,0,No age structure taken
+WDFW,2002,Red Irish Lord,Sport,,,4,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2002,Starry Flounder,Sport,,,2,,"Coastal, WA ",3,0,3,0,3,Fin
+WDFW,2002,Starry Flounder,Sport,,,2,,"Coastal, WA ",6,0,6,0,0,No age structure taken
+WDFW,2002,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,0,0,No age structure taken
+WDFW,2002,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2002,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",5,5,0,0,0,No age structure taken
+WDFW,2002,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",3,0,3,3,3,Otolith
+WDFW,2002,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2002,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",172,0,172,0,0,No age structure taken
+WDFW,2002,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",19,19,0,0,0,No age structure taken
+WDFW,2003,Black Rockfish,Sport,,,1,,"Coastal, WA ",446,96,0,0,0,No age structure taken
+WDFW,2003,Black Rockfish,Sport,,,2,,"Coastal, WA ",800,0,800,797,800,Otolith
+WDFW,2003,Black Rockfish,Sport,,,3,,"Coastal, WA ",103,0,103,101,103,Otolith
+WDFW,2003,Black Rockfish,Sport,,,4,,"Coastal, WA ",24,11,0,0,0,No age structure taken
+WDFW,2003,Black Rockfish,Sport,,,4,,"Coastal, WA ",900,0,900,894,900,Otolith
+WDFW,2003,Black Rockfish,Sport,,,,,No Area Data,50,0,50,49,50,Otolith
+WDFW,2003,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",2,1,0,0,0,No age structure taken
+WDFW,2003,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",4,0,4,0,0,No age structure taken
+WDFW,2003,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",23,21,0,0,0,No age structure taken
+WDFW,2003,Bocaccio,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2003,Cabezon,Sport,,,1,,"Coastal, WA ",30,4,0,0,0,No age structure taken
+WDFW,2003,Cabezon,Sport,,,2,,"Coastal, WA ",27,0,21,0,0,No age structure taken
+WDFW,2003,Cabezon,Sport,,,3,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2003,Cabezon,Sport,,,4,,"Coastal, WA ",34,32,0,0,0,No age structure taken
+WDFW,2003,Canary Rockfish,Sport,,,1,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2003,Canary Rockfish,Sport,,,2,,"Coastal, WA ",215,0,201,0,0,No age structure taken
+WDFW,2003,Canary Rockfish,Sport,,,3,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2003,Canary Rockfish,Sport,,,4,,"Coastal, WA ",11,8,0,0,0,No age structure taken
+WDFW,2003,China Rockfish,Sport,,,1,,"Coastal, WA ",12,2,0,0,0,No age structure taken
+WDFW,2003,China Rockfish,Sport,,,2,,"Coastal, WA ",20,0,18,0,0,No age structure taken
+WDFW,2003,China Rockfish,Sport,,,4,,"Coastal, WA ",28,26,0,0,0,No age structure taken
+WDFW,2003,Copper Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2003,Copper Rockfish,Sport,,,2,,"Coastal, WA ",19,0,18,0,0,No age structure taken
+WDFW,2003,Copper Rockfish,Sport,,,3,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2003,Copper Rockfish,Sport,,,4,,"Coastal, WA ",24,24,0,0,0,No age structure taken
+WDFW,2003,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",4,0,4,0,0,No age structure taken
+WDFW,2003,Kelp Greenling,Sport,,,1,,"Coastal, WA ",63,7,0,0,0,No age structure taken
+WDFW,2003,Kelp Greenling,Sport,,,2,,"Coastal, WA ",17,0,7,0,0,No age structure taken
+WDFW,2003,Kelp Greenling,Sport,,,3,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2003,Kelp Greenling,Sport,,,4,,"Coastal, WA ",71,70,0,0,0,No age structure taken
+WDFW,2003,Lingcod,Sport,,,1,,"Coastal, WA ",125,12,0,0,0,No age structure taken
+WDFW,2003,Lingcod,Sport,,,2,,"Coastal, WA ",276,0,276,276,277,Fin
+WDFW,2003,Lingcod,Sport,,,2,,"Coastal, WA ",384,0,215,0,0,No age structure taken
+WDFW,2003,Lingcod,Sport,,,3,,"Coastal, WA ",26,26,0,0,0,No age structure taken
+WDFW,2003,Lingcod,Sport,,,4,,"Coastal, WA ",357,7,357,348,357,Fin
+WDFW,2003,Lingcod,Sport,,,4,,"Coastal, WA ",327,65,250,0,0,No age structure taken
+WDFW,2003,Lingcod,Sport,,,5,,"Puget Sound, WA",6,0,6,6,6,Fin
+WDFW,2003,Lingcod,Sport,,,6,,"Puget Sound, WA",3,1,3,3,3,Fin
+WDFW,2003,Lingcod,Sport,,,7,,"Puget Sound, WA",347,331,347,347,347,Fin
+WDFW,2003,Lingcod,Sport,,,8,,"Puget Sound, WA",187,183,187,187,187,Fin
+WDFW,2003,Pacific Cod,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2003,Pacific Cod,Sport,,,4,,"Coastal, WA ",18,13,0,0,0,No age structure taken
+WDFW,2003,Pacific Halibut,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2003,Pacific Halibut,Sport,,,4,,"Coastal, WA ",7,7,0,0,0,No age structure taken
+WDFW,2003,Perch-Like Fish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2003,Perch-Like Fish,Sport,,,4,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2003,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2003,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",262,0,260,0,0,No age structure taken
+WDFW,2003,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",5,5,0,0,0,No age structure taken
+WDFW,2003,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",20,11,0,0,0,No age structure taken
+WDFW,2003,Red Irish Lord,Sport,,,4,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2003,Sablefish,Sport,,,2,,"Coastal, WA ",27,0,27,0,0,No age structure taken
+WDFW,2003,Starry Flounder,Sport,,,2,,"Coastal, WA ",8,0,8,0,0,No age structure taken
+WDFW,2003,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2003,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",3,2,0,0,0,No age structure taken
+WDFW,2003,Tuna Or Mackerel,Sport,,,1,,"Coastal, WA ",31,31,0,0,0,No age structure taken
+WDFW,2003,Tuna Or Mackerel,Sport,,,4,,"Coastal, WA ",12,0,0,0,0,No age structure taken
+WDFW,2003,Vermilion Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2003,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",3,2,0,0,0,No age structure taken
+WDFW,2003,Widow Rockfish,Sport,,,2,,"Coastal, WA ",20,0,20,0,0,No age structure taken
+WDFW,2003,Yelloweye Rockfish,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2003,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",733,0,732,0,0,No age structure taken
+WDFW,2003,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",15,15,0,0,0,No age structure taken
+WDFW,2003,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",39,22,0,0,0,No age structure taken
+WDFW,2003,Yellowtail Rockfish,Sport,,,,,No Area Data,13,0,13,0,0,No age structure taken
+WDFW,2004,Black Rockfish,Sport,,,1,,"Coastal, WA ",269,192,0,0,0,No age structure taken
+WDFW,2004,Black Rockfish,Sport,,,2,,"Coastal, WA ",849,0,850,846,850,Otolith
+WDFW,2004,Black Rockfish,Sport,,,4,,"Coastal, WA ",75,0,0,0,0,No age structure taken
+WDFW,2004,Black Rockfish,Sport,,,4,,"Coastal, WA ",807,0,807,799,807,Otolith
+WDFW,2004,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",27,27,11,0,0,No age structure taken
+WDFW,2004,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",144,0,144,0,144,Otolith
+WDFW,2004,Bocaccio,Sport,,,2,,"Coastal, WA ",14,0,0,0,0,No age structure taken
+WDFW,2004,Cabezon,Sport,,,1,,"Coastal, WA ",66,32,0,0,0,No age structure taken
+WDFW,2004,Cabezon,Sport,,,2,,"Coastal, WA ",34,0,30,0,0,No age structure taken
+WDFW,2004,Cabezon,Sport,,,4,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2004,Canary Rockfish,Sport,,,1,,"Coastal, WA ",4,3,0,0,0,No age structure taken
+WDFW,2004,Canary Rockfish,Sport,,,2,,"Coastal, WA ",12,7,12,12,12,Otolith
+WDFW,2004,Canary Rockfish,Sport,,,3,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2004,Canary Rockfish,Sport,,,4,,"Coastal, WA ",27,0,27,27,27,Otolith
+WDFW,2004,China Rockfish,Sport,,,1,,"Coastal, WA ",19,19,0,0,0,No age structure taken
+WDFW,2004,China Rockfish,Sport,,,2,,"Coastal, WA ",6,0,6,0,0,No age structure taken
+WDFW,2004,China Rockfish,Sport,,,4,,"Coastal, WA ",23,20,0,0,0,No age structure taken
+WDFW,2004,China Rockfish,Sport,,,4,,"Coastal, WA ",175,0,175,171,175,Otolith
+WDFW,2004,Chub Mackerel,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2004,Copper Rockfish,Sport,,,1,,"Coastal, WA ",15,13,0,0,0,No age structure taken
+WDFW,2004,Copper Rockfish,Sport,,,2,,"Coastal, WA ",15,0,15,0,0,No age structure taken
+WDFW,2004,Copper Rockfish,Sport,,,4,,"Coastal, WA ",26,19,0,0,0,No age structure taken
+WDFW,2004,Copper Rockfish,Sport,,,4,,"Coastal, WA ",188,0,188,188,188,Otolith
+WDFW,2004,Dover Sole,Sport,,,2,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2004,Grass Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2004,Greenstriped Rockfish,Sport,,,1,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2004,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2004,Greenstriped Rockfish,Sport,,,4,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2004,Kelp Greenling,Sport,,,1,,"Coastal, WA ",82,67,0,0,0,No age structure taken
+WDFW,2004,Kelp Greenling,Sport,,,2,,"Coastal, WA ",19,0,13,0,0,No age structure taken
+WDFW,2004,Kelp Greenling,Sport,,,4,,"Coastal, WA ",273,49,197,0,0,No age structure taken
+WDFW,2004,Kelp Greenling,Sport,,,4,,"Coastal, WA ",69,0,69,55,69,Otolith
+WDFW,2004,Lingcod,Sport,,,1,,"Coastal, WA ",134,76,0,0,0,No age structure taken
+WDFW,2004,Lingcod,Sport,,,10,,"Puget Sound, WA",3,3,3,3,3,Fin
+WDFW,2004,Lingcod,Sport,,,11,,"Puget Sound, WA",60,50,60,60,60,Fin
+WDFW,2004,Lingcod,Sport,,,13,,"Puget Sound, WA",15,15,15,15,15,Fin
+WDFW,2004,Lingcod,Sport,,,2,,"Coastal, WA ",264,0,264,264,264,Fin
+WDFW,2004,Lingcod,Sport,,,2,,"Coastal, WA ",376,0,317,0,0,No age structure taken
+WDFW,2004,Lingcod,Sport,,,4,,"Coastal, WA ",306,25,306,306,306,Fin
+WDFW,2004,Lingcod,Sport,,,4,,"Coastal, WA ",225,12,204,0,0,No age structure taken
+WDFW,2004,Lingcod,Sport,,,5,,"Puget Sound, WA",7,5,7,7,7,Fin
+WDFW,2004,Lingcod,Sport,,,6,,"Puget Sound, WA",6,2,6,6,6,Fin
+WDFW,2004,Lingcod,Sport,,,7,,"Puget Sound, WA",99,88,99,99,99,Fin
+WDFW,2004,Lingcod,Sport,,,8,,"Puget Sound, WA",58,57,58,58,58,Fin
+WDFW,2004,Lingcod,Sport,,,82,,"Puget Sound, WA",1,0,1,1,1,Fin
+WDFW,2004,Lingcod,Sport,,,9,,"Puget Sound, WA",26,21,25,26,26,Fin
+WDFW,2004,Lingcod,Sport,,,,,No Area Data,4,4,4,4,4,Fin
+WDFW,2004,Pacific Cod,Sport,,,2,,"Coastal, WA ",159,0,159,0,0,No age structure taken
+WDFW,2004,Pacific Cod,Sport,,,4,,"Coastal, WA ",5,3,0,0,0,No age structure taken
+WDFW,2004,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",15,14,0,0,0,No age structure taken
+WDFW,2004,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",130,0,129,0,0,No age structure taken
+WDFW,2004,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",19,12,0,0,0,No age structure taken
+WDFW,2004,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",158,0,158,157,158,Otolith
+WDFW,2004,Redbanded Rockfish,Sport,,,2,,"Coastal, WA ",4,0,1,0,0,No age structure taken
+WDFW,2004,Red Irish Lord,Sport,,,1,,"Coastal, WA ",4,3,0,0,0,No age structure taken
+WDFW,2004,Sablefish,Sport,,,2,,"Coastal, WA ",25,0,25,0,0,No age structure taken
+WDFW,2004,Sablefish,Sport,,,4,,"Coastal, WA ",11,11,0,0,0,No age structure taken
+WDFW,2004,Starry Flounder,Sport,,,1,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2004,Starry Flounder,Sport,,,2,,"Coastal, WA ",14,0,13,0,0,No age structure taken
+WDFW,2004,Surfperch,Sport,,,4,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2004,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2004,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2004,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",11,0,11,0,11,Otolith
+WDFW,2004,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",15,0,15,11,15,Otolith
+WDFW,2004,Widow Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,0,0,No age structure taken
+WDFW,2004,Widow Rockfish,Sport,,,4,,"Coastal, WA ",2,1,1,0,0,No age structure taken
+WDFW,2004,Yelloweye Rockfish,Sport,,,2,,"Coastal, WA ",5,5,5,3,5,Otolith
+WDFW,2004,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",7,0,7,7,7,Otolith
+WDFW,2004,Yellowmouth Rockfish,Sport,,,2,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2004,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",40,22,0,0,0,No age structure taken
+WDFW,2004,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",411,0,411,0,0,No age structure taken
+WDFW,2004,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",224,28,195,0,0,No age structure taken
+WDFW,2005,Black Rockfish,Sport,,,1,,"Coastal, WA ",308,303,0,0,0,No age structure taken
+WDFW,2005,Black Rockfish,Sport,,,2,,"Coastal, WA ",124,0,0,0,0,No age structure taken
+WDFW,2005,Black Rockfish,Sport,,,2,,"Coastal, WA ",849,0,849,849,849,Otolith
+WDFW,2005,Black Rockfish,Sport,,,3,,"Coastal, WA ",32,0,0,0,0,No age structure taken
+WDFW,2005,Black Rockfish,Sport,,,4,,"Coastal, WA ",99,0,0,0,0,No age structure taken
+WDFW,2005,Black Rockfish,Sport,,,4,,"Coastal, WA ",815,0,815,804,815,Otolith
+WDFW,2005,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",95,0,95,0,0,No age structure taken
+WDFW,2005,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2005,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",183,181,0,0,0,No age structure taken
+WDFW,2005,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",202,0,202,0,202,Otolith
+WDFW,2005,Bocaccio,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2005,Cabezon,Sport,,,1,,"Coastal, WA ",29,22,0,0,0,No age structure taken
+WDFW,2005,Cabezon,Sport,,,2,,"Coastal, WA ",43,0,38,0,0,No age structure taken
+WDFW,2005,Cabezon,Sport,,,3,,"Coastal, WA ",6,6,0,0,0,No age structure taken
+WDFW,2005,Cabezon,Sport,,,4,,"Coastal, WA ",134,124,0,0,0,No age structure taken
+WDFW,2005,Canary Rockfish,Sport,,,2,,"Coastal, WA ",4,4,4,4,4,Otolith
+WDFW,2005,Canary Rockfish,Sport,,,4,,"Coastal, WA ",7,6,0,0,0,No age structure taken
+WDFW,2005,Canary Rockfish,Sport,,,4,,"Coastal, WA ",40,0,40,40,40,Otolith
+WDFW,2005,China Rockfish,Sport,,,1,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2005,China Rockfish,Sport,,,2,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2005,China Rockfish,Sport,,,3,,"Coastal, WA ",10,10,0,0,0,No age structure taken
+WDFW,2005,China Rockfish,Sport,,,4,,"Coastal, WA ",139,137,0,0,0,No age structure taken
+WDFW,2005,China Rockfish,Sport,,,4,,"Coastal, WA ",209,0,209,206,209,Otolith
+WDFW,2005,Copper Rockfish,Sport,,,1,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2005,Copper Rockfish,Sport,,,2,,"Coastal, WA ",39,0,39,0,0,No age structure taken
+WDFW,2005,Copper Rockfish,Sport,,,3,,"Coastal, WA ",11,10,0,0,0,No age structure taken
+WDFW,2005,Copper Rockfish,Sport,,,4,,"Coastal, WA ",166,163,0,0,0,No age structure taken
+WDFW,2005,Copper Rockfish,Sport,,,4,,"Coastal, WA ",226,0,226,225,226,Otolith
+WDFW,2005,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2005,Kelp Greenling,Sport,,,1,,"Coastal, WA ",28,27,0,0,0,No age structure taken
+WDFW,2005,Kelp Greenling,Sport,,,2,,"Coastal, WA ",38,0,19,0,0,No age structure taken
+WDFW,2005,Kelp Greenling,Sport,,,3,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2005,Kelp Greenling,Sport,,,4,,"Coastal, WA ",233,222,0,0,0,No age structure taken
+WDFW,2005,Kelp Greenling,Sport,,,4,,"Coastal, WA ",251,0,251,232,252,Otolith
+WDFW,2005,Lingcod,Sport,,,1,,"Coastal, WA ",32,25,0,0,0,No age structure taken
+WDFW,2005,Lingcod,Sport,,,10,,"Puget Sound, WA",53,48,53,49,53,Fin
+WDFW,2005,Lingcod,Sport,,,11,,"Puget Sound, WA",33,33,33,33,33,Fin
+WDFW,2005,Lingcod,Sport,,,11,,"Puget Sound, WA",4,4,4,0,0,No age structure taken
+WDFW,2005,Lingcod,Sport,,,13,,"Puget Sound, WA",18,17,18,18,18,Fin
+WDFW,2005,Lingcod,Sport,,,2,,"Coastal, WA ",287,0,287,284,287,Fin
+WDFW,2005,Lingcod,Sport,,,2,,"Coastal, WA ",536,0,478,0,0,No age structure taken
+WDFW,2005,Lingcod,Sport,,,3,,"Coastal, WA ",16,10,0,0,0,No age structure taken
+WDFW,2005,Lingcod,Sport,,,4,,"Coastal, WA ",289,27,289,287,289,Fin
+WDFW,2005,Lingcod,Sport,,,4,,"Coastal, WA ",464,225,238,0,0,No age structure taken
+WDFW,2005,Lingcod,Sport,,,5,,"Puget Sound, WA",15,15,15,9,15,Fin
+WDFW,2005,Lingcod,Sport,,,6,,"Puget Sound, WA",12,11,12,11,12,Fin
+WDFW,2005,Lingcod,Sport,,,7,,"Puget Sound, WA",96,74,96,81,96,Fin
+WDFW,2005,Lingcod,Sport,,,8,,"Puget Sound, WA",122,116,122,98,122,Fin
+WDFW,2005,Lingcod,Sport,,,9,,"Puget Sound, WA",56,53,56,41,56,Fin
+WDFW,2005,Pacific Cod,Sport,,,2,,"Coastal, WA ",17,0,17,0,0,No age structure taken
+WDFW,2005,Pacific Cod,Sport,,,4,,"Coastal, WA ",14,14,0,0,0,No age structure taken
+WDFW,2005,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",159,0,156,0,0,No age structure taken
+WDFW,2005,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",8,6,0,0,0,No age structure taken
+WDFW,2005,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",63,62,0,0,0,No age structure taken
+WDFW,2005,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",181,0,181,181,181,Otolith
+WDFW,2005,Red Irish Lord,Sport,,,4,,"Coastal, WA ",4,4,0,0,0,No age structure taken
+WDFW,2005,Rock Greenling,Sport,,,4,,"Coastal, WA ",4,4,0,0,0,No age structure taken
+WDFW,2005,Rock Sole,Sport,,,4,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2005,Rosethorn Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2005,Sablefish,Sport,,,2,,"Coastal, WA ",8,0,8,0,0,No age structure taken
+WDFW,2005,Starry Flounder,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2005,Surfperch,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2005,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2005,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",9,9,0,0,0,No age structure taken
+WDFW,2005,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",8,0,8,0,8,Otolith
+WDFW,2005,Vermilion Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2005,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",28,28,0,0,0,No age structure taken
+WDFW,2005,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",26,0,26,23,26,Otolith
+WDFW,2005,Widow Rockfish,Sport,,,2,,"Coastal, WA ",13,0,13,0,0,No age structure taken
+WDFW,2005,Widow Rockfish,Sport,,,4,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2005,Yelloweye Rockfish,Sport,,,2,,"Coastal, WA ",3,3,3,3,3,Otolith
+WDFW,2005,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2005,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2005,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",500,0,498,0,0,No age structure taken
+WDFW,2005,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",4,1,0,0,0,No age structure taken
+WDFW,2005,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",364,143,221,0,0,No age structure taken
+WDFW,2006,Albacore,Sport,,,1,,"Coastal, WA ",800,0,0,0,0,No age structure taken
+WDFW,2006,Arrowtooth Flounder,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2006,Black Rockfish,Sport,,,1,,"Coastal, WA ",391,353,0,0,0,No age structure taken
+WDFW,2006,Black Rockfish,Sport,,,2,,"Coastal, WA ",347,0,0,0,0,No age structure taken
+WDFW,2006,Black Rockfish,Sport,,,2,,"Coastal, WA ",849,0,849,848,850,Otolith
+WDFW,2006,Black Rockfish,Sport,,,3,,"Coastal, WA ",40,0,0,0,0,No age structure taken
+WDFW,2006,Black Rockfish,Sport,,,4,,"Coastal, WA ",575,356,109,0,0,No age structure taken
+WDFW,2006,Black Rockfish,Sport,,,4,,"Coastal, WA ",650,0,650,636,650,Otolith
+WDFW,2006,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",29,0,22,0,0,No age structure taken
+WDFW,2006,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",166,132,26,0,0,No age structure taken
+WDFW,2006,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",33,0,33,0,33,Otolith
+WDFW,2006,Cabezon,Sport,,,1,,"Coastal, WA ",13,9,0,0,0,No age structure taken
+WDFW,2006,Cabezon,Sport,,,2,,"Coastal, WA ",43,0,39,0,0,No age structure taken
+WDFW,2006,Cabezon,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2006,Cabezon,Sport,,,4,,"Coastal, WA ",73,36,5,0,0,No age structure taken
+WDFW,2006,Canary Rockfish,Sport,,,4,,"Coastal, WA ",11,11,0,0,0,No age structure taken
+WDFW,2006,Canary Rockfish,Sport,,,4,,"Coastal, WA ",4,0,4,4,4,Otolith
+WDFW,2006,China Rockfish,Sport,,,1,,"Coastal, WA ",5,4,0,0,0,No age structure taken
+WDFW,2006,China Rockfish,Sport,,,2,,"Coastal, WA ",6,0,6,0,0,No age structure taken
+WDFW,2006,China Rockfish,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2006,China Rockfish,Sport,,,4,,"Coastal, WA ",175,150,8,0,0,No age structure taken
+WDFW,2006,China Rockfish,Sport,,,4,,"Coastal, WA ",88,0,89,89,89,Otolith
+WDFW,2006,Copper Rockfish,Sport,,,1,,"Coastal, WA ",6,6,0,0,0,No age structure taken
+WDFW,2006,Copper Rockfish,Sport,,,2,,"Coastal, WA ",23,0,23,0,0,No age structure taken
+WDFW,2006,Copper Rockfish,Sport,,,4,,"Coastal, WA ",75,58,8,0,0,No age structure taken
+WDFW,2006,Copper Rockfish,Sport,,,4,,"Coastal, WA ",65,0,65,65,65,Otolith
+WDFW,2006,Kelp Greenling,Sport,,,1,,"Coastal, WA ",16,11,0,0,0,No age structure taken
+WDFW,2006,Kelp Greenling,Sport,,,2,,"Coastal, WA ",54,0,8,0,0,No age structure taken
+WDFW,2006,Kelp Greenling,Sport,,,4,,"Coastal, WA ",169,133,5,0,0,No age structure taken
+WDFW,2006,Kelp Greenling,Sport,,,4,,"Coastal, WA ",110,0,110,105,110,Otolith
+WDFW,2006,Lingcod,Sport,,,0,,UNKNOWN AREA,25,0,25,25,25,Fin
+WDFW,2006,Lingcod,Sport,,,1,,"Coastal, WA ",36,21,0,0,0,No age structure taken
+WDFW,2006,Lingcod,Sport,,,10,,"Puget Sound, WA",61,1,61,61,61,Fin
+WDFW,2006,Lingcod,Sport,,,11,,"Puget Sound, WA",33,31,33,32,33,Fin
+WDFW,2006,Lingcod,Sport,,,13,,"Puget Sound, WA",10,9,10,10,10,Fin
+WDFW,2006,Lingcod,Sport,,,2,,"Coastal, WA ",240,0,240,240,240,Fin
+WDFW,2006,Lingcod,Sport,,,2,,"Coastal, WA ",457,0,404,0,0,No age structure taken
+WDFW,2006,Lingcod,Sport,,,3,,"Coastal, WA ",9,0,0,0,0,No age structure taken
+WDFW,2006,Lingcod,Sport,,,4,,"Coastal, WA ",143,0,143,142,143,Fin
+WDFW,2006,Lingcod,Sport,,,4,,"Coastal, WA ",258,145,102,0,0,No age structure taken
+WDFW,2006,Lingcod,Sport,,,7,,"Puget Sound, WA",61,0,61,56,61,Fin
+WDFW,2006,Lingcod,Sport,,,8,,"Puget Sound, WA",83,0,83,82,83,Fin
+WDFW,2006,Lingcod,Sport,,,9,,"Puget Sound, WA",53,0,53,53,53,Fin
+WDFW,2006,Misc. Perch-Like Fish,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2006,Pacific Cod,Sport,,,2,,"Coastal, WA ",11,0,11,0,0,No age structure taken
+WDFW,2006,Pacific Cod,Sport,,,4,,"Coastal, WA ",7,7,0,0,0,No age structure taken
+WDFW,2006,Pacific Halibut,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2006,Perch-Like Fish,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2006,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",5,4,0,0,0,No age structure taken
+WDFW,2006,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",182,0,180,0,0,No age structure taken
+WDFW,2006,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",87,69,3,0,0,No age structure taken
+WDFW,2006,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",52,0,52,52,52,Otolith
+WDFW,2006,Red Irish Lord,Sport,,,1,,"Coastal, WA ",5,3,0,0,0,No age structure taken
+WDFW,2006,Red Irish Lord,Sport,,,4,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2006,Rock Greenling,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2006,Rock Sole,Sport,,,4,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2006,Sablefish,Sport,,,1,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2006,Sablefish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2006,Silvergrey Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2006,Starry Flounder,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2006,Striped Seaperch,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2006,Surfperch,Sport,,,2,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2006,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,0,0,No age structure taken
+WDFW,2006,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",5,5,0,0,0,No age structure taken
+WDFW,2006,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2006,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",30,28,0,0,0,No age structure taken
+WDFW,2006,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",27,0,27,25,27,Otolith
+WDFW,2006,Widow Rockfish,Sport,,,1,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2006,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2006,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",12,10,0,0,0,No age structure taken
+WDFW,2006,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",169,0,168,0,0,No age structure taken
+WDFW,2006,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",163,66,88,0,0,No age structure taken
+WDFW,2006,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",18,0,18,18,18,Otolith
+WDFW,2007,Black Rockfish,Sport,,,1,,"Coastal, WA ",407,260,0,0,0,No age structure taken
+WDFW,2007,Black Rockfish,Sport,,,2,,"Coastal, WA ",68,0,0,0,0,No age structure taken
+WDFW,2007,Black Rockfish,Sport,,,2,,"Coastal, WA ",800,0,800,797,800,Otolith
+WDFW,2007,Black Rockfish,Sport,,,3,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2007,Black Rockfish,Sport,,,4,,"Coastal, WA ",133,128,0,0,0,No age structure taken
+WDFW,2007,Black Rockfish,Sport,,,4,,"Coastal, WA ",754,0,754,752,754,Otolith
+WDFW,2007,Black Rockfish,Sport,,,,,"Coastal, WA and Non-WA",624,0,629,626,630,Otolith
+WDFW,2007,Black Rockfish,Sport,,,,,No Area Data,129,0,128,125,129,Otolith
+WDFW,2007,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",49,0,49,0,0,No age structure taken
+WDFW,2007,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2007,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",26,26,0,0,0,No age structure taken
+WDFW,2007,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",89,0,89,0,89,Otolith
+WDFW,2007,Cabezon,Sport,,,1,,"Coastal, WA ",31,13,0,0,0,No age structure taken
+WDFW,2007,Cabezon,Sport,,,2,,"Coastal, WA ",35,0,33,0,0,No age structure taken
+WDFW,2007,Cabezon,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2007,Cabezon,Sport,,,4,,"Coastal, WA ",38,37,0,0,0,No age structure taken
+WDFW,2007,Canary Rockfish,Sport,,,4,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2007,Canary Rockfish,Sport,,,4,,"Coastal, WA ",7,0,7,7,7,Otolith
+WDFW,2007,China Rockfish,Sport,,,1,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2007,China Rockfish,Sport,,,2,,"Coastal, WA ",32,0,32,0,0,No age structure taken
+WDFW,2007,China Rockfish,Sport,,,3,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2007,China Rockfish,Sport,,,4,,"Coastal, WA ",61,47,0,0,0,No age structure taken
+WDFW,2007,China Rockfish,Sport,,,4,,"Coastal, WA ",119,0,119,119,119,Otolith
+WDFW,2007,Chub Mackerel,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2007,Copper Rockfish,Sport,,,1,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2007,Copper Rockfish,Sport,,,2,,"Coastal, WA ",24,0,24,0,0,No age structure taken
+WDFW,2007,Copper Rockfish,Sport,,,4,,"Coastal, WA ",41,41,0,0,0,No age structure taken
+WDFW,2007,Copper Rockfish,Sport,,,4,,"Coastal, WA ",86,0,86,86,86,Otolith
+WDFW,2007,Kelp Greenling,Sport,,,1,,"Coastal, WA ",22,4,0,0,0,No age structure taken
+WDFW,2007,Kelp Greenling,Sport,,,2,,"Coastal, WA ",5,0,1,0,0,No age structure taken
+WDFW,2007,Kelp Greenling,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2007,Kelp Greenling,Sport,,,4,,"Coastal, WA ",39,39,0,0,0,No age structure taken
+WDFW,2007,Kelp Greenling,Sport,,,4,,"Coastal, WA ",101,0,101,96,101,Otolith
+WDFW,2007,Lingcod,Sport,,,1,,"Coastal, WA ",72,35,0,0,0,No age structure taken
+WDFW,2007,Lingcod,Sport,,,10,,"Puget Sound, WA",55,50,55,55,55,Fin
+WDFW,2007,Lingcod,Sport,,,11,,"Puget Sound, WA",7,0,7,7,7,Fin
+WDFW,2007,Lingcod,Sport,,,2,,"Coastal, WA ",275,0,275,273,275,Fin
+WDFW,2007,Lingcod,Sport,,,2,,"Coastal, WA ",362,0,344,0,0,No age structure taken
+WDFW,2007,Lingcod,Sport,,,4,,"Coastal, WA ",247,43,247,225,247,Fin
+WDFW,2007,Lingcod,Sport,,,4,,"Coastal, WA ",150,62,96,0,0,No age structure taken
+WDFW,2007,Lingcod,Sport,,,5,,"Puget Sound, WA",5,5,5,5,5,Fin
+WDFW,2007,Lingcod,Sport,,,5,,"Puget Sound, WA",5,5,5,0,0,No age structure taken
+WDFW,2007,Lingcod,Sport,,,6,,"Puget Sound, WA",7,6,7,7,7,Fin
+WDFW,2007,Lingcod,Sport,,,6,,"Puget Sound, WA",7,6,7,0,0,No age structure taken
+WDFW,2007,Lingcod,Sport,,,7,,"Puget Sound, WA",77,71,77,76,77,Fin
+WDFW,2007,Lingcod,Sport,,,8,,"Puget Sound, WA",112,102,112,112,112,Fin
+WDFW,2007,Lingcod,Sport,,,9,,"Puget Sound, WA",51,42,51,51,51,Fin
+WDFW,2007,Lingcod,Sport,,,9,,"Puget Sound, WA",2,2,2,0,0,No age structure taken
+WDFW,2007,Perch-Like Fish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2007,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",5,4,0,0,0,No age structure taken
+WDFW,2007,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",125,0,125,0,0,No age structure taken
+WDFW,2007,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",43,37,0,0,0,No age structure taken
+WDFW,2007,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",93,0,93,89,93,Otolith
+WDFW,2007,Sablefish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2007,Sablefish,Sport,,,2,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2007,Starry Flounder,Sport,,,1,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2007,Starry Flounder,Sport,,,2,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2007,Striped Seaperch,Sport,,,4,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2007,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2007,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2007,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2007,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",33,31,0,0,0,No age structure taken
+WDFW,2007,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",36,0,36,35,36,Otolith
+WDFW,2007,Widow Rockfish,Sport,,,2,,"Coastal, WA ",4,0,4,0,0,No age structure taken
+WDFW,2007,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",49,49,0,0,0,No age structure taken
+WDFW,2007,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",188,0,188,0,0,No age structure taken
+WDFW,2007,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",76,25,47,0,0,No age structure taken
+WDFW,2008,Arrowtooth Flounder,Sport,,,1,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2008,Black Rockfish,Sport,,,1,,"Coastal, WA ",405,264,0,0,0,No age structure taken
+WDFW,2008,Black Rockfish,Sport,,,2,,"Coastal, WA ",800,0,800,795,800,Otolith
+WDFW,2008,Black Rockfish,Sport,,,4,,"Coastal, WA ",103,78,0,0,0,No age structure taken
+WDFW,2008,Black Rockfish,Sport,,,4,,"Coastal, WA ",724,0,724,718,725,Otolith
+WDFW,2008,Black Rockfish,Sport,,,,,No Area Data,460,0,463,407,464,Otolith
+WDFW,2008,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",8,8,0,0,0,No age structure taken
+WDFW,2008,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",30,0,30,0,0,No age structure taken
+WDFW,2008,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2008,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",30,30,0,0,0,No age structure taken
+WDFW,2008,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",59,0,59,0,59,Otolith
+WDFW,2008,Cabezon,Sport,,,1,,"Coastal, WA ",17,8,0,0,0,No age structure taken
+WDFW,2008,Cabezon,Sport,,,2,,"Coastal, WA ",8,0,8,0,0,No age structure taken
+WDFW,2008,Cabezon,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2008,Cabezon,Sport,,,4,,"Coastal, WA ",21,18,0,0,0,No age structure taken
+WDFW,2008,Canary Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2008,Canary Rockfish,Sport,,,4,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2008,Canary Rockfish,Sport,,,4,,"Coastal, WA ",10,0,10,9,10,Otolith
+WDFW,2008,China Rockfish,Sport,,,1,,"Coastal, WA ",3,2,0,0,0,No age structure taken
+WDFW,2008,China Rockfish,Sport,,,2,,"Coastal, WA ",5,0,5,0,0,No age structure taken
+WDFW,2008,China Rockfish,Sport,,,3,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2008,China Rockfish,Sport,,,4,,"Coastal, WA ",54,43,0,0,0,No age structure taken
+WDFW,2008,China Rockfish,Sport,,,4,,"Coastal, WA ",73,0,73,73,73,Otolith
+WDFW,2008,Copper Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2008,Copper Rockfish,Sport,,,2,,"Coastal, WA ",5,0,5,0,0,No age structure taken
+WDFW,2008,Copper Rockfish,Sport,,,3,,"Coastal, WA ",2,1,0,0,0,No age structure taken
+WDFW,2008,Copper Rockfish,Sport,,,4,,"Coastal, WA ",18,13,1,0,0,No age structure taken
+WDFW,2008,Copper Rockfish,Sport,,,4,,"Coastal, WA ",65,0,65,65,65,Otolith
+WDFW,2008,Flatfish,Sport,,,4,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2008,Kelp Greenling,Sport,,,1,,"Coastal, WA ",60,44,0,0,0,No age structure taken
+WDFW,2008,Kelp Greenling,Sport,,,4,,"Coastal, WA ",49,42,0,0,0,No age structure taken
+WDFW,2008,Kelp Greenling,Sport,,,4,,"Coastal, WA ",96,0,96,92,96,Otolith
+WDFW,2008,Lingcod,Sport,,,1,,"Coastal, WA ",82,48,0,0,0,No age structure taken
+WDFW,2008,Lingcod,Sport,,,10,,"Puget Sound, WA",89,82,89,88,89,Fin
+WDFW,2008,Lingcod,Sport,,,11,,"Puget Sound, WA",1,1,1,1,1,Fin
+WDFW,2008,Lingcod,Sport,,,2,,"Coastal, WA ",234,0,234,232,234,Fin
+WDFW,2008,Lingcod,Sport,,,2,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2008,Lingcod,Sport,,,3,,"Coastal, WA ",17,0,0,0,0,No age structure taken
+WDFW,2008,Lingcod,Sport,,,4,,"Coastal, WA ",210,25,210,208,210,Fin
+WDFW,2008,Lingcod,Sport,,,4,,"Coastal, WA ",41,17,19,0,0,No age structure taken
+WDFW,2008,Lingcod,Sport,,,5,,"Puget Sound, WA",10,10,10,10,10,Fin
+WDFW,2008,Lingcod,Sport,,,6,,"Puget Sound, WA",14,11,14,13,14,Fin
+WDFW,2008,Lingcod,Sport,,,7,,"Puget Sound, WA",83,79,83,81,83,Fin
+WDFW,2008,Lingcod,Sport,,,8,,"Puget Sound, WA",109,103,109,108,109,Fin
+WDFW,2008,Lingcod,Sport,,,9,,"Puget Sound, WA",72,65,72,71,72,Fin
+WDFW,2008,Pacific Sanddab,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2008,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",19,4,0,0,0,No age structure taken
+WDFW,2008,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",72,0,72,0,0,No age structure taken
+WDFW,2008,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2008,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",22,17,0,0,0,No age structure taken
+WDFW,2008,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",59,0,59,59,59,Otolith
+WDFW,2008,Red Irish Lord,Sport,,,1,,"Coastal, WA ",4,4,0,0,0,No age structure taken
+WDFW,2008,Red Irish Lord,Sport,,,4,,"Coastal, WA ",8,3,0,0,0,No age structure taken
+WDFW,2008,Rougheye Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2008,Sablefish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2008,Starry Flounder,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2008,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",5,2,0,0,0,No age structure taken
+WDFW,2008,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",5,0,5,0,0,No age structure taken
+WDFW,2008,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2008,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",4,4,0,0,0,No age structure taken
+WDFW,2008,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",8,0,8,0,8,Otolith
+WDFW,2008,Vermilion Rockfish,Sport,,,1,,"Coastal, WA ",5,2,0,0,0,No age structure taken
+WDFW,2008,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",10,10,0,0,0,No age structure taken
+WDFW,2008,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",28,0,28,28,28,Otolith
+WDFW,2008,Widow Rockfish,Sport,,,2,,"Coastal, WA ",7,0,7,0,0,No age structure taken
+WDFW,2008,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",3,3,0,0,0,No age structure taken
+WDFW,2008,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",6,0,6,6,6,Otolith
+WDFW,2008,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",30,4,0,0,0,No age structure taken
+WDFW,2008,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",84,0,84,0,0,No age structure taken
+WDFW,2008,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",15,0,0,0,0,No age structure taken
+WDFW,2008,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",60,23,34,0,0,No age structure taken
+WDFW,2009,Black Rockfish,Sport,,,1,,"Coastal, WA ",315,221,0,0,0,No age structure taken
+WDFW,2009,Black Rockfish,Sport,,,2,,"Coastal, WA ",353,0,9,0,0,No age structure taken
+WDFW,2009,Black Rockfish,Sport,,,2,,"Coastal, WA ",846,0,846,838,846,Otolith
+WDFW,2009,Black Rockfish,Sport,,,3,,"Coastal, WA ",89,77,0,0,0,No age structure taken
+WDFW,2009,Black Rockfish,Sport,,,4,,"Coastal, WA ",286,248,0,0,0,No age structure taken
+WDFW,2009,Black Rockfish,Sport,,,4,,"Coastal, WA ",560,0,560,556,560,Otolith
+WDFW,2009,Black Rockfish,Sport,,,,,No Area Data,281,0,281,277,281,Otolith
+WDFW,2009,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",51,0,49,0,0,No age structure taken
+WDFW,2009,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",7,7,0,0,0,No age structure taken
+WDFW,2009,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",26,19,0,0,0,No age structure taken
+WDFW,2009,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",39,0,39,0,39,Otolith
+WDFW,2009,Bocaccio,Sport,,,3,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2009,Brown Irish Lord,Sport,,,3,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2009,Cabezon,Sport,,,1,,"Coastal, WA ",21,11,0,0,0,No age structure taken
+WDFW,2009,Cabezon,Sport,,,2,,"Coastal, WA ",43,0,39,0,0,No age structure taken
+WDFW,2009,Cabezon,Sport,,,3,,"Coastal, WA ",9,9,0,0,0,No age structure taken
+WDFW,2009,Cabezon,Sport,,,4,,"Coastal, WA ",31,23,0,0,0,No age structure taken
+WDFW,2009,Canary Rockfish,Sport,,,4,,"Coastal, WA ",5,4,0,0,0,No age structure taken
+WDFW,2009,Canary Rockfish,Sport,,,4,,"Coastal, WA ",8,0,8,8,8,Otolith
+WDFW,2009,China Rockfish,Sport,,,1,,"Coastal, WA ",6,4,0,0,0,No age structure taken
+WDFW,2009,China Rockfish,Sport,,,2,,"Coastal, WA ",17,0,16,0,0,No age structure taken
+WDFW,2009,China Rockfish,Sport,,,3,,"Coastal, WA ",13,13,0,0,0,No age structure taken
+WDFW,2009,China Rockfish,Sport,,,4,,"Coastal, WA ",60,25,0,0,0,No age structure taken
+WDFW,2009,China Rockfish,Sport,,,4,,"Coastal, WA ",22,0,22,22,22,Otolith
+WDFW,2009,Chub Mackerel,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2009,Copper Rockfish,Sport,,,1,,"Coastal, WA ",4,2,0,0,0,No age structure taken
+WDFW,2009,Copper Rockfish,Sport,,,2,,"Coastal, WA ",4,0,4,0,0,No age structure taken
+WDFW,2009,Copper Rockfish,Sport,,,4,,"Coastal, WA ",28,7,13,0,0,No age structure taken
+WDFW,2009,Copper Rockfish,Sport,,,4,,"Coastal, WA ",35,0,35,35,35,Otolith
+WDFW,2009,Greenling,Sport,,,1,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2009,Kelp Greenling,Sport,,,1,,"Coastal, WA ",37,9,18,0,0,No age structure taken
+WDFW,2009,Kelp Greenling,Sport,,,2,,"Coastal, WA ",34,0,14,0,0,No age structure taken
+WDFW,2009,Kelp Greenling,Sport,,,3,,"Coastal, WA ",15,12,0,0,0,No age structure taken
+WDFW,2009,Kelp Greenling,Sport,,,4,,"Coastal, WA ",75,65,0,0,0,No age structure taken
+WDFW,2009,Kelp Greenling,Sport,,,4,,"Coastal, WA ",51,0,51,51,51,Otolith
+WDFW,2009,Kelp Greenling,Sport,,,,,No Area Data,2,0,0,0,0,No age structure taken
+WDFW,2009,Lingcod,Sport,,,1,,"Coastal, WA ",67,27,0,0,0,No age structure taken
+WDFW,2009,Lingcod,Sport,,,10,,"Puget Sound, WA",89,85,89,86,89,Fin
+WDFW,2009,Lingcod,Sport,,,11,,"Puget Sound, WA",8,8,8,8,8,Fin
+WDFW,2009,Lingcod,Sport,,,13,,"Puget Sound, WA",13,11,12,13,13,Fin
+WDFW,2009,Lingcod,Sport,,,2,,"Coastal, WA ",270,0,270,237,271,Fin
+WDFW,2009,Lingcod,Sport,,,2,,"Coastal, WA ",279,6,233,0,0,No age structure taken
+WDFW,2009,Lingcod,Sport,,,3,,"Coastal, WA ",29,12,0,0,0,No age structure taken
+WDFW,2009,Lingcod,Sport,,,4,,"Coastal, WA ",128,0,128,109,128,Fin
+WDFW,2009,Lingcod,Sport,,,4,,"Coastal, WA ",104,39,63,0,0,No age structure taken
+WDFW,2009,Lingcod,Sport,,,5,,"Puget Sound, WA",11,11,11,0,0,No age structure taken
+WDFW,2009,Lingcod,Sport,,,6,,"Puget Sound, WA",8,8,8,0,0,No age structure taken
+WDFW,2009,Lingcod,Sport,,,7,,"Puget Sound, WA",89,82,89,87,89,Fin
+WDFW,2009,Lingcod,Sport,,,8,,"Puget Sound, WA",114,90,114,113,114,Fin
+WDFW,2009,Lingcod,Sport,,,9,,"Puget Sound, WA",45,35,45,45,45,Fin
+WDFW,2009,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2009,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",108,0,107,0,0,No age structure taken
+WDFW,2009,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2009,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",22,10,0,0,0,No age structure taken
+WDFW,2009,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",28,0,28,27,28,Otolith
+WDFW,2009,Redbanded Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2009,Red Irish Lord,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2009,Red Irish Lord,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2009,Red Irish Lord,Sport,,,3,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2009,Red Irish Lord,Sport,,,4,,"Coastal, WA ",4,3,0,0,0,No age structure taken
+WDFW,2009,Sablefish,Sport,,,2,,"Coastal, WA ",3,0,3,0,0,No age structure taken
+WDFW,2009,Sand Sole,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2009,Silvergrey Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2009,Soupfin Shark,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2009,Starry Flounder,Sport,,,1,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2009,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",2,2,0,0,0,No age structure taken
+WDFW,2009,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2009,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",6,2,0,0,0,No age structure taken
+WDFW,2009,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2009,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",7,7,0,0,0,No age structure taken
+WDFW,2009,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",9,0,9,9,9,Otolith
+WDFW,2009,Widow Rockfish,Sport,,,1,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2009,Widow Rockfish,Sport,,,2,,"Coastal, WA ",70,0,70,0,0,No age structure taken
+WDFW,2009,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",32,9,0,0,0,No age structure taken
+WDFW,2009,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",322,0,298,0,0,No age structure taken
+WDFW,2009,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",29,10,0,0,0,No age structure taken
+WDFW,2009,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",74,33,24,0,0,No age structure taken
+WDFW,2009,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",7,0,7,6,7,Otolith
+WDFW,2010,Black Rockfish,Sport,,,1,,"Coastal, WA ",290,126,0,0,0,No age structure taken
+WDFW,2010,Black Rockfish,Sport,,,2,,"Coastal, WA ",108,0,0,0,0,No age structure taken
+WDFW,2010,Black Rockfish,Sport,,,2,,"Coastal, WA ",600,0,600,595,600,Otolith
+WDFW,2010,Black Rockfish,Sport,,,3,,"Coastal, WA ",320,0,0,0,0,No age structure taken
+WDFW,2010,Black Rockfish,Sport,,,4,,"Coastal, WA ",264,3,0,0,0,No age structure taken
+WDFW,2010,Black Rockfish,Sport,,,4,,"Coastal, WA ",719,0,719,715,719,Otolith
+WDFW,2010,Black Rockfish,Sport,,,,,No Area Data,279,0,279,276,279,Otolith
+WDFW,2010,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",1,1,0,0,0,No age structure taken
+WDFW,2010,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",72,0,72,0,0,No age structure taken
+WDFW,2010,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2010,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",19,0,0,0,0,No age structure taken
+WDFW,2010,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",18,0,0,0,0,No age structure taken
+WDFW,2010,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",54,0,54,0,54,Otolith
+WDFW,2010,Cabezon,Sport,,,1,,"Coastal, WA ",44,6,0,0,0,No age structure taken
+WDFW,2010,Cabezon,Sport,,,2,,"Coastal, WA ",2,0,2,0,2,Fin
+WDFW,2010,Cabezon,Sport,,,2,,"Coastal, WA ",50,0,35,0,0,No age structure taken
+WDFW,2010,Cabezon,Sport,,,3,,"Coastal, WA ",21,0,0,0,0,No age structure taken
+WDFW,2010,Cabezon,Sport,,,4,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2010,Canary Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2010,Canary Rockfish,Sport,,,4,,"Coastal, WA ",11,0,11,11,11,Otolith
+WDFW,2010,China Rockfish,Sport,,,1,,"Coastal, WA ",6,4,0,0,0,No age structure taken
+WDFW,2010,China Rockfish,Sport,,,2,,"Coastal, WA ",14,0,14,0,0,No age structure taken
+WDFW,2010,China Rockfish,Sport,,,3,,"Coastal, WA ",21,0,0,0,0,No age structure taken
+WDFW,2010,China Rockfish,Sport,,,4,,"Coastal, WA ",15,0,0,0,0,No age structure taken
+WDFW,2010,China Rockfish,Sport,,,4,,"Coastal, WA ",22,0,22,22,22,Otolith
+WDFW,2010,Copper Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2010,Copper Rockfish,Sport,,,2,,"Coastal, WA ",14,0,14,0,0,No age structure taken
+WDFW,2010,Copper Rockfish,Sport,,,3,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2010,Copper Rockfish,Sport,,,4,,"Coastal, WA ",9,0,0,0,0,No age structure taken
+WDFW,2010,Copper Rockfish,Sport,,,4,,"Coastal, WA ",24,0,24,24,24,Otolith
+WDFW,2010,English Sole,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2010,Greenling,Sport,,,1,,"Coastal, WA ",15,5,5,0,0,No age structure taken
+WDFW,2010,Kelp Greenling,Sport,,,1,,"Coastal, WA ",52,13,0,0,0,No age structure taken
+WDFW,2010,Kelp Greenling,Sport,,,2,,"Coastal, WA ",2,0,2,0,2,Fin
+WDFW,2010,Kelp Greenling,Sport,,,2,,"Coastal, WA ",22,0,16,0,0,No age structure taken
+WDFW,2010,Kelp Greenling,Sport,,,3,,"Coastal, WA ",26,0,0,0,0,No age structure taken
+WDFW,2010,Kelp Greenling,Sport,,,4,,"Coastal, WA ",33,0,0,0,0,No age structure taken
+WDFW,2010,Kelp Greenling,Sport,,,4,,"Coastal, WA ",60,0,60,44,60,Otolith
+WDFW,2010,Lingcod,Sport,,,1,,"Coastal, WA ",75,16,0,0,0,No age structure taken
+WDFW,2010,Lingcod,Sport,,,2,,"Coastal, WA ",253,0,253,247,254,Fin
+WDFW,2010,Lingcod,Sport,,,2,,"Coastal, WA ",195,0,109,0,0,No age structure taken
+WDFW,2010,Lingcod,Sport,,,3,,"Coastal, WA ",54,0,0,0,0,No age structure taken
+WDFW,2010,Lingcod,Sport,,,4,,"Coastal, WA ",159,0,159,154,159,Fin
+WDFW,2010,Lingcod,Sport,,,4,,"Coastal, WA ",86,0,14,0,0,No age structure taken
+WDFW,2010,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",7,0,7,0,7,Fin
+WDFW,2010,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",57,0,57,0,0,No age structure taken
+WDFW,2010,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2010,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",6,0,6,6,6,Otolith
+WDFW,2010,Red Irish Lord,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2010,Red Irish Lord,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2010,Sablefish,Sport,,,1,,"Coastal, WA ",6,1,0,0,0,No age structure taken
+WDFW,2010,Starry Flounder,Sport,,,1,,"Coastal, WA ",3,1,0,0,0,No age structure taken
+WDFW,2010,Starry Flounder,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Fin
+WDFW,2010,Starry Flounder,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2010,Surfperch,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2010,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2010,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2010,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2010,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2010,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",3,0,3,3,3,Otolith
+WDFW,2010,Widow Rockfish,Sport,,,1,,"Coastal, WA ",3,2,0,0,0,No age structure taken
+WDFW,2010,Widow Rockfish,Sport,,,2,,"Coastal, WA ",30,0,30,0,0,No age structure taken
+WDFW,2010,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2010,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",36,26,0,0,0,No age structure taken
+WDFW,2010,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",137,0,131,0,0,No age structure taken
+WDFW,2010,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",19,0,0,0,0,No age structure taken
+WDFW,2010,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",9,0,0,0,0,No age structure taken
+WDFW,2010,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",17,0,17,17,17,Otolith
+WDFW,2011,Black Rockfish,Sport,,,1,,"Coastal, WA ",299,0,0,0,0,No age structure taken
+WDFW,2011,Black Rockfish,Sport,,,2,,"Coastal, WA ",147,0,0,0,0,No age structure taken
+WDFW,2011,Black Rockfish,Sport,,,2,,"Coastal, WA ",415,0,416,412,416,Otolith
+WDFW,2011,Black Rockfish,Sport,,,3,,"Coastal, WA ",467,0,0,0,0,No age structure taken
+WDFW,2011,Black Rockfish,Sport,,,4,,"Coastal, WA ",392,36,0,0,0,No age structure taken
+WDFW,2011,Black Rockfish,Sport,,,4,,"Coastal, WA ",525,0,525,523,525,Otolith
+WDFW,2011,Black Rockfish,Sport,,,,,No Area Data,238,0,240,236,240,Otolith
+WDFW,2011,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",12,0,0,0,0,No age structure taken
+WDFW,2011,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",6,0,6,0,0,No age structure taken
+WDFW,2011,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",35,0,0,0,0,No age structure taken
+WDFW,2011,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",52,0,0,0,0,No age structure taken
+WDFW,2011,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",36,0,36,0,36,Otolith
+WDFW,2011,Bocaccio,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2011,Bocaccio,Sport,,,3,,"Coastal, WA ",22,0,0,0,0,No age structure taken
+WDFW,2011,Brown Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2011,Cabezon,Sport,,,1,,"Coastal, WA ",57,1,0,0,0,No age structure taken
+WDFW,2011,Cabezon,Sport,,,2,,"Coastal, WA ",29,0,11,0,0,No age structure taken
+WDFW,2011,Cabezon,Sport,,,3,,"Coastal, WA ",44,0,0,0,0,No age structure taken
+WDFW,2011,Cabezon,Sport,,,4,,"Coastal, WA ",27,0,0,0,0,No age structure taken
+WDFW,2011,Canary Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2011,Canary Rockfish,Sport,,,4,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2011,Canary Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2011,China Rockfish,Sport,,,1,,"Coastal, WA ",16,0,0,0,0,No age structure taken
+WDFW,2011,China Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,0,0,No age structure taken
+WDFW,2011,China Rockfish,Sport,,,3,,"Coastal, WA ",52,0,0,0,0,No age structure taken
+WDFW,2011,China Rockfish,Sport,,,4,,"Coastal, WA ",61,5,0,0,0,No age structure taken
+WDFW,2011,China Rockfish,Sport,,,4,,"Coastal, WA ",50,0,50,50,50,Otolith
+WDFW,2011,Copper Rockfish,Sport,,,1,,"Coastal, WA ",16,0,0,0,0,No age structure taken
+WDFW,2011,Copper Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2011,Copper Rockfish,Sport,,,3,,"Coastal, WA ",13,0,0,0,0,No age structure taken
+WDFW,2011,Copper Rockfish,Sport,,,4,,"Coastal, WA ",70,0,0,0,0,No age structure taken
+WDFW,2011,Copper Rockfish,Sport,,,4,,"Coastal, WA ",27,0,27,27,27,Otolith
+WDFW,2011,Greenling,Sport,,,1,,"Coastal, WA ",18,0,0,0,0,No age structure taken
+WDFW,2011,Greenling,Sport,,,2,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2011,Greenling,Sport,,,4,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2011,Greenstriped Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2011,Greenstriped Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2011,Kelp Greenling,Sport,,,1,,"Coastal, WA ",100,0,0,0,0,No age structure taken
+WDFW,2011,Kelp Greenling,Sport,,,2,,"Coastal, WA ",17,0,10,0,0,No age structure taken
+WDFW,2011,Kelp Greenling,Sport,,,3,,"Coastal, WA ",30,0,0,0,0,No age structure taken
+WDFW,2011,Kelp Greenling,Sport,,,4,,"Coastal, WA ",33,4,0,0,0,No age structure taken
+WDFW,2011,Kelp Greenling,Sport,,,4,,"Coastal, WA ",40,0,40,39,40,Otolith
+WDFW,2011,Kelp Greenling,Sport,,,,,No Area Data,2,0,0,0,0,No age structure taken
+WDFW,2011,Lingcod,Sport,,,1,,"Coastal, WA ",235,2,0,0,0,No age structure taken
+WDFW,2011,Lingcod,Sport,,,2,,"Coastal, WA ",150,0,150,145,150,Fin
+WDFW,2011,Lingcod,Sport,,,2,,"Coastal, WA ",231,0,108,0,0,No age structure taken
+WDFW,2011,Lingcod,Sport,,,3,,"Coastal, WA ",199,0,0,0,0,No age structure taken
+WDFW,2011,Lingcod,Sport,,,4,,"Coastal, WA ",160,0,160,157,160,Fin
+WDFW,2011,Lingcod,Sport,,,4,,"Coastal, WA ",95,9,0,0,0,No age structure taken
+WDFW,2011,Pacific Cod,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2011,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",13,0,0,0,0,No age structure taken
+WDFW,2011,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",31,0,31,0,0,No age structure taken
+WDFW,2011,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",18,0,0,0,0,No age structure taken
+WDFW,2011,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",14,0,0,0,0,No age structure taken
+WDFW,2011,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",32,0,32,32,32,Otolith
+WDFW,2011,Red Irish Lord,Sport,,,1,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2011,Red Irish Lord,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2011,Red Irish Lord,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2011,Rock Greenling,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2011,Sablefish,Sport,,,1,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2011,Silvergrey Rockfish,Sport,,,3,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2011,Starry Flounder,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2011,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2011,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2011,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2011,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2011,Vermilion Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2011,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",22,6,0,0,0,No age structure taken
+WDFW,2011,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",11,0,11,11,11,Otolith
+WDFW,2011,Widow Rockfish,Sport,,,1,,"Coastal, WA ",115,0,0,0,0,No age structure taken
+WDFW,2011,Widow Rockfish,Sport,,,2,,"Coastal, WA ",8,0,8,0,0,No age structure taken
+WDFW,2011,Widow Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2011,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",2,0,2,2,2,Otolith
+WDFW,2011,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",170,0,0,0,0,No age structure taken
+WDFW,2011,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",44,0,40,0,0,No age structure taken
+WDFW,2011,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",121,0,0,0,0,No age structure taken
+WDFW,2011,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",41,1,0,0,0,No age structure taken
+WDFW,2011,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",15,0,15,15,15,Otolith
+WDFW,2012,Albacore,Sport,,,1,,"Coastal, WA ",48,0,0,0,0,No age structure taken
+WDFW,2012,Albacore,Sport,,,2,,"Coastal, WA ",59,0,0,0,0,No age structure taken
+WDFW,2012,Arrowtooth Flounder,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2012,Black Rockfish,Sport,,,1,,"Coastal, WA ",310,0,0,0,0,No age structure taken
+WDFW,2012,Black Rockfish,Sport,,,2,,"Coastal, WA ",580,0,100,0,0,No age structure taken
+WDFW,2012,Black Rockfish,Sport,,,2,,"Coastal, WA ",350,0,350,349,350,Otolith
+WDFW,2012,Black Rockfish,Sport,,,3,,"Coastal, WA ",228,0,0,0,0,No age structure taken
+WDFW,2012,Black Rockfish,Sport,,,4,,"Coastal, WA ",122,0,17,0,0,No age structure taken
+WDFW,2012,Black Rockfish,Sport,,,4,,"Coastal, WA ",471,0,471,421,471,Otolith
+WDFW,2012,Black Rockfish,Sport,,,,,"Coastal, WA and Non-WA",57,0,57,0,0,No age structure taken
+WDFW,2012,Black Rockfish,Sport,,,,,"Coastal, WA and Non-WA",267,0,268,268,269,Otolith
+WDFW,2012,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2012,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",6,0,2,0,0,No age structure taken
+WDFW,2012,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",25,0,0,0,0,No age structure taken
+WDFW,2012,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2012,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",17,0,17,0,17,Otolith
+WDFW,2012,Bocaccio,Sport,,,3,,"Coastal, WA ",18,0,0,0,0,No age structure taken
+WDFW,2012,Brown Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2012,Cabezon,Sport,,,1,,"Coastal, WA ",27,0,0,0,0,No age structure taken
+WDFW,2012,Cabezon,Sport,,,2,,"Coastal, WA ",41,0,13,0,0,No age structure taken
+WDFW,2012,Cabezon,Sport,,,3,,"Coastal, WA ",19,0,0,0,0,No age structure taken
+WDFW,2012,Cabezon,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2012,Canary Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2012,Canary Rockfish,Sport,,,4,,"Coastal, WA ",7,0,7,7,7,Otolith
+WDFW,2012,China Rockfish,Sport,,,1,,"Coastal, WA ",10,0,0,0,0,No age structure taken
+WDFW,2012,China Rockfish,Sport,,,2,,"Coastal, WA ",4,0,2,0,0,No age structure taken
+WDFW,2012,China Rockfish,Sport,,,3,,"Coastal, WA ",19,0,0,0,0,No age structure taken
+WDFW,2012,China Rockfish,Sport,,,4,,"Coastal, WA ",19,0,0,0,0,No age structure taken
+WDFW,2012,China Rockfish,Sport,,,4,,"Coastal, WA ",25,0,12,24,25,Otolith
+WDFW,2012,Chub Mackerel,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2012,Copper Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2012,Copper Rockfish,Sport,,,2,,"Coastal, WA ",6,0,3,0,0,No age structure taken
+WDFW,2012,Copper Rockfish,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2012,Copper Rockfish,Sport,,,4,,"Coastal, WA ",34,0,0,0,0,No age structure taken
+WDFW,2012,Copper Rockfish,Sport,,,4,,"Coastal, WA ",35,0,35,35,35,Otolith
+WDFW,2012,Greenling,Sport,,,4,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2012,Greenstriped Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2012,Kelp Greenling,Sport,,,1,,"Coastal, WA ",83,0,0,0,0,No age structure taken
+WDFW,2012,Kelp Greenling,Sport,,,2,,"Coastal, WA ",61,0,8,0,0,No age structure taken
+WDFW,2012,Kelp Greenling,Sport,,,3,,"Coastal, WA ",10,0,0,0,0,No age structure taken
+WDFW,2012,Kelp Greenling,Sport,,,4,,"Coastal, WA ",16,0,0,0,0,No age structure taken
+WDFW,2012,Kelp Greenling,Sport,,,4,,"Coastal, WA ",22,0,22,22,22,Otolith
+WDFW,2012,Lingcod,Sport,,,1,,"Coastal, WA ",238,0,0,0,0,No age structure taken
+WDFW,2012,Lingcod,Sport,,,2,,"Coastal, WA ",143,0,143,143,143,Fin
+WDFW,2012,Lingcod,Sport,,,2,,"Coastal, WA ",415,0,157,0,0,No age structure taken
+WDFW,2012,Lingcod,Sport,,,3,,"Coastal, WA ",104,0,0,0,0,No age structure taken
+WDFW,2012,Lingcod,Sport,,,4,,"Coastal, WA ",128,0,128,126,129,Fin
+WDFW,2012,Lingcod,Sport,,,4,,"Coastal, WA ",24,0,3,0,0,No age structure taken
+WDFW,2012,Pile Perch,Sport,,,2,,"Coastal, WA ",14,0,0,0,0,No age structure taken
+WDFW,2012,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2012,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",49,0,41,0,0,No age structure taken
+WDFW,2012,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",10,0,0,0,0,No age structure taken
+WDFW,2012,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",9,0,0,0,0,No age structure taken
+WDFW,2012,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",14,0,14,14,14,Otolith
+WDFW,2012,Redbanded Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2012,Red Irish Lord,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2012,Redtail Surfperch,Sport,,,2,,"Coastal, WA ",19,0,0,0,0,No age structure taken
+WDFW,2012,Rock Greenling,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2012,Rock Greenling,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2012,Rock Sole,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2012,Sablefish,Sport,,,1,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2012,Shark,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2012,Silvergrey Rockfish,Sport,,,1,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2012,Silvergrey Rockfish,Sport,,,3,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2012,Starry Flounder,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2012,Surfperch,Sport,,,1,,"Coastal, WA ",9,0,0,0,0,No age structure taken
+WDFW,2012,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2012,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2012,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2012,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2012,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2012,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",35,0,0,0,0,No age structure taken
+WDFW,2012,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",17,0,17,16,17,Otolith
+WDFW,2012,Widow Rockfish,Sport,,,1,,"Coastal, WA ",24,0,0,0,0,No age structure taken
+WDFW,2012,Widow Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2012,Widow Rockfish,Sport,,,4,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2012,Yelloweye Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2012,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",3,0,3,3,3,Otolith
+WDFW,2012,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",68,0,0,0,0,No age structure taken
+WDFW,2012,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",111,0,88,0,0,No age structure taken
+WDFW,2012,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",43,0,0,0,0,No age structure taken
+WDFW,2012,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",6,0,4,0,0,No age structure taken
+WDFW,2013,Black Rockfish,Sport,,,1,,"Coastal, WA ",312,0,0,0,0,No age structure taken
+WDFW,2013,Black Rockfish,Sport,,,2,,"Coastal, WA ",112,0,0,0,0,No age structure taken
+WDFW,2013,Black Rockfish,Sport,,,2,,"Coastal, WA ",1330,0,1334,1330,1334,Otolith
+WDFW,2013,Black Rockfish,Sport,,,3,,"Coastal, WA ",367,0,0,0,0,No age structure taken
+WDFW,2013,Black Rockfish,Sport,,,4,,"Coastal, WA ",303,0,0,0,0,No age structure taken
+WDFW,2013,Black Rockfish,Sport,,,4,,"Coastal, WA ",432,0,432,431,432,Otolith
+WDFW,2013,Black Rockfish,Sport,,,,,No Area Data,1,0,1,1,1,Otolith
+WDFW,2013,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",11,0,0,0,0,No age structure taken
+WDFW,2013,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",39,0,0,0,0,No age structure taken
+WDFW,2013,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",23,0,13,0,23,Otolith
+WDFW,2013,Brown Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2013,Cabezon,Sport,,,1,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2013,Cabezon,Sport,,,2,,"Coastal, WA ",31,0,20,0,0,No age structure taken
+WDFW,2013,Cabezon,Sport,,,3,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2013,Cabezon,Sport,,,4,,"Coastal, WA ",15,0,0,0,0,No age structure taken
+WDFW,2013,Canary Rockfish,Sport,,,4,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2013,China Rockfish,Sport,,,1,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2013,China Rockfish,Sport,,,2,,"Coastal, WA ",11,0,11,0,0,No age structure taken
+WDFW,2013,China Rockfish,Sport,,,3,,"Coastal, WA ",24,0,0,0,0,No age structure taken
+WDFW,2013,China Rockfish,Sport,,,4,,"Coastal, WA ",121,0,0,0,0,No age structure taken
+WDFW,2013,China Rockfish,Sport,,,4,,"Coastal, WA ",11,0,11,11,11,Otolith
+WDFW,2013,Copper Rockfish,Sport,,,2,,"Coastal, WA ",4,0,4,0,0,No age structure taken
+WDFW,2013,Copper Rockfish,Sport,,,3,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2013,Copper Rockfish,Sport,,,4,,"Coastal, WA ",50,0,0,0,0,No age structure taken
+WDFW,2013,Copper Rockfish,Sport,,,4,,"Coastal, WA ",10,0,10,8,10,Otolith
+WDFW,2013,Dark Dusky Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2013,Greenling,Sport,,,4,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2013,Kelp Greenling,Sport,,,1,,"Coastal, WA ",47,0,0,0,0,No age structure taken
+WDFW,2013,Kelp Greenling,Sport,,,2,,"Coastal, WA ",32,0,21,0,0,No age structure taken
+WDFW,2013,Kelp Greenling,Sport,,,3,,"Coastal, WA ",9,0,0,0,0,No age structure taken
+WDFW,2013,Kelp Greenling,Sport,,,4,,"Coastal, WA ",47,0,0,0,0,No age structure taken
+WDFW,2013,Kelp Greenling,Sport,,,4,,"Coastal, WA ",10,0,10,10,10,Otolith
+WDFW,2013,Lingcod,Sport,,,1,,"Coastal, WA ",111,0,0,0,0,No age structure taken
+WDFW,2013,Lingcod,Sport,,,2,,"Coastal, WA ",222,0,223,223,223,Fin
+WDFW,2013,Lingcod,Sport,,,2,,"Coastal, WA ",68,0,5,0,0,No age structure taken
+WDFW,2013,Lingcod,Sport,,,3,,"Coastal, WA ",44,0,0,0,0,No age structure taken
+WDFW,2013,Lingcod,Sport,,,4,,"Coastal, WA ",129,0,129,129,129,Fin
+WDFW,2013,Lingcod,Sport,,,4,,"Coastal, WA ",74,0,0,0,0,No age structure taken
+WDFW,2013,Lingcod,Sport,,,,,"Coastal, WA and Non-WA",5,0,5,0,0,No age structure taken
+WDFW,2013,Pacific Cod,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2013,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",10,0,0,0,0,No age structure taken
+WDFW,2013,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",68,0,64,0,0,No age structure taken
+WDFW,2013,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2013,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",48,0,0,0,0,No age structure taken
+WDFW,2013,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",8,0,8,8,8,Otolith
+WDFW,2013,Red Irish Lord,Sport,,,4,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2013,Rock Greenling,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2013,Rock Greenling,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2013,Sablefish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2013,Starry Flounder,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2013,Starry Flounder,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2013,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2013,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2013,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2013,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2013,Vermilion Rockfish,Sport,,,3,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2013,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",42,0,0,0,0,No age structure taken
+WDFW,2013,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",5,0,5,5,5,Otolith
+WDFW,2013,Widow Rockfish,Sport,,,1,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2013,Widow Rockfish,Sport,,,2,,"Coastal, WA ",127,0,127,0,0,No age structure taken
+WDFW,2013,Widow Rockfish,Sport,,,3,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2013,Widow Rockfish,Sport,,,4,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2013,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",63,0,0,0,0,No age structure taken
+WDFW,2013,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",231,0,225,0,0,No age structure taken
+WDFW,2013,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",10,0,0,0,0,No age structure taken
+WDFW,2013,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",42,0,0,0,0,No age structure taken
+WDFW,2013,Yellowtail Rockfish,Sport,,,5,,"Puget Sound, WA",2,0,0,0,0,No age structure taken
+WDFW,2013,Yellowtail Rockfish,Sport,,,,,"Coastal, WA and Non-WA",4,0,5,0,0,No age structure taken
+WDFW,2013,Yellowtail Rockfish,Sport,,,,,"Coastal, WA and Non-WA",4,0,4,0,4,Otolith
+WDFW,2014,Black Rockfish,Sport,,,1,,"Coastal, WA ",321,0,0,0,0,No age structure taken
+WDFW,2014,Black Rockfish,Sport,,,2,,"Coastal, WA ",341,0,0,0,0,No age structure taken
+WDFW,2014,Black Rockfish,Sport,,,2,,"Coastal, WA ",882,0,882,874,894,Otolith
+WDFW,2014,Black Rockfish,Sport,,,3,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2014,Black Rockfish,Sport,,,3,,"Coastal, WA ",261,0,261,259,262,Otolith
+WDFW,2014,Black Rockfish,Sport,,,4,,"Coastal, WA ",41,0,32,0,0,No age structure taken
+WDFW,2014,Black Rockfish,Sport,,,4,,"Coastal, WA ",433,0,433,431,433,Otolith
+WDFW,2014,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",57,0,57,0,57,Otolith
+WDFW,2014,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2014,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",52,0,52,0,52,Otolith
+WDFW,2014,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",60,0,60,0,60,Otolith
+WDFW,2014,Bocaccio,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2014,Bocaccio,Sport,,,3,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2014,Bocaccio,Sport,,,4,,"Coastal, WA ",10,0,10,0,10,Otolith
+WDFW,2014,Cabezon,Sport,,,1,,"Coastal, WA ",32,0,0,0,0,No age structure taken
+WDFW,2014,Cabezon,Sport,,,2,,"Coastal, WA ",18,0,0,0,0,No age structure taken
+WDFW,2014,Cabezon,Sport,,,2,,"Coastal, WA ",41,0,41,0,41,Otolith
+WDFW,2014,Cabezon,Sport,,,3,,"Coastal, WA ",43,0,26,0,43,Otolith
+WDFW,2014,Cabezon,Sport,,,4,,"Coastal, WA ",4,0,3,0,0,No age structure taken
+WDFW,2014,Cabezon,Sport,,,4,,"Coastal, WA ",69,0,69,0,69,Otolith
+WDFW,2014,Canary Rockfish,Sport,,,3,,"Coastal, WA ",4,0,4,4,4,Otolith
+WDFW,2014,Canary Rockfish,Sport,,,4,,"Coastal, WA ",4,0,4,4,4,Otolith
+WDFW,2014,China Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2014,China Rockfish,Sport,,,2,,"Coastal, WA ",15,1,16,16,16,Otolith
+WDFW,2014,China Rockfish,Sport,,,3,,"Coastal, WA ",130,0,130,129,130,Otolith
+WDFW,2014,China Rockfish,Sport,,,4,,"Coastal, WA ",23,0,23,0,0,No age structure taken
+WDFW,2014,China Rockfish,Sport,,,4,,"Coastal, WA ",270,0,270,269,270,Otolith
+WDFW,2014,Copper Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2014,Copper Rockfish,Sport,,,2,,"Coastal, WA ",17,0,17,14,17,Otolith
+WDFW,2014,Copper Rockfish,Sport,,,3,,"Coastal, WA ",5,0,5,5,5,Otolith
+WDFW,2014,Copper Rockfish,Sport,,,4,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2014,Copper Rockfish,Sport,,,4,,"Coastal, WA ",110,0,110,104,110,Otolith
+WDFW,2014,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2014,Kelp Greenling,Sport,,,1,,"Coastal, WA ",86,0,0,0,0,No age structure taken
+WDFW,2014,Kelp Greenling,Sport,,,2,,"Coastal, WA ",33,0,0,0,0,No age structure taken
+WDFW,2014,Kelp Greenling,Sport,,,2,,"Coastal, WA ",16,0,16,16,16,Otolith
+WDFW,2014,Kelp Greenling,Sport,,,3,,"Coastal, WA ",28,0,28,28,28,Otolith
+WDFW,2014,Kelp Greenling,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2014,Kelp Greenling,Sport,,,4,,"Coastal, WA ",121,0,121,121,121,Otolith
+WDFW,2014,Lingcod,Sport,,,1,,"Coastal, WA ",210,0,0,0,0,No age structure taken
+WDFW,2014,Lingcod,Sport,,,2,,"Coastal, WA ",275,0,275,274,275,Fin
+WDFW,2014,Lingcod,Sport,,,2,,"Coastal, WA ",104,0,0,0,0,No age structure taken
+WDFW,2014,Lingcod,Sport,,,3,,"Coastal, WA ",207,0,207,206,207,Fin
+WDFW,2014,Lingcod,Sport,,,3,,"Coastal, WA ",18,0,0,0,0,No age structure taken
+WDFW,2014,Lingcod,Sport,,,4,,"Coastal, WA ",229,0,229,221,229,Fin
+WDFW,2014,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",22,0,0,0,0,No age structure taken
+WDFW,2014,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2014,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",217,65,167,216,217,Otolith
+WDFW,2014,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",8,0,8,8,8,Otolith
+WDFW,2014,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",65,0,65,64,65,Otolith
+WDFW,2014,Red Irish Lord,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2014,Red Irish Lord,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2014,Rock Greenling,Sport,,,1,,"Coastal, WA ",17,0,0,0,0,No age structure taken
+WDFW,2014,Rock Greenling,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2014,Sablefish,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2014,Silvergrey Rockfish,Sport,,,2,,"Coastal, WA ",3,1,3,0,3,Otolith
+WDFW,2014,Silvergrey Rockfish,Sport,,,3,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2014,Soupfin Shark,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2014,Starry Flounder,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2014,Starry Flounder,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2014,Surfperch,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2014,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2014,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2014,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2014,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",13,0,13,0,13,Otolith
+WDFW,2014,Vermilion Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2014,Vermilion Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2014,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",59,0,59,57,59,Otolith
+WDFW,2014,Widow Rockfish,Sport,,,1,,"Coastal, WA ",82,0,0,0,0,No age structure taken
+WDFW,2014,Widow Rockfish,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2014,Widow Rockfish,Sport,,,2,,"Coastal, WA ",405,0,405,405,405,Otolith
+WDFW,2014,Yelloweye Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2014,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",96,0,0,0,0,No age structure taken
+WDFW,2014,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",51,0,0,0,0,No age structure taken
+WDFW,2014,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",480,0,480,480,480,Otolith
+WDFW,2014,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",7,0,7,7,7,Otolith
+WDFW,2014,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",46,0,46,46,46,Otolith
+WDFW,2015,Arrowtooth Flounder,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2015,Black Rockfish,Sport,,,1,,"Coastal, WA ",237,0,0,0,0,No age structure taken
+WDFW,2015,Black Rockfish,Sport,,,2,,"Coastal, WA ",693,0,488,0,0,No age structure taken
+WDFW,2015,Black Rockfish,Sport,,,2,,"Coastal, WA ",996,0,998,995,998,Otolith
+WDFW,2015,Black Rockfish,Sport,,,3,,"Coastal, WA ",30,0,0,0,0,No age structure taken
+WDFW,2015,Black Rockfish,Sport,,,3,,"Coastal, WA ",680,0,680,679,680,Otolith
+WDFW,2015,Black Rockfish,Sport,,,4,,"Coastal, WA ",35,0,21,0,0,No age structure taken
+WDFW,2015,Black Rockfish,Sport,,,4,,"Coastal, WA ",479,1,479,478,481,Otolith
+WDFW,2015,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2015,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",37,0,37,0,37,Otolith
+WDFW,2015,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2015,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2015,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",193,0,193,0,193,Otolith
+WDFW,2015,Bocaccio,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,Bocaccio,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2015,Bocaccio,Sport,,,4,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2015,Cabezon,Sport,,,1,,"Coastal, WA ",31,0,0,0,0,No age structure taken
+WDFW,2015,Cabezon,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2015,Cabezon,Sport,,,2,,"Coastal, WA ",28,0,28,0,28,Otolith
+WDFW,2015,Cabezon,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,Cabezon,Sport,,,3,,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2015,Cabezon,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,Cabezon,Sport,,,4,,"Coastal, WA ",44,0,44,0,44,Otolith
+WDFW,2015,Canary Rockfish,Sport,,,1,,"Coastal, WA ",26,0,0,0,0,No age structure taken
+WDFW,2015,Canary Rockfish,Sport,,,2,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2015,Canary Rockfish,Sport,,,4,,"Coastal, WA ",5,0,5,5,5,Otolith
+WDFW,2015,China Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,China Rockfish,Sport,,,2,,"Coastal, WA ",13,8,13,0,13,Otolith
+WDFW,2015,China Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2015,China Rockfish,Sport,,,3,,"Coastal, WA ",33,0,33,0,33,Otolith
+WDFW,2015,China Rockfish,Sport,,,4,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2015,China Rockfish,Sport,,,4,,"Coastal, WA ",214,0,214,0,214,Otolith
+WDFW,2015,Copper Rockfish,Sport,,,2,,"Coastal, WA ",13,2,13,13,13,Otolith
+WDFW,2015,Copper Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,1,1,Otolith
+WDFW,2015,Copper Rockfish,Sport,,,4,,"Coastal, WA ",6,0,6,0,0,No age structure taken
+WDFW,2015,Copper Rockfish,Sport,,,4,,"Coastal, WA ",64,0,64,60,64,Otolith
+WDFW,2015,Grass Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2015,Kelp Greenling,Sport,,,1,,"Coastal, WA ",32,0,0,0,0,No age structure taken
+WDFW,2015,Kelp Greenling,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,No age structure taken
+WDFW,2015,Kelp Greenling,Sport,,,2,,"Coastal, WA ",12,0,13,13,13,Otolith
+WDFW,2015,Kelp Greenling,Sport,,,3,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2015,Kelp Greenling,Sport,,,4,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2015,Kelp Greenling,Sport,,,4,,"Coastal, WA ",103,0,103,92,103,Otolith
+WDFW,2015,Lingcod,Sport,,,1,,"Coastal, WA ",161,0,0,0,0,No age structure taken
+WDFW,2015,Lingcod,Sport,,,2,,"Coastal, WA ",253,0,253,251,253,Fin
+WDFW,2015,Lingcod,Sport,,,2,,"Coastal, WA ",65,0,0,0,0,No age structure taken
+WDFW,2015,Lingcod,Sport,,,3,,"Coastal, WA ",35,0,35,33,35,Fin
+WDFW,2015,Lingcod,Sport,,,3,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2015,Lingcod,Sport,,,4,,"Coastal, WA ",227,0,227,217,228,Fin
+WDFW,2015,Lingcod,Sport,,,4,,"Coastal, WA ",15,0,0,0,0,No age structure taken
+WDFW,2015,Pacific Ocean Perch,Sport,,,2,,"Coastal, WA ",2,0,2,2,2,Otolith
+WDFW,2015,Petrale Sole,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2015,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",183,14,155,183,183,Otolith
+WDFW,2015,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",2,0,2,2,2,Otolith
+WDFW,2015,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",51,0,51,51,51,Otolith
+WDFW,2015,Red Irish Lord,Sport,,,4,,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2015,Redstripe Rockfish,Sport,,,4,,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2015,Rock Greenling,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,Silvergrey Rockfish,Sport,,,2,,"Coastal, WA ",10,0,10,0,10,Otolith
+WDFW,2015,Silvergrey Rockfish,Sport,,,3,,"Coastal, WA ",0,0,1,0,1,Otolith
+WDFW,2015,Starry Flounder,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,Starry Flounder,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2015,Starry Flounder,Sport,,,4,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2015,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2015,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2015,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2015,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",8,0,8,0,8,Otolith
+WDFW,2015,Vermilion Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,Vermilion Rockfish,Sport,,,3,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2015,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",10,0,0,0,0,No age structure taken
+WDFW,2015,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",129,0,129,126,129,Otolith
+WDFW,2015,Widow Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2015,Widow Rockfish,Sport,,,2,,"Coastal, WA ",332,0,332,332,332,Otolith
+WDFW,2015,Widow Rockfish,Sport,,,4,,"Coastal, WA ",2,0,2,2,2,Otolith
+WDFW,2015,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",2,0,2,2,2,Otolith
+WDFW,2015,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",53,0,0,0,0,No age structure taken
+WDFW,2015,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2015,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",505,0,505,505,505,Otolith
+WDFW,2015,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",2,0,2,2,2,Otolith
+WDFW,2015,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",117,0,117,117,117,Otolith
+WDFW,2016,Black Rockfish,Sport,,,1,,"Coastal, WA ",250,0,0,0,0,No age structure taken
+WDFW,2016,Black Rockfish,Sport,,,2,,"Coastal, WA ",166,0,0,0,0,No age structure taken
+WDFW,2016,Black Rockfish,Sport,,,2,,"Coastal, WA ",890,0,890,886,891,Otolith
+WDFW,2016,Black Rockfish,Sport,,,3,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2016,Black Rockfish,Sport,,,3,,"Coastal, WA ",302,0,302,292,302,Otolith
+WDFW,2016,Black Rockfish,Sport,,,4,,"Coastal, WA ",16,0,0,0,0,No age structure taken
+WDFW,2016,Black Rockfish,Sport,,,4,,"Coastal, WA ",540,0,540,535,540,Otolith
+WDFW,2016,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2016,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Bocaccio,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2016,Bocaccio,Sport,,,3,,"Coastal, WA ",5,0,5,0,5,Otolith
+WDFW,2016,Bocaccio,Sport,,,4,,"Coastal, WA ",2,2,2,0,2,Otolith
+WDFW,2016,Brown Rockfish,Sport,,,20,,"Puget Sound, WA",2,0,0,0,0,No age structure taken
+WDFW,2016,Brown Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Cabezon,Sport,,,1,,"Coastal, WA ",12,0,0,0,0,No age structure taken
+WDFW,2016,Cabezon,Sport,,,2,,"Coastal, WA ",10,0,0,0,0,No age structure taken
+WDFW,2016,Cabezon,Sport,,,2,,"Coastal, WA ",66,1,66,0,66,Otolith
+WDFW,2016,Cabezon,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Cabezon,Sport,,,3,,"Coastal, WA ",49,32,49,0,49,Otolith
+WDFW,2016,Cabezon,Sport,,,4,,"Coastal, WA ",144,71,144,0,144,Otolith
+WDFW,2016,Canary Rockfish,Sport,,,1,,"Coastal, WA ",18,0,0,0,0,No age structure taken
+WDFW,2016,Canary Rockfish,Sport,,,2,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2016,Canary Rockfish,Sport,,,3,,"Coastal, WA ",3,0,3,3,3,Otolith
+WDFW,2016,Canary Rockfish,Sport,,,4,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2016,Canary Rockfish,Sport,,,4,,"Coastal, WA ",1,1,1,1,1,Otolith
+WDFW,2016,China Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2016,China Rockfish,Sport,,,2,,"Coastal, WA ",7,2,7,0,7,Otolith
+WDFW,2016,China Rockfish,Sport,,,3,,"Coastal, WA ",42,26,42,0,42,Otolith
+WDFW,2016,China Rockfish,Sport,,,4,,"Coastal, WA ",187,47,187,0,187,Otolith
+WDFW,2016,Copper Rockfish,Sport,,,1,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2016,Copper Rockfish,Sport,,,2,,"Coastal, WA ",31,0,16,31,32,Otolith
+WDFW,2016,Copper Rockfish,Sport,,,3,,"Coastal, WA ",16,6,16,14,16,Otolith
+WDFW,2016,Copper Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Copper Rockfish,Sport,,,4,,"Coastal, WA ",126,50,126,124,126,Otolith
+WDFW,2016,Deacon Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Deacon Rockfish,Sport,,,2,,"Coastal, WA ",292,0,292,0,292,Otolith
+WDFW,2016,Deacon Rockfish,Sport,,,3,,"Coastal, WA ",53,41,53,0,53,Otolith
+WDFW,2016,Deacon Rockfish,Sport,,,4,,"Coastal, WA ",267,149,267,0,267,Otolith
+WDFW,2016,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2016,Kelp Greenling,Sport,,,1,,"Coastal, WA ",31,0,0,0,0,No age structure taken
+WDFW,2016,Kelp Greenling,Sport,,,2,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2016,Kelp Greenling,Sport,,,2,,"Coastal, WA ",29,2,30,30,30,Otolith
+WDFW,2016,Kelp Greenling,Sport,,,3,,"Coastal, WA ",45,27,45,45,45,Otolith
+WDFW,2016,Kelp Greenling,Sport,,,4,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2016,Kelp Greenling,Sport,,,4,,"Coastal, WA ",244,105,244,216,244,Otolith
+WDFW,2016,Lingcod,Sport,,,1,,"Coastal, WA ",89,0,0,0,0,No age structure taken
+WDFW,2016,Lingcod,Sport,,,2,,"Coastal, WA ",295,0,295,292,295,Fin
+WDFW,2016,Lingcod,Sport,,,2,,"Coastal, WA ",109,0,0,0,0,No age structure taken
+WDFW,2016,Lingcod,Sport,,,3,,"Coastal, WA ",199,0,199,186,199,Fin
+WDFW,2016,Lingcod,Sport,,,4,,"Coastal, WA ",376,0,376,327,376,Fin
+WDFW,2016,Lingcod,Sport,,,4,,"Coastal, WA ",16,0,0,0,0,No age structure taken
+WDFW,2016,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2016,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",239,0,239,189,239,Otolith
+WDFW,2016,Quillback Rockfish,Sport,,,20,,"Puget Sound, WA",1,0,0,0,0,No age structure taken
+WDFW,2016,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2016,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",3,2,3,3,3,Otolith
+WDFW,2016,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",83,31,83,81,83,Otolith
+WDFW,2016,Redbanded Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2016,Redstripe Rockfish,Sport,,,4,,"Coastal, WA ",2,2,2,0,2,Otolith
+WDFW,2016,Sablefish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Silvergrey Rockfish,Sport,,,2,,"Coastal, WA ",8,0,8,0,8,Otolith
+WDFW,2016,Silvergrey Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Silvergrey Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2016,Surfperch,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2016,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2016,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",8,0,8,0,8,Otolith
+WDFW,2016,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",2,2,2,0,2,Otolith
+WDFW,2016,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2016,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",9,1,9,0,9,Otolith
+WDFW,2016,Vermilion Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2016,Vermilion Rockfish,Sport,,,3,,"Coastal, WA ",5,1,5,4,5,Otolith
+WDFW,2016,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",86,31,86,83,86,Otolith
+WDFW,2016,Widow Rockfish,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2016,Widow Rockfish,Sport,,,2,,"Coastal, WA ",550,0,550,545,550,Otolith
+WDFW,2016,Widow Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Widow Rockfish,Sport,,,3,,"Coastal, WA ",4,0,4,4,4,Otolith
+WDFW,2016,Widow Rockfish,Sport,,,4,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2016,Widow Rockfish,Sport,,,4,,"Coastal, WA ",2,0,2,2,2,Otolith
+WDFW,2016,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",61,0,0,0,0,No age structure taken
+WDFW,2016,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",28,0,0,0,0,No age structure taken
+WDFW,2016,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",673,0,673,673,673,Otolith
+WDFW,2016,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2016,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",50,11,50,50,50,Otolith
+WDFW,2016,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2016,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",113,2,113,113,113,Otolith
+WDFW,2017,Arrowtooth Flounder,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Black Rockfish,Sport,,,1,,"Coastal, WA ",350,0,0,0,0,No age structure taken
+WDFW,2017,Black Rockfish,Sport,,,2,,"Coastal, WA ",365,0,0,0,0,No age structure taken
+WDFW,2017,Black Rockfish,Sport,,,2,,"Coastal, WA ",1311,0,1313,1306,1313,Otolith
+WDFW,2017,Black Rockfish,Sport,,,3,,"Coastal, WA ",262,0,0,0,0,No age structure taken
+WDFW,2017,Black Rockfish,Sport,,,3,,"Coastal, WA ",327,101,327,326,327,Otolith
+WDFW,2017,Black Rockfish,Sport,,,4,,"Coastal, WA ",108,11,36,0,0,No age structure taken
+WDFW,2017,Black Rockfish,Sport,,,4,,"Coastal, WA ",586,127,586,585,586,Otolith
+WDFW,2017,Black Rockfish,Sport,,,,,No Area Data,37,0,37,37,37,Otolith
+WDFW,2017,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",6,0,0,0,0,No age structure taken
+WDFW,2017,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2017,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",1,1,1,0,1,Otolith
+WDFW,2017,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",96,0,0,0,0,No age structure taken
+WDFW,2017,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",47,10,47,0,47,Otolith
+WDFW,2017,Blue/Deacon Rockfish,Sport,,,,,No Area Data,3,0,3,0,3,Otolith
+WDFW,2017,Blue Shark,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Bocaccio,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Bocaccio,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Bocaccio,Sport,,,2,,"Coastal, WA ",9,0,9,0,9,Otolith
+WDFW,2017,Bocaccio,Sport,,,3,,"Coastal, WA ",1,1,1,0,1,Otolith
+WDFW,2017,Bocaccio,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Bocaccio,Sport,,,4,,"Coastal, WA ",1,1,1,0,1,Otolith
+WDFW,2017,Brown Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2017,Brown Rockfish,Sport,,,2,,"Coastal, WA ",8,0,8,0,8,Otolith
+WDFW,2017,Cabezon,Sport,,,1,,"Coastal, WA ",84,0,0,0,0,No age structure taken
+WDFW,2017,Cabezon,Sport,,,2,,"Coastal, WA ",49,0,0,0,0,No age structure taken
+WDFW,2017,Cabezon,Sport,,,2,,"Coastal, WA ",86,0,86,0,86,Otolith
+WDFW,2017,Cabezon,Sport,,,3,,"Coastal, WA ",23,0,0,0,0,No age structure taken
+WDFW,2017,Cabezon,Sport,,,3,,"Coastal, WA ",22,16,22,0,22,Otolith
+WDFW,2017,Cabezon,Sport,,,4,,"Coastal, WA ",40,2,5,0,0,No age structure taken
+WDFW,2017,Cabezon,Sport,,,4,,"Coastal, WA ",136,65,136,0,136,Otolith
+WDFW,2017,Cabezon,Sport,,,,,No Area Data,4,0,4,0,4,Otolith
+WDFW,2017,Canary Rockfish,Sport,,,1,,"Coastal, WA ",66,0,0,0,0,No age structure taken
+WDFW,2017,Canary Rockfish,Sport,,,2,,"Coastal, WA ",38,0,0,0,0,No age structure taken
+WDFW,2017,Canary Rockfish,Sport,,,2,,"Coastal, WA ",1190,0,1190,1189,1190,Otolith
+WDFW,2017,Canary Rockfish,Sport,,,20,,"Puget Sound, WA",2,0,0,0,0,No age structure taken
+WDFW,2017,Canary Rockfish,Sport,,,4,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2017,Canary Rockfish,Sport,,,4,,"Coastal, WA ",4,4,4,4,4,Otolith
+WDFW,2017,China Rockfish,Sport,,,1,,"Coastal, WA ",9,0,0,0,0,No age structure taken
+WDFW,2017,China Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,China Rockfish,Sport,,,2,,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2017,China Rockfish,Sport,,,3,,"Coastal, WA ",17,0,0,0,0,No age structure taken
+WDFW,2017,China Rockfish,Sport,,,3,,"Coastal, WA ",12,12,12,0,12,Otolith
+WDFW,2017,China Rockfish,Sport,,,4,,"Coastal, WA ",136,0,0,0,0,No age structure taken
+WDFW,2017,China Rockfish,Sport,,,4,,"Coastal, WA ",93,58,93,0,93,Otolith
+WDFW,2017,China Rockfish,Sport,,,,,No Area Data,2,0,2,0,0,No age structure taken
+WDFW,2017,Chub Mackerel,Sport,,,2,,"Coastal, WA ",12,0,0,0,0,No age structure taken
+WDFW,2017,Copper Rockfish,Sport,,,1,,"Coastal, WA ",23,0,0,0,0,No age structure taken
+WDFW,2017,Copper Rockfish,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2017,Copper Rockfish,Sport,,,2,,"Coastal, WA ",23,0,23,23,23,Otolith
+WDFW,2017,Copper Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2017,Copper Rockfish,Sport,,,3,,"Coastal, WA ",2,2,2,2,2,Otolith
+WDFW,2017,Copper Rockfish,Sport,,,4,,"Coastal, WA ",76,1,1,0,0,No age structure taken
+WDFW,2017,Copper Rockfish,Sport,,,4,,"Coastal, WA ",82,50,82,75,82,Otolith
+WDFW,2017,Copper Rockfish,Sport,,,,,No Area Data,1,0,1,0,0,No age structure taken
+WDFW,2017,Copper Rockfish,Sport,,,,,No Area Data,1,0,1,1,1,Otolith
+WDFW,2017,Deacon Rockfish,Sport,,,2,,"Coastal, WA ",192,0,192,0,192,Otolith
+WDFW,2017,Deacon Rockfish,Sport,,,3,,"Coastal, WA ",9,8,9,0,9,Otolith
+WDFW,2017,Deacon Rockfish,Sport,,,4,,"Coastal, WA ",1,1,1,0,0,No age structure taken
+WDFW,2017,Deacon Rockfish,Sport,,,4,,"Coastal, WA ",131,75,132,0,132,Otolith
+WDFW,2017,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",29,0,29,0,29,Otolith
+WDFW,2017,Greenstriped Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Irish Lord Unspecified,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Jack Mackerel,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,No age structure taken
+WDFW,2017,Kelp Greenling,Sport,,,1,,"Coastal, WA ",82,0,0,0,0,No age structure taken
+WDFW,2017,Kelp Greenling,Sport,,,2,,"Coastal, WA ",52,0,0,0,0,No age structure taken
+WDFW,2017,Kelp Greenling,Sport,,,2,,"Coastal, WA ",26,0,26,0,26,Otolith
+WDFW,2017,Kelp Greenling,Sport,,,3,,"Coastal, WA ",8,0,0,0,0,No age structure taken
+WDFW,2017,Kelp Greenling,Sport,,,3,,"Coastal, WA ",4,4,4,0,4,Otolith
+WDFW,2017,Kelp Greenling,Sport,,,4,,"Coastal, WA ",52,0,2,0,0,No age structure taken
+WDFW,2017,Kelp Greenling,Sport,,,4,,"Coastal, WA ",180,97,180,0,180,Otolith
+WDFW,2017,Lingcod,Sport,,,1,,"Coastal, WA ",194,0,0,0,0,No age structure taken
+WDFW,2017,Lingcod,Sport,,,2,,"Coastal, WA ",852,0,852,834,852,Fin
+WDFW,2017,Lingcod,Sport,,,2,,"Coastal, WA ",190,0,25,0,0,No age structure taken
+WDFW,2017,Lingcod,Sport,,,20,,"Puget Sound, WA",6,0,0,0,0,No age structure taken
+WDFW,2017,Lingcod,Sport,,,3,,"Coastal, WA ",242,46,242,238,242,Fin
+WDFW,2017,Lingcod,Sport,,,3,,"Coastal, WA ",118,2,3,0,0,No age structure taken
+WDFW,2017,Lingcod,Sport,,,4,,"Coastal, WA ",409,51,409,403,409,Fin
+WDFW,2017,Lingcod,Sport,,,4,,"Coastal, WA ",101,5,7,0,0,No age structure taken
+WDFW,2017,Lingcod,Sport,,,,,No Area Data,199,0,7,152,200,Fin
+WDFW,2017,Lingcod,Sport,,,,,No Area Data,27,0,23,0,0,No age structure taken
+WDFW,2017,Pacific Ocean Perch,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2017,Pacific Staghorn Sculpin,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Petrale Sole,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Pile Perch,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Pile Perch,Sport,,,2,,"Coastal, WA ",11,0,0,0,0,No age structure taken
+WDFW,2017,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",21,0,0,0,0,No age structure taken
+WDFW,2017,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",13,0,0,0,0,No age structure taken
+WDFW,2017,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",209,0,209,209,209,Otolith
+WDFW,2017,Quillback Rockfish,Sport,,,20,,"Puget Sound, WA",11,0,0,0,0,No age structure taken
+WDFW,2017,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",10,0,0,0,0,No age structure taken
+WDFW,2017,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",3,3,3,3,3,Otolith
+WDFW,2017,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",54,1,1,0,0,No age structure taken
+WDFW,2017,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",10,6,10,10,10,Otolith
+WDFW,2017,Red Irish Lord,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Red Irish Lord,Sport,,,4,,"Coastal, WA ",7,0,0,0,0,No age structure taken
+WDFW,2017,Redtail Surfperch,Sport,,,1,,"Coastal, WA ",14,0,0,0,0,No age structure taken
+WDFW,2017,Redtail Surfperch,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Rosethorn Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2017,Sablefish,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2017,Silvergrey Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Silvergrey Rockfish,Sport,,,2,,"Coastal, WA ",16,0,16,0,16,Otolith
+WDFW,2017,Silvergrey Rockfish,Sport,,,4,,"Coastal, WA ",1,1,1,0,1,Otolith
+WDFW,2017,Starry Flounder,Sport,,,2,,"Coastal, WA ",9,0,0,0,0,No age structure taken
+WDFW,2017,Striped Seaperch,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2017,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",5,0,0,0,0,No age structure taken
+WDFW,2017,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",13,0,13,0,13,Otolith
+WDFW,2017,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,No age structure taken
+WDFW,2017,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",2,2,2,0,2,Otolith
+WDFW,2017,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",14,0,0,0,0,No age structure taken
+WDFW,2017,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",8,5,8,0,8,Otolith
+WDFW,2017,Vermilion Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2017,Vermilion Rockfish,Sport,,,20,,"Puget Sound, WA",1,0,0,0,0,No age structure taken
+WDFW,2017,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",64,0,0,0,0,No age structure taken
+WDFW,2017,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",77,44,77,77,77,Otolith
+WDFW,2017,Vermilion Rockfish,Sport,,,,,No Area Data,1,0,1,0,0,No age structure taken
+WDFW,2017,Vermilion Rockfish,Sport,,,,,No Area Data,3,0,3,3,3,Otolith
+WDFW,2017,Widow Rockfish,Sport,,,1,,"Coastal, WA ",17,0,0,0,0,No age structure taken
+WDFW,2017,Widow Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Widow Rockfish,Sport,,,2,,"Coastal, WA ",769,0,769,768,769,Otolith
+WDFW,2017,Widow Rockfish,Sport,,,20,,"Puget Sound, WA",3,0,0,0,0,No age structure taken
+WDFW,2017,Widow Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Widow Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Widow Rockfish,Sport,,,4,,"Coastal, WA ",8,1,8,8,8,Otolith
+WDFW,2017,Yelloweye Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,No age structure taken
+WDFW,2017,Yelloweye Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,3,3,Otolith
+WDFW,2017,Yelloweye Rockfish,Sport,,,20,,"Puget Sound, WA",2,0,0,0,0,No age structure taken
+WDFW,2017,Yelloweye Rockfish,Sport,,,3,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2017,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",1,1,1,1,1,Otolith
+WDFW,2017,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",51,0,0,0,0,No age structure taken
+WDFW,2017,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",42,0,0,0,0,No age structure taken
+WDFW,2017,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",1027,0,1027,1025,1027,Otolith
+WDFW,2017,Yellowtail Rockfish,Sport,,,20,,"Puget Sound, WA",9,0,0,0,0,No age structure taken
+WDFW,2017,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",12,0,0,0,0,No age structure taken
+WDFW,2017,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",13,9,13,13,13,Otolith
+WDFW,2017,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",62,0,0,0,0,No age structure taken
+WDFW,2017,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",110,34,110,110,110,Otolith
+WDFW,2017,Yellowtail Rockfish,Sport,,,,,No Area Data,2,0,2,2,2,Otolith
+WDFW,2018,Arrowtooth Flounder,Sport,,,4,,"Coastal, WA ",2,1,2,0,2,Otolith
+WDFW,2018,Arrowtooth Flounder,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Black Rockfish,Sport,,,1,,"Coastal, WA ",193,0,0,0,0,
+WDFW,2018,Black Rockfish,Sport,,,2,,"Coastal, WA ",635,0,635,626,635,Otolith
+WDFW,2018,Black Rockfish,Sport,,,2,,"Coastal, WA ",389,0,0,0,0,
+WDFW,2018,Black Rockfish,Sport,,,3,,"Coastal, WA ",376,76,376,375,376,Otolith
+WDFW,2018,Black Rockfish,Sport,,,3,,"Coastal, WA ",177,0,0,0,0,
+WDFW,2018,Black Rockfish,Sport,,,4,,"Coastal, WA ",7,3,7,0,0,No age structure taken
+WDFW,2018,Black Rockfish,Sport,,,4,,"Coastal, WA ",808,309,809,760,809,Otolith
+WDFW,2018,Black Rockfish,Sport,,,4,,"Coastal, WA ",208,0,0,0,0,
+WDFW,2018,Blue/Deacon Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2018,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2018,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",19,0,0,0,0,
+WDFW,2018,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",5,0,5,0,5,Otolith
+WDFW,2018,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",57,0,0,0,0,
+WDFW,2018,Bocaccio,Sport,,,2,,"Coastal, WA ",15,0,15,0,15,Otolith
+WDFW,2018,Bocaccio,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2018,Bocaccio,Sport,,,3,,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2018,Bocaccio,Sport,,,3,,"Coastal, WA ",7,0,0,0,0,
+WDFW,2018,Bocaccio,Sport,,,4,,"Coastal, WA ",6,2,6,0,6,Otolith
+WDFW,2018,Bocaccio,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Brown Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2018,Cabezon,Sport,,,1,,"Coastal, WA ",18,0,0,0,0,
+WDFW,2018,Cabezon,Sport,,,2,,"Coastal, WA ",77,0,77,0,77,Otolith
+WDFW,2018,Cabezon,Sport,,,2,,"Coastal, WA ",30,0,0,0,0,
+WDFW,2018,Cabezon,Sport,,,3,,"Coastal, WA ",35,19,35,0,35,Otolith
+WDFW,2018,Cabezon,Sport,,,3,,"Coastal, WA ",67,0,0,0,0,
+WDFW,2018,Cabezon,Sport,,,4,,"Coastal, WA ",10,1,10,0,0,No age structure taken
+WDFW,2018,Cabezon,Sport,,,4,,"Coastal, WA ",188,70,188,0,188,Otolith
+WDFW,2018,Cabezon,Sport,,,4,,"Coastal, WA ",82,0,0,0,0,
+WDFW,2018,Canary Rockfish,Sport,,,1,,"Coastal, WA ",40,0,0,0,0,
+WDFW,2018,Canary Rockfish,Sport,,,2,,"Coastal, WA ",292,0,292,178,292,Otolith
+WDFW,2018,Canary Rockfish,Sport,,,2,,"Coastal, WA ",78,0,0,0,0,
+WDFW,2018,Canary Rockfish,Sport,,,3,,"Coastal, WA ",2,1,2,1,2,Otolith
+WDFW,2018,Canary Rockfish,Sport,,,3,,"Coastal, WA ",11,0,0,0,0,
+WDFW,2018,Canary Rockfish,Sport,,,4,,"Coastal, WA ",4,0,4,0,0,No age structure taken
+WDFW,2018,Canary Rockfish,Sport,,,4,,"Coastal, WA ",138,35,138,49,138,Otolith
+WDFW,2018,Canary Rockfish,Sport,,,4,,"Coastal, WA ",135,0,0,0,0,
+WDFW,2018,Canary Rockfish,Sport,,,5,,"Puget Sound, WA",3,0,0,0,0,
+WDFW,2018,China Rockfish,Sport,,,1,,"Coastal, WA ",7,0,0,0,0,
+WDFW,2018,China Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2018,China Rockfish,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2018,China Rockfish,Sport,,,3,,"Coastal, WA ",14,11,14,0,14,Otolith
+WDFW,2018,China Rockfish,Sport,,,3,,"Coastal, WA ",47,0,0,0,0,
+WDFW,2018,China Rockfish,Sport,,,4,,"Coastal, WA ",2,2,2,0,0,No age structure taken
+WDFW,2018,China Rockfish,Sport,,,4,,"Coastal, WA ",172,74,172,0,172,Otolith
+WDFW,2018,China Rockfish,Sport,,,4,,"Coastal, WA ",95,0,0,0,0,
+WDFW,2018,Chub Mackerel,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Copper Rockfish,Sport,,,1,,"Coastal, WA ",18,0,0,0,0,
+WDFW,2018,Copper Rockfish,Sport,,,2,,"Coastal, WA ",17,0,17,16,17,Otolith
+WDFW,2018,Copper Rockfish,Sport,,,2,,"Coastal, WA ",9,0,0,0,0,
+WDFW,2018,Copper Rockfish,Sport,,,3,,"Coastal, WA ",1,1,1,1,1,Otolith
+WDFW,2018,Copper Rockfish,Sport,,,3,,"Coastal, WA ",9,0,0,0,0,
+WDFW,2018,Copper Rockfish,Sport,,,4,,"Coastal, WA ",11,1,11,0,0,No age structure taken
+WDFW,2018,Copper Rockfish,Sport,,,4,,"Coastal, WA ",161,66,161,159,161,Otolith
+WDFW,2018,Copper Rockfish,Sport,,,4,,"Coastal, WA ",89,0,0,0,0,
+WDFW,2018,Darkblotched Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Deacon Rockfish,Sport,,,2,,"Coastal, WA ",10,0,10,0,10,Otolith
+WDFW,2018,Deacon Rockfish,Sport,,,3,,"Coastal, WA ",5,1,5,0,5,Otolith
+WDFW,2018,Deacon Rockfish,Sport,,,4,,"Coastal, WA ",90,35,90,0,90,Otolith
+WDFW,2018,English Sole,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2018,Grass Rockfish,Sport,,,2,,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2018,Grass Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Greenstriped Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2018,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2018,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Greenstriped Rockfish,Sport,,,4,,"Coastal, WA ",2,2,2,0,2,Otolith
+WDFW,2018,Jack Mackerel,Sport,,,2,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2018,Jack Mackerel,Sport,,,2,,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2018,Jack Mackerel,Sport,,,3,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2018,Jack Mackerel,Sport,,,4,,"Coastal, WA ",4,2,4,0,4,Otolith
+WDFW,2018,Kelp Greenling,Sport,,,1,,"Coastal, WA ",34,0,0,0,0,
+WDFW,2018,Kelp Greenling,Sport,,,2,,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2018,Kelp Greenling,Sport,,,2,,"Coastal, WA ",34,0,0,0,0,
+WDFW,2018,Kelp Greenling,Sport,,,3,,"Coastal, WA ",9,8,9,0,9,Otolith
+WDFW,2018,Kelp Greenling,Sport,,,3,,"Coastal, WA ",33,0,0,0,0,
+WDFW,2018,Kelp Greenling,Sport,,,4,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2018,Kelp Greenling,Sport,,,4,,"Coastal, WA ",214,108,215,0,215,Otolith
+WDFW,2018,Kelp Greenling,Sport,,,4,,"Coastal, WA ",90,0,0,0,0,
+WDFW,2018,Lingcod,Sport,,,1,,"Coastal, WA ",149,0,0,0,0,
+WDFW,2018,Lingcod,Sport,,,2,,"Coastal, WA ",371,0,371,370,371,Fin
+WDFW,2018,Lingcod,Sport,,,2,,"Coastal, WA ",26,0,26,0,0,No age structure taken
+WDFW,2018,Lingcod,Sport,,,2,,"Coastal, WA ",144,0,0,0,0,
+WDFW,2018,Lingcod,Sport,,,3,,"Coastal, WA ",67,24,67,67,67,Fin
+WDFW,2018,Lingcod,Sport,,,3,,"Coastal, WA ",142,0,0,0,0,
+WDFW,2018,Lingcod,Sport,,,4,,"Coastal, WA ",438,135,438,398,438,Fin
+WDFW,2018,Lingcod,Sport,,,4,,"Coastal, WA ",17,6,17,0,0,No age structure taken
+WDFW,2018,Lingcod,Sport,,,4,,"Coastal, WA ",188,0,0,0,0,
+WDFW,2018,Lingcod,Sport,,,,,No Area Data,173,0,0,167,173,Fin
+WDFW,2018,Lingcod,Sport,,,,,No Area Data,6,0,0,0,0,No age structure taken
+WDFW,2018,Pacific Cod,Sport,,,4,,"Coastal, WA ",1,1,1,0,0,No age structure taken
+WDFW,2018,Pacific Cod,Sport,,,4,,"Coastal, WA ",32,14,32,0,32,Otolith
+WDFW,2018,Pacific Cod,Sport,,,4,,"Coastal, WA ",8,0,0,0,0,
+WDFW,2018,Pacific Whiting (Hake),Sport,,,2,,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2018,Petrale Sole,Sport,,,2,,"Coastal, WA ",9,0,9,9,9,Otolith
+WDFW,2018,Petrale Sole,Sport,,,4,,"Coastal, WA ",3,3,3,0,0,No age structure taken
+WDFW,2018,Petrale Sole,Sport,,,4,,"Coastal, WA ",5,1,5,5,5,Otolith
+WDFW,2018,Petrale Sole,Sport,,,4,,"Coastal, WA ",12,0,0,0,0,
+WDFW,2018,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",17,0,0,0,0,
+WDFW,2018,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",129,0,129,129,129,Otolith
+WDFW,2018,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",15,0,0,0,0,
+WDFW,2018,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",5,0,5,5,5,Otolith
+WDFW,2018,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2018,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2018,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",65,25,65,65,65,Otolith
+WDFW,2018,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",52,0,0,0,0,
+WDFW,2018,Redbanded Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Red Irish Lord,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Red Irish Lord,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Red Irish Lord,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Red Irish Lord,Sport,,,4,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2018,Red Irish Lord,Sport,,,4,,"Coastal, WA ",10,1,10,0,10,Otolith
+WDFW,2018,Red Irish Lord,Sport,,,4,,"Coastal, WA ",12,0,0,0,0,
+WDFW,2018,Rock Greenling,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2018,Rock Sole,Sport,,,4,,"Coastal, WA ",1,1,1,0,0,No age structure taken
+WDFW,2018,Rock Sole,Sport,,,4,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2018,Rosethorn Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2018,Sablefish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2018,Sablefish,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2018,Sablefish,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2018,Sablefish,Sport,,,20,,"Puget Sound, WA",6,0,0,0,0,
+WDFW,2018,Sablefish,Sport,,,4,,"Coastal, WA ",53,21,53,0,53,Otolith
+WDFW,2018,Sablefish,Sport,,,4,,"Coastal, WA ",32,0,0,0,0,
+WDFW,2018,Silvergrey Rockfish,Sport,,,3,,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2018,Silvergrey Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2018,Silvergrey Rockfish,Sport,,,4,,"Coastal, WA ",5,1,5,0,5,Otolith
+WDFW,2018,Starry Flounder,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Starry Flounder,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2018,Starry Flounder,Sport,,,4,,"Coastal, WA ",1,1,1,0,1,Otolith
+WDFW,2018,Striped Seaperch,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2018,Striped Seaperch,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",11,0,0,0,0,
+WDFW,2018,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2018,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2018,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2018,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2018,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",7,0,0,0,0,
+WDFW,2018,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",16,6,16,0,16,Otolith
+WDFW,2018,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",8,0,0,0,0,
+WDFW,2018,Vermilion Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Vermilion Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2018,Vermilion Rockfish,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2018,Vermilion Rockfish,Sport,,,3,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2018,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",7,3,7,0,0,No age structure taken
+WDFW,2018,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",95,31,95,85,95,Otolith
+WDFW,2018,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",93,0,0,0,0,
+WDFW,2018,Widow Rockfish,Sport,,,1,,"Coastal, WA ",64,0,0,0,0,
+WDFW,2018,Widow Rockfish,Sport,,,2,,"Coastal, WA ",242,0,242,242,242,Otolith
+WDFW,2018,Widow Rockfish,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2018,Widow Rockfish,Sport,,,3,,"Coastal, WA ",2,0,2,2,2,Otolith
+WDFW,2018,Widow Rockfish,Sport,,,4,,"Coastal, WA ",4,0,4,0,0,No age structure taken
+WDFW,2018,Widow Rockfish,Sport,,,4,,"Coastal, WA ",18,10,18,18,18,Otolith
+WDFW,2018,Yelloweye Rockfish,Sport,,,3,,"Coastal, WA ",1,1,1,1,1,Otolith
+WDFW,2018,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",1,1,1,0,0,No age structure taken
+WDFW,2018,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",5,4,5,5,5,Otolith
+WDFW,2018,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2018,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",124,0,0,0,0,
+WDFW,2018,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",506,0,506,505,506,Otolith
+WDFW,2018,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",49,0,0,0,0,
+WDFW,2018,Yellowtail Rockfish,Sport,,,20,,"Puget Sound, WA",3,0,0,0,0,
+WDFW,2018,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",12,0,13,13,13,Otolith
+WDFW,2018,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",36,0,0,0,0,
+WDFW,2018,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",7,0,7,0,0,No age structure taken
+WDFW,2018,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",125,31,126,123,126,Otolith
+WDFW,2018,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",44,0,0,0,0,
+WDFW,2018,Yellowtail Rockfish,Sport,,,5,,"Puget Sound, WA",2,0,0,0,0,
+WDFW,2019,Black Rockfish,Sport,,,1,,"Coastal, WA ",288,0,0,0,0,
+WDFW,2019,Black Rockfish,Sport,,,2,2,"Coastal, WA ",43,0,43,43,43,Otolith
+WDFW,2019,Black Rockfish,Sport,,,2,,"Coastal, WA ",464,0,464,459,464,Otolith
+WDFW,2019,Black Rockfish,Sport,,,2,,"Coastal, WA ",420,0,0,0,0,
+WDFW,2019,Black Rockfish,Sport,,,3,,"Coastal, WA ",8,0,8,0,0,No age structure taken
+WDFW,2019,Black Rockfish,Sport,,,3,,"Coastal, WA ",199,0,199,197,199,Otolith
+WDFW,2019,Black Rockfish,Sport,,,3,,"Coastal, WA ",300,0,0,0,0,
+WDFW,2019,Black Rockfish,Sport,,,4,4,"Coastal, WA ",62,12,62,62,62,Otolith
+WDFW,2019,Black Rockfish,Sport,,,4,,"Coastal, WA ",13,0,13,0,0,No age structure taken
+WDFW,2019,Black Rockfish,Sport,,,4,,"Coastal, WA ",246,29,246,245,246,Otolith
+WDFW,2019,Black Rockfish,Sport,,,4,,"Coastal, WA ",313,0,0,0,0,
+WDFW,2019,Black Rockfish,Sport,,,,2,"Coastal, WA ",792,0,792,787,792,Otolith
+WDFW,2019,Black Rockfish,Sport,,,,3,"Coastal, WA ",291,22,291,291,291,Otolith
+WDFW,2019,Black Rockfish,Sport,,,,4,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2019,Black Rockfish,Sport,,,,4,"Coastal, WA ",418,65,418,416,418,Otolith
+WDFW,2019,Black Rockfish,Sport,,,,,No Area Data,14,0,14,14,14,Otolith
+WDFW,2019,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",5,0,0,0,0,
+WDFW,2019,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2019,Blue/Deacon Rockfish,Sport,,,3,,"Coastal, WA ",38,0,0,0,0,
+WDFW,2019,Blue/Deacon Rockfish,Sport,,,4,4,"Coastal, WA ",8,0,8,0,8,Otolith
+WDFW,2019,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",50,0,50,0,50,Otolith
+WDFW,2019,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",91,0,0,0,0,
+WDFW,2019,Blue/Deacon Rockfish,Sport,,,,3,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,Blue/Deacon Rockfish,Sport,,,,4,"Coastal, WA ",6,2,6,0,6,Otolith
+WDFW,2019,Blue Rockfish,Sport,,,,3,"Coastal, WA ",6,6,6,0,6,Otolith
+WDFW,2019,Blue Rockfish,Sport,,,,4,"Coastal, WA ",11,4,11,0,11,Otolith
+WDFW,2019,Bocaccio,Sport,,,1,,"Coastal, WA ",6,0,0,0,0,
+WDFW,2019,Bocaccio,Sport,,,2,2,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Bocaccio,Sport,,,2,,"Coastal, WA ",5,0,5,0,5,Otolith
+WDFW,2019,Bocaccio,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2019,Bocaccio,Sport,,,3,,"Coastal, WA ",13,0,13,0,13,Otolith
+WDFW,2019,Bocaccio,Sport,,,3,,"Coastal, WA ",31,0,0,0,0,
+WDFW,2019,Bocaccio,Sport,,,4,4,"Coastal, WA ",1,1,1,0,1,Otolith
+WDFW,2019,Bocaccio,Sport,,,4,,"Coastal, WA ",52,7,52,0,52,Otolith
+WDFW,2019,Bocaccio,Sport,,,4,,"Coastal, WA ",11,0,0,0,0,
+WDFW,2019,Bocaccio,Sport,,,,2,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Bocaccio,Sport,,,,3,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,Bocaccio,Sport,,,,4,"Coastal, WA ",19,0,19,0,19,Otolith
+WDFW,2019,Brown Rockfish,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2019,Brown Rockfish,Sport,,,,2,"Coastal, WA ",12,0,12,0,12,Otolith
+WDFW,2019,Cabezon,Sport,,,1,,"Coastal, WA ",37,0,0,0,0,
+WDFW,2019,Cabezon,Sport,,,2,2,"Coastal, WA ",33,0,33,0,33,Otolith
+WDFW,2019,Cabezon,Sport,,,2,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2019,Cabezon,Sport,,,2,,"Coastal, WA ",23,0,23,0,23,Otolith
+WDFW,2019,Cabezon,Sport,,,2,,"Coastal, WA ",28,0,0,0,0,
+WDFW,2019,Cabezon,Sport,,,3,3,"Coastal, WA ",19,0,19,0,19,Otolith
+WDFW,2019,Cabezon,Sport,,,3,,"Coastal, WA ",31,0,31,0,31,Otolith
+WDFW,2019,Cabezon,Sport,,,3,,"Coastal, WA ",86,0,0,0,0,
+WDFW,2019,Cabezon,Sport,,,4,4,"Coastal, WA ",28,11,28,0,28,Otolith
+WDFW,2019,Cabezon,Sport,,,4,,"Coastal, WA ",187,48,187,0,187,Otolith
+WDFW,2019,Cabezon,Sport,,,4,,"Coastal, WA ",150,0,0,0,0,
+WDFW,2019,Cabezon,Sport,,,5,,"Puget Sound, WA",2,0,0,0,0,
+WDFW,2019,Cabezon,Sport,,,,2,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2019,Cabezon,Sport,,,,2,"Coastal, WA ",11,0,11,0,11,Otolith
+WDFW,2019,Cabezon,Sport,,,,3,"Coastal, WA ",85,3,85,0,85,Otolith
+WDFW,2019,Cabezon,Sport,,,,4,"Coastal, WA ",88,34,88,0,88,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,1,,"Coastal, WA ",103,0,0,0,0,
+WDFW,2019,Canary Rockfish,Sport,,,2,2,"Coastal, WA ",47,0,47,0,47,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,2,,"Coastal, WA ",143,0,143,0,143,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,2,,"Coastal, WA ",104,0,0,0,0,
+WDFW,2019,Canary Rockfish,Sport,,,3,2,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,3,3,"Coastal, WA ",15,0,15,0,15,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,3,,"Coastal, WA ",69,0,69,0,69,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,3,,"Coastal, WA ",96,0,0,0,0,
+WDFW,2019,Canary Rockfish,Sport,,,4,4,"Coastal, WA ",53,14,53,0,53,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,4,,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2019,Canary Rockfish,Sport,,,4,,"Coastal, WA ",398,81,399,0,399,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,4,,"Coastal, WA ",220,0,0,0,0,
+WDFW,2019,Canary Rockfish,Sport,,,,2,"Coastal, WA ",74,0,74,0,74,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,,3,"Coastal, WA ",12,8,13,0,13,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,,4,"Coastal, WA ",118,52,119,0,119,Otolith
+WDFW,2019,Canary Rockfish,Sport,,,,,No Area Data,1,0,1,0,1,Otolith
+WDFW,2019,Chilipepper,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,China Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2019,China Rockfish,Sport,,,2,2,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,China Rockfish,Sport,,,2,,"Coastal, WA ",10,0,10,0,10,Otolith
+WDFW,2019,China Rockfish,Sport,,,3,3,"Coastal, WA ",13,0,13,0,13,Otolith
+WDFW,2019,China Rockfish,Sport,,,3,,"Coastal, WA ",14,0,14,0,14,Otolith
+WDFW,2019,China Rockfish,Sport,,,3,,"Coastal, WA ",64,0,0,0,0,
+WDFW,2019,China Rockfish,Sport,,,4,4,"Coastal, WA ",22,11,22,0,22,Otolith
+WDFW,2019,China Rockfish,Sport,,,4,,"Coastal, WA ",58,16,58,0,58,Otolith
+WDFW,2019,China Rockfish,Sport,,,4,,"Coastal, WA ",133,0,0,0,0,
+WDFW,2019,China Rockfish,Sport,,,5,,"Puget Sound, WA",1,0,0,0,0,
+WDFW,2019,China Rockfish,Sport,,,,3,"Coastal, WA ",49,10,49,0,49,Otolith
+WDFW,2019,China Rockfish,Sport,,,,4,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2019,China Rockfish,Sport,,,,4,"Coastal, WA ",128,64,128,0,128,Otolith
+WDFW,2019,China Rockfish,Sport,,,,,No Area Data,5,0,5,0,5,Otolith
+WDFW,2019,Copper Rockfish,Sport,,,1,,"Coastal, WA ",13,0,0,0,0,
+WDFW,2019,Copper Rockfish,Sport,,,2,2,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2019,Copper Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,3,3,Otolith
+WDFW,2019,Copper Rockfish,Sport,,,2,,"Coastal, WA ",6,0,0,0,0,
+WDFW,2019,Copper Rockfish,Sport,,,3,,"Coastal, WA ",10,0,10,10,10,Otolith
+WDFW,2019,Copper Rockfish,Sport,,,3,,"Coastal, WA ",22,0,0,0,0,
+WDFW,2019,Copper Rockfish,Sport,,,4,4,"Coastal, WA ",22,9,22,22,22,Otolith
+WDFW,2019,Copper Rockfish,Sport,,,4,,"Coastal, WA ",134,51,134,134,134,Otolith
+WDFW,2019,Copper Rockfish,Sport,,,4,,"Coastal, WA ",147,0,0,0,0,
+WDFW,2019,Copper Rockfish,Sport,,,,2,"Coastal, WA ",4,0,4,4,4,Otolith
+WDFW,2019,Copper Rockfish,Sport,,,,3,"Coastal, WA ",12,2,12,11,12,Otolith
+WDFW,2019,Copper Rockfish,Sport,,,,4,"Coastal, WA ",89,47,89,89,89,Otolith
+WDFW,2019,Dark Dusky Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Dark Dusky Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Deacon Rockfish,Sport,,,2,,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,Deacon Rockfish,Sport,,,3,,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2019,Deacon Rockfish,Sport,,,4,4,"Coastal, WA ",19,16,19,0,19,Otolith
+WDFW,2019,Deacon Rockfish,Sport,,,4,,"Coastal, WA ",39,15,39,0,39,Otolith
+WDFW,2019,Deacon Rockfish,Sport,,,,2,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Deacon Rockfish,Sport,,,,3,"Coastal, WA ",32,12,34,0,34,Otolith
+WDFW,2019,Deacon Rockfish,Sport,,,,4,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2019,Deacon Rockfish,Sport,,,,4,"Coastal, WA ",103,29,103,0,103,Otolith
+WDFW,2019,Greenstriped Rockfish,Sport,,,1,,"Coastal, WA ",10,0,0,0,0,
+WDFW,2019,Greenstriped Rockfish,Sport,,,2,2,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",14,0,14,0,14,Otolith
+WDFW,2019,Greenstriped Rockfish,Sport,,,2,,"Coastal, WA ",7,0,0,0,0,
+WDFW,2019,Greenstriped Rockfish,Sport,,,4,,"Coastal, WA ",6,0,0,0,0,
+WDFW,2019,Greenstriped Rockfish,Sport,,,,2,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Jack Mackerel,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Jack Mackerel,Sport,,,20,,"Puget Sound, WA",1,0,0,0,0,
+WDFW,2019,Jack Mackerel,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Jack Mackerel,Sport,,,,4,"Coastal, WA ",11,0,11,0,11,Otolith
+WDFW,2019,Kelp Greenling,Sport,,,1,,"Coastal, WA ",29,0,0,0,0,
+WDFW,2019,Kelp Greenling,Sport,,,2,,"Coastal, WA ",45,0,0,0,0,
+WDFW,2019,Kelp Greenling,Sport,,,3,,"Coastal, WA ",67,0,0,0,0,
+WDFW,2019,Kelp Greenling,Sport,,,4,4,"Coastal, WA ",11,4,11,0,11,Otolith
+WDFW,2019,Kelp Greenling,Sport,,,4,,"Coastal, WA ",92,20,92,0,92,Otolith
+WDFW,2019,Kelp Greenling,Sport,,,4,,"Coastal, WA ",123,0,0,0,0,
+WDFW,2019,Kelp Greenling,Sport,,,,3,"Coastal, WA ",11,1,11,0,11,Otolith
+WDFW,2019,Kelp Greenling,Sport,,,,4,"Coastal, WA ",1,1,1,0,0,No age structure taken
+WDFW,2019,Kelp Greenling,Sport,,,,4,"Coastal, WA ",90,37,90,0,90,Otolith
+WDFW,2019,Lingcod,Sport,,,1,,"Coastal, WA ",162,0,0,0,0,
+WDFW,2019,Lingcod,Sport,,,2,,"Coastal, WA ",406,0,406,404,406,Fin
+WDFW,2019,Lingcod,Sport,,,2,,"Coastal, WA ",54,0,54,0,0,No age structure taken
+WDFW,2019,Lingcod,Sport,,,2,,"Coastal, WA ",240,0,0,0,0,
+WDFW,2019,Lingcod,Sport,,,3,,"Coastal, WA ",125,0,125,125,125,Fin
+WDFW,2019,Lingcod,Sport,,,3,,"Coastal, WA ",273,0,0,0,0,
+WDFW,2019,Lingcod,Sport,,,4,,"Coastal, WA ",190,6,190,190,190,Fin
+WDFW,2019,Lingcod,Sport,,,4,,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2019,Lingcod,Sport,,,4,,"Coastal, WA ",336,0,0,0,0,
+WDFW,2019,Lingcod,Sport,,,5,,"Puget Sound, WA",2,0,0,0,0,
+WDFW,2019,Lingcod,Sport,,,,2,"Coastal, WA ",401,0,401,396,401,Fin
+WDFW,2019,Lingcod,Sport,,,,2,"Coastal, WA ",12,0,12,0,0,No age structure taken
+WDFW,2019,Lingcod,Sport,,,,3,"Coastal, WA ",199,7,199,196,199,Fin
+WDFW,2019,Lingcod,Sport,,,,3,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2019,Lingcod,Sport,,,,4,"Coastal, WA ",302,65,302,302,302,Fin
+WDFW,2019,Lingcod,Sport,,,,,No Area Data,173,0,10,10,175,Fin
+WDFW,2019,Lingcod,Sport,,,,,No Area Data,24,0,0,0,0,No age structure taken
+WDFW,2019,Pacific Cod,Sport,,,4,4,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,Pacific Cod,Sport,,,4,,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,Pacific Cod,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Pacific Sanddab,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Petrale Sole,Sport,,,1,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2019,Petrale Sole,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Petrale Sole,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Petrale Sole,Sport,,,,4,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,Pile Perch,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2019,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",27,0,0,0,0,
+WDFW,2019,Quillback Rockfish,Sport,,,2,2,"Coastal, WA ",28,0,28,28,28,Otolith
+WDFW,2019,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",23,0,23,23,23,Otolith
+WDFW,2019,Quillback Rockfish,Sport,,,2,,"Coastal, WA ",18,0,0,0,0,
+WDFW,2019,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",33,0,33,33,33,Otolith
+WDFW,2019,Quillback Rockfish,Sport,,,3,,"Coastal, WA ",52,0,0,0,0,
+WDFW,2019,Quillback Rockfish,Sport,,,4,4,"Coastal, WA ",29,16,29,29,29,Otolith
+WDFW,2019,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",89,37,89,89,89,Otolith
+WDFW,2019,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",71,0,0,0,0,
+WDFW,2019,Quillback Rockfish,Sport,,,,2,"Coastal, WA ",25,0,25,25,25,Otolith
+WDFW,2019,Quillback Rockfish,Sport,,,,3,"Coastal, WA ",15,0,15,15,15,Otolith
+WDFW,2019,Quillback Rockfish,Sport,,,,4,"Coastal, WA ",18,8,18,18,18,Otolith
+WDFW,2019,Redbanded Rockfish,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2019,Redbanded Rockfish,Sport,,,3,,"Coastal, WA ",8,0,8,0,8,Otolith
+WDFW,2019,Redbanded Rockfish,Sport,,,3,,"Coastal, WA ",9,0,0,0,0,
+WDFW,2019,Redbanded Rockfish,Sport,,,4,,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2019,Redbanded Rockfish,Sport,,,,3,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Red Irish Lord,Sport,,,4,4,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2019,Red Irish Lord,Sport,,,4,,"Coastal, WA ",5,3,5,0,5,Otolith
+WDFW,2019,Red Irish Lord,Sport,,,4,,"Coastal, WA ",5,0,0,0,0,
+WDFW,2019,Red Irish Lord,Sport,,,,4,"Coastal, WA ",7,5,7,0,7,Otolith
+WDFW,2019,Redstripe Rockfish,Sport,,,4,4,"Coastal, WA ",1,1,1,0,1,Otolith
+WDFW,2019,Rock Greenling,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Rock Sole,Sport,,,,4,"Coastal, WA ",6,6,6,0,6,Otolith
+WDFW,2019,Rosethorn Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Rougheye Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Sablefish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2019,Sablefish,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Sablefish,Sport,,,2,,"Coastal, WA ",8,0,0,0,0,
+WDFW,2019,Sablefish,Sport,,,3,,"Coastal, WA ",24,0,0,0,0,
+WDFW,2019,Sablefish,Sport,,,4,4,"Coastal, WA ",95,0,95,0,95,Otolith
+WDFW,2019,Sablefish,Sport,,,4,,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,Sablefish,Sport,,,4,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2019,Sablefish,Sport,,,,3,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2019,Sablefish,Sport,,,,4,"Coastal, WA ",36,0,36,0,36,Otolith
+WDFW,2019,Sand Sole,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Silvergrey Rockfish,Sport,,,3,,"Coastal, WA ",5,0,5,0,5,Otolith
+WDFW,2019,Silvergrey Rockfish,Sport,,,4,,"Coastal, WA ",9,5,9,0,9,Otolith
+WDFW,2019,Silvergrey Rockfish,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Silvergrey Rockfish,Sport,,,,4,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2019,Starry Flounder,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2019,Starry Flounder,Sport,,,4,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Starry Flounder,Sport,,,,4,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Striped Seaperch,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2019,Striped Seaperch,Sport,,,,4,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",11,0,0,0,0,
+WDFW,2019,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2019,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2019,Tiger Rockfish,Sport,,,3,3,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2019,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2019,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",29,0,0,0,0,
+WDFW,2019,Tiger Rockfish,Sport,,,4,4,"Coastal, WA ",5,2,5,0,5,Otolith
+WDFW,2019,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",16,5,16,0,16,Otolith
+WDFW,2019,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",18,0,0,0,0,
+WDFW,2019,Tiger Rockfish,Sport,,,,2,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,Tiger Rockfish,Sport,,,,3,"Coastal, WA ",5,1,5,0,5,Otolith
+WDFW,2019,Tiger Rockfish,Sport,,,,4,"Coastal, WA ",12,7,12,0,12,Otolith
+WDFW,2019,Vermilion Rockfish,Sport,,,1,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2019,Vermilion Rockfish,Sport,,,3,,"Coastal, WA ",7,0,7,6,7,Otolith
+WDFW,2019,Vermilion Rockfish,Sport,,,3,,"Coastal, WA ",10,0,0,0,0,
+WDFW,2019,Vermilion Rockfish,Sport,,,4,4,"Coastal, WA ",28,8,28,27,28,Otolith
+WDFW,2019,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",60,17,60,56,60,Otolith
+WDFW,2019,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",93,0,0,0,0,
+WDFW,2019,Vermilion Rockfish,Sport,,,,3,"Coastal, WA ",13,6,13,13,13,Otolith
+WDFW,2019,Vermilion Rockfish,Sport,,,,4,"Coastal, WA ",52,23,52,48,52,Otolith
+WDFW,2019,Whitespotted Greenling,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2019,Widow Rockfish,Sport,,,1,,"Coastal, WA ",15,0,0,0,0,
+WDFW,2019,Widow Rockfish,Sport,,,2,2,"Coastal, WA ",45,0,45,0,45,Otolith
+WDFW,2019,Widow Rockfish,Sport,,,2,,"Coastal, WA ",11,0,11,0,11,Otolith
+WDFW,2019,Widow Rockfish,Sport,,,2,,"Coastal, WA ",8,0,0,0,0,
+WDFW,2019,Widow Rockfish,Sport,,,20,,"Puget Sound, WA",1,0,0,0,0,
+WDFW,2019,Widow Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2019,Widow Rockfish,Sport,,,4,,"Coastal, WA ",6,0,0,0,0,
+WDFW,2019,Widow Rockfish,Sport,,,,2,"Coastal, WA ",44,0,44,0,44,Otolith
+WDFW,2019,Widow Rockfish,Sport,,,,3,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2019,Yelloweye Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2019,Yelloweye Rockfish,Sport,,,3,,"Coastal, WA ",5,0,5,5,5,Otolith
+WDFW,2019,Yelloweye Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2019,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",5,1,5,5,5,Otolith
+WDFW,2019,Yelloweye Rockfish,Sport,,,4,,"Coastal, WA ",8,0,0,0,0,
+WDFW,2019,Yelloweye Rockfish,Sport,,,,3,"Coastal, WA ",1,0,1,1,1,Otolith
+WDFW,2019,Yelloweye Rockfish,Sport,,,,4,"Coastal, WA ",2,1,2,1,2,Otolith
+WDFW,2019,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",123,0,0,0,0,
+WDFW,2019,Yellowtail Rockfish,Sport,,,2,2,"Coastal, WA ",60,0,60,59,60,Otolith
+WDFW,2019,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",242,0,242,242,242,Otolith
+WDFW,2019,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",123,0,0,0,0,
+WDFW,2019,Yellowtail Rockfish,Sport,,,20,,"Puget Sound, WA",2,0,0,0,0,
+WDFW,2019,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",46,0,46,46,46,Otolith
+WDFW,2019,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",126,0,0,0,0,
+WDFW,2019,Yellowtail Rockfish,Sport,,,4,4,"Coastal, WA ",12,6,12,12,12,Otolith
+WDFW,2019,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",203,50,203,202,203,Otolith
+WDFW,2019,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",115,0,0,0,0,
+WDFW,2019,Yellowtail Rockfish,Sport,,,,2,"Coastal, WA ",557,0,557,555,557,Otolith
+WDFW,2019,Yellowtail Rockfish,Sport,,,,3,"Coastal, WA ",137,6,137,136,137,Otolith
+WDFW,2019,Yellowtail Rockfish,Sport,,,,4,"Coastal, WA ",54,15,54,54,54,Otolith
+WDFW,2020,Arrowtooth Flounder,Sport,,,5,5,"Puget Sound, WA",1,0,1,0,1,Otolith
+WDFW,2020,Arrowtooth Flounder,Sport,,,,4,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2020,Arrowtooth Flounder,Sport,,,,5,"Puget Sound, WA",1,0,1,0,1,Otolith
+WDFW,2020,Black Rockfish,Sport,,,1,,"Coastal, WA ",75,0,0,0,0,
+WDFW,2020,Black Rockfish,Sport,,,5,5,"Puget Sound, WA",5,0,5,0,5,Otolith
+WDFW,2020,Black Rockfish,Sport,,,,2,"Coastal, WA ",772,0,772,0,772,Otolith
+WDFW,2020,Black Rockfish,Sport,,,,3,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2020,Black Rockfish,Sport,,,,4,"Coastal, WA ",583,15,583,0,583,Otolith
+WDFW,2020,Black Rockfish,Sport,,,,5,"Puget Sound, WA",11,0,11,0,11,Otolith
+WDFW,2020,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2020,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2020,Blue Rockfish,Sport,,,5,5,"Puget Sound, WA",1,0,1,0,1,Otolith
+WDFW,2020,Blue Rockfish,Sport,,,,3,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2020,Blue Rockfish,Sport,,,,4,"Coastal, WA ",21,3,21,0,21,Otolith
+WDFW,2020,Blue Rockfish,Sport,,,,5,"Puget Sound, WA",1,0,1,0,1,Otolith
+WDFW,2020,Bocaccio,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2020,Bocaccio,Sport,,,,2,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2020,Brown Rockfish,Sport,,,,2,"Coastal, WA ",10,0,10,0,10,Otolith
+WDFW,2020,Cabezon,Sport,,,1,,"Coastal, WA ",9,0,0,0,0,
+WDFW,2020,Cabezon,Sport,,,,2,"Coastal, WA ",60,0,60,0,60,Otolith
+WDFW,2020,Cabezon,Sport,,,,4,"Coastal, WA ",120,13,120,0,120,Otolith
+WDFW,2020,Canary Rockfish,Sport,,,1,,"Coastal, WA ",7,0,0,0,0,
+WDFW,2020,Canary Rockfish,Sport,,,2,,"Coastal, WA ",5,0,0,0,0,
+WDFW,2020,Canary Rockfish,Sport,,,,1,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2020,Canary Rockfish,Sport,,,,2,"Coastal, WA ",393,0,393,0,393,Otolith
+WDFW,2020,Canary Rockfish,Sport,,,,4,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2020,Canary Rockfish,Sport,,,,4,"Coastal, WA ",49,2,49,0,49,Otolith
+WDFW,2020,China Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2020,China Rockfish,Sport,,,,2,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2020,China Rockfish,Sport,,,,4,"Coastal, WA ",83,5,83,0,83,Otolith
+WDFW,2020,Copper Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2020,Copper Rockfish,Sport,,,,2,"Coastal, WA ",8,0,8,0,8,Otolith
+WDFW,2020,Copper Rockfish,Sport,,,,3,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2020,Copper Rockfish,Sport,,,,4,"Coastal, WA ",67,7,67,0,67,Otolith
+WDFW,2020,Deacon Rockfish,Sport,,,,2,"Coastal, WA ",10,0,10,0,10,Otolith
+WDFW,2020,Deacon Rockfish,Sport,,,,3,"Coastal, WA ",5,0,5,0,5,Otolith
+WDFW,2020,Deacon Rockfish,Sport,,,,4,"Coastal, WA ",168,4,168,0,168,Otolith
+WDFW,2020,Greenstriped Rockfish,Sport,,,,2,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2020,Kelp Greenling,Sport,,,1,,"Coastal, WA ",8,0,0,0,0,
+WDFW,2020,Kelp Greenling,Sport,,,,2,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2020,Kelp Greenling,Sport,,,,4,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2020,Kelp Greenling,Sport,,,,4,"Coastal, WA ",106,10,106,0,106,Otolith
+WDFW,2020,Kelp Greenling,Sport,,,,5,"Puget Sound, WA",1,0,1,0,1,Otolith
+WDFW,2020,Lingcod,Sport,,,1,,"Coastal, WA ",52,0,0,0,0,
+WDFW,2020,Lingcod,Sport,,,5,5,"Puget Sound, WA",1,0,1,0,1,Fin
+WDFW,2020,Lingcod,Sport,,,,1,"Coastal, WA ",54,0,54,54,54,Fin
+WDFW,2020,Lingcod,Sport,,,,2,"Coastal, WA ",793,0,793,779,793,Fin
+WDFW,2020,Lingcod,Sport,,,,2,"Coastal, WA ",64,0,64,0,0,No age structure taken
+WDFW,2020,Lingcod,Sport,,,,3,"Coastal, WA ",6,0,6,6,6,Fin
+WDFW,2020,Lingcod,Sport,,,,4,"Coastal, WA ",421,22,421,421,421,Fin
+WDFW,2020,Lingcod,Sport,,,,5,"Puget Sound, WA",1,0,1,1,1,Fin
+WDFW,2020,Lingcod,Sport,,,,,No Area Data,198,0,0,0,199,Fin
+WDFW,2020,Lingcod,Sport,,,,,No Area Data,7,0,0,0,0,No age structure taken
+WDFW,2020,Pacific Cod,Sport,,,,4,"Coastal, WA ",10,0,10,0,10,Otolith
+WDFW,2020,Pacific Ocean Perch,Sport,,,,4,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2020,Petrale Sole,Sport,,,,4,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2020,Quillback Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2020,Quillback Rockfish,Sport,,,5,5,"Puget Sound, WA",1,0,1,0,1,Otolith
+WDFW,2020,Quillback Rockfish,Sport,,,,1,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2020,Quillback Rockfish,Sport,,,,2,"Coastal, WA ",122,0,122,0,122,Otolith
+WDFW,2020,Quillback Rockfish,Sport,,,,4,"Coastal, WA ",36,0,36,0,36,Otolith
+WDFW,2020,Quillback Rockfish,Sport,,,,5,"Puget Sound, WA",1,0,1,0,1,Otolith
+WDFW,2020,Red Irish Lord,Sport,,,,4,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2020,Rock Sole,Sport,,,,4,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2020,Sablefish,Sport,,,1,,"Coastal, WA ",23,0,0,0,0,
+WDFW,2020,Sablefish,Sport,,,,4,"Coastal, WA ",20,0,20,0,20,Otolith
+WDFW,2020,Silvergrey Rockfish,Sport,,,,2,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2020,Tiger Rockfish,Sport,,,,2,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2020,Tiger Rockfish,Sport,,,,4,"Coastal, WA ",8,2,8,0,8,Otolith
+WDFW,2020,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2020,Vermilion Rockfish,Sport,,,,4,"Coastal, WA ",18,1,18,0,18,Otolith
+WDFW,2020,Widow Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2020,Widow Rockfish,Sport,,,,1,"Coastal, WA ",123,0,123,0,123,Otolith
+WDFW,2020,Widow Rockfish,Sport,,,,2,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2020,Widow Rockfish,Sport,,,,2,"Coastal, WA ",328,0,328,0,328,Otolith
+WDFW,2020,Widow Rockfish,Sport,,,,4,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2020,Yelloweye Rockfish,Sport,,,,4,"Coastal, WA ",7,2,7,0,7,Otolith
+WDFW,2020,Yellowtail Rockfish,Sport,,,1,,"Coastal, WA ",8,0,0,0,0,
+WDFW,2020,Yellowtail Rockfish,Sport,,,,1,"Coastal, WA ",35,0,35,0,35,Otolith
+WDFW,2020,Yellowtail Rockfish,Sport,,,,2,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2020,Yellowtail Rockfish,Sport,,,,2,"Coastal, WA ",704,0,704,570,704,Otolith
+WDFW,2020,Yellowtail Rockfish,Sport,,,,4,"Coastal, WA ",143,1,143,59,143,Otolith
+WDFW,2021,Arrowtooth Flounder,Sport,,,,4,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2021,Black Rockfish,Sport,,,1,,"Coastal, WA ",55,0,0,0,0,
+WDFW,2021,Black Rockfish,Sport,,,2,,"Coastal, WA ",75,0,0,0,0,
+WDFW,2021,Black Rockfish,Sport,,,3,,"Coastal, WA ",46,0,0,0,0,
+WDFW,2021,Black Rockfish,Sport,,,4,,"Coastal, WA ",69,0,0,0,0,
+WDFW,2021,Black Rockfish,Sport,,,,2,"Coastal, WA ",58,0,58,0,0,No age structure taken
+WDFW,2021,Black Rockfish,Sport,,,,2,"Coastal, WA ",1165,0,1165,0,1165,Otolith
+WDFW,2021,Black Rockfish,Sport,,,,3,"Coastal, WA ",214,0,214,0,214,Otolith
+WDFW,2021,Black Rockfish,Sport,,,,4,"Coastal, WA ",2,0,2,0,0,No age structure taken
+WDFW,2021,Black Rockfish,Sport,,,,4,"Coastal, WA ",525,5,525,0,525,Otolith
+WDFW,2021,Black Rockfish,Sport,,,,5,"Puget Sound, WA",8,0,8,0,0,No age structure taken
+WDFW,2021,Black Rockfish,Sport,,,,5,"Puget Sound, WA",18,0,18,0,18,Otolith
+WDFW,2021,Black Rockfish,Sport,,,,,No Area Data,2,0,2,0,2,Otolith
+WDFW,2021,Blue/Deacon Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2021,Blue/Deacon Rockfish,Sport,,,4,,"Coastal, WA ",6,0,0,0,0,
+WDFW,2021,Blue Rockfish,Sport,,,,3,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2021,Blue Rockfish,Sport,,,,4,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2021,Bocaccio,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2021,Bocaccio,Sport,,,,2,"Coastal, WA ",58,0,58,0,58,Otolith
+WDFW,2021,Bocaccio,Sport,,,,4,"Coastal, WA ",28,0,28,0,28,Otolith
+WDFW,2021,Brown Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2021,Brown Rockfish,Sport,,,,2,"Coastal, WA ",9,0,9,0,9,Otolith
+WDFW,2021,Cabezon,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2021,Cabezon,Sport,,,2,,"Coastal, WA ",5,0,0,0,0,
+WDFW,2021,Cabezon,Sport,,,3,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2021,Cabezon,Sport,,,4,,"Coastal, WA ",11,0,0,0,0,
+WDFW,2021,Cabezon,Sport,,,,2,"Coastal, WA ",99,0,99,0,99,Otolith
+WDFW,2021,Cabezon,Sport,,,,3,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2021,Cabezon,Sport,,,,3,"Coastal, WA ",11,0,11,0,11,Otolith
+WDFW,2021,Cabezon,Sport,,,,4,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2021,Cabezon,Sport,,,,4,"Coastal, WA ",114,1,114,0,114,Otolith
+WDFW,2021,Cabezon,Sport,,,,5,"Puget Sound, WA",2,0,2,0,2,Otolith
+WDFW,2021,Canary Rockfish,Sport,,,1,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2021,Canary Rockfish,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2021,Canary Rockfish,Sport,,,4,,"Coastal, WA ",23,0,0,0,0,
+WDFW,2021,Canary Rockfish,Sport,,,,1,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2021,Canary Rockfish,Sport,,,,2,"Coastal, WA ",830,0,830,0,830,Otolith
+WDFW,2021,Canary Rockfish,Sport,,,,3,"Coastal, WA ",36,0,36,0,36,Otolith
+WDFW,2021,Canary Rockfish,Sport,,,,4,"Coastal, WA ",7,0,7,0,0,No age structure taken
+WDFW,2021,Canary Rockfish,Sport,,,,4,"Coastal, WA ",187,5,187,0,187,Otolith
+WDFW,2021,China Rockfish,Sport,,,4,,"Coastal, WA ",11,0,0,0,0,
+WDFW,2021,China Rockfish,Sport,,,,2,"Coastal, WA ",26,0,26,0,26,Otolith
+WDFW,2021,China Rockfish,Sport,,,,3,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2021,China Rockfish,Sport,,,,4,"Coastal, WA ",93,0,93,0,93,Otolith
+WDFW,2021,China Rockfish,Sport,,,,5,"Puget Sound, WA",2,0,2,0,2,Otolith
+WDFW,2021,Copper Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2021,Copper Rockfish,Sport,,,3,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2021,Copper Rockfish,Sport,,,4,,"Coastal, WA ",29,0,0,0,0,
+WDFW,2021,Copper Rockfish,Sport,,,,2,"Coastal, WA ",27,0,27,0,27,Otolith
+WDFW,2021,Copper Rockfish,Sport,,,,3,"Coastal, WA ",5,0,5,0,5,Otolith
+WDFW,2021,Copper Rockfish,Sport,,,,4,"Coastal, WA ",152,3,152,0,152,Otolith
+WDFW,2021,Deacon Rockfish,Sport,,,,2,"Coastal, WA ",9,0,9,0,9,Otolith
+WDFW,2021,Deacon Rockfish,Sport,,,,3,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2021,Deacon Rockfish,Sport,,,,4,"Coastal, WA ",139,2,139,0,139,Otolith
+WDFW,2021,Deacon Rockfish,Sport,,,,5,"Puget Sound, WA",3,0,3,0,3,Otolith
+WDFW,2021,Grass Rockfish,Sport,,,,2,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2021,Great Sculpin,Sport,,,,4,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2021,Greenstriped Rockfish,Sport,,,,2,"Coastal, WA ",9,0,9,0,9,Otolith
+WDFW,2021,Kelp Greenling,Sport,,,1,,"Coastal, WA ",8,0,0,0,0,
+WDFW,2021,Kelp Greenling,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2021,Kelp Greenling,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2021,Kelp Greenling,Sport,,,4,,"Coastal, WA ",13,0,0,0,0,
+WDFW,2021,Kelp Greenling,Sport,,,,2,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2021,Kelp Greenling,Sport,,,,3,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2021,Kelp Greenling,Sport,,,,4,"Coastal, WA ",70,2,70,0,70,Otolith
+WDFW,2021,Kelp Greenling,Sport,,,,5,"Puget Sound, WA",49,0,49,0,49,Otolith
+WDFW,2021,Lingcod,Sport,,,1,,"Coastal, WA ",10,0,0,0,0,
+WDFW,2021,Lingcod,Sport,,,2,,"Coastal, WA ",53,0,0,0,0,
+WDFW,2021,Lingcod,Sport,,,3,,"Coastal, WA ",32,0,0,0,0,
+WDFW,2021,Lingcod,Sport,,,4,,"Coastal, WA ",44,0,0,0,0,
+WDFW,2021,Lingcod,Sport,,,,1,"Coastal, WA ",1,0,1,0,1,Fin
+WDFW,2021,Lingcod,Sport,,,,2,"Coastal, WA ",730,0,730,0,730,Fin
+WDFW,2021,Lingcod,Sport,,,,2,"Coastal, WA ",46,0,46,0,0,No age structure taken
+WDFW,2021,Lingcod,Sport,,,,3,"Coastal, WA ",92,0,92,0,92,Fin
+WDFW,2021,Lingcod,Sport,,,,4,"Coastal, WA ",437,0,437,0,437,Fin
+WDFW,2021,Lingcod,Sport,,,,5,"Puget Sound, WA",13,0,13,0,13,Fin
+WDFW,2021,Lingcod,Sport,,,,,No Area Data,339,0,3,0,340,Fin
+WDFW,2021,Lingcod,Sport,,,,,No Area Data,1,0,0,0,0,No age structure taken
+WDFW,2021,Lingcod,Sport,,,,,No Area Data,1,0,0,0,0,
+WDFW,2021,Pacific Cod,Sport,,,,4,"Coastal, WA ",31,0,31,0,31,Otolith
+WDFW,2021,Pacific Cod,Sport,,,,5,"Puget Sound, WA",3,0,3,0,3,Otolith
+WDFW,2021,Pacific Ocean Perch,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2021,Pacific Ocean Perch,Sport,,,2,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2021,Pacific Sanddab,Sport,,,2,,"Coastal, WA ",6,0,0,0,0,
+WDFW,2021,Pacific Tomcod,Sport,,,,4,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2021,Petrale Sole,Sport,,,,4,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2021,Quillback Rockfish,Sport,,,4,,"Coastal, WA ",5,0,0,0,0,
+WDFW,2021,Quillback Rockfish,Sport,,,,1,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2021,Quillback Rockfish,Sport,,,,2,"Coastal, WA ",65,0,65,0,65,Otolith
+WDFW,2021,Quillback Rockfish,Sport,,,,3,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2021,Quillback Rockfish,Sport,,,,4,"Coastal, WA ",45,4,45,0,45,Otolith
+WDFW,2021,Redbanded Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2021,Redbanded Rockfish,Sport,,,,2,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2021,Redbanded Rockfish,Sport,,,,2,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2021,Redbanded Rockfish,Sport,,,,4,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2021,Red Irish Lord,Sport,,,,4,"Coastal, WA ",3,0,3,0,3,Otolith
+WDFW,2021,Rock Greenling,Sport,,,,4,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2021,Rock Sole,Sport,,,,5,"Puget Sound, WA",3,0,3,0,3,Otolith
+WDFW,2021,Rosethorn Rockfish,Sport,,,,2,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2021,Sablefish,Sport,,,,3,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2021,Sablefish,Sport,,,,4,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2021,Silvergrey Rockfish,Sport,,,2,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2021,Silvergrey Rockfish,Sport,,,,2,"Coastal, WA ",4,0,4,0,4,Otolith
+WDFW,2021,Silvergrey Rockfish,Sport,,,,4,"Coastal, WA ",6,0,6,0,6,Otolith
+WDFW,2021,Striped Seaperch,Sport,,,,4,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2021,Tiger Rockfish,Sport,,,1,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2021,Tiger Rockfish,Sport,,,2,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2021,Tiger Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2021,Tiger Rockfish,Sport,,,4,,"Coastal, WA ",3,0,0,0,0,
+WDFW,2021,Tiger Rockfish,Sport,,,,2,"Coastal, WA ",2,0,2,0,2,Otolith
+WDFW,2021,Tiger Rockfish,Sport,,,,3,"Coastal, WA ",1,0,1,0,1,Otolith
+WDFW,2021,Tiger Rockfish,Sport,,,,4,"Coastal, WA ",18,1,18,0,18,Otolith
+WDFW,2021,Vermilion Rockfish,Sport,,,1,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2021,Vermilion Rockfish,Sport,,,3,,"Coastal, WA ",2,0,0,0,0,
+WDFW,2021,Vermilion Rockfish,Sport,,,4,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2021,Vermilion Rockfish,Sport,,,,4,"Coastal, WA ",1,0,1,0,0,No age structure taken
+WDFW,2021,Vermilion Rockfish,Sport,,,,4,"Coastal, WA ",77,5,77,0,77,Otolith
+WDFW,2021,Vermilion Rockfish,Sport,,,,5,"Puget Sound, WA",3,0,3,0,3,Otolith
+WDFW,2021,Widow Rockfish,Sport,,,,1,"Coastal, WA ",21,0,21,0,21,Otolith
+WDFW,2021,Widow Rockfish,Sport,,,,2,"Coastal, WA ",89,0,89,0,89,Otolith
+WDFW,2021,Yelloweye Rockfish,Sport,,,,1,"Coastal, WA ",6,6,6,0,6,Otolith
+WDFW,2021,Yelloweye Rockfish,Sport,,,,2,"Coastal, WA ",42,42,42,0,42,Otolith
+WDFW,2021,Yelloweye Rockfish,Sport,,,,3,"Coastal, WA ",17,17,17,0,17,Otolith
+WDFW,2021,Yelloweye Rockfish,Sport,,,,4,"Coastal, WA ",37,33,37,0,37,Otolith
+WDFW,2021,Yellowtail Rockfish,Sport,,,2,,"Coastal, WA ",4,0,0,0,0,
+WDFW,2021,Yellowtail Rockfish,Sport,,,3,,"Coastal, WA ",1,0,0,0,0,
+WDFW,2021,Yellowtail Rockfish,Sport,,,4,,"Coastal, WA ",6,0,0,0,0,
+WDFW,2021,Yellowtail Rockfish,Sport,,,,1,"Coastal, WA ",119,0,119,0,119,Otolith
+WDFW,2021,Yellowtail Rockfish,Sport,,,,2,"Coastal, WA ",528,0,528,0,528,Otolith
+WDFW,2021,Yellowtail Rockfish,Sport,,,,3,"Coastal, WA ",7,0,7,0,7,Otolith
+WDFW,2021,Yellowtail Rockfish,Sport,,,,4,"Coastal, WA ",75,1,76,0,76,Otolith
+WDFW,2021,Yellowtail Rockfish,Sport,,,,5,"Puget Sound, WA",5,0,5,0,5,Otolith
+WDFW,2021,Yellowtail Rockfish,Sport,,,,,No Area Data,3,0,3,0,3,Otolith
