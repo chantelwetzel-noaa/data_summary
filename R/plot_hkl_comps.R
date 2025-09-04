@@ -1,10 +1,10 @@
+#' Plot NWFSC HKL data
 #' 
-#' @param dir
-#' @param data 
+#' @param dir add definition
+#' @param data add definition
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 #'
 plot_hkl_comps <- function(dir = here::here(), data){

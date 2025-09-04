@@ -1,11 +1,11 @@
-#' 
-#' @param data
-#' @param source 
-#' @param state
+#' Format otolith data  
+#'  
+#' @param data add definition
+#' @param source add definition
+#' @param state add definition
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 #'
 format_cdfw_otolith_files <- function(data, source = NA, state = NA){

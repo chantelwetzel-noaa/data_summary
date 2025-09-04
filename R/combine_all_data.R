@@ -1,23 +1,22 @@
-#' 
+#' Combine all data into a data frame
 #' 
 #' 
 #' @param dir Directory location to save the compbiend data frame
-#' @param wcgbt
-#' @param nwfsc_hkl
-#' @param pacfin
-#' @param recfin_lengths
-#' @param recfin_age
-#' @param ca_rec_oto
-#' @param ca_rec_carcass_oto
-#' @param ca_rec_pilot_oto
-#' @param ca_com_oto
-#' @param wa_com_oto
-#' @param coop_rec
-#' @param ccfrp
+#' @param wcgbt add definition
+#' @param nwfsc_hkl add definition
+#' @param pacfin add definition
+#' @param recfin_lengths add definition
+#' @param recfin_age add definition
+#' @param ca_rec_oto add definition
+#' @param ca_rec_carcass_oto add definition
+#' @param ca_rec_pilot_oto add definition
+#' @param ca_com_oto add definition
+#' @param wa_com_oto add definition
+#' @param coop_rec add definition
+#' @param ccfrp add definition
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 combine_all_data <- function(
   dir = here::here("data-processed"),

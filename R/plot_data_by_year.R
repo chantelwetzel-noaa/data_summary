@@ -1,13 +1,12 @@
-#' 
+#' Plot all the data
 #' 
 #' 
 #' @param dir Directory location to save the compbined data frame
-#' @param data
-#' @param year
+#' @param data add definition
+#' @param year add definition
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 plot_data_by_year <- function(dir = here::here("plots"), data){
   

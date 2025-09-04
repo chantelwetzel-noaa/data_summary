@@ -1,6 +1,12 @@
- 
-
-
+#' Helper function to standardize species names
+#' 
+#' 
+#' @param data add definition
+#' @param name Common_name
+#'
+#' @author Chantel Wetzel
+#' @export
+#'
 combine_species <- function(data, name = "Common_name"){
 	
 	spiny = c("pacific spiny dogfish", "dogfish shark", "spiny dogfish", "spiny dogfish shark")

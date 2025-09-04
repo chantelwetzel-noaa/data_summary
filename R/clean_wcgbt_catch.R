@@ -1,13 +1,11 @@
+#' Clean NWFSC WCGBTS survey catch file
 #' 
 #' @param dir Directory location to save the cleaned data frame
 #' @param species A list of species names created by the get_species_list function
 #' @param data List of catch and bio data to clean up
+#' 
 #' @author Chantel Wetzel
 #' @export
-#' @md
-#'
-#' @import nwfscSurvey
-#' @import here
 #'
 clean_wcgbt_catch <- function(dir = here::here("data-raw"), species, data){
   
@@ -114,7 +112,7 @@ clean_wcgbt_catch <- function(dir = here::here("data-raw"), species, data){
       max_lat_99 = quantile(Latitude_dd, 0.99)      
     )
 
-  write.csv(catch_areas, here::here("data-processed", "wcgbt_catch_areas.csv"), row.names = FALSE)
+  utils::write.csv(catch_areas, here::here("data-processed", "wcgbt_catch_areas.csv"), row.names = FALSE)
   save(catch, file = file.path(dir, "wcgbt_catch_filtered.Rdata"))
   return(catch)
 }

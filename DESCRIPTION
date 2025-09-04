@@ -1,0 +1,42 @@
+Package: westcoastdatasummary
+Type: Package
+Title: Summarize West Coast Fishery DAta
+Version: 1.0
+Authors@R:
+    c(person(given = c("Chantel", "R."),
+             family = "Wetzel",
+             role = c("aut", "cre"),
+             email = "chantel.wetzel@noaa.gov"))
+Maintainer: chantel.wetzel <chantel.wetzel@noaa.gov>
+Description: Code and methodology used to summarize available data for West Coast Groundfish Assessment Prioritization.
+License: GPL (>=3)
+Suggests:
+Imports:
+    cowplot,
+    dplyr,
+    here,
+    ggplot2,
+    knitr,
+    lifecycle,
+    lubridate,
+    nmfspalette,
+    nwfscSurvey,
+    plyr,
+    PNWColors,
+    readr,
+    rmarkdown,
+    stats,
+    targets,
+    tm, 
+    utils
+Depends:
+    R (>= 4.0)
+Remotes:
+    github::pfmc-assessments/nwfscSurvey,
+    github::pfmc-assessment/pacfintools
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

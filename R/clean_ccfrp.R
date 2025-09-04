@@ -1,10 +1,10 @@
+#' Clean and standardize CCFRP data
 #' 
 #' @param dir Directory location to save the cleaned data frame
-#' @param species 
+#' @param species add definition
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 #'
 clean_ccfrp <- function(dir, species, data){

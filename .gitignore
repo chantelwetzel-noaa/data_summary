@@ -5,15 +5,9 @@
 .Rhistory
 
 === 
-data-processed/
-data-raw/
-hook_and_line/
-vast/
-plots/
-plots-index/
-indices/
-tables/
 archive/
+data-raw/
+plots/
 _targets/
 
 _main.utf8.md

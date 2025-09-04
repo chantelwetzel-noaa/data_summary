@@ -1,4 +1,10 @@
-
+#' Define which data to plot/show based upon species
+#'  
+#'
+#' @author Chantel Wetzel
+#' @export
+#'
+#'
 get_species_data <- function() {
 
 data_species = t(data.frame(

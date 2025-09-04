@@ -1,4 +1,8 @@
-
+#' List of species names to pull from NWFSC survey data
+#' 
+#' @author Chantel Wetzel
+#' @export
+#'
 get_species_list <- function(){
 #default <- getOption('warn')
 #options(warn = -1)

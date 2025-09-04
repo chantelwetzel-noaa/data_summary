@@ -1,13 +1,11 @@
+#' Clean NWFSC WCGBTS biological data
 #' 
 #' @param dir Directory location to save the cleaned data frame
 #' @param species A list of species names created by the get_species_list function
 #' @param data List of catch and bio data to clean up
+#' 
 #' @author Chantel Wetzel
 #' @export
-#' @md
-#'
-#' @import nwfscSurvey
-#' @import here
 #'
 clean_wcgbt_bio <- function(dir = here::here("data-processed"), species, data){
   

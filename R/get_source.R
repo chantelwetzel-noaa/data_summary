@@ -1,4 +1,11 @@
-
+#' Clean up source names
+#'  
+#' @param data add definition
+#'
+#' @author Chantel Wetzel
+#' @export
+#'
+#'
 get_source <- function(data){
 
 	use <- unique(data$sources_to_use)

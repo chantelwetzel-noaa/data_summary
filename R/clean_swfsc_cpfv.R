@@ -1,10 +1,10 @@
+#' Clean COOP data from Melissa Monk and Rachel Brooks
 #' 
-#' @param data
-#' @param species 
+#' @param data add definition
+#' @param species add definition
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 #'
 clean_coop_samples <- function(data, species){

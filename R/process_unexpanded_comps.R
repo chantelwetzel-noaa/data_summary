@@ -1,5 +1,5 @@
-#' Creates a matrix of length or age composition data WITHOUT expantion
-#' Written by Chantel Wetzel to work with the data warehouse data formatting,
+#' Creates a matrix of length or age composition data WITHOUT expansion
+#' 
 #'
 #' @param dir directory this is where the output files will be saved
 #' @param datL the read in length comps by the PullBio.fn function
@@ -15,11 +15,13 @@
 #' @param two_sex_model Default TRUE. If TRUE and unsexed composition data are present the unsexed comps
 #' will be output in the format needed for a two-sex model in Stock Synthesis.
 #' @param printfolder folder where the length comps will be saved
-#' @template verbose
+#' @param verbose A logical value specifying whether or not to print out
+#' message statements to the screen while using this function.
+#' The default is to print all messages, i.e., `verbose = TRUE`.
 #'
 #' @author Chantel Wetzel
 #' @export
-
+#'
 process_comps_unexpanded <- function(dir = NULL, datL, lgthBins = 1, sex = lifecycle::deprecated(), partition = 0, fleet = "Enter Fleet",
                              ageErr = "NA", agelow = -1, agehigh = -1, month = "Enter Month", two_sex_model = TRUE, printfolder = "forSS", verbose = TRUE) {
   

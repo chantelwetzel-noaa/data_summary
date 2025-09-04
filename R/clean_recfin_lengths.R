@@ -1,16 +1,15 @@
-#' 
+#' Clean RecFIN length data
 #' 
 #' 
 #' @param dir Directory location to save the cleaned data frame
-#' @param or_data
-#' @param wa_data
-#' @param ca_data
-#' @param species
-#' @param year 
+#' @param or_data add definition
+#' @param wa_data add definition
+#' @param ca_data add definition
+#' @param species add definition
+#' @param year add definition
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 #'
 clean_recfin_lengths <- function(dir, or_data = NULL, wa_data= NULL, ca_data= NULL, species, year){

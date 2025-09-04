@@ -1,5 +1,4 @@
-#' Function to remove all unneeded species data and to format column names as needed
-#' for the NWFS HKL data.
+#' Function to remove all unneeded species data and to format column names as needed for the NWFS HKL data.
 #' 
 #' @param dir Directory location to save the cleaned data frame
 #' @param species A list of species names created by the get_species_list function
@@ -7,7 +6,6 @@
 #' 
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 #'
 clean_nwfsc_hkl <- function(

@@ -1,5 +1,4 @@
-#' Wrapper function to pull all species catch and biological data from the NWFSC data
-#' wharehouse.
+#' Wrapper function to pull all species catch and biological data from the NWFSC data wharehouse.
 #' 
 #' 
 #' @param dir Directory location to save the cleaned data frame
@@ -20,10 +19,6 @@
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
-#'
-#' @import nwfscSurvey
-#' @import here
 #'
 pull_wcgbts <- function(dir = here::here("data-raw"), species, survey = 'NWFSC.Combo', load = FALSE, convert = TRUE, verbose = FALSE){
   

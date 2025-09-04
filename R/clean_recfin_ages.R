@@ -1,12 +1,12 @@
+#' Clean RecFIN data
 #' 
 #' @param dir Directory location to save the cleaned data frame
-#' @param species 
-#' @param data
-#' @param year
+#' @param species add definition
+#' @param data add definition
+#' @param year add definition
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 #'
 clean_recfin_ages <- function(dir, species, data, year){

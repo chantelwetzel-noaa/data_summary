@@ -1,19 +1,21 @@
+#' Clean pulled PacFIN data 
 #'
 #' @param dir Directory location to save the cleaned data frame
-#' @param bds_pacfin
-#' @param species
-#' @param year
+#' @param bds_pacfin Dataframe of PacFIN data
+#' @param species add definition
+#' @param spid_key add definition
+#' @param year Integer to filter PacFIN data to retain all data from this year
+#'   and beyond
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 #'
 clean_pacfin_comps <- function(dir, bds_pacfin, species, spid_key, year = 1980){
 
   Pdata <- bds_pacfin[which(bds_pacfin$FISH_LENGTH_UNITS != "UNK" & bds_pacfin$SAMPLE_YEAR >= year), ]
 
-  data <- PacFIN.Utilities::cleanPacFIN(
+  data <- pacfintools::cleanPacFIN(
     Pdata = Pdata,
     CLEAN = TRUE,
     keep_age_method = c("B", "S", "T"),

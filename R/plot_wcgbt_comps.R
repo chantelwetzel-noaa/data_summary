@@ -1,13 +1,12 @@
+#' Plot NWFSC WCGBTS composition data
 #' 
 #' 
-#' 
-#' @param dir 
-#' @param catch_data
-#' @param biodata
+#' @param dir add definition
+#' @param wcgbt_catch add definition
+#' @param wcgbt_bio add definition
 #'
 #' @author Chantel Wetzel
 #' @export
-#' @md
 #'
 plot_wcgbt_comps <- function(
 	dir = here::here(), 
